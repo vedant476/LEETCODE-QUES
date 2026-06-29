@@ -20,4 +20,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2481-strictly-palindromic-number](https://github.com/vedant476/LEETCODE-QUES/tree/master/2481-strictly-palindromic-number) |
+## String
+|  |
+| ------- |
+| [0742-to-lower-case](https://github.com/vedant476/LEETCODE-QUES/tree/master/0742-to-lower-case) |
 <!---LeetCode Topics End-->
