@@ -6,9 +6,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [2481-strictly-palindromic-number](https://github.com/vedant476/LEETCODE-QUES/tree/master/2481-strictly-palindromic-number) |
 | [2541-sum-of-number-and-its-reverse](https://github.com/vedant476/LEETCODE-QUES/tree/master/2541-sum-of-number-and-its-reverse) |
 ## Enumeration
 |  |
 | ------- |
 | [2541-sum-of-number-and-its-reverse](https://github.com/vedant476/LEETCODE-QUES/tree/master/2541-sum-of-number-and-its-reverse) |
+## Two Pointers
+|  |
+| ------- |
+| [2481-strictly-palindromic-number](https://github.com/vedant476/LEETCODE-QUES/tree/master/2481-strictly-palindromic-number) |
+## Brainteaser
+|  |
+| ------- |
+| [2481-strictly-palindromic-number](https://github.com/vedant476/LEETCODE-QUES/tree/master/2481-strictly-palindromic-number) |
 <!---LeetCode Topics End-->
