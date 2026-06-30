@@ -24,4 +24,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0742-to-lower-case](https://github.com/vedant476/LEETCODE-QUES/tree/master/0742-to-lower-case) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/vedant476/LEETCODE-QUES/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+## Hash Table
+|  |
+| ------- |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/vedant476/LEETCODE-QUES/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+## Sliding Window
+|  |
+| ------- |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/vedant476/LEETCODE-QUES/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 <!---LeetCode Topics End-->
