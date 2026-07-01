@@ -33,4 +33,28 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/vedant476/LEETCODE-QUES/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+## Array
+|  |
+| ------- |
+| [2914-find-the-safest-path-in-a-grid](https://github.com/vedant476/LEETCODE-QUES/tree/master/2914-find-the-safest-path-in-a-grid) |
+## Binary Search
+|  |
+| ------- |
+| [2914-find-the-safest-path-in-a-grid](https://github.com/vedant476/LEETCODE-QUES/tree/master/2914-find-the-safest-path-in-a-grid) |
+## Breadth-First Search
+|  |
+| ------- |
+| [2914-find-the-safest-path-in-a-grid](https://github.com/vedant476/LEETCODE-QUES/tree/master/2914-find-the-safest-path-in-a-grid) |
+## Union-Find
+|  |
+| ------- |
+| [2914-find-the-safest-path-in-a-grid](https://github.com/vedant476/LEETCODE-QUES/tree/master/2914-find-the-safest-path-in-a-grid) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2914-find-the-safest-path-in-a-grid](https://github.com/vedant476/LEETCODE-QUES/tree/master/2914-find-the-safest-path-in-a-grid) |
+## Matrix
+|  |
+| ------- |
+| [2914-find-the-safest-path-in-a-grid](https://github.com/vedant476/LEETCODE-QUES/tree/master/2914-find-the-safest-path-in-a-grid) |
 <!---LeetCode Topics End-->
