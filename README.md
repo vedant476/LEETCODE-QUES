@@ -57,4 +57,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/vedant476/LEETCODE-QUES/tree/master/2914-find-the-safest-path-in-a-grid) |
+## Database
+|  |
+| ------- |
+| [2127-employees-whose-manager-left-the-company](https://github.com/vedant476/LEETCODE-QUES/tree/master/2127-employees-whose-manager-left-the-company) |
 <!---LeetCode Topics End-->
