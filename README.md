@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2481-strictly-palindromic-number](https://github.com/vedant476/LEETCODE-QUES/tree/master/2481-strictly-palindromic-number) |
 | [2541-sum-of-number-and-its-reverse](https://github.com/vedant476/LEETCODE-QUES/tree/master/2541-sum-of-number-and-its-reverse) |
+| [2812-find-the-maximum-achievable-number](https://github.com/vedant476/LEETCODE-QUES/tree/master/2812-find-the-maximum-achievable-number) |
 ## Enumeration
 |  |
 | ------- |
