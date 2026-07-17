@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟢 Easy |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 6 ms |
@@ -20,7 +20,8 @@ https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Hash Table
 
 ---
 

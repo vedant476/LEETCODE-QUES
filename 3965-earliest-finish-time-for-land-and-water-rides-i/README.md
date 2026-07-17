@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟢 Easy |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,7 +20,11 @@ https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Two Pointers
+- Binary Search
+- Greedy
+- Sorting
 
 ---
 

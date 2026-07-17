@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟡 Medium |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,7 +20,9 @@ https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Brainteaser
+- Simulation
 
 ---
 

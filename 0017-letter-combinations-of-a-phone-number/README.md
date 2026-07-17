@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟡 Medium |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,7 +20,9 @@ https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 
 ## 🏷 Tags
 
-- None
+- Hash Table
+- String
+- Backtracking
 
 ---
 

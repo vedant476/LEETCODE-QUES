@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟢 Easy |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 7 ms |
@@ -20,7 +20,10 @@ https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-numb
 
 ## 🏷 Tags
 
-- None
+- Array
+- Hash Table
+- Sorting
+- Counting Sort
 
 ---
 

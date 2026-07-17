@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟢 Easy |
 | Language | JavaScript |
 | Status | ✅ Accepted |
 | Runtime | 40 ms |

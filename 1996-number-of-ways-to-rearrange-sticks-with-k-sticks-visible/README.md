@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🔴 Hard |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 3 ms |
@@ -20,7 +20,9 @@ https://leetcode.com/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-v
 
 ## 🏷 Tags
 
-- None
+- Math
+- Dynamic Programming
+- Combinatorics
 
 ---
 

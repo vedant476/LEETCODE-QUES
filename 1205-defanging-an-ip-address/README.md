@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟢 Easy |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 2 ms |
@@ -20,7 +20,7 @@ https://leetcode.com/problems/defanging-an-ip-address/
 
 ## 🏷 Tags
 
-- None
+- String
 
 ---
 

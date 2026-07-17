@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟢 Easy |
 | Language | Java |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,7 +20,9 @@ https://leetcode.com/problems/nim-game/
 
 ## 🏷 Tags
 
-- None
+- Math
+- Brainteaser
+- Game Theory
 
 ---
 

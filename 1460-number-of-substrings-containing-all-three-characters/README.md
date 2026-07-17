@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟡 Medium |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 7 ms |
@@ -20,7 +20,9 @@ https://leetcode.com/problems/number-of-substrings-containing-all-three-characte
 
 ## 🏷 Tags
 
-- None
+- Hash Table
+- String
+- Sliding Window
 
 ---
 

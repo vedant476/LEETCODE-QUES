@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🔴 Hard |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 837 ms |
@@ -20,7 +20,12 @@ https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-ii/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Math
+- Dynamic Programming
+- Bit Manipulation
+- Tree
+- Depth-First Search
 
 ---
 

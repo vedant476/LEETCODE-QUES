@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟡 Medium |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 86 ms |
@@ -20,7 +20,8 @@ https://leetcode.com/problems/process-string-with-special-operations-i/
 
 ## 🏷 Tags
 
-- None
+- String
+- Simulation
 
 ---
 

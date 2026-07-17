@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟡 Medium |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 3 ms |
@@ -20,7 +20,8 @@ https://leetcode.com/problems/password-strength/
 
 ## 🏷 Tags
 
-- None
+- Hash Table
+- String
 
 ---
 

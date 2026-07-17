@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟢 Easy |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,7 +20,10 @@ https://leetcode.com/problems/relative-sort-array/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Hash Table
+- Sorting
+- Counting Sort
 
 ---
 

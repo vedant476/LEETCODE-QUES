@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟡 Medium |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 3 ms |
@@ -20,7 +20,9 @@ https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/
 
 ## 🏷 Tags
 
-- None
+- Linked List
+- Two Pointers
+- Stack
 
 ---
 

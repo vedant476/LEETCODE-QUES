@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🔴 Hard |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 11 ms |
@@ -20,7 +20,11 @@ https://leetcode.com/problems/sliding-window-maximum/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Queue
+- Sliding Window
+- Heap (Priority Queue)
+- Monotonic Queue
 
 ---
 

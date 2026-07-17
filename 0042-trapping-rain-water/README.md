@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🔴 Hard |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,7 +20,11 @@ https://leetcode.com/problems/trapping-rain-water/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Two Pointers
+- Dynamic Programming
+- Stack
+- Monotonic Stack
 
 ---
 

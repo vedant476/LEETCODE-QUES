@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟡 Medium |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 10 ms |
@@ -20,7 +20,9 @@ https://leetcode.com/problems/smallest-palindromic-rearrangement-i/
 
 ## 🏷 Tags
 
-- None
+- String
+- Sorting
+- Counting Sort
 
 ---
 

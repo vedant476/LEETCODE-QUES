@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟡 Medium |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,7 +20,9 @@ https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Two Pointers
+- Binary Search
 
 ---
 

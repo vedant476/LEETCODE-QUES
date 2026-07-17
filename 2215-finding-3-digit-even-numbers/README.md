@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟢 Easy |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 395 ms |
@@ -20,7 +20,11 @@ https://leetcode.com/problems/finding-3-digit-even-numbers/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Hash Table
+- Recursion
+- Sorting
+- Enumeration
 
 ---
 

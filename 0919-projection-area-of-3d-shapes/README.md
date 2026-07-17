@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟢 Easy |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,7 +20,10 @@ https://leetcode.com/problems/projection-area-of-3d-shapes/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Math
+- Geometry
+- Matrix
 
 ---
 

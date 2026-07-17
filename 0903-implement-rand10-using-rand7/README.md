@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟡 Medium |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,7 +20,10 @@ https://leetcode.com/problems/implement-rand10-using-rand7/
 
 ## 🏷 Tags
 
-- None
+- Math
+- Rejection Sampling
+- Randomized
+- Probability and Statistics
 
 ---
 

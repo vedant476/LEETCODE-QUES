@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟡 Medium |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 375 ms |
@@ -20,7 +20,8 @@ https://leetcode.com/problems/closest-prime-numbers-in-range/
 
 ## 🏷 Tags
 
-- None
+- Math
+- Number Theory
 
 ---
 

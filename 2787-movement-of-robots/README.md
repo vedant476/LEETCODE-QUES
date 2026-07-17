@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟡 Medium |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 22 ms |
@@ -20,7 +20,10 @@ https://leetcode.com/problems/movement-of-robots/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Brainteaser
+- Sorting
+- Prefix Sum
 
 ---
 

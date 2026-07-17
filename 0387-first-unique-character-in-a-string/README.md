@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟢 Easy |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 22 ms |
@@ -20,7 +20,10 @@ https://leetcode.com/problems/first-unique-character-in-a-string/
 
 ## 🏷 Tags
 
-- None
+- Hash Table
+- String
+- Queue
+- Counting
 
 ---
 

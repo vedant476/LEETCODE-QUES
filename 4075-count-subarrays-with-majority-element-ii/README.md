@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🔴 Hard |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 1 ms |
@@ -20,7 +20,12 @@ https://leetcode.com/problems/count-subarrays-with-majority-element-ii/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Hash Table
+- Divide and Conquer
+- Segment Tree
+- Merge Sort
+- Prefix Sum
 
 ---
 

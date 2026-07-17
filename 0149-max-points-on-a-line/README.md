@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🔴 Hard |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 2 ms |
@@ -20,7 +20,10 @@ https://leetcode.com/problems/max-points-on-a-line/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Hash Table
+- Math
+- Geometry
 
 ---
 

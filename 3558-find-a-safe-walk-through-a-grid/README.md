@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟡 Medium |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 20 ms |
@@ -20,7 +20,12 @@ https://leetcode.com/problems/find-a-safe-walk-through-a-grid/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Breadth-First Search
+- Graph Theory
+- Heap (Priority Queue)
+- Matrix
+- Shortest Path
 
 ---
 

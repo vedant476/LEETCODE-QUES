@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🔴 Hard |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 194 ms |
@@ -20,7 +20,13 @@ https://leetcode.com/problems/network-recovery-pathways/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Binary Search
+- Dynamic Programming
+- Graph Theory
+- Topological Sort
+- Heap (Priority Queue)
+- Shortest Path
 
 ---
 

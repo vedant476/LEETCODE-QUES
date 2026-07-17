@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟡 Medium |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 4 ms |
@@ -20,7 +20,10 @@ https://leetcode.com/problems/majority-element-ii/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Hash Table
+- Sorting
+- Counting
 
 ---
 

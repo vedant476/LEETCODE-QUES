@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟡 Medium |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 8 ms |
@@ -20,7 +20,9 @@ https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Greedy
+- Sorting
 
 ---
 

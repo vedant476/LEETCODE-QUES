@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟡 Medium |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 178 ms |
@@ -20,7 +20,7 @@ https://leetcode.com/problems/merge-in-between-linked-lists/
 
 ## 🏷 Tags
 
-- None
+- Linked List
 
 ---
 

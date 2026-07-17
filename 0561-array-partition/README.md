@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟢 Easy |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 7 ms |
@@ -20,7 +20,10 @@ https://leetcode.com/problems/array-partition/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Greedy
+- Sorting
+- Counting Sort
 
 ---
 

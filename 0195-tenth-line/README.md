@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟢 Easy |
 | Language | Bash |
 | Status | ✅ Accepted |
 | Runtime | 28 ms |
@@ -20,7 +20,7 @@ https://leetcode.com/problems/tenth-line/
 
 ## 🏷 Tags
 
-- None
+- Shell
 
 ---
 

@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🔴 Hard |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 91 ms |
@@ -20,7 +20,9 @@ https://leetcode.com/problems/maximum-building-height/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Math
+- Sorting
 
 ---
 

@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟡 Medium |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 672 ms |
@@ -20,7 +20,14 @@ https://leetcode.com/problems/sort-an-array/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Divide and Conquer
+- Sorting
+- Heap (Priority Queue)
+- Merge Sort
+- Bucket Sort
+- Radix Sort
+- Counting Sort
 
 ---
 

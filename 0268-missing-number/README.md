@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟢 Easy |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,7 +20,12 @@ https://leetcode.com/problems/missing-number/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Hash Table
+- Math
+- Binary Search
+- Bit Manipulation
+- Sorting
 
 ---
 

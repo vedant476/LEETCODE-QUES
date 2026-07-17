@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟡 Medium |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 63 ms |
@@ -20,7 +20,10 @@ https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/
 
 ## 🏷 Tags
 
-- None
+- Depth-First Search
+- Breadth-First Search
+- Union-Find
+- Graph Theory
 
 ---
 

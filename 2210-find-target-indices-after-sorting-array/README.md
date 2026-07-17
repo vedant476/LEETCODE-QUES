@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟢 Easy |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,7 +20,9 @@ https://leetcode.com/problems/find-target-indices-after-sorting-array/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Binary Search
+- Sorting
 
 ---
 

@@ -20,7 +20,7 @@ https://leetcode.com/problems/sum-multiples/
 
 ## 🏷 Tags
 
-- None
+- Math
 
 ---
 

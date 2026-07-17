@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟢 Easy |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,7 +20,7 @@ https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordi
 
 ## 🏷 Tags
 
-- None
+- Array
 
 ---
 

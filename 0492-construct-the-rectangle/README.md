@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟢 Easy |
 | Language | Swift |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,7 +20,7 @@ https://leetcode.com/problems/construct-the-rectangle/
 
 ## 🏷 Tags
 
-- None
+- Math
 
 ---
 

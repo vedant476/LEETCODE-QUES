@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟢 Easy |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 1 ms |
@@ -20,7 +20,9 @@ https://leetcode.com/problems/valid-anagram/
 
 ## 🏷 Tags
 
-- None
+- Hash Table
+- String
+- Sorting
 
 ---
 

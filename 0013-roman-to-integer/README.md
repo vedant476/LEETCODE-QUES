@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟢 Easy |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 4 ms |
@@ -20,7 +20,9 @@ https://leetcode.com/problems/roman-to-integer/
 
 ## 🏷 Tags
 
-- None
+- Hash Table
+- Math
+- String
 
 ---
 

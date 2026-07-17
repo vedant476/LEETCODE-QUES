@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟡 Medium |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 12 ms |
@@ -20,7 +20,9 @@ https://leetcode.com/problems/partition-array-according-to-given-pivot/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Two Pointers
+- Simulation
 
 ---
 

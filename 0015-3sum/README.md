@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟡 Medium |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 42 ms |
@@ -20,7 +20,9 @@ https://leetcode.com/problems/3sum/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Two Pointers
+- Sorting
 
 ---
 

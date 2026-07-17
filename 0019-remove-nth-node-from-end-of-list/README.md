@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟡 Medium |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 2 ms |
@@ -20,7 +20,8 @@ https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 
 ## 🏷 Tags
 
-- None
+- Linked List
+- Two Pointers
 
 ---
 

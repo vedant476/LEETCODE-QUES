@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🔴 Hard |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,7 +20,8 @@ https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Binary Search
 
 ---
 

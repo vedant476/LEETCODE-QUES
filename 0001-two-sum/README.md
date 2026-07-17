@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟢 Easy |
 | Language | C |
 | Status | ✅ Accepted |
 | Runtime | 101 ms |
@@ -20,7 +20,8 @@ https://leetcode.com/problems/two-sum/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Hash Table
 
 ---
 

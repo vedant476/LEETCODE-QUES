@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟢 Easy |
 | Language | MySQL |
 | Status | ✅ Accepted |
 | Runtime | 1199 ms |
@@ -20,7 +20,7 @@ https://leetcode.com/problems/employees-whose-manager-left-the-company/
 
 ## 🏷 Tags
 
-- None
+- Database
 
 ---
 

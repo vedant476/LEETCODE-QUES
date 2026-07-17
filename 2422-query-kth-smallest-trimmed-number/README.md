@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟡 Medium |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 1027 ms |
@@ -20,7 +20,13 @@ https://leetcode.com/problems/query-kth-smallest-trimmed-number/
 
 ## 🏷 Tags
 
-- None
+- Array
+- String
+- Divide and Conquer
+- Sorting
+- Heap (Priority Queue)
+- Radix Sort
+- Quickselect
 
 ---
 

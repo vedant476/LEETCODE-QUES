@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟡 Medium |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 8 ms |
@@ -20,7 +20,11 @@ https://leetcode.com/problems/kth-largest-element-in-an-array/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Divide and Conquer
+- Sorting
+- Heap (Priority Queue)
+- Quickselect
 
 ---
 
