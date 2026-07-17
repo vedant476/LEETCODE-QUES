@@ -20,7 +20,14 @@ https://leetcode.com/problems/sorted-gcd-pair-queries/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Hash Table
+- Math
+- Binary Search
+- Combinatorics
+- Counting
+- Number Theory
+- Prefix Sum
 
 ---
 
