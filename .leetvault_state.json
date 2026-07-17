@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 291,
+    "total": 292,
     "easy": 166,
-    "medium": 99,
+    "medium": 100,
     "hard": 26,
     "languages": [
       "Bash",
@@ -10776,6 +10776,28 @@
         }
       ],
       "url": "https://leetcode.com/problems/employees-whose-manager-left-the-company/"
+    },
+    {
+      "title": "Count Digit Appearances",
+      "slug": "count-digit-appearances",
+      "qid": "4280",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int countDigitOccurrences(vector<int>& nums, int digit) {\n        int cnt=0;\n        for (int i:nums){\n            if(i==0&&digit==0) {\n                cnt++;\n                continue;\n            }\n            while(i>0){\n                if(i%10==digit){\n                    cnt++;\n                }\n                i/=10;\n            }\n        }\n        return cnt;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "37 MB",
+          "status": "Accepted",
+          "timestamp": 1784317986,
+          "note": "",
+          "id": 2071544838
+        }
+      ],
+      "questionId": "4280",
+      "url": "https://leetcode.com/problems/count-digit-appearances/",
+      "difficulty": "Medium",
+      "tags": []
     }
   ]
 }

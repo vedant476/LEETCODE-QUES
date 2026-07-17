@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-291-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-292-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-166-success)]()
-[![Medium](https://img.shields.io/badge/Medium-99-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-100-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-26-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
@@ -14,9 +14,9 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 291 |
+| Problems Solved | 292 |
 | Easy | 166 |
-| Medium | 99 |
+| Medium | 100 |
 | Hard | 26 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
 | Last Sync | 18 Jul 2026 |
@@ -1222,13 +1222,14 @@
 
 ---
 
-## Uncategorized (3)
+## Uncategorized (4)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2820 | Return Length of Arguments Passed | 🟢 Easy | [View](./2820-return-length-of-arguments-passed/) |
 | 3067 | Modify Columns | 🟢 Easy | [View](./3067-modify-columns/) |
 | 3065 | Display the First Three Rows | 🟢 Easy | [View](./3065-display-the-first-three-rows/) |
+| 4280 | Count Digit Appearances | 🟡 Medium | [View](./4280-count-digit-appearances/) |
 
 ---
 
@@ -1247,6 +1248,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 18 Jul 2026 | Count Digit Appearances | 🟡 Medium | C++ |
 | 18 Jul 2026 | Sorted GCD Pair Queries | 🔴 Hard | C++ |
 | 17 Jul 2026 | Distinct Prime Factors of Product of Array | 🟡 Medium | JavaScript |
 | 17 Jul 2026 | Count the Digits That Divide a Number | 🟢 Easy | C++ |
@@ -1256,7 +1258,6 @@
 | 17 Jul 2026 | Sign of the Product of an Array | 🟢 Easy | C++ |
 | 17 Jul 2026 | Sum of GCD of Formed Pairs | 🟡 Medium | C++ |
 | 15 Jul 2026 | Calculate Delayed Arrival Time | 🟢 Easy | C++ |
-| 15 Jul 2026 | GCD of Odd and Even Sums | 🟢 Easy | C++ |
 
 ---
 
