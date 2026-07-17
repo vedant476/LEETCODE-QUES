@@ -1,0 +1,36 @@
+{
+  "stats": {
+    "total": 1,
+    "easy": 0,
+    "medium": 0,
+    "hard": 1,
+    "languages": [
+      "C++"
+    ],
+    "lastSync": "18 Jul 2026"
+  },
+  "problems": [
+    {
+      "title": "Sorted GCD Pair Queries",
+      "slug": "sorted-gcd-pair-queries",
+      "qid": "3583",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    vector<int> gcdValues(vector<int>& nums, vector<long long>& queries) {\n        int mx = *max_element(nums.begin(), nums.end());\n\n        vector<int> freq(mx + 1, 0);\n        for (int x : nums)\n            freq[x]++;\n\n        vector<long long> exactPairs(mx + 1, 0);\n\n        for (int d = mx; d >= 1; d--) {\n\n            long long cnt = 0;\n\n            for (int multiple = d; multiple <= mx; multiple += d)\n                cnt += freq[multiple];\n\n            exactPairs[d] = cnt * (cnt - 1) / 2;\n\n            for (int multiple = 2 * d; multiple <= mx; multiple += d)\n                exactPairs[d] -= exactPairs[multiple];\n        }\n\n        vector<long long> prefix(mx + 1, 0);\n        for (int i = 1; i <= mx; i++)\n            prefix[i] = prefix[i - 1] + exactPairs[i];\n\n        vector<int> ans;\n\n        for (long long q : queries) {\n\n            long long target = q + 1;\n\n            int lo = 1, hi = mx;\n\n            while (lo < hi) {\n                int mid = lo + (hi - lo) / 2;\n\n                if (prefix[mid] >= target)\n                    hi = mid;\n                else\n                    lo = mid + 1;\n            }\n\n            ans.push_back(lo);\n        }\n\n        return ans;\n    }\n};",
+          "runtime": "27 ms",
+          "memory": "129.7 MB",
+          "status": "Accepted",
+          "timestamp": 1784315800,
+          "note": "",
+          "id": 2071521502
+        }
+      ],
+      "questionId": "3583",
+      "url": "https://leetcode.com/problems/sorted-gcd-pair-queries/",
+      "difficulty": "Hard",
+      "tags": []
+    }
+  ]
+}
