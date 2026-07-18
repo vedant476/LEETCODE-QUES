@@ -2016,37 +2016,24 @@
     {
       "title": "Find Greatest Common Divisor of Array",
       "slug": "find-greatest-common-divisor-of-array",
-      "qid": 2106,
+      "qid": "2106",
       "files": [
         {
           "filename": "solution.cpp",
           "language": "cpp",
-          "code": "class Solution {\npublic:\n    int findGCD(vector<int>& nums) {\n        int a = *min_element(nums.begin(),nums.end());\n        int b = *max_element(nums.begin(),nums.end());\n        return b == 0 ? a : gcd(b, a % b);\n    }\n};",
+          "code": "class Solution {\npublic:\n    int findGCD(vector<int>& nums) {\n        int mn =INT_MAX;\n        int mx =0;\n        for( int i : nums){\n            mn = min(mn,i);\n            mx = max(i,mx);\n        }\n        return gcd(mn,mx);\n    }\n};",
           "runtime": "0 ms",
-          "memory": "16.1 MB",
+          "memory": "16.3 MB",
           "status": "Accepted",
-          "timestamp": 1782367787,
+          "timestamp": 1784389433,
           "note": "",
-          "id": 2045381635
+          "id": 2072495545
         }
       ],
       "questionId": "2106",
       "difficulty": "Easy",
       "paidOnly": false,
-      "tags": [
-        {
-          "name": "Array",
-          "slug": "array"
-        },
-        {
-          "name": "Math",
-          "slug": "math"
-        },
-        {
-          "name": "Number Theory",
-          "slug": "number-theory"
-        }
-      ],
+      "tags": [],
       "url": "https://leetcode.com/problems/find-greatest-common-divisor-of-array/"
     },
     {

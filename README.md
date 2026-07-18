@@ -25,7 +25,7 @@
 
 # 📂 Browse by Topic
 
-## Array (156)
+## Array (155)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -54,7 +54,6 @@
 | 4075 | Count Subarrays With Majority Element II | 🔴 Hard | [View](./4075-count-subarrays-with-majority-element-ii/) |
 | 0717 | 1-bit and 2-bit Characters | 🟢 Easy | [View](./0717-1-bit-and-2-bit-characters/) |
 | 4074 | Count Subarrays With Majority Element I | 🟡 Medium | [View](./4074-count-subarrays-with-majority-element-i/) |
-| 2106 | Find Greatest Common Divisor of Array | 🟢 Easy | [View](./2106-find-greatest-common-divisor-of-array/) |
 | 0136 | Single Number | 🟢 Easy | [View](./0136-single-number/) |
 | 0919 | Projection Area of 3D Shapes | 🟢 Easy | [View](./0919-projection-area-of-3d-shapes/) |
 | 0830 | Largest Triangle Area | 🟢 Easy | [View](./0830-largest-triangle-area/) |
@@ -652,7 +651,7 @@
 
 ---
 
-## Math (106)
+## Math (105)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -685,7 +684,6 @@
 | 2083 | Three Divisors | 🟢 Easy | [View](./2083-three-divisors/) |
 | 2556 | Convert the Temperature | 🟢 Easy | [View](./2556-convert-the-temperature/) |
 | 2491 | Smallest Even Multiple | 🟢 Easy | [View](./2491-smallest-even-multiple/) |
-| 2106 | Find Greatest Common Divisor of Array | 🟢 Easy | [View](./2106-find-greatest-common-divisor-of-array/) |
 | 0371 | Sum of Two Integers | 🟡 Medium | [View](./0371-sum-of-two-integers/) |
 | 0223 | Rectangle Area | 🟡 Medium | [View](./0223-rectangle-area/) |
 | 0866 | Rectangle Overlap | 🟢 Easy | [View](./0866-rectangle-overlap/) |
@@ -816,7 +814,7 @@
 
 ---
 
-## Number Theory (14)
+## Number Theory (13)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -828,7 +826,6 @@
 | 2903 | Insert Greatest Common Divisors in Linked List | 🟡 Medium | [View](./2903-insert-greatest-common-divisors-in-linked-list/) |
 | 2083 | Three Divisors | 🟢 Easy | [View](./2083-three-divisors/) |
 | 2491 | Smallest Even Multiple | 🟢 Easy | [View](./2491-smallest-even-multiple/) |
-| 2106 | Find Greatest Common Divisor of Array | 🟢 Easy | [View](./2106-find-greatest-common-divisor-of-array/) |
 | 2610 | Closest Prime Numbers in Range | 🟡 Medium | [View](./2610-closest-prime-numbers-in-range/) |
 | 0204 | Count Primes | 🟡 Medium | [View](./0204-count-primes/) |
 | 2507 | Number of Common Factors | 🟢 Easy | [View](./2507-number-of-common-factors/) |
@@ -1222,10 +1219,11 @@
 
 ---
 
-## Uncategorized (4)
+## Uncategorized (5)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 2106 | Find Greatest Common Divisor of Array | 🟢 Easy | [View](./2106-find-greatest-common-divisor-of-array/) |
 | 2820 | Return Length of Arguments Passed | 🟢 Easy | [View](./2820-return-length-of-arguments-passed/) |
 | 3067 | Modify Columns | 🟢 Easy | [View](./3067-modify-columns/) |
 | 3065 | Display the First Three Rows | 🟢 Easy | [View](./3065-display-the-first-three-rows/) |
@@ -1248,6 +1246,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 18 Jul 2026 | Find Greatest Common Divisor of Array | 🟢 Easy | C++ |
 | 18 Jul 2026 | Count Digit Appearances | 🟡 Medium | C++ |
 | 18 Jul 2026 | Sorted GCD Pair Queries | 🔴 Hard | C++ |
 | 17 Jul 2026 | Distinct Prime Factors of Product of Array | 🟡 Medium | JavaScript |
@@ -1257,7 +1256,6 @@
 | 17 Jul 2026 | Average Value of Even Numbers That Are Divisible by Three | 🟢 Easy | C++ |
 | 17 Jul 2026 | Sign of the Product of an Array | 🟢 Easy | C++ |
 | 17 Jul 2026 | Sum of GCD of Formed Pairs | 🟡 Medium | C++ |
-| 15 Jul 2026 | Calculate Delayed Arrival Time | 🟢 Easy | C++ |
 
 ---
 

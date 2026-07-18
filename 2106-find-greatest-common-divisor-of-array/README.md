@@ -6,9 +6,9 @@
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
-| Memory | 16.1 MB |
-| Submission ID | 2045381635 |
-| Solved On | 25 Jun 2026 |
+| Memory | 16.3 MB |
+| Submission ID | 2072495545 |
+| Solved On | 18 Jul 2026 |
 
 ---
 
@@ -20,9 +20,7 @@ https://leetcode.com/problems/find-greatest-common-divisor-of-array/
 
 ## 🏷 Tags
 
-- Array
-- Math
-- Number Theory
+- None
 
 ---
 
@@ -36,7 +34,7 @@ No notes provided.
 
 | Language | Runtime | Memory | File |
 |----------|---------|--------|------|
-| C++ | 0 ms | 16.1 MB | [solution.cpp](./solution.cpp) |
+| C++ | 0 ms | 16.3 MB | [solution.cpp](./solution.cpp) |
 
 ---
 Generated automatically using [LeetVault](https://github.com/vedant476/LeetVault).
