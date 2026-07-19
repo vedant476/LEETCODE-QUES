@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-293-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-294-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-166-success)]()
-[![Medium](https://img.shields.io/badge/Medium-101-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-102-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-26-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
@@ -14,9 +14,9 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 293 |
+| Problems Solved | 294 |
 | Easy | 166 |
-| Medium | 101 |
+| Medium | 102 |
 | Hard | 26 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
 | Last Sync | 19 Jul 2026 |
@@ -1219,7 +1219,7 @@
 
 ---
 
-## Uncategorized (6)
+## Uncategorized (7)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1229,6 +1229,7 @@
 | 3065 | Display the First Three Rows | 🟢 Easy | [View](./3065-display-the-first-three-rows/) |
 | 4280 | Count Digit Appearances | 🟡 Medium | [View](./4280-count-digit-appearances/) |
 | 0316 | Remove Duplicate Letters | 🟡 Medium | [View](./0316-remove-duplicate-letters/) |
+| 1159 | Smallest Subsequence of Distinct Characters | 🟡 Medium | [View](./1159-smallest-subsequence-of-distinct-characters/) |
 
 ---
 
@@ -1247,6 +1248,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 19 Jul 2026 | Smallest Subsequence of Distinct Characters | 🟡 Medium | C++ |
 | 19 Jul 2026 | Remove Duplicate Letters | 🟡 Medium | C++ |
 | 18 Jul 2026 | Find Greatest Common Divisor of Array | 🟢 Easy | C++ |
 | 18 Jul 2026 | Count Digit Appearances | 🟡 Medium | C++ |
@@ -1256,7 +1258,6 @@
 | 17 Jul 2026 | A Number After a Double Reversal | 🟢 Easy | C++ |
 | 17 Jul 2026 | Sum Multiples | 🟢 Easy | C++ |
 | 17 Jul 2026 | Average Value of Even Numbers That Are Divisible by Three | 🟢 Easy | C++ |
-| 17 Jul 2026 | Sign of the Product of an Array | 🟢 Easy | C++ |
 
 ---
 

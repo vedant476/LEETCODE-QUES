@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 293,
+    "total": 294,
     "easy": 166,
-    "medium": 101,
+    "medium": 102,
     "hard": 26,
     "languages": [
       "Bash",
@@ -10805,6 +10805,28 @@
       ],
       "questionId": "316",
       "url": "https://leetcode.com/problems/remove-duplicate-letters/",
+      "difficulty": "Medium",
+      "tags": []
+    },
+    {
+      "title": "Smallest Subsequence of Distinct Characters",
+      "slug": "smallest-subsequence-of-distinct-characters",
+      "qid": "1159",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    string smallestSubsequence(string s) {\n        stack<char> st;\n        unordered_map<char, int> frq;\n        vector<bool> inStack(26, false);\n\n        for (auto ch : s) {\n            frq[ch]++;\n        }\n\n        for (auto ch : s) {\n            frq[ch]--;\n            if (inStack[ch - 'a'])\n                continue;\n            while (!st.empty() && (st.top() > ch) && frq[st.top()] > 0) {\n\n                inStack[st.top() - 'a'] = false;\n                st.pop();\n            }\n\n            st.push(ch);\n            inStack[ch - 'a'] = true;\n        }\n        string ans = \"\";\n\n        while (!st.empty()) {\n            ans += (st.top());\n            char top = st.top();\n            st.pop();\n            inStack[top - 'a'] = false;\n        }\n        reverse(ans.begin(), ans.end());\n        return ans;\n    }\n};",
+          "runtime": "3 ms",
+          "memory": "8.7 MB",
+          "status": "Accepted",
+          "timestamp": 1784463627,
+          "note": "",
+          "id": 2073441928
+        }
+      ],
+      "questionId": "1159",
+      "url": "https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/",
       "difficulty": "Medium",
       "tags": []
     }
