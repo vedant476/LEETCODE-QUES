@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 292,
+    "total": 293,
     "easy": 166,
-    "medium": 100,
+    "medium": 101,
     "hard": 26,
     "languages": [
       "Bash",
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "18 Jul 2026"
+    "lastSync": "19 Jul 2026"
   },
   "problems": [
     {
@@ -10783,6 +10783,28 @@
       ],
       "questionId": "4280",
       "url": "https://leetcode.com/problems/count-digit-appearances/",
+      "difficulty": "Medium",
+      "tags": []
+    },
+    {
+      "title": "Remove Duplicate Letters",
+      "slug": "remove-duplicate-letters",
+      "qid": "316",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    string removeDuplicateLetters(string s) {\n        stack<char> st;\n        unordered_map<char, int> frq;\n        vector<bool> inStack(26, false);\n\n        for (auto ch : s) {\n            frq[ch]++;\n        }\n\n        for (auto ch : s) {\n            frq[ch]--;\n            if (inStack[ch - 'a'])\n                continue;\n            while (!st.empty() && (st.top() > ch) && frq[st.top()] > 0) {\n\n                inStack[st.top() - 'a'] = false;\n                st.pop();\n            }\n\n            st.push(ch);\n            inStack[ch - 'a'] = true;\n        }\n        string ans = \"\";\n\n        while (!st.empty()) {\n            ans += (st.top());\n            char top = st.top();\n            st.pop();\n            inStack[top - 'a'] = false;\n        }\n        reverse(ans.begin(), ans.end());\n        return ans;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "9.5 MB",
+          "status": "Accepted",
+          "timestamp": 1784463522,
+          "note": "",
+          "id": 2073440417
+        }
+      ],
+      "questionId": "316",
+      "url": "https://leetcode.com/problems/remove-duplicate-letters/",
       "difficulty": "Medium",
       "tags": []
     }
