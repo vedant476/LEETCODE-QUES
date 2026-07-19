@@ -25,7 +25,7 @@
 
 # 📂 Browse by Topic
 
-## Array (155)
+## Array (154)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -75,7 +75,6 @@
 | 2486 | Most Frequent Even Element | 🟢 Easy | [View](./2486-most-frequent-even-element/) |
 | 1468 | Check If N and Its Double Exist | 🟢 Easy | [View](./1468-check-if-n-and-its-double-exist/) |
 | 1019 | Squares of a Sorted Array | 🟢 Easy | [View](./1019-squares-of-a-sorted-array/) |
-| 4005 | Maximum Total Subarray Value I | 🟡 Medium | [View](./4005-maximum-total-subarray-value-i/) |
 | 2265 | Partition Array According to Given Pivot | 🟡 Medium | [View](./2265-partition-array-according-to-given-pivot/) |
 | 2306 | Create Binary Tree From Descriptions | 🟡 Medium | [View](./2306-create-binary-tree-from-descriptions/) |
 | 1983 | Maximum Population Year | 🟢 Easy | [View](./1983-maximum-population-year/) |
@@ -517,7 +516,7 @@
 
 ---
 
-## Greedy (17)
+## Greedy (16)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -526,7 +525,6 @@
 | 1448 | Maximum 69 Number | 🟢 Easy | [View](./1448-maximum-69-number/) |
 | 1961 | Maximum Ice Cream Bars | 🟡 Medium | [View](./1961-maximum-ice-cream-bars/) |
 | 4007 | Maximum Total Subarray Value II | 🔴 Hard | [View](./4007-maximum-total-subarray-value-ii/) |
-| 4005 | Maximum Total Subarray Value I | 🟡 Medium | [View](./4005-maximum-total-subarray-value-i/) |
 | 3967 | Earliest Finish Time for Land and Water Rides II | 🟡 Medium | [View](./3967-earliest-finish-time-for-land-and-water-rides-ii/) |
 | 3965 | Earliest Finish Time for Land and Water Rides I | 🟢 Easy | [View](./3965-earliest-finish-time-for-land-and-water-rides-i/) |
 | 2248 | Minimum Cost of Buying Candies With Discount | 🟢 Easy | [View](./2248-minimum-cost-of-buying-candies-with-discount/) |
@@ -1219,11 +1217,12 @@
 
 ---
 
-## Uncategorized (7)
+## Uncategorized (8)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2106 | Find Greatest Common Divisor of Array | 🟢 Easy | [View](./2106-find-greatest-common-divisor-of-array/) |
+| 4005 | Maximum Total Subarray Value I | 🟡 Medium | [View](./4005-maximum-total-subarray-value-i/) |
 | 2820 | Return Length of Arguments Passed | 🟢 Easy | [View](./2820-return-length-of-arguments-passed/) |
 | 3067 | Modify Columns | 🟢 Easy | [View](./3067-modify-columns/) |
 | 3065 | Display the First Three Rows | 🟢 Easy | [View](./3065-display-the-first-three-rows/) |
@@ -1248,6 +1247,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 19 Jul 2026 | Maximum Total Subarray Value I | 🟡 Medium | C++ |
 | 19 Jul 2026 | Smallest Subsequence of Distinct Characters | 🟡 Medium | C++ |
 | 19 Jul 2026 | Remove Duplicate Letters | 🟡 Medium | C++ |
 | 18 Jul 2026 | Find Greatest Common Divisor of Array | 🟢 Easy | C++ |
@@ -1257,7 +1257,6 @@
 | 17 Jul 2026 | Count the Digits That Divide a Number | 🟢 Easy | C++ |
 | 17 Jul 2026 | A Number After a Double Reversal | 🟢 Easy | C++ |
 | 17 Jul 2026 | Sum Multiples | 🟢 Easy | C++ |
-| 17 Jul 2026 | Average Value of Even Numbers That Are Divisible by Three | 🟢 Easy | C++ |
 
 ---
 

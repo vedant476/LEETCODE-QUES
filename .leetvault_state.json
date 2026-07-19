@@ -3386,33 +3386,24 @@
     {
       "title": "Maximum Total Subarray Value I",
       "slug": "maximum-total-subarray-value-i",
-      "qid": 4005,
+      "qid": "4005",
       "files": [
         {
           "filename": "solution.cpp",
           "language": "cpp",
           "code": "class Solution {\npublic:\n    long long maxTotalValue(vector<int>& nums, int k) {\n                long long maxVal = INT_MIN;\n        long long minVal = INT_MAX;\n\n        for (int num : nums) {\n            maxVal = max(maxVal, (long long)num);\n            minVal = min(minVal, (long long)num);\n        }\n\n        return k * (maxVal - minVal);\n    }\n};",
-          "runtime": "0 ms",
-          "memory": "103.6 MB",
+          "runtime": "3 ms",
+          "memory": "103.7 MB",
           "status": "Accepted",
-          "timestamp": 1781015355,
+          "timestamp": 1784463886,
           "note": "",
-          "id": 2027613494
+          "id": 2073445544
         }
       ],
       "questionId": "4005",
       "difficulty": "Medium",
       "paidOnly": false,
-      "tags": [
-        {
-          "name": "Array",
-          "slug": "array"
-        },
-        {
-          "name": "Greedy",
-          "slug": "greedy"
-        }
-      ],
+      "tags": [],
       "url": "https://leetcode.com/problems/maximum-total-subarray-value-i/"
     },
     {
