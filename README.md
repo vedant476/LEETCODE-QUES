@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-294-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-166-success)]()
+[![Problems](https://img.shields.io/badge/Problems-295-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-167-success)]()
 [![Medium](https://img.shields.io/badge/Medium-102-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-26-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 294 |
-| Easy | 166 |
+| Problems Solved | 295 |
+| Easy | 167 |
 | Medium | 102 |
 | Hard | 26 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 19 Jul 2026 |
+| Last Sync | 20 Jul 2026 |
 
 ---
 
@@ -1217,7 +1217,7 @@
 
 ---
 
-## Uncategorized (8)
+## Uncategorized (9)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1229,6 +1229,7 @@
 | 4280 | Count Digit Appearances | 🟡 Medium | [View](./4280-count-digit-appearances/) |
 | 0316 | Remove Duplicate Letters | 🟡 Medium | [View](./0316-remove-duplicate-letters/) |
 | 1159 | Smallest Subsequence of Distinct Characters | 🟡 Medium | [View](./1159-smallest-subsequence-of-distinct-characters/) |
+| 1386 | Shift 2D Grid | 🟢 Easy | [View](./1386-shift-2d-grid/) |
 
 ---
 
@@ -1247,6 +1248,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 20 Jul 2026 | Shift 2D Grid | 🟢 Easy | C++ |
 | 19 Jul 2026 | Maximum Total Subarray Value I | 🟡 Medium | C++ |
 | 19 Jul 2026 | Smallest Subsequence of Distinct Characters | 🟡 Medium | C++ |
 | 19 Jul 2026 | Remove Duplicate Letters | 🟡 Medium | C++ |
@@ -1256,7 +1258,6 @@
 | 17 Jul 2026 | Distinct Prime Factors of Product of Array | 🟡 Medium | JavaScript |
 | 17 Jul 2026 | Count the Digits That Divide a Number | 🟢 Easy | C++ |
 | 17 Jul 2026 | A Number After a Double Reversal | 🟢 Easy | C++ |
-| 17 Jul 2026 | Sum Multiples | 🟢 Easy | C++ |
 
 ---
 

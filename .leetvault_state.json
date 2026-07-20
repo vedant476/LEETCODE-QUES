@@ -1,7 +1,7 @@
 {
   "stats": {
-    "total": 294,
-    "easy": 166,
+    "total": 295,
+    "easy": 167,
     "medium": 102,
     "hard": 26,
     "languages": [
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "19 Jul 2026"
+    "lastSync": "20 Jul 2026"
   },
   "problems": [
     {
@@ -10819,6 +10819,28 @@
       "questionId": "1159",
       "url": "https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/",
       "difficulty": "Medium",
+      "tags": []
+    },
+    {
+      "title": "Shift 2D Grid",
+      "slug": "shift-2d-grid",
+      "qid": "1386",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    vector<vector<int>> shiftGrid(vector<vector<int>>& grid, int k) {\n\n        int m = grid.size();\n        int n = grid[0].size();\n\n        vector<vector<int>> ans(m, vector<int>(n));\n\n        k %= (m * n);\n\n        for (int i = 0; i < m; i++) {\n\n            for (int j = 0; j < n; j++) {\n\n                int oldIndex = i * n + j;\n\n                int newIndex = (oldIndex + k) % (m * n);\n\n                int row = newIndex / n;\n                int col = newIndex % n;\n\n                ans[row][col] = grid[i][j];\n            }\n        }\n\n        return ans;\n    }\n};",
+          "runtime": "1 ms",
+          "memory": "18.1 MB",
+          "status": "Accepted",
+          "timestamp": 1784531374,
+          "note": "",
+          "id": 2074242156
+        }
+      ],
+      "questionId": "1386",
+      "url": "https://leetcode.com/problems/shift-2d-grid/",
+      "difficulty": "Easy",
       "tags": []
     }
   ]
