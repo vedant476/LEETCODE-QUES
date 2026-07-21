@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 295,
+    "total": 296,
     "easy": 167,
-    "medium": 102,
+    "medium": 103,
     "hard": 26,
     "languages": [
       "Bash",
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "20 Jul 2026"
+    "lastSync": "22 Jul 2026"
   },
   "problems": [
     {
@@ -10841,6 +10841,28 @@
       "questionId": "1386",
       "url": "https://leetcode.com/problems/shift-2d-grid/",
       "difficulty": "Easy",
+      "tags": []
+    },
+    {
+      "title": "Maximize Active Section with Trade I",
+      "slug": "maximize-active-section-with-trade-i",
+      "qid": "3805",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "constexpr int N=1e5+1;\nint B[N]={0};\nclass Solution {\npublic:\n    static int maxActiveSectionsAfterTrade(string& s) {\n        const int n=s.size();\n        int cnt=0, len=0, j=0;\n        char prev='@';\n        for(char c: s){\n            cnt+=c=='1';\n            j+=(prev!=c && c=='0');\n            B[j]+=c=='0';\n            prev=c;\n        }\n        int adj2=0;\n        for(int i=1; i<j; i++){\n            adj2=max(adj2, B[i]+B[i+1]);\n        }\n        // reset for the next testcase\n        memset(B, 0, (j+1)*sizeof(int));\n        return cnt+adj2;\n    }\n};",
+          "runtime": "27 ms",
+          "memory": "44.3 MB",
+          "status": "Accepted",
+          "timestamp": 1784660760,
+          "note": "",
+          "id": 2076303518
+        }
+      ],
+      "questionId": "3805",
+      "url": "https://leetcode.com/problems/maximize-active-section-with-trade-i/",
+      "difficulty": "Medium",
       "tags": []
     }
   ]

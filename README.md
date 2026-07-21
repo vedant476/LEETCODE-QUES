@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-295-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-296-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-167-success)]()
-[![Medium](https://img.shields.io/badge/Medium-102-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-103-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-26-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 295 |
+| Problems Solved | 296 |
 | Easy | 167 |
-| Medium | 102 |
+| Medium | 103 |
 | Hard | 26 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 20 Jul 2026 |
+| Last Sync | 22 Jul 2026 |
 
 ---
 
@@ -1217,7 +1217,7 @@
 
 ---
 
-## Uncategorized (9)
+## Uncategorized (10)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1230,6 +1230,7 @@
 | 0316 | Remove Duplicate Letters | 🟡 Medium | [View](./0316-remove-duplicate-letters/) |
 | 1159 | Smallest Subsequence of Distinct Characters | 🟡 Medium | [View](./1159-smallest-subsequence-of-distinct-characters/) |
 | 1386 | Shift 2D Grid | 🟢 Easy | [View](./1386-shift-2d-grid/) |
+| 3805 | Maximize Active Section with Trade I | 🟡 Medium | [View](./3805-maximize-active-section-with-trade-i/) |
 
 ---
 
@@ -1248,6 +1249,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 22 Jul 2026 | Maximize Active Section with Trade I | 🟡 Medium | C++ |
 | 20 Jul 2026 | Shift 2D Grid | 🟢 Easy | C++ |
 | 19 Jul 2026 | Maximum Total Subarray Value I | 🟡 Medium | C++ |
 | 19 Jul 2026 | Smallest Subsequence of Distinct Characters | 🟡 Medium | C++ |
@@ -1257,7 +1259,6 @@
 | 18 Jul 2026 | Sorted GCD Pair Queries | 🔴 Hard | C++ |
 | 17 Jul 2026 | Distinct Prime Factors of Product of Array | 🟡 Medium | JavaScript |
 | 17 Jul 2026 | Count the Digits That Divide a Number | 🟢 Easy | C++ |
-| 17 Jul 2026 | A Number After a Double Reversal | 🟢 Easy | C++ |
 
 ---
 
