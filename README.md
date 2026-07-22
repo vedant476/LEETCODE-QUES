@@ -2,10 +2,10 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-296-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-297-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-167-success)]()
 [![Medium](https://img.shields.io/badge/Medium-103-orange)]()
-[![Hard](https://img.shields.io/badge/Hard-26-red)]()
+[![Hard](https://img.shields.io/badge/Hard-27-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
 ---
@@ -14,10 +14,10 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 296 |
+| Problems Solved | 297 |
 | Easy | 167 |
 | Medium | 103 |
-| Hard | 26 |
+| Hard | 27 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
 | Last Sync | 22 Jul 2026 |
 
@@ -1217,7 +1217,7 @@
 
 ---
 
-## Uncategorized (10)
+## Uncategorized (11)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1231,6 +1231,7 @@
 | 1159 | Smallest Subsequence of Distinct Characters | 🟡 Medium | [View](./1159-smallest-subsequence-of-distinct-characters/) |
 | 1386 | Shift 2D Grid | 🟢 Easy | [View](./1386-shift-2d-grid/) |
 | 3805 | Maximize Active Section with Trade I | 🟡 Medium | [View](./3805-maximize-active-section-with-trade-i/) |
+| 3804 | Maximize Active Section with Trade II | 🔴 Hard | [View](./3804-maximize-active-section-with-trade-ii/) |
 
 ---
 
@@ -1249,6 +1250,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 22 Jul 2026 | Maximize Active Section with Trade II | 🔴 Hard | C++ |
 | 22 Jul 2026 | Maximize Active Section with Trade I | 🟡 Medium | C++ |
 | 20 Jul 2026 | Shift 2D Grid | 🟢 Easy | C++ |
 | 19 Jul 2026 | Maximum Total Subarray Value I | 🟡 Medium | C++ |
@@ -1258,7 +1260,6 @@
 | 18 Jul 2026 | Count Digit Appearances | 🟡 Medium | C++ |
 | 18 Jul 2026 | Sorted GCD Pair Queries | 🔴 Hard | C++ |
 | 17 Jul 2026 | Distinct Prime Factors of Product of Array | 🟡 Medium | JavaScript |
-| 17 Jul 2026 | Count the Digits That Divide a Number | 🟢 Easy | C++ |
 
 ---
 

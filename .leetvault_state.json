@@ -1,9 +1,9 @@
 {
   "stats": {
-    "total": 296,
+    "total": 297,
     "easy": 167,
     "medium": 103,
-    "hard": 26,
+    "hard": 27,
     "languages": [
       "Bash",
       "C",
@@ -10863,6 +10863,28 @@
       "questionId": "3805",
       "url": "https://leetcode.com/problems/maximize-active-section-with-trade-i/",
       "difficulty": "Medium",
+      "tags": []
+    },
+    {
+      "title": "Maximize Active Section with Trade II",
+      "slug": "maximize-active-section-with-trade-ii",
+      "qid": "3804",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class SparseTable {\nprivate:\n    vector<vector<int>> st;\n\npublic:\n    SparseTable(const vector<int>& data) {\n        st.push_back(data);\n        int i = 1, N = st[0].size();\n        while (2 * i <= N + 1) {\n            const auto& pre = st.back();\n            vector<int> cur;\n            for (int j = 0; j < N - 2 * i + 1; j++) {\n                cur.push_back(max(pre[j], pre[j + i]));\n            }\n            st.push_back(cur);\n            i <<= 1;\n        }\n    }\n\n    int query(int begin, int end) {\n        if (begin > end) {\n            return 0;\n        }\n        int len = end - begin + 1;\n        int lg = 0;\n        while ((1 << (lg + 1)) <= len) {\n            lg++;\n        }\n        return max(st[lg][begin], st[lg][end - (1 << lg) + 1]);\n    }\n};\n\nclass Solution {\npublic:\n    vector<int> maxActiveSectionsAfterTrade(string s,\n                                            vector<vector<int>>& queries) {\n        int n = s.length();\n        int cnt1 = count(s.begin(), s.end(), '1');\n\n        vector<int> zeroBlocks;\n        vector<int> blockLeft;\n        vector<int> blockRight;\n\n        int i = 0;\n        while (i < n) {\n            int st = i;\n            while (i < n && s[i] == s[st]) {\n                i += 1;\n            }\n            if (s[st] == '0') {\n                zeroBlocks.push_back(i - st);\n                blockLeft.push_back(st);\n                blockRight.push_back(i - 1);\n            }\n        }\n\n        int m = zeroBlocks.size();\n        if (m < 2) {  // continuous 0 blocks less than 2 segments, return the\n                      // answer directly\n            return vector<int>(queries.size(), cnt1);\n        }\n        vector<int> tmpSum(m - 1);\n        for (int i = 0; i < m - 1; i++) {\n            tmpSum[i] = zeroBlocks[i] + zeroBlocks[i + 1];\n        }\n        SparseTable st(tmpSum);\n        vector<int> ans;\n\n        for (const auto& q : queries) {\n            int l = q[0], r = q[1];\n            int i = lower_bound(blockRight.begin(), blockRight.end(), l) -\n                    blockRight.begin();\n            int j = upper_bound(blockLeft.begin(), blockLeft.end(), r) -\n                    blockLeft.begin() - 1;\n\n            // at most 1 continuous block of 0s within the substring\n            if (i > m - 1 || j < 0 || i >= j) {\n                ans.push_back(cnt1);\n                continue;\n            }\n\n            int firstLen = blockRight[i] - max(blockLeft[i], l) +\n                           1;  // actual length of the first consecutive block\n                               // of 0s in the substring\n            int lastLen = min(blockRight[j], r) - blockLeft[j] +\n                          1;  // actual length of the last consecutive block of\n                              // 0s in the substring\n            // exactly 2 consecutive 0 blocks within the substring\n            if (i + 1 == j) {\n                int bestGain = firstLen + lastLen;\n                ans.push_back(cnt1 + bestGain);\n                continue;\n            }\n\n            int val1 = firstLen + zeroBlocks[i + 1];\n            int val2 = zeroBlocks[j - 1] + lastLen;\n            int val3 = st.query(i + 1, j - 2);\n            int bestGain = max({val1, val2, val3});\n            ans.push_back(cnt1 + bestGain);\n        }\n\n        return ans;\n    }\n};",
+          "runtime": "131 ms",
+          "memory": "284.9 MB",
+          "status": "Accepted",
+          "timestamp": 1784744891,
+          "note": "",
+          "id": 2077552643
+        }
+      ],
+      "questionId": "3804",
+      "url": "https://leetcode.com/problems/maximize-active-section-with-trade-ii/",
+      "difficulty": "Hard",
       "tags": []
     }
   ]
