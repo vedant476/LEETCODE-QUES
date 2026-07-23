@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 297,
+    "total": 298,
     "easy": 167,
-    "medium": 103,
+    "medium": 104,
     "hard": 27,
     "languages": [
       "Bash",
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "22 Jul 2026"
+    "lastSync": "24 Jul 2026"
   },
   "problems": [
     {
@@ -10885,6 +10885,28 @@
       "questionId": "3804",
       "url": "https://leetcode.com/problems/maximize-active-section-with-trade-ii/",
       "difficulty": "Hard",
+      "tags": []
+    },
+    {
+      "title": "Number of Unique XOR Triplets I",
+      "slug": "number-of-unique-xor-triplets-i",
+      "qid": "3824",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int uniqueXorTriplets(vector<int>& nums) {\n        int n = nums.size();\n\n        if (n <= 2) return n;\n\n        int mask = 0;\n        for (int num : nums) {\n            mask |= num;\n        }\n\n        return mask + 1;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "198.9 MB",
+          "status": "Accepted",
+          "timestamp": 1784835124,
+          "note": "",
+          "id": 2078826585
+        }
+      ],
+      "questionId": "3824",
+      "url": "https://leetcode.com/problems/number-of-unique-xor-triplets-i/",
+      "difficulty": "Medium",
       "tags": []
     }
   ]
