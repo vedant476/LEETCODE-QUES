@@ -1,7 +1,7 @@
 {
   "stats": {
-    "total": 299,
-    "easy": 168,
+    "total": 300,
+    "easy": 169,
     "medium": 104,
     "hard": 27,
     "languages": [
@@ -10928,6 +10928,28 @@
       ],
       "questionId": "4271",
       "url": "https://leetcode.com/problems/find-the-degree-of-each-vertex/",
+      "difficulty": "Easy",
+      "tags": []
+    },
+    {
+      "title": "Convert Binary Number in a Linked List to Integer",
+      "slug": "convert-binary-number-in-a-linked-list-to-integer",
+      "qid": "1411",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int getDecimalValue(ListNode* head) {\n        int result = 0;\n        ListNode* curr = head;\n\n        while (curr != nullptr) {\n            result = (result << 1) | curr->val;\n            curr = curr->next;\n        }\n\n        return result;\n    }\n};\n",
+          "runtime": "0 ms",
+          "memory": "10.8 MB",
+          "status": "Accepted",
+          "timestamp": 1784838464,
+          "note": "",
+          "id": 2078861036
+        }
+      ],
+      "questionId": "1411",
+      "url": "https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/",
       "difficulty": "Easy",
       "tags": []
     }
