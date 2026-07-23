@@ -1,7 +1,7 @@
 {
   "stats": {
-    "total": 298,
-    "easy": 167,
+    "total": 299,
+    "easy": 168,
     "medium": 104,
     "hard": 27,
     "languages": [
@@ -10907,6 +10907,28 @@
       "questionId": "3824",
       "url": "https://leetcode.com/problems/number-of-unique-xor-triplets-i/",
       "difficulty": "Medium",
+      "tags": []
+    },
+    {
+      "title": "Find the Degree of Each Vertex",
+      "slug": "find-the-degree-of-each-vertex",
+      "qid": "4271",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    vector<int> findDegrees(vector<vector<int>>& matrix) {\n        vector<int> v;\n       for (int i=0;i<matrix.size();i++) {\n        int sum = 0;\n        for (int j=0;j<matrix.size();j++) {\n            sum += matrix[i][j];\n        }\n        v.push_back(sum);\n    }\n    return v;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "54.6 MB",
+          "status": "Accepted",
+          "timestamp": 1784837185,
+          "note": "",
+          "id": 2078848785
+        }
+      ],
+      "questionId": "4271",
+      "url": "https://leetcode.com/problems/find-the-degree-of-each-vertex/",
+      "difficulty": "Easy",
       "tags": []
     }
   ]

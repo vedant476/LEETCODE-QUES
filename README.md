@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-298-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-167-success)]()
+[![Problems](https://img.shields.io/badge/Problems-299-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-168-success)]()
 [![Medium](https://img.shields.io/badge/Medium-104-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-27-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
@@ -14,8 +14,8 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 298 |
-| Easy | 167 |
+| Problems Solved | 299 |
+| Easy | 168 |
 | Medium | 104 |
 | Hard | 27 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
@@ -1217,7 +1217,7 @@
 
 ---
 
-## Uncategorized (12)
+## Uncategorized (13)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1233,6 +1233,7 @@
 | 3805 | Maximize Active Section with Trade I | 🟡 Medium | [View](./3805-maximize-active-section-with-trade-i/) |
 | 3804 | Maximize Active Section with Trade II | 🔴 Hard | [View](./3804-maximize-active-section-with-trade-ii/) |
 | 3824 | Number of Unique XOR Triplets I | 🟡 Medium | [View](./3824-number-of-unique-xor-triplets-i/) |
+| 4271 | Find the Degree of Each Vertex | 🟢 Easy | [View](./4271-find-the-degree-of-each-vertex/) |
 
 ---
 
@@ -1251,6 +1252,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 24 Jul 2026 | Find the Degree of Each Vertex | 🟢 Easy | C++ |
 | 24 Jul 2026 | Number of Unique XOR Triplets I | 🟡 Medium | C++ |
 | 22 Jul 2026 | Maximize Active Section with Trade II | 🔴 Hard | C++ |
 | 22 Jul 2026 | Maximize Active Section with Trade I | 🟡 Medium | C++ |
@@ -1260,7 +1262,6 @@
 | 19 Jul 2026 | Remove Duplicate Letters | 🟡 Medium | C++ |
 | 18 Jul 2026 | Find Greatest Common Divisor of Array | 🟢 Easy | C++ |
 | 18 Jul 2026 | Count Digit Appearances | 🟡 Medium | C++ |
-| 18 Jul 2026 | Sorted GCD Pair Queries | 🔴 Hard | C++ |
 
 ---
 
