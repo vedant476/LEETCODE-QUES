@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 300,
+    "total": 301,
     "easy": 169,
-    "medium": 104,
+    "medium": 105,
     "hard": 27,
     "languages": [
       "Bash",
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "24 Jul 2026"
+    "lastSync": "25 Jul 2026"
   },
   "problems": [
     {
@@ -10951,6 +10951,28 @@
       "questionId": "1411",
       "url": "https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/",
       "difficulty": "Easy",
+      "tags": []
+    },
+    {
+      "title": "Number of Unique XOR Triplets II",
+      "slug": "number-of-unique-xor-triplets-ii",
+      "qid": "3820",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int uniqueXorTriplets(vector<int>& nums) {\n        vector<int> st(4050,0);\n        int n=nums.size();\n        for(int i=0;i<n;i++){\n            for(int j=i;j<n;j++){\n                int x=nums[i] ^ nums[j];\n               st[x]=1;\n            }\n        }\n        int ans=0;\n\n        for(int i=0;i<2049;i++){\n            for(int j=0;j<n;j++){\n                int fi=i^nums[j];\n    \n                if(st[fi]){\n                    ans++;\n                    break;\n                }\n            }\n        }\n    return ans;\n    }\n};",
+          "runtime": "115 ms",
+          "memory": "53.5 MB",
+          "status": "Accepted",
+          "timestamp": 1784931125,
+          "note": "",
+          "id": 2080097141
+        }
+      ],
+      "questionId": "3820",
+      "url": "https://leetcode.com/problems/number-of-unique-xor-triplets-ii/",
+      "difficulty": "Medium",
       "tags": []
     }
   ]

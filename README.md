@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-300-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-301-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-169-success)]()
-[![Medium](https://img.shields.io/badge/Medium-104-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-105-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-27-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 300 |
+| Problems Solved | 301 |
 | Easy | 169 |
-| Medium | 104 |
+| Medium | 105 |
 | Hard | 27 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 24 Jul 2026 |
+| Last Sync | 25 Jul 2026 |
 
 ---
 
@@ -1217,7 +1217,7 @@
 
 ---
 
-## Uncategorized (14)
+## Uncategorized (15)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1235,6 +1235,7 @@
 | 3824 | Number of Unique XOR Triplets I | 🟡 Medium | [View](./3824-number-of-unique-xor-triplets-i/) |
 | 4271 | Find the Degree of Each Vertex | 🟢 Easy | [View](./4271-find-the-degree-of-each-vertex/) |
 | 1411 | Convert Binary Number in a Linked List to Integer | 🟢 Easy | [View](./1411-convert-binary-number-in-a-linked-list-to-integer/) |
+| 3820 | Number of Unique XOR Triplets II | 🟡 Medium | [View](./3820-number-of-unique-xor-triplets-ii/) |
 
 ---
 
@@ -1253,6 +1254,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 25 Jul 2026 | Number of Unique XOR Triplets II | 🟡 Medium | C++ |
 | 24 Jul 2026 | Convert Binary Number in a Linked List to Integer | 🟢 Easy | C++ |
 | 24 Jul 2026 | Find the Degree of Each Vertex | 🟢 Easy | C++ |
 | 24 Jul 2026 | Number of Unique XOR Triplets I | 🟡 Medium | C++ |
@@ -1262,7 +1264,6 @@
 | 19 Jul 2026 | Maximum Total Subarray Value I | 🟡 Medium | C++ |
 | 19 Jul 2026 | Smallest Subsequence of Distinct Characters | 🟡 Medium | C++ |
 | 19 Jul 2026 | Remove Duplicate Letters | 🟡 Medium | C++ |
-| 18 Jul 2026 | Find Greatest Common Divisor of Array | 🟢 Easy | C++ |
 
 ---
 
