@@ -10983,13 +10983,13 @@
         {
           "filename": "solution.cpp",
           "language": "cpp",
-          "code": "class Solution {\npublic:\n    int maxProduct(int n) {\n        int n1 = 0, n2 = 0;\n\n        while (n) {\n            int d = n % 10;\n            n /= 10;\n\n            if (d >= n1) {\n                n2 = n1;\n                n1 = d;\n            } else if (d > n2) {\n                n2 = d;\n            }\n        }\n\n        return n1 * n2;\n    }\n};",
+          "code": "class Solution {\npublic:\n    int maxProduct(int n) {\n        string s = to_string(n);\n        sort(s.begin(),s.end());\n        int a = s[s.size()-1] -'0';\n        int b = s[s.size()-2] -'0';\n        return a*b;\n    }\n};",
           "runtime": "0 ms",
-          "memory": "8.5 MB",
+          "memory": "9.4 MB",
           "status": "Accepted",
-          "timestamp": 1785006284,
+          "timestamp": 1785006391,
           "note": "",
-          "id": 2081162107
+          "id": 2081163613
         },
         {
           "filename": "solution.c",

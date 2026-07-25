@@ -1255,7 +1255,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
-| 26 Jul 2026 | Maximum Product of Two Digits | 🟢 Easy | C |
+| 26 Jul 2026 | Maximum Product of Two Digits | 🟢 Easy | C++ |
 | 25 Jul 2026 | Number of Unique XOR Triplets II | 🟡 Medium | C++ |
 | 24 Jul 2026 | Convert Binary Number in a Linked List to Integer | 🟢 Easy | C++ |
 | 24 Jul 2026 | Find the Degree of Each Vertex | 🟢 Easy | C++ |
