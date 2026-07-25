@@ -10990,6 +10990,17 @@
           "timestamp": 1785006284,
           "note": "",
           "id": 2081162107
+        },
+        {
+          "filename": "solution.c",
+          "language": "c",
+          "code": "int maxProduct(int n) {\n     int n1 = 0, n2 = 0;\n\n        while (n) {\n            int d = n % 10;\n            n /= 10;\n\n            if (d >= n1) {\n                n2 = n1;\n                n1 = d;\n            } else if (d > n2) {\n                n2 = d;\n            }\n        }\n\n        return n1 * n2;\n}",
+          "runtime": "0 ms",
+          "memory": "9.2 MB",
+          "status": "Accepted",
+          "timestamp": 1785006347,
+          "note": "",
+          "id": 2081163005
         }
       ],
       "questionId": "3859",
