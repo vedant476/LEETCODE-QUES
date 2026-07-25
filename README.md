@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-301-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-169-success)]()
+[![Problems](https://img.shields.io/badge/Problems-302-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-170-success)]()
 [![Medium](https://img.shields.io/badge/Medium-105-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-27-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 301 |
-| Easy | 169 |
+| Problems Solved | 302 |
+| Easy | 170 |
 | Medium | 105 |
 | Hard | 27 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 25 Jul 2026 |
+| Last Sync | 26 Jul 2026 |
 
 ---
 
@@ -1217,7 +1217,7 @@
 
 ---
 
-## Uncategorized (15)
+## Uncategorized (16)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1236,6 +1236,7 @@
 | 4271 | Find the Degree of Each Vertex | 🟢 Easy | [View](./4271-find-the-degree-of-each-vertex/) |
 | 1411 | Convert Binary Number in a Linked List to Integer | 🟢 Easy | [View](./1411-convert-binary-number-in-a-linked-list-to-integer/) |
 | 3820 | Number of Unique XOR Triplets II | 🟡 Medium | [View](./3820-number-of-unique-xor-triplets-ii/) |
+| 3859 | Maximum Product of Two Digits | 🟢 Easy | [View](./3859-maximum-product-of-two-digits/) |
 
 ---
 
@@ -1254,6 +1255,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 26 Jul 2026 | Maximum Product of Two Digits | 🟢 Easy | C++ |
 | 25 Jul 2026 | Number of Unique XOR Triplets II | 🟡 Medium | C++ |
 | 24 Jul 2026 | Convert Binary Number in a Linked List to Integer | 🟢 Easy | C++ |
 | 24 Jul 2026 | Find the Degree of Each Vertex | 🟢 Easy | C++ |
@@ -1263,7 +1265,6 @@
 | 20 Jul 2026 | Shift 2D Grid | 🟢 Easy | C++ |
 | 19 Jul 2026 | Maximum Total Subarray Value I | 🟡 Medium | C++ |
 | 19 Jul 2026 | Smallest Subsequence of Distinct Characters | 🟡 Medium | C++ |
-| 19 Jul 2026 | Remove Duplicate Letters | 🟡 Medium | C++ |
 
 ---
 
