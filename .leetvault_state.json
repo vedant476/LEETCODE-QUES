@@ -1,7 +1,7 @@
 {
   "stats": {
-    "total": 302,
-    "easy": 170,
+    "total": 303,
+    "easy": 171,
     "medium": 105,
     "hard": 27,
     "languages": [
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "26 Jul 2026"
+    "lastSync": "27 Jul 2026"
   },
   "problems": [
     {
@@ -11005,6 +11005,28 @@
       ],
       "questionId": "3859",
       "url": "https://leetcode.com/problems/maximum-product-of-two-digits/",
+      "difficulty": "Easy",
+      "tags": []
+    },
+    {
+      "title": "Maximum Product of Two Elements in an Array",
+      "slug": "maximum-product-of-two-elements-in-an-array",
+      "qid": "1574",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int maxProduct(vector<int>& nums) {\n        int n1=0,n2=0;\n        for( int d : nums){\n           if( d > n1){\n            n2 = n1;\n            n1 = d;\n\n           }\n           else if(n2<d){\n            n2 = d;\n           }\n        }\n        return (n1-1)*(n2-1);\n\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "13.5 MB",
+          "status": "Accepted",
+          "timestamp": 1785153417,
+          "note": "",
+          "id": 2083302334
+        }
+      ],
+      "questionId": "1574",
+      "url": "https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/",
       "difficulty": "Easy",
       "tags": []
     }
