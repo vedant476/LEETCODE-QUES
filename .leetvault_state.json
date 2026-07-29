@@ -1,9 +1,9 @@
 {
   "stats": {
-    "total": 303,
+    "total": 304,
     "easy": 171,
     "medium": 105,
-    "hard": 27,
+    "hard": 28,
     "languages": [
       "Bash",
       "C",
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "27 Jul 2026"
+    "lastSync": "30 Jul 2026"
   },
   "problems": [
     {
@@ -11028,6 +11028,28 @@
       "questionId": "1574",
       "url": "https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/",
       "difficulty": "Easy",
+      "tags": []
+    },
+    {
+      "title": "Smallest Palindromic Rearrangement II",
+      "slug": "smallest-palindromic-rearrangement-ii",
+      "qid": "3813",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    long long perm(vector<int>& freq) {\n        long long res = 1;\n        int len = 0;\n        for (int f : freq) {\n            for (int i = 1; i <= f; i++) {\n                len++;\n                res = (res * len) / i;\n                if (res > 2000000) return 2000001; \n            }\n        }\n        return res;\n    }\n\n    string smallestPalindrome(string s, int k) {\n        vector<int> freq(26, 0);\n        for (char c : s) freq[c - 'a']++;\n        \n        int n = s.size() / 2;\n        string str = \"\";\n        string mid = \"\";\n        vector<int> total_freq(26, 0); \n        \n        for (int i = 0; i < 26; i++) {\n            str += string(freq[i] / 2, 'a' + i);\n            total_freq[i] = freq[i] / 2;\n            if (freq[i] % 2 != 0) {\n                mid += (char)('a' + i);\n            }\n        }\n        if (n == 0) return mid; \n\n        if (perm(total_freq) < k) return \"\";\n\n        int right = n - 1;\n        int left = right;\n        long long pos = 1;\n        vector<int> window(26, 0);\n        if (n > 0) window[str[left] - 'a']++;\n\n        while (left > 0) {\n            long long curr = perm(window);\n\n            if (curr + pos - 1 < k) {\n                left--;\n                window[str[left] - 'a']++;\n            } else {\n                break; \n            }\n        }\n\n        for (int i = left; i <= right; i++) {\n            for (int c = 0; c < 26; c++) {\n                if (window[c] > 0) {\n                    \n                    window[c]--;\n                    long long temp = perm(window);\n                    \n                    if (pos + temp - 1 >= k) {\n                        str[i] = 'a' + c;\n                        break; \n                    } else {\n                        pos += temp;\n                        window[c]++;\n                    }\n                }\n            }\n        }\n        \n        string rev = str;\n        reverse(rev.begin(), rev.end());\n        return str + mid + rev;\n    }\n};",
+          "runtime": "227 ms",
+          "memory": "18.8 MB",
+          "status": "Accepted",
+          "timestamp": 1785357289,
+          "note": "",
+          "id": 2086690663
+        }
+      ],
+      "questionId": "3813",
+      "url": "https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/",
+      "difficulty": "Hard",
       "tags": []
     }
   ]
