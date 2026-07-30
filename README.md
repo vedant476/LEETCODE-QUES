@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-304-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-171-success)]()
+[![Problems](https://img.shields.io/badge/Problems-305-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-172-success)]()
 [![Medium](https://img.shields.io/badge/Medium-105-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-28-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 304 |
-| Easy | 171 |
+| Problems Solved | 305 |
+| Easy | 172 |
 | Medium | 105 |
 | Hard | 28 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 30 Jul 2026 |
+| Last Sync | 31 Jul 2026 |
 
 ---
 
@@ -1217,7 +1217,7 @@
 
 ---
 
-## Uncategorized (18)
+## Uncategorized (19)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1239,6 +1239,7 @@
 | 3859 | Maximum Product of Two Digits | 🟢 Easy | [View](./3859-maximum-product-of-two-digits/) |
 | 1574 | Maximum Product of Two Elements in an Array | 🟢 Easy | [View](./1574-maximum-product-of-two-elements-in-an-array/) |
 | 3813 | Smallest Palindromic Rearrangement II | 🔴 Hard | [View](./3813-smallest-palindromic-rearrangement-ii/) |
+| 3275 | Minimum Number of Pushes to Type Word I | 🟢 Easy | [View](./3275-minimum-number-of-pushes-to-type-word-i/) |
 
 ---
 
@@ -1257,6 +1258,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 31 Jul 2026 | Minimum Number of Pushes to Type Word I | 🟢 Easy | C++ |
 | 30 Jul 2026 | Smallest Palindromic Rearrangement II | 🔴 Hard | C++ |
 | 27 Jul 2026 | Maximum Product of Two Elements in an Array | 🟢 Easy | C++ |
 | 26 Jul 2026 | Maximum Product of Two Digits | 🟢 Easy | C++ |
@@ -1266,7 +1268,6 @@
 | 24 Jul 2026 | Number of Unique XOR Triplets I | 🟡 Medium | C++ |
 | 22 Jul 2026 | Maximize Active Section with Trade II | 🔴 Hard | C++ |
 | 22 Jul 2026 | Maximize Active Section with Trade I | 🟡 Medium | C++ |
-| 20 Jul 2026 | Shift 2D Grid | 🟢 Easy | C++ |
 
 ---
 

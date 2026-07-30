@@ -1,7 +1,7 @@
 {
   "stats": {
-    "total": 304,
-    "easy": 171,
+    "total": 305,
+    "easy": 172,
     "medium": 105,
     "hard": 28,
     "languages": [
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "30 Jul 2026"
+    "lastSync": "31 Jul 2026"
   },
   "problems": [
     {
@@ -11050,6 +11050,28 @@
       "questionId": "3813",
       "url": "https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/",
       "difficulty": "Hard",
+      "tags": []
+    },
+    {
+      "title": "Minimum Number of Pushes to Type Word I",
+      "slug": "minimum-number-of-pushes-to-type-word-i",
+      "qid": "3275",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int minimumPushes(string word) {\n                int n = word.size();\n        int m = (n - 1) / 8 + 1;\n        return m * (m - 1) * 4 + (n - (m - 1) * 8) * m;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "8.3 MB",
+          "status": "Accepted",
+          "timestamp": 1785444705,
+          "note": "",
+          "id": 2088048305
+        }
+      ],
+      "questionId": "3275",
+      "url": "https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/",
+      "difficulty": "Easy",
       "tags": []
     }
   ]
