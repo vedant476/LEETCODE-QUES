@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-305-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-306-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-172-success)]()
-[![Medium](https://img.shields.io/badge/Medium-105-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-106-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-28-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
@@ -14,9 +14,9 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 305 |
+| Problems Solved | 306 |
 | Easy | 172 |
-| Medium | 105 |
+| Medium | 106 |
 | Hard | 28 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
 | Last Sync | 31 Jul 2026 |
@@ -1217,7 +1217,7 @@
 
 ---
 
-## Uncategorized (19)
+## Uncategorized (20)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1240,6 +1240,7 @@
 | 1574 | Maximum Product of Two Elements in an Array | 🟢 Easy | [View](./1574-maximum-product-of-two-elements-in-an-array/) |
 | 3813 | Smallest Palindromic Rearrangement II | 🔴 Hard | [View](./3813-smallest-palindromic-rearrangement-ii/) |
 | 3275 | Minimum Number of Pushes to Type Word I | 🟢 Easy | [View](./3275-minimum-number-of-pushes-to-type-word-i/) |
+| 3276 | Minimum Number of Pushes to Type Word II | 🟡 Medium | [View](./3276-minimum-number-of-pushes-to-type-word-ii/) |
 
 ---
 
@@ -1258,6 +1259,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 31 Jul 2026 | Minimum Number of Pushes to Type Word II | 🟡 Medium | C++ |
 | 31 Jul 2026 | Minimum Number of Pushes to Type Word I | 🟢 Easy | C++ |
 | 30 Jul 2026 | Smallest Palindromic Rearrangement II | 🔴 Hard | C++ |
 | 27 Jul 2026 | Maximum Product of Two Elements in an Array | 🟢 Easy | C++ |
@@ -1267,7 +1269,6 @@
 | 24 Jul 2026 | Find the Degree of Each Vertex | 🟢 Easy | C++ |
 | 24 Jul 2026 | Number of Unique XOR Triplets I | 🟡 Medium | C++ |
 | 22 Jul 2026 | Maximize Active Section with Trade II | 🔴 Hard | C++ |
-| 22 Jul 2026 | Maximize Active Section with Trade I | 🟡 Medium | C++ |
 
 ---
 

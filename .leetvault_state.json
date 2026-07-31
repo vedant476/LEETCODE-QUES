@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 305,
+    "total": 306,
     "easy": 172,
-    "medium": 105,
+    "medium": 106,
     "hard": 28,
     "languages": [
       "Bash",
@@ -11072,6 +11072,28 @@
       "questionId": "3275",
       "url": "https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/",
       "difficulty": "Easy",
+      "tags": []
+    },
+    {
+      "title": "Minimum Number of Pushes to Type Word II",
+      "slug": "minimum-number-of-pushes-to-type-word-ii",
+      "qid": "3276",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    static  void print(auto& c){\n        for(int x: c) cout<<x<<\", \"; \n        cout<<endl;\n    }\n    static int minimumPushes(string& word) {\n        int freq[26]={0};\n        for(char c: word) \n            freq[c-'a']++;\n        nth_element(freq, freq+7, end(freq), greater<int>());\n        nth_element(freq+8, freq+15, end(freq), greater<int>());\n        nth_element(freq+16, freq+23, end(freq), greater<int>());\n\n        int i=0; \n        return accumulate(freq, freq+26, 0,  [&i](int sum, int f){\n            return sum+=(f*(i++/8+1));\n        });\n    }\n};\n\n\nauto init = []()\n{ \n    ios::sync_with_stdio(0);\n    cin.tie(0);\n    cout.tie(0);\n    return 'c';\n}();",
+          "runtime": "4 ms",
+          "memory": "21.4 MB",
+          "status": "Accepted",
+          "timestamp": 1785521613,
+          "note": "",
+          "id": 2089174594
+        }
+      ],
+      "questionId": "3276",
+      "url": "https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/",
+      "difficulty": "Medium",
       "tags": []
     }
   ]
