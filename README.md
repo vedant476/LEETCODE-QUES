@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-306-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-307-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-172-success)]()
-[![Medium](https://img.shields.io/badge/Medium-106-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-107-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-28-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 306 |
+| Problems Solved | 307 |
 | Easy | 172 |
-| Medium | 106 |
+| Medium | 107 |
 | Hard | 28 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 31 Jul 2026 |
+| Last Sync | 02 Aug 2026 |
 
 ---
 
@@ -1217,7 +1217,7 @@
 
 ---
 
-## Uncategorized (20)
+## Uncategorized (21)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1241,6 +1241,7 @@
 | 3813 | Smallest Palindromic Rearrangement II | 🔴 Hard | [View](./3813-smallest-palindromic-rearrangement-ii/) |
 | 3275 | Minimum Number of Pushes to Type Word I | 🟢 Easy | [View](./3275-minimum-number-of-pushes-to-type-word-i/) |
 | 3276 | Minimum Number of Pushes to Type Word II | 🟡 Medium | [View](./3276-minimum-number-of-pushes-to-type-word-ii/) |
+| 0486 | Predict the Winner | 🟡 Medium | [View](./0486-predict-the-winner/) |
 
 ---
 
@@ -1259,6 +1260,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 02 Aug 2026 | Predict the Winner | 🟡 Medium | C++ |
 | 31 Jul 2026 | Minimum Number of Pushes to Type Word II | 🟡 Medium | C++ |
 | 31 Jul 2026 | Minimum Number of Pushes to Type Word I | 🟢 Easy | C++ |
 | 30 Jul 2026 | Smallest Palindromic Rearrangement II | 🔴 Hard | C++ |
@@ -1268,7 +1270,6 @@
 | 24 Jul 2026 | Convert Binary Number in a Linked List to Integer | 🟢 Easy | C++ |
 | 24 Jul 2026 | Find the Degree of Each Vertex | 🟢 Easy | C++ |
 | 24 Jul 2026 | Number of Unique XOR Triplets I | 🟡 Medium | C++ |
-| 22 Jul 2026 | Maximize Active Section with Trade II | 🔴 Hard | C++ |
 
 ---
 

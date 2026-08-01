@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 306,
+    "total": 307,
     "easy": 172,
-    "medium": 106,
+    "medium": 107,
     "hard": 28,
     "languages": [
       "Bash",
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "31 Jul 2026"
+    "lastSync": "02 Aug 2026"
   },
   "problems": [
     {
@@ -11093,6 +11093,28 @@
       ],
       "questionId": "3276",
       "url": "https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/",
+      "difficulty": "Medium",
+      "tags": []
+    },
+    {
+      "title": "Predict the Winner",
+      "slug": "predict-the-winner",
+      "qid": "486",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    bool predictTheWinner(vector<int>& nums) {\n        int n=nums.size();\n        vector<vector<int>> dp(n,vector<int>(n));\n        for(int i=0;i<n;i++) dp[i][i]=nums[i];\n        for(int len=2;len<=n;len++){\n            for(int i=0;i+len-1<n;i++){\n                int j=i+len-1;\n                dp[i][j]=max(nums[i]-dp[i+1][j],nums[j]-dp[i][j-1]);\n            }\n        }\n        return dp[0][n-1]>=0;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "10.2 MB",
+          "status": "Accepted",
+          "timestamp": 1785616323,
+          "note": "",
+          "id": 2090549184
+        }
+      ],
+      "questionId": "486",
+      "url": "https://leetcode.com/problems/predict-the-winner/",
       "difficulty": "Medium",
       "tags": []
     }
