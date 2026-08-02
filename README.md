@@ -19,13 +19,13 @@
 | Medium | 107 |
 | Hard | 28 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 02 Aug 2026 |
+| Last Sync | 03 Aug 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (154)
+## Array (153)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -158,7 +158,6 @@
 | 3864 | Count the Number of Computer Unlocking Permutations | 🟡 Medium | [View](./3864-count-the-number-of-computer-unlocking-permutations/) |
 | 4122 | Final Element After Subarray Deletions | 🟡 Medium | [View](./4122-final-element-after-subarray-deletions/) |
 | 2503 | Longest Subarray With Maximum Bitwise AND | 🟡 Medium | [View](./2503-longest-subarray-with-maximum-bitwise-and/) |
-| 0909 | Stone Game | 🟡 Medium | [View](./0909-stone-game/) |
 | 3998 | Minimum Operations to Equalize Array | 🟢 Easy | [View](./3998-minimum-operations-to-equalize-array/) |
 | 2533 | Bitwise XOR of All Pairings | 🟡 Medium | [View](./2533-bitwise-xor-of-all-pairings/) |
 | 0828 | Chalkboard XOR Game | 🔴 Hard | [View](./0828-chalkboard-xor-game/) |
@@ -425,7 +424,7 @@
 
 ---
 
-## Dynamic Programming (22)
+## Dynamic Programming (21)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -447,7 +446,6 @@
 | 2001 | Jump Game VII | 🟡 Medium | [View](./2001-jump-game-vii/) |
 | 1466 | Jump Game V | 🔴 Hard | [View](./1466-jump-game-v/) |
 | 2850 | Construct the Longest New String | 🟡 Medium | [View](./2850-construct-the-longest-new-string/) |
-| 0909 | Stone Game | 🟡 Medium | [View](./0909-stone-game/) |
 | 1086 | Divisor Game | 🟢 Easy | [View](./1086-divisor-game/) |
 | 1362 | Airplane Seat Assignment Probability | 🟡 Medium | [View](./1362-airplane-seat-assignment-probability/) |
 | 1013 | Fibonacci Number | 🟢 Easy | [View](./1013-fibonacci-number/) |
@@ -472,13 +470,12 @@
 
 ---
 
-## Game Theory (7)
+## Game Theory (6)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 3511 | Find the Winning Player in Coin Game | 🟢 Easy | [View](./3511-find-the-winning-player-in-coin-game/) |
 | 4122 | Final Element After Subarray Deletions | 🟡 Medium | [View](./4122-final-element-after-subarray-deletions/) |
-| 0909 | Stone Game | 🟡 Medium | [View](./0909-stone-game/) |
 | 0292 | Nim Game | 🟢 Easy | [View](./0292-nim-game/) |
 | 3462 | Vowels Game in a String | 🟡 Medium | [View](./3462-vowels-game-in-a-string/) |
 | 0828 | Chalkboard XOR Game | 🔴 Hard | [View](./0828-chalkboard-xor-game/) |
@@ -649,7 +646,7 @@
 
 ---
 
-## Math (105)
+## Math (104)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -733,7 +730,6 @@
 | 0319 | Bulb Switcher | 🟡 Medium | [View](./0319-bulb-switcher/) |
 | 4122 | Final Element After Subarray Deletions | 🟡 Medium | [View](./4122-final-element-after-subarray-deletions/) |
 | 2481 | Strictly Palindromic Number | 🟡 Medium | [View](./2481-strictly-palindromic-number/) |
-| 0909 | Stone Game | 🟡 Medium | [View](./0909-stone-game/) |
 | 0292 | Nim Game | 🟢 Easy | [View](./0292-nim-game/) |
 | 2630 | Alternating Digit Sum | 🟢 Easy | [View](./2630-alternating-digit-sum/) |
 | 0258 | Add Digits | 🟢 Easy | [View](./0258-add-digits/) |
@@ -1217,12 +1213,13 @@
 
 ---
 
-## Uncategorized (21)
+## Uncategorized (22)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2106 | Find Greatest Common Divisor of Array | 🟢 Easy | [View](./2106-find-greatest-common-divisor-of-array/) |
 | 4005 | Maximum Total Subarray Value I | 🟡 Medium | [View](./4005-maximum-total-subarray-value-i/) |
+| 0909 | Stone Game | 🟡 Medium | [View](./0909-stone-game/) |
 | 2820 | Return Length of Arguments Passed | 🟢 Easy | [View](./2820-return-length-of-arguments-passed/) |
 | 3067 | Modify Columns | 🟢 Easy | [View](./3067-modify-columns/) |
 | 3065 | Display the First Three Rows | 🟢 Easy | [View](./3065-display-the-first-three-rows/) |
@@ -1260,6 +1257,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 03 Aug 2026 | Stone Game | 🟡 Medium | C |
 | 02 Aug 2026 | Predict the Winner | 🟡 Medium | C++ |
 | 31 Jul 2026 | Minimum Number of Pushes to Type Word II | 🟡 Medium | C++ |
 | 31 Jul 2026 | Minimum Number of Pushes to Type Word I | 🟢 Easy | C++ |
@@ -1269,7 +1267,6 @@
 | 25 Jul 2026 | Number of Unique XOR Triplets II | 🟡 Medium | C++ |
 | 24 Jul 2026 | Convert Binary Number in a Linked List to Integer | 🟢 Easy | C++ |
 | 24 Jul 2026 | Find the Degree of Each Vertex | 🟢 Easy | C++ |
-| 24 Jul 2026 | Number of Unique XOR Triplets I | 🟡 Medium | C++ |
 
 ---
 

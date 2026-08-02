@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "02 Aug 2026"
+    "lastSync": "03 Aug 2026"
   },
   "problems": [
     {
@@ -8838,7 +8838,7 @@
     {
       "title": "Stone Game",
       "slug": "stone-game",
-      "qid": 909,
+      "qid": "909",
       "files": [
         {
           "filename": "solution.cpp",
@@ -8850,29 +8850,23 @@
           "timestamp": 1778814625,
           "note": "",
           "id": 2003423812
+        },
+        {
+          "filename": "solution.c",
+          "language": "c",
+          "code": "bool stoneGame(int* piles, int pilesSize) {\n    return true;\n}",
+          "runtime": "0 ms",
+          "memory": "8.6 MB",
+          "status": "Accepted",
+          "timestamp": 1785701303,
+          "note": "",
+          "id": 2091854257
         }
       ],
       "questionId": "909",
       "difficulty": "Medium",
       "paidOnly": false,
-      "tags": [
-        {
-          "name": "Array",
-          "slug": "array"
-        },
-        {
-          "name": "Math",
-          "slug": "math"
-        },
-        {
-          "name": "Dynamic Programming",
-          "slug": "dynamic-programming"
-        },
-        {
-          "name": "Game Theory",
-          "slug": "game-theory"
-        }
-      ],
+      "tags": [],
       "url": "https://leetcode.com/problems/stone-game/"
     },
     {

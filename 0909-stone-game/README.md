@@ -20,10 +20,7 @@ https://leetcode.com/problems/stone-game/
 
 ## 🏷 Tags
 
-- Array
-- Math
-- Dynamic Programming
-- Game Theory
+- None
 
 ---
 
@@ -38,6 +35,7 @@ No notes provided.
 | Language | Runtime | Memory | File |
 |----------|---------|--------|------|
 | C++ | 0 ms | 10.3 MB | [solution.cpp](./solution.cpp) |
+| C | 0 ms | 8.6 MB | [solution.c](./solution.c) |
 
 ---
 Generated automatically using [LeetVault](https://github.com/vedant476/LeetVault).
