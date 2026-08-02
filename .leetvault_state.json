@@ -8861,6 +8861,17 @@
           "timestamp": 1785701303,
           "note": "",
           "id": 2091854257
+        },
+        {
+          "filename": "Solution.cs",
+          "language": "csharp",
+          "code": "public class Solution {\n    public bool StoneGame(int[] piles) {\n        return true;\n    }\n}",
+          "runtime": "0 ms",
+          "memory": "43.1 MB",
+          "status": "Accepted",
+          "timestamp": 1785701365,
+          "note": "",
+          "id": 2091854855
         }
       ],
       "questionId": "909",

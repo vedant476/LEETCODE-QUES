@@ -1257,7 +1257,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
-| 03 Aug 2026 | Stone Game | 🟡 Medium | C |
+| 03 Aug 2026 | Stone Game | 🟡 Medium | C# |
 | 02 Aug 2026 | Predict the Winner | 🟡 Medium | C++ |
 | 31 Jul 2026 | Minimum Number of Pushes to Type Word II | 🟡 Medium | C++ |
 | 31 Jul 2026 | Minimum Number of Pushes to Type Word I | 🟢 Easy | C++ |
