@@ -1,9 +1,9 @@
 {
   "stats": {
-    "total": 307,
+    "total": 308,
     "easy": 172,
     "medium": 107,
-    "hard": 28,
+    "hard": 29,
     "languages": [
       "Bash",
       "C",
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "03 Aug 2026"
+    "lastSync": "04 Aug 2026"
   },
   "problems": [
     {
@@ -11121,6 +11121,28 @@
       "questionId": "486",
       "url": "https://leetcode.com/problems/predict-the-winner/",
       "difficulty": "Medium",
+      "tags": []
+    },
+    {
+      "title": "Stone Game III",
+      "slug": "stone-game-iii",
+      "qid": "1522",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    string stoneGameIII(vector<int>& stoneValue) {\n        int s1 = 0;\n        int s2 = 0;\n        int s3 = 0;\n        int total = 0;\n\n        for (int i = stoneValue.size() - 1; i >= 0; i--) {\n            total += stoneValue[i];\n\n            int current = total - min({s1, s2, s3});\n\n            s3 = s2;\n            s2 = s1;\n            s1 = current;\n        }\n\n        int bob = total - s1;\n\n        if (s1 > bob) {\n            return \"Alice\";\n        }\n\n        if (s1 < bob) {\n            return \"Bob\";\n        }\n\n        return \"Tie\";\n    }\n};",
+          "runtime": "15 ms",
+          "memory": "130.3 MB",
+          "status": "Accepted",
+          "timestamp": 1785788411,
+          "note": "",
+          "id": 2093187667
+        }
+      ],
+      "questionId": "1522",
+      "url": "https://leetcode.com/problems/stone-game-iii/",
+      "difficulty": "Hard",
       "tags": []
     }
   ]

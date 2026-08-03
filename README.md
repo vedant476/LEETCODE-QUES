@@ -2,10 +2,10 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-307-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-308-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-172-success)]()
 [![Medium](https://img.shields.io/badge/Medium-107-orange)]()
-[![Hard](https://img.shields.io/badge/Hard-28-red)]()
+[![Hard](https://img.shields.io/badge/Hard-29-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
 ---
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 307 |
+| Problems Solved | 308 |
 | Easy | 172 |
 | Medium | 107 |
-| Hard | 28 |
+| Hard | 29 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 03 Aug 2026 |
+| Last Sync | 04 Aug 2026 |
 
 ---
 
@@ -1213,7 +1213,7 @@
 
 ---
 
-## Uncategorized (22)
+## Uncategorized (23)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1239,6 +1239,7 @@
 | 3275 | Minimum Number of Pushes to Type Word I | 🟢 Easy | [View](./3275-minimum-number-of-pushes-to-type-word-i/) |
 | 3276 | Minimum Number of Pushes to Type Word II | 🟡 Medium | [View](./3276-minimum-number-of-pushes-to-type-word-ii/) |
 | 0486 | Predict the Winner | 🟡 Medium | [View](./0486-predict-the-winner/) |
+| 1522 | Stone Game III | 🔴 Hard | [View](./1522-stone-game-iii/) |
 
 ---
 
@@ -1257,6 +1258,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 04 Aug 2026 | Stone Game III | 🔴 Hard | C++ |
 | 03 Aug 2026 | Stone Game | 🟡 Medium | C# |
 | 02 Aug 2026 | Predict the Winner | 🟡 Medium | C++ |
 | 31 Jul 2026 | Minimum Number of Pushes to Type Word II | 🟡 Medium | C++ |
@@ -1266,7 +1268,6 @@
 | 26 Jul 2026 | Maximum Product of Two Digits | 🟢 Easy | C++ |
 | 25 Jul 2026 | Number of Unique XOR Triplets II | 🟡 Medium | C++ |
 | 24 Jul 2026 | Convert Binary Number in a Linked List to Integer | 🟢 Easy | C++ |
-| 24 Jul 2026 | Find the Degree of Each Vertex | 🟢 Easy | C++ |
 
 ---
 
