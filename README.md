@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-309-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-310-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-173-success)]()
-[![Medium](https://img.shields.io/badge/Medium-107-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-108-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-29-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
@@ -14,9 +14,9 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 309 |
+| Problems Solved | 310 |
 | Easy | 173 |
-| Medium | 107 |
+| Medium | 108 |
 | Hard | 29 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
 | Last Sync | 04 Aug 2026 |
@@ -1213,7 +1213,7 @@
 
 ---
 
-## Uncategorized (24)
+## Uncategorized (25)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1241,6 +1241,7 @@
 | 0486 | Predict the Winner | 🟡 Medium | [View](./0486-predict-the-winner/) |
 | 1522 | Stone Game III | 🔴 Hard | [View](./1522-stone-game-iii/) |
 | 4107 | Find Missing Elements | 🟢 Easy | [View](./4107-find-missing-elements/) |
+| 0055 | Jump Game | 🟡 Medium | [View](./0055-jump-game/) |
 
 ---
 
@@ -1259,6 +1260,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 04 Aug 2026 | Jump Game | 🟡 Medium | C++ |
 | 04 Aug 2026 | Find Missing Elements | 🟢 Easy | C++ |
 | 04 Aug 2026 | Stone Game III | 🔴 Hard | C++ |
 | 03 Aug 2026 | Stone Game | 🟡 Medium | C# |
@@ -1268,7 +1270,6 @@
 | 30 Jul 2026 | Smallest Palindromic Rearrangement II | 🔴 Hard | C++ |
 | 27 Jul 2026 | Maximum Product of Two Elements in an Array | 🟢 Easy | C++ |
 | 26 Jul 2026 | Maximum Product of Two Digits | 🟢 Easy | C++ |
-| 25 Jul 2026 | Number of Unique XOR Triplets II | 🟡 Medium | C++ |
 
 ---
 

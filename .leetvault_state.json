@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 309,
+    "total": 310,
     "easy": 173,
-    "medium": 107,
+    "medium": 108,
     "hard": 29,
     "languages": [
       "Bash",
@@ -11165,6 +11165,28 @@
       "questionId": "4107",
       "url": "https://leetcode.com/problems/find-missing-elements/",
       "difficulty": "Easy",
+      "tags": []
+    },
+    {
+      "title": "Jump Game",
+      "slug": "jump-game",
+      "qid": "55",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    bool canJump(vector<int>& nums) {\n        bool found = std::ranges::contains(nums, 0); \n    if (found) {\n        int mi =0;\n    for( int i = 0;i<nums.size();i++){   \n        if(i > mi)\n            return false; \n        mi = max(i+nums[i],mi);\n    }\n    }\n    \n    return true;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "52.4 MB",
+          "status": "Accepted",
+          "timestamp": 1785835835,
+          "note": "",
+          "id": 2093771669
+        }
+      ],
+      "questionId": "55",
+      "url": "https://leetcode.com/problems/jump-game/",
+      "difficulty": "Medium",
       "tags": []
     }
   ]
