@@ -1,7 +1,7 @@
 {
   "stats": {
-    "total": 308,
-    "easy": 172,
+    "total": 309,
+    "easy": 173,
     "medium": 107,
     "hard": 29,
     "languages": [
@@ -11143,6 +11143,28 @@
       "questionId": "1522",
       "url": "https://leetcode.com/problems/stone-game-iii/",
       "difficulty": "Hard",
+      "tags": []
+    },
+    {
+      "title": "Find Missing Elements",
+      "slug": "find-missing-elements",
+      "qid": "4107",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    static vector<int> findMissingElements(vector<int>& nums) {\n        __uint128_t hasX=0;\n        int xMin=101, xMax=0;\n        for(int x: nums){\n            hasX|=((__uint128_t)1<<x);\n            xMin=min(x, xMin);\n            xMax=max(x, xMax);\n        }\n        vector<int> ans;\n        for(int x=xMin+1; x<xMax; x++)\n            if (((hasX>>x)&1)==0) ans.push_back(x);\n        return ans;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "32.3 MB",
+          "status": "Accepted",
+          "timestamp": 1785834129,
+          "note": "",
+          "id": 2093734200
+        }
+      ],
+      "questionId": "4107",
+      "url": "https://leetcode.com/problems/find-missing-elements/",
+      "difficulty": "Easy",
       "tags": []
     }
   ]
