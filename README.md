@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-311-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-173-success)]()
+[![Problems](https://img.shields.io/badge/Problems-312-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-174-success)]()
 [![Medium](https://img.shields.io/badge/Medium-109-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-29-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
@@ -14,8 +14,8 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 311 |
-| Easy | 173 |
+| Problems Solved | 312 |
+| Easy | 174 |
 | Medium | 109 |
 | Hard | 29 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
@@ -1213,7 +1213,7 @@
 
 ---
 
-## Uncategorized (26)
+## Uncategorized (27)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1243,6 +1243,7 @@
 | 4107 | Find Missing Elements | 🟢 Easy | [View](./4107-find-missing-elements/) |
 | 0055 | Jump Game | 🟡 Medium | [View](./0055-jump-game/) |
 | 3561 | Remove Methods From Project | 🟡 Medium | [View](./3561-remove-methods-from-project/) |
+| 0520 | Detect Capital | 🟢 Easy | [View](./0520-detect-capital/) |
 
 ---
 
@@ -1261,6 +1262,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 06 Aug 2026 | Detect Capital | 🟢 Easy | C++ |
 | 06 Aug 2026 | Remove Methods From Project | 🟡 Medium | C++ |
 | 04 Aug 2026 | Jump Game | 🟡 Medium | C++ |
 | 04 Aug 2026 | Find Missing Elements | 🟢 Easy | C++ |
@@ -1270,7 +1272,6 @@
 | 31 Jul 2026 | Minimum Number of Pushes to Type Word II | 🟡 Medium | C++ |
 | 31 Jul 2026 | Minimum Number of Pushes to Type Word I | 🟢 Easy | C++ |
 | 30 Jul 2026 | Smallest Palindromic Rearrangement II | 🔴 Hard | C++ |
-| 27 Jul 2026 | Maximum Product of Two Elements in an Array | 🟢 Easy | C++ |
 
 ---
 

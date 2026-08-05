@@ -1,7 +1,7 @@
 {
   "stats": {
-    "total": 311,
-    "easy": 173,
+    "total": 312,
+    "easy": 174,
     "medium": 109,
     "hard": 29,
     "languages": [
@@ -11209,6 +11209,28 @@
       "questionId": "3561",
       "url": "https://leetcode.com/problems/remove-methods-from-project/",
       "difficulty": "Medium",
+      "tags": []
+    },
+    {
+      "title": "Detect Capital",
+      "slug": "detect-capital",
+      "qid": "520",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    bool detectCapitalUse(string word) {\n        int cnt = 0;\n        for(auto ch: word){\n           if(isupper(ch)) cnt++;\n        }\n         return cnt == word.size() ||\n               cnt == 0 ||\n               (cnt == 1 && isupper(word[0]));\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "8.2 MB",
+          "status": "Accepted",
+          "timestamp": 1785959886,
+          "note": "",
+          "id": 2095860789
+        }
+      ],
+      "questionId": "520",
+      "url": "https://leetcode.com/problems/detect-capital/",
+      "difficulty": "Easy",
       "tags": []
     }
   ]
