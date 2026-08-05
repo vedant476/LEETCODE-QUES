@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 310,
+    "total": 311,
     "easy": 173,
-    "medium": 108,
+    "medium": 109,
     "hard": 29,
     "languages": [
       "Bash",
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "04 Aug 2026"
+    "lastSync": "06 Aug 2026"
   },
   "problems": [
     {
@@ -11186,6 +11186,28 @@
       ],
       "questionId": "55",
       "url": "https://leetcode.com/problems/jump-game/",
+      "difficulty": "Medium",
+      "tags": []
+    },
+    {
+      "title": "Remove Methods From Project",
+      "slug": "remove-methods-from-project",
+      "qid": "3561",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "constexpr int N=1e5, M=2e5;\nstruct Edge{ int v, nxt=-1; };\nEdge E[M];\nint eIdx=0;\nint adj[N];// heads of linked lists\ninline void addEdge(int u, int v){\n    E[eIdx]={v, adj[u]};\n    adj[u]=eIdx++;\n}\nuint8_t vis[N];\nint q[N], front, back;\nclass Solution {\npublic:\n    static inline void bfs(int k){\n        front=back=0;// reset q\n        q[back++]=k;\n        vis[k]=1;\n        while(front<back){\n            int u=q[front++];\n            for(int idx=adj[u]; idx!=-1; idx=E[idx].nxt){\n                const int v=E[idx].v;\n                if (vis[v]!=0) continue;\n                q[back++]=v;\n                vis[v]=1;\n            }\n        }\n    }\n    static vector<int> remainingMethods(int n, int k, vector<vector<int>>& invocations) {\n        eIdx=0;\n        memset(adj, -1, n*sizeof(int));\n        memset(vis, 0, n);\n        for(auto& e : invocations){\n            const int u=e[0], v=e[1];\n            addEdge(u, v);\n        }\n        bfs(k);\n        bool cnnt1=0;\n        for(auto& e : invocations){\n            const int u=e[0], v=e[1];\n            if ((vis[u]==0) & (vis[v]==1)){\n                cnnt1=1;\n                break;\n            }\n        }\n        vector<int> ans;\n        if (cnnt1){\n            ans.resize(n);\n            iota(ans.begin(), ans.end(), 0);\n            return ans;\n        }\n        ans.reserve(n);\n        for(int i=0; i<n; i++){\n            if (vis[i]==0) ans.push_back(i);\n        }\n        return ans;\n    }\n};",
+          "runtime": "12 ms",
+          "memory": "250.3 MB",
+          "status": "Accepted",
+          "timestamp": 1785958567,
+          "note": "",
+          "id": 2095844470
+        }
+      ],
+      "questionId": "3561",
+      "url": "https://leetcode.com/problems/remove-methods-from-project/",
       "difficulty": "Medium",
       "tags": []
     }

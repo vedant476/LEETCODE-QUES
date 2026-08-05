@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-310-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-311-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-173-success)]()
-[![Medium](https://img.shields.io/badge/Medium-108-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-109-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-29-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 310 |
+| Problems Solved | 311 |
 | Easy | 173 |
-| Medium | 108 |
+| Medium | 109 |
 | Hard | 29 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 04 Aug 2026 |
+| Last Sync | 06 Aug 2026 |
 
 ---
 
@@ -1213,7 +1213,7 @@
 
 ---
 
-## Uncategorized (25)
+## Uncategorized (26)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1242,6 +1242,7 @@
 | 1522 | Stone Game III | 🔴 Hard | [View](./1522-stone-game-iii/) |
 | 4107 | Find Missing Elements | 🟢 Easy | [View](./4107-find-missing-elements/) |
 | 0055 | Jump Game | 🟡 Medium | [View](./0055-jump-game/) |
+| 3561 | Remove Methods From Project | 🟡 Medium | [View](./3561-remove-methods-from-project/) |
 
 ---
 
@@ -1260,6 +1261,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 06 Aug 2026 | Remove Methods From Project | 🟡 Medium | C++ |
 | 04 Aug 2026 | Jump Game | 🟡 Medium | C++ |
 | 04 Aug 2026 | Find Missing Elements | 🟢 Easy | C++ |
 | 04 Aug 2026 | Stone Game III | 🔴 Hard | C++ |
@@ -1269,7 +1271,6 @@
 | 31 Jul 2026 | Minimum Number of Pushes to Type Word I | 🟢 Easy | C++ |
 | 30 Jul 2026 | Smallest Palindromic Rearrangement II | 🔴 Hard | C++ |
 | 27 Jul 2026 | Maximum Product of Two Elements in an Array | 🟢 Easy | C++ |
-| 26 Jul 2026 | Maximum Product of Two Digits | 🟢 Easy | C++ |
 
 ---
 
