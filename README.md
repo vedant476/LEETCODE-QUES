@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-313-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-175-success)]()
+[![Problems](https://img.shields.io/badge/Problems-314-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-176-success)]()
 [![Medium](https://img.shields.io/badge/Medium-109-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-29-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
@@ -14,8 +14,8 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 313 |
-| Easy | 175 |
+| Problems Solved | 314 |
+| Easy | 176 |
 | Medium | 109 |
 | Hard | 29 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
@@ -1213,7 +1213,7 @@
 
 ---
 
-## Uncategorized (28)
+## Uncategorized (29)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1245,6 +1245,7 @@
 | 3561 | Remove Methods From Project | 🟡 Medium | [View](./3561-remove-methods-from-project/) |
 | 0520 | Detect Capital | 🟢 Easy | [View](./0520-detect-capital/) |
 | 3626 | Smallest Divisible Digit Product I | 🟢 Easy | [View](./3626-smallest-divisible-digit-product-i/) |
+| 0219 | Contains Duplicate II | 🟢 Easy | [View](./0219-contains-duplicate-ii/) |
 
 ---
 
@@ -1263,6 +1264,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 06 Aug 2026 | Contains Duplicate II | 🟢 Easy | C++ |
 | 06 Aug 2026 | Smallest Divisible Digit Product I | 🟢 Easy | C++ |
 | 06 Aug 2026 | Detect Capital | 🟢 Easy | C++ |
 | 06 Aug 2026 | Remove Methods From Project | 🟡 Medium | C++ |
@@ -1272,7 +1274,6 @@
 | 03 Aug 2026 | Stone Game | 🟡 Medium | C# |
 | 02 Aug 2026 | Predict the Winner | 🟡 Medium | C++ |
 | 31 Jul 2026 | Minimum Number of Pushes to Type Word II | 🟡 Medium | C++ |
-| 31 Jul 2026 | Minimum Number of Pushes to Type Word I | 🟢 Easy | C++ |
 
 ---
 

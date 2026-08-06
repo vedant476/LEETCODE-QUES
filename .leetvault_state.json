@@ -1,7 +1,7 @@
 {
   "stats": {
-    "total": 313,
-    "easy": 175,
+    "total": 314,
+    "easy": 176,
     "medium": 109,
     "hard": 29,
     "languages": [
@@ -11252,6 +11252,28 @@
       ],
       "questionId": "3626",
       "url": "https://leetcode.com/problems/smallest-divisible-digit-product-i/",
+      "difficulty": "Easy",
+      "tags": []
+    },
+    {
+      "title": "Contains Duplicate II",
+      "slug": "contains-duplicate-ii",
+      "qid": "219",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\nprivate:\n    static uint32_t hashInt(uint32_t x) noexcept {\n        x ^= x >> 16;\n        x *= 0x7feb352dU;\n        x ^= x >> 15;\n        x *= 0x846ca68bU;\n        x ^= x >> 16;\n        return x;\n    }\n\npublic:\n    bool containsNearbyDuplicate(vector<int>& nums, int k) {\n        const int n = static_cast<int>(nums.size());\n\n        if (k == 0 || n < 2) {\n            return false;\n        }\n\n\n        if (k <= 8) {\n            for (int i = 1; i < n; ++i) {\n                const int left = max(0, i - k);\n\n                for (int j = i - 1; j >= left; --j) {\n                    if (nums[i] == nums[j]) {\n                        return true;\n                    }\n                }\n            }\n\n            return false;\n        }\n\n        int capacity = 1;\n\n        while (capacity < n * 2) {\n            capacity <<= 1;\n        }\n\n        const int mask = capacity - 1;\n\n        vector<int> table(capacity);\n\n        for (int i = 0; i < n; ++i) {\n            const int value = nums[i];\n            int position =\n                static_cast<int>(hashInt(static_cast<uint32_t>(value))) & mask;\n\n            while (true) {\n                const int stored = table[position];\n\n                if (stored == 0) {\n                    table[position] = i + 1;\n                    break;\n                }\n\n                const int previousIndex = stored - 1;\n\n                if (nums[previousIndex] == value) {\n                    if (i - previousIndex <= k) {\n                        return true;\n                    }\n\n                 \n                    table[position] = i + 1;\n                    break;\n                }\n\n                position = (position + 1) & mask;\n            }\n        }\n\n        return false;\n    }\n};",
+          "runtime": "9 ms",
+          "memory": "98.6 MB",
+          "status": "Accepted",
+          "timestamp": 1786001210,
+          "note": "",
+          "id": 2096326199
+        }
+      ],
+      "questionId": "219",
+      "url": "https://leetcode.com/problems/contains-duplicate-ii/",
       "difficulty": "Easy",
       "tags": []
     }
