@@ -1,7 +1,7 @@
 {
   "stats": {
-    "total": 312,
-    "easy": 174,
+    "total": 313,
+    "easy": 175,
     "medium": 109,
     "hard": 29,
     "languages": [
@@ -11230,6 +11230,28 @@
       ],
       "questionId": "520",
       "url": "https://leetcode.com/problems/detect-capital/",
+      "difficulty": "Easy",
+      "tags": []
+    },
+    {
+      "title": "Smallest Divisible Digit Product I",
+      "slug": "smallest-divisible-digit-product-i",
+      "qid": "3626",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int pro( int n){\n        int ans=1;\n        while(n){\n           ans *= (n%10);\n           n/=10;\n        }\n        return ans;\n    } \n    int smallestNumber(int n, int t) {\n        while(pro(n)%t!=0){\n            n++;\n            }\n        \n        \n        return n; \n    }\n\n};",
+          "runtime": "0 ms",
+          "memory": "8.7 MB",
+          "status": "Accepted",
+          "timestamp": 1785998199,
+          "note": "",
+          "id": 2096263669
+        }
+      ],
+      "questionId": "3626",
+      "url": "https://leetcode.com/problems/smallest-divisible-digit-product-i/",
       "difficulty": "Easy",
       "tags": []
     }
