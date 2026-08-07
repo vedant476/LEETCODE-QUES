@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 314,
+    "total": 315,
     "easy": 176,
-    "medium": 109,
+    "medium": 110,
     "hard": 29,
     "languages": [
       "Bash",
@@ -11286,6 +11286,28 @@
       "questionId": "219",
       "url": "https://leetcode.com/problems/contains-duplicate-ii/",
       "difficulty": "Easy",
+      "tags": []
+    },
+    {
+      "title": "Remove All Occurrences of a Substring",
+      "slug": "remove-all-occurrences-of-a-substring",
+      "qid": "2021",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    string removeOccurrences(string s, string part) {\n        while(s.length()>0 && s.find(part)< s.length()){\n            s.erase(s.find(part),part.length());\n        }\n        return s;\n    }\n};",
+          "runtime": "3 ms",
+          "memory": "9.5 MB",
+          "status": "Accepted",
+          "timestamp": 1786093911,
+          "note": "",
+          "id": 2097745356
+        }
+      ],
+      "questionId": "2021",
+      "url": "https://leetcode.com/problems/remove-all-occurrences-of-a-substring/",
+      "difficulty": "Medium",
       "tags": []
     }
   ]

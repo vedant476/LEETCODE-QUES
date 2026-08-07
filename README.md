@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-314-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-315-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-176-success)]()
-[![Medium](https://img.shields.io/badge/Medium-109-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-110-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-29-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
@@ -14,9 +14,9 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 314 |
+| Problems Solved | 315 |
 | Easy | 176 |
-| Medium | 109 |
+| Medium | 110 |
 | Hard | 29 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
 | Last Sync | 07 Aug 2026 |
@@ -1213,7 +1213,7 @@
 
 ---
 
-## Uncategorized (29)
+## Uncategorized (30)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1246,6 +1246,7 @@
 | 0520 | Detect Capital | 🟢 Easy | [View](./0520-detect-capital/) |
 | 3626 | Smallest Divisible Digit Product I | 🟢 Easy | [View](./3626-smallest-divisible-digit-product-i/) |
 | 0219 | Contains Duplicate II | 🟢 Easy | [View](./0219-contains-duplicate-ii/) |
+| 2021 | Remove All Occurrences of a Substring | 🟡 Medium | [View](./2021-remove-all-occurrences-of-a-substring/) |
 
 ---
 
@@ -1264,6 +1265,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 07 Aug 2026 | Remove All Occurrences of a Substring | 🟡 Medium | C++ |
 | 07 Aug 2026 | Stone Game | 🟡 Medium | Rust |
 | 06 Aug 2026 | Contains Duplicate II | 🟢 Easy | C++ |
 | 06 Aug 2026 | Smallest Divisible Digit Product I | 🟢 Easy | C++ |
@@ -1273,7 +1275,6 @@
 | 04 Aug 2026 | Find Missing Elements | 🟢 Easy | C++ |
 | 04 Aug 2026 | Stone Game III | 🔴 Hard | C++ |
 | 02 Aug 2026 | Predict the Winner | 🟡 Medium | C++ |
-| 31 Jul 2026 | Minimum Number of Pushes to Type Word II | 🟡 Medium | C++ |
 
 ---
 
