@@ -37,6 +37,7 @@ No notes provided.
 | C++ | 0 ms | 10.3 MB | [solution.cpp](./solution.cpp) |
 | C | 0 ms | 8.6 MB | [solution.c](./solution.c) |
 | C# | 0 ms | 43.1 MB | [Solution.cs](./Solution.cs) |
+| Rust | 0 ms | 2.3 MB | [solution.rs](./solution.rs) |
 
 ---
 Generated automatically using [LeetVault](https://github.com/vedant476/LeetVault).

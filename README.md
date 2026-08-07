@@ -19,7 +19,7 @@
 | Medium | 109 |
 | Hard | 29 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 06 Aug 2026 |
+| Last Sync | 07 Aug 2026 |
 
 ---
 
@@ -1264,6 +1264,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 07 Aug 2026 | Stone Game | 🟡 Medium | Rust |
 | 06 Aug 2026 | Contains Duplicate II | 🟢 Easy | C++ |
 | 06 Aug 2026 | Smallest Divisible Digit Product I | 🟢 Easy | C++ |
 | 06 Aug 2026 | Detect Capital | 🟢 Easy | C++ |
@@ -1271,7 +1272,6 @@
 | 04 Aug 2026 | Jump Game | 🟡 Medium | C++ |
 | 04 Aug 2026 | Find Missing Elements | 🟢 Easy | C++ |
 | 04 Aug 2026 | Stone Game III | 🔴 Hard | C++ |
-| 03 Aug 2026 | Stone Game | 🟡 Medium | C# |
 | 02 Aug 2026 | Predict the Winner | 🟡 Medium | C++ |
 | 31 Jul 2026 | Minimum Number of Pushes to Type Word II | 🟡 Medium | C++ |
 
