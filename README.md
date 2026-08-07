@@ -2,10 +2,10 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-315-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-316-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-176-success)]()
 [![Medium](https://img.shields.io/badge/Medium-110-orange)]()
-[![Hard](https://img.shields.io/badge/Hard-29-red)]()
+[![Hard](https://img.shields.io/badge/Hard-30-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
 ---
@@ -14,10 +14,10 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 315 |
+| Problems Solved | 316 |
 | Easy | 176 |
 | Medium | 110 |
-| Hard | 29 |
+| Hard | 30 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
 | Last Sync | 07 Aug 2026 |
 
@@ -1213,7 +1213,7 @@
 
 ---
 
-## Uncategorized (30)
+## Uncategorized (31)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1247,6 +1247,7 @@
 | 3626 | Smallest Divisible Digit Product I | 🟢 Easy | [View](./3626-smallest-divisible-digit-product-i/) |
 | 0219 | Contains Duplicate II | 🟢 Easy | [View](./0219-contains-duplicate-ii/) |
 | 2021 | Remove All Occurrences of a Substring | 🟡 Medium | [View](./2021-remove-all-occurrences-of-a-substring/) |
+| 3635 | Smallest Divisible Digit Product II | 🔴 Hard | [View](./3635-smallest-divisible-digit-product-ii/) |
 
 ---
 
@@ -1265,6 +1266,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 07 Aug 2026 | Smallest Divisible Digit Product II | 🔴 Hard | C++ |
 | 07 Aug 2026 | Remove All Occurrences of a Substring | 🟡 Medium | C++ |
 | 07 Aug 2026 | Stone Game | 🟡 Medium | Rust |
 | 06 Aug 2026 | Contains Duplicate II | 🟢 Easy | C++ |
@@ -1274,7 +1276,6 @@
 | 04 Aug 2026 | Jump Game | 🟡 Medium | C++ |
 | 04 Aug 2026 | Find Missing Elements | 🟢 Easy | C++ |
 | 04 Aug 2026 | Stone Game III | 🔴 Hard | C++ |
-| 02 Aug 2026 | Predict the Winner | 🟡 Medium | C++ |
 
 ---
 

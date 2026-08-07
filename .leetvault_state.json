@@ -1,9 +1,9 @@
 {
   "stats": {
-    "total": 315,
+    "total": 316,
     "easy": 176,
     "medium": 110,
-    "hard": 29,
+    "hard": 30,
     "languages": [
       "Bash",
       "C",
@@ -11308,6 +11308,28 @@
       "questionId": "2021",
       "url": "https://leetcode.com/problems/remove-all-occurrences-of-a-substring/",
       "difficulty": "Medium",
+      "tags": []
+    },
+    {
+      "title": "Smallest Divisible Digit Product II",
+      "slug": "smallest-divisible-digit-product-ii",
+      "qid": "3635",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "using u64=unsigned long long;\nint prime[]={2, 3, 5, 7};\n\nclass Solution {\npublic:\n    array<int, 4> exp={0};\n\n    bool primeFactor(u64 x) {\n        if (x==0) return 0;\n\n        // Count powers of 2\n        exp[0]=countr_zero(x);\n        x>>=exp[0];\n\n        // Count powers of 3, 5, and 7\n        for (int i=1; i< 4; i++) {\n            int p=prime[i];\n            for (; x%p==0; x/=p) \n                exp[i]++;\n        }\n        return x==1;\n    }\n\n    void modifyExp(char c, int dir) {\n        int x=c-'0';\n        switch (x) {\n            case 2: exp[0]+=dir; break;\n            case 4: exp[0]+=dir<<1; break;\n            case 8: exp[0]+=dir*3; break;\n            case 3: exp[1]+=dir; break;\n            case 5: exp[2]+=dir; break;\n            case 6: exp[0]+=dir; exp[1]+=dir; break;\n            case 7: exp[3]+=dir; break;\n            case 9: exp[1]+=dir<<1; break;\n        }\n    }\n\n    string buildSuffix(int len, bool &valid) {\n        \n        int digit[10]={0};\n\n        int e0=max(0, exp[0]);\n        int e1=max(0, exp[1]);\n        int e2=max(0, exp[2]);\n        int e3=max(0, exp[3]);\n\n        digit[8]=e0/3;\n        int r0=e0%3;\n\n        digit[9]=e1>>1;\n        int r1=e1&1;\n\n        digit[5]=e2;\n        digit[7]=e3;\n\n        if (r0==1 && r1==1) \n            digit[6]=1;\n        else if (r0==2 && r1==1) {\n            digit[2]=1;\n            digit[6]=1;\n        } \n        else {\n            if (r0==1) digit[2]=1;\n            else if (r0==2) digit[4]=1;\n            if (r1==1) digit[3]=1;\n        }\n\n        int total_digits = 0;\n        for (int i=2; i<=9; i++) total_digits+=digit[i];\n\n        if (total_digits>len) {\n            valid=0;\n            return \"\";\n        }\n\n        digit[1]=len-total_digits;\n        valid=1;\n\n        string ans;\n        for (int i=1; i<=9; i++) {\n            ans.append(digit[i], '0'+i);\n        }\n        return ans;\n    }\n\n    string smallestNumber(string& num, long long t) {\n        if (!primeFactor(t)) return \"-1\";\n\n        int n=num.size();\n        auto origExp=exp;\n\n        // 1. Check if num itself works\n        bool zeroFound=0;\n        int firstZero=-1;\n        for (int i=0; i<n; i++) {\n            if (num[i]=='0') {\n                zeroFound=1;\n                firstZero=i;\n                break;\n            }\n            modifyExp(num[i], -1);\n        }\n\n        bool valid=0;\n        if (!zeroFound) {\n            buildSuffix(0, valid);\n            if (valid) return num;\n        }\n\n        //Try prefix matching from right to left\n        int limit=zeroFound ? firstZero : n-1;\n\n        exp=origExp;\n        for (int i=0; i <limit; i++) \n            modifyExp(num[i], -1);\n        \n\n        for (int i=limit; i>= 0; i--) {\n            int startDigit=(i<n && num[i]!='0')?(num[i]-'0'+1):1;\n            for (int d=startDigit; d<=9; d++) {\n                modifyExp('0'+d, -1);\n                string suffix=buildSuffix(n-1-i, valid);\n                if (valid) {\n                    return num.substr(0, i)+(char)('0'+ d)+suffix;\n                }\n                modifyExp('0'+d, +1);\n            }\n            if (i>0) \n                modifyExp(num[i-1], +1);\n        }\n\n        // Expand length if necessary\n        exp=origExp;\n        int targetLen=n+1;\n        while (1) {\n            string suffix=buildSuffix(targetLen, valid);\n            if (valid) return suffix;\n            targetLen++;\n        }\n    }\n};\n",
+          "runtime": "24 ms",
+          "memory": "31.1 MB",
+          "status": "Accepted",
+          "timestamp": 1786126350,
+          "note": "",
+          "id": 2098331390
+        }
+      ],
+      "questionId": "3635",
+      "url": "https://leetcode.com/problems/smallest-divisible-digit-product-ii/",
+      "difficulty": "Hard",
       "tags": []
     }
   ]
