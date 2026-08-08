@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 317,
+    "total": 318,
     "easy": 176,
-    "medium": 111,
+    "medium": 112,
     "hard": 30,
     "languages": [
       "Bash",
@@ -11351,6 +11351,28 @@
       ],
       "questionId": "3584",
       "url": "https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/",
+      "difficulty": "Medium",
+      "tags": []
+    },
+    {
+      "title": "Min Stack",
+      "slug": "min-stack",
+      "qid": "155",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class MinStack {\npublic:\n    stack<pair<int,int>> s;\n    MinStack() {}\n    \n    void push(int value) {\n        \n        if(!s.empty()){\n            s.push({value,min(value,s.top().second)});\n        }\n        else{\n            s.push({value,value});\n        }\n        \n    }\n    \n    void pop() {\n        if(!s.empty()){\n            s.pop();\n        }\n           \n    }\n    \n    int top() {\n        return s.top().first;  \n    }\n    \n    int getMin() {\n        return s.top().second;    \n    }\n};\n\n/**\n * Your MinStack object will be instantiated and called as such:\n * MinStack* obj = new MinStack();\n * obj->push(value);\n * obj->pop();\n * int param_3 = obj->top();\n * int param_4 = obj->getMin();\n */",
+          "runtime": "70 ms",
+          "memory": "151 MB",
+          "status": "Accepted",
+          "timestamp": 1786214839,
+          "note": "",
+          "id": 2099513241
+        }
+      ],
+      "questionId": "155",
+      "url": "https://leetcode.com/problems/min-stack/",
       "difficulty": "Medium",
       "tags": []
     }
