@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-316-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-317-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-176-success)]()
-[![Medium](https://img.shields.io/badge/Medium-110-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-111-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-30-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 316 |
+| Problems Solved | 317 |
 | Easy | 176 |
-| Medium | 110 |
+| Medium | 111 |
 | Hard | 30 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 07 Aug 2026 |
+| Last Sync | 09 Aug 2026 |
 
 ---
 
@@ -1213,7 +1213,7 @@
 
 ---
 
-## Uncategorized (31)
+## Uncategorized (32)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1248,6 +1248,7 @@
 | 0219 | Contains Duplicate II | 🟢 Easy | [View](./0219-contains-duplicate-ii/) |
 | 2021 | Remove All Occurrences of a Substring | 🟡 Medium | [View](./2021-remove-all-occurrences-of-a-substring/) |
 | 3635 | Smallest Divisible Digit Product II | 🔴 Hard | [View](./3635-smallest-divisible-digit-product-ii/) |
+| 3584 | Find the Lexicographically Smallest Valid Sequence | 🟡 Medium | [View](./3584-find-the-lexicographically-smallest-valid-sequence/) |
 
 ---
 
@@ -1266,6 +1267,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 09 Aug 2026 | Find the Lexicographically Smallest Valid Sequence | 🟡 Medium | C++ |
 | 07 Aug 2026 | Smallest Divisible Digit Product II | 🔴 Hard | C++ |
 | 07 Aug 2026 | Remove All Occurrences of a Substring | 🟡 Medium | C++ |
 | 07 Aug 2026 | Stone Game | 🟡 Medium | Rust |
@@ -1275,7 +1277,6 @@
 | 06 Aug 2026 | Remove Methods From Project | 🟡 Medium | C++ |
 | 04 Aug 2026 | Jump Game | 🟡 Medium | C++ |
 | 04 Aug 2026 | Find Missing Elements | 🟢 Easy | C++ |
-| 04 Aug 2026 | Stone Game III | 🔴 Hard | C++ |
 
 ---
 
