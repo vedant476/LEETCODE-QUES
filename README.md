@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-318-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-319-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-176-success)]()
-[![Medium](https://img.shields.io/badge/Medium-112-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-113-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-30-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 318 |
+| Problems Solved | 319 |
 | Easy | 176 |
-| Medium | 112 |
+| Medium | 113 |
 | Hard | 30 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 09 Aug 2026 |
+| Last Sync | 10 Aug 2026 |
 
 ---
 
@@ -1213,7 +1213,7 @@
 
 ---
 
-## Uncategorized (33)
+## Uncategorized (34)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1250,6 +1250,7 @@
 | 3635 | Smallest Divisible Digit Product II | 🔴 Hard | [View](./3635-smallest-divisible-digit-product-ii/) |
 | 3584 | Find the Lexicographically Smallest Valid Sequence | 🟡 Medium | [View](./3584-find-the-lexicographically-smallest-valid-sequence/) |
 | 0155 | Min Stack | 🟡 Medium | [View](./0155-min-stack/) |
+| 1240 | Stone Game II | 🟡 Medium | [View](./1240-stone-game-ii/) |
 
 ---
 
@@ -1268,6 +1269,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 10 Aug 2026 | Stone Game II | 🟡 Medium | C++ |
 | 09 Aug 2026 | Min Stack | 🟡 Medium | C++ |
 | 09 Aug 2026 | Find the Lexicographically Smallest Valid Sequence | 🟡 Medium | C++ |
 | 07 Aug 2026 | Smallest Divisible Digit Product II | 🔴 Hard | C++ |
@@ -1277,7 +1279,6 @@
 | 06 Aug 2026 | Smallest Divisible Digit Product I | 🟢 Easy | C++ |
 | 06 Aug 2026 | Detect Capital | 🟢 Easy | C++ |
 | 06 Aug 2026 | Remove Methods From Project | 🟡 Medium | C++ |
-| 04 Aug 2026 | Jump Game | 🟡 Medium | C++ |
 
 ---
 

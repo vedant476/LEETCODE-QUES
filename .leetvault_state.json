@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 318,
+    "total": 319,
     "easy": 176,
-    "medium": 112,
+    "medium": 113,
     "hard": 30,
     "languages": [
       "Bash",
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "09 Aug 2026"
+    "lastSync": "10 Aug 2026"
   },
   "problems": [
     {
@@ -11373,6 +11373,28 @@
       ],
       "questionId": "155",
       "url": "https://leetcode.com/problems/min-stack/",
+      "difficulty": "Medium",
+      "tags": []
+    },
+    {
+      "title": "Stone Game II",
+      "slug": "stone-game-ii",
+      "qid": "1240",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int n;\n    vector<int> suffix;\n    vector<vector<int>> dp;\n    int solve(int i,int M){\n        if(i>=n) return 0;\n        if(i+2*M>=n)\n        return suffix[i];\n        if(dp[i][M]!=-1)\n        return dp[i][M];\n        int ans=0;\n        for(int X=1;X<=2*M;X++){\n            ans=max(ans,suffix[i]-solve(i+X,max(M,X)));\n        }\n        return dp[i][M]=ans;\n    }\n    int stoneGameII(vector<int>& piles) {\n        n=piles.size();\n        suffix.resize(n+1,0);\n        for(int i=n-1;i>=0;i--)\n        suffix[i]=suffix[i+1]+piles[i];\n        dp.assign(n,vector<int>(n+1,-1));\n        return solve(0,1);\n    }\n};",
+          "runtime": "3 ms",
+          "memory": "13.5 MB",
+          "status": "Accepted",
+          "timestamp": 1786302537,
+          "note": "",
+          "id": 2100773636
+        }
+      ],
+      "questionId": "1240",
+      "url": "https://leetcode.com/problems/stone-game-ii/",
       "difficulty": "Medium",
       "tags": []
     }
