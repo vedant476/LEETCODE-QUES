@@ -2,10 +2,10 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-319-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-320-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-176-success)]()
 [![Medium](https://img.shields.io/badge/Medium-113-orange)]()
-[![Hard](https://img.shields.io/badge/Hard-30-red)]()
+[![Hard](https://img.shields.io/badge/Hard-31-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
 ---
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 319 |
+| Problems Solved | 320 |
 | Easy | 176 |
 | Medium | 113 |
-| Hard | 30 |
+| Hard | 31 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 10 Aug 2026 |
+| Last Sync | 11 Aug 2026 |
 
 ---
 
@@ -1213,7 +1213,7 @@
 
 ---
 
-## Uncategorized (34)
+## Uncategorized (35)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1251,6 +1251,7 @@
 | 3584 | Find the Lexicographically Smallest Valid Sequence | 🟡 Medium | [View](./3584-find-the-lexicographically-smallest-valid-sequence/) |
 | 0155 | Min Stack | 🟡 Medium | [View](./0155-min-stack/) |
 | 1240 | Stone Game II | 🟡 Medium | [View](./1240-stone-game-ii/) |
+| 1617 | Stone Game IV | 🔴 Hard | [View](./1617-stone-game-iv/) |
 
 ---
 
@@ -1269,6 +1270,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 11 Aug 2026 | Stone Game IV | 🔴 Hard | C++ |
 | 10 Aug 2026 | Stone Game II | 🟡 Medium | C++ |
 | 09 Aug 2026 | Min Stack | 🟡 Medium | C++ |
 | 09 Aug 2026 | Find the Lexicographically Smallest Valid Sequence | 🟡 Medium | C++ |
@@ -1278,7 +1280,6 @@
 | 06 Aug 2026 | Contains Duplicate II | 🟢 Easy | C++ |
 | 06 Aug 2026 | Smallest Divisible Digit Product I | 🟢 Easy | C++ |
 | 06 Aug 2026 | Detect Capital | 🟢 Easy | C++ |
-| 06 Aug 2026 | Remove Methods From Project | 🟡 Medium | C++ |
 
 ---
 

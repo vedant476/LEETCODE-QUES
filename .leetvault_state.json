@@ -1,9 +1,9 @@
 {
   "stats": {
-    "total": 319,
+    "total": 320,
     "easy": 176,
     "medium": 113,
-    "hard": 30,
+    "hard": 31,
     "languages": [
       "Bash",
       "C",
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "10 Aug 2026"
+    "lastSync": "11 Aug 2026"
   },
   "problems": [
     {
@@ -11396,6 +11396,28 @@
       "questionId": "1240",
       "url": "https://leetcode.com/problems/stone-game-ii/",
       "difficulty": "Medium",
+      "tags": []
+    },
+    {
+      "title": "Stone Game IV",
+      "slug": "stone-game-iv",
+      "qid": "1617",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    bool winnerSquareGame(int n) {\n        vector<bool> dp(n+1, false);\n        dp[0]=false;\n        for(int i=0;i<=n;i++){\n            if(!dp[i]){\n                for(int j=1;i+j*j<=n;j++){\n                    dp[i+j*j]=true;\n                }\n            }\n        }\n        return dp[n];\n    }\n};",
+          "runtime": "6 ms",
+          "memory": "8.9 MB",
+          "status": "Accepted",
+          "timestamp": 1786387057,
+          "note": "",
+          "id": 2101950667
+        }
+      ],
+      "questionId": "1617",
+      "url": "https://leetcode.com/problems/stone-game-iv/",
+      "difficulty": "Hard",
       "tags": []
     }
   ]
