@@ -1,7 +1,7 @@
 {
   "stats": {
-    "total": 322,
-    "easy": 177,
+    "total": 323,
+    "easy": 178,
     "medium": 114,
     "hard": 31,
     "languages": [
@@ -11462,6 +11462,28 @@
       "questionId": "400",
       "url": "https://leetcode.com/problems/nth-digit/",
       "difficulty": "Medium",
+      "tags": []
+    },
+    {
+      "title": "Number of Good Pairs",
+      "slug": "number-of-good-pairs",
+      "qid": "1635",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int numIdenticalPairs(vector<int>& nums) {\n        int count=0;\n    unordered_map<int,int>freq;\n    for(int num:nums){\n        count+=freq[num];\n        freq[num]++;\n    }\n    return count;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "9.8 MB",
+          "status": "Accepted",
+          "timestamp": 1786425409,
+          "note": "",
+          "id": 2102330648
+        }
+      ],
+      "questionId": "1635",
+      "url": "https://leetcode.com/problems/number-of-good-pairs/",
+      "difficulty": "Easy",
       "tags": []
     }
   ]
