@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-320-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-176-success)]()
+[![Problems](https://img.shields.io/badge/Problems-321-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-177-success)]()
 [![Medium](https://img.shields.io/badge/Medium-113-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-31-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
@@ -14,8 +14,8 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 320 |
-| Easy | 176 |
+| Problems Solved | 321 |
+| Easy | 177 |
 | Medium | 113 |
 | Hard | 31 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
@@ -1213,7 +1213,7 @@
 
 ---
 
-## Uncategorized (35)
+## Uncategorized (36)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1252,6 +1252,7 @@
 | 0155 | Min Stack | 🟡 Medium | [View](./0155-min-stack/) |
 | 1240 | Stone Game II | 🟡 Medium | [View](./1240-stone-game-ii/) |
 | 1617 | Stone Game IV | 🔴 Hard | [View](./1617-stone-game-iv/) |
+| 3236 | Smallest Missing Integer Greater Than Sequential Prefix Sum | 🟢 Easy | [View](./3236-smallest-missing-integer-greater-than-sequential-prefix-sum/) |
 
 ---
 
@@ -1270,6 +1271,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 11 Aug 2026 | Smallest Missing Integer Greater Than Sequential Prefix Sum | 🟢 Easy | C++ |
 | 11 Aug 2026 | Stone Game IV | 🔴 Hard | C++ |
 | 10 Aug 2026 | Stone Game II | 🟡 Medium | C++ |
 | 09 Aug 2026 | Min Stack | 🟡 Medium | C++ |
@@ -1279,7 +1281,6 @@
 | 07 Aug 2026 | Stone Game | 🟡 Medium | Rust |
 | 06 Aug 2026 | Contains Duplicate II | 🟢 Easy | C++ |
 | 06 Aug 2026 | Smallest Divisible Digit Product I | 🟢 Easy | C++ |
-| 06 Aug 2026 | Detect Capital | 🟢 Easy | C++ |
 
 ---
 

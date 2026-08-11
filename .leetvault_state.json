@@ -1,7 +1,7 @@
 {
   "stats": {
-    "total": 320,
-    "easy": 176,
+    "total": 321,
+    "easy": 177,
     "medium": 113,
     "hard": 31,
     "languages": [
@@ -11418,6 +11418,28 @@
       "questionId": "1617",
       "url": "https://leetcode.com/problems/stone-game-iv/",
       "difficulty": "Hard",
+      "tags": []
+    },
+    {
+      "title": "Smallest Missing Integer Greater Than Sequential Prefix Sum",
+      "slug": "smallest-missing-integer-greater-than-sequential-prefix-sum",
+      "qid": "3236",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int missingInteger(vector<int>& nums) {\n        int prefix=nums[0], i, n=nums.size();\n        if (n==1) return prefix+1;\n        for(i=1; i<n; i++){\n            if (nums[i]!=nums[i-1]+1)\n            break;\n            prefix+=nums[i];\n        }\n        bitset<51> seen=0;\n        for (int j=0; j<n; j++){\n            seen[nums[j]]=1;\n        }\n        while(prefix<=50 && seen[prefix])\n            prefix++;\n        return prefix;\n    }\n};\n\nauto init = []()\n{ \n    ios::sync_with_stdio(0);\n    cin.tie(0);\n    cout.tie(0);\n    return 'c';\n}();",
+          "runtime": "0 ms",
+          "memory": "22.6 MB",
+          "status": "Accepted",
+          "timestamp": 1786423182,
+          "note": "",
+          "id": 2102286843
+        }
+      ],
+      "questionId": "3236",
+      "url": "https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/",
+      "difficulty": "Easy",
       "tags": []
     }
   ]
