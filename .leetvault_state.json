@@ -1,7 +1,7 @@
 {
   "stats": {
-    "total": 323,
-    "easy": 178,
+    "total": 324,
+    "easy": 179,
     "medium": 114,
     "hard": 31,
     "languages": [
@@ -11483,6 +11483,28 @@
       ],
       "questionId": "1635",
       "url": "https://leetcode.com/problems/number-of-good-pairs/",
+      "difficulty": "Easy",
+      "tags": []
+    },
+    {
+      "title": "Count Odd Numbers in an Interval Range",
+      "slug": "count-odd-numbers-in-an-interval-range",
+      "qid": "1630",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int countOdds(int low, int high) {\n        return ( high+1)/2-(low/2);\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "7.6 MB",
+          "status": "Accepted",
+          "timestamp": 1786426245,
+          "note": "",
+          "id": 2102347646
+        }
+      ],
+      "questionId": "1630",
+      "url": "https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/",
       "difficulty": "Easy",
       "tags": []
     }

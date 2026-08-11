@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-323-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-178-success)]()
+[![Problems](https://img.shields.io/badge/Problems-324-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-179-success)]()
 [![Medium](https://img.shields.io/badge/Medium-114-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-31-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
@@ -14,8 +14,8 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 323 |
-| Easy | 178 |
+| Problems Solved | 324 |
+| Easy | 179 |
 | Medium | 114 |
 | Hard | 31 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
@@ -1213,7 +1213,7 @@
 
 ---
 
-## Uncategorized (38)
+## Uncategorized (39)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1255,6 +1255,7 @@
 | 3236 | Smallest Missing Integer Greater Than Sequential Prefix Sum | 🟢 Easy | [View](./3236-smallest-missing-integer-greater-than-sequential-prefix-sum/) |
 | 0400 | Nth Digit | 🟡 Medium | [View](./0400-nth-digit/) |
 | 1635 | Number of Good Pairs | 🟢 Easy | [View](./1635-number-of-good-pairs/) |
+| 1630 | Count Odd Numbers in an Interval Range | 🟢 Easy | [View](./1630-count-odd-numbers-in-an-interval-range/) |
 
 ---
 
@@ -1273,6 +1274,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 11 Aug 2026 | Count Odd Numbers in an Interval Range | 🟢 Easy | C++ |
 | 11 Aug 2026 | Number of Good Pairs | 🟢 Easy | C++ |
 | 11 Aug 2026 | Nth Digit | 🟡 Medium | C++ |
 | 11 Aug 2026 | Smallest Missing Integer Greater Than Sequential Prefix Sum | 🟢 Easy | C++ |
@@ -1282,7 +1284,6 @@
 | 09 Aug 2026 | Find the Lexicographically Smallest Valid Sequence | 🟡 Medium | C++ |
 | 07 Aug 2026 | Smallest Divisible Digit Product II | 🔴 Hard | C++ |
 | 07 Aug 2026 | Remove All Occurrences of a Substring | 🟡 Medium | C++ |
-| 07 Aug 2026 | Stone Game | 🟡 Medium | Rust |
 
 ---
 
