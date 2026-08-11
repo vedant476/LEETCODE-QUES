@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-321-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-322-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-177-success)]()
-[![Medium](https://img.shields.io/badge/Medium-113-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-114-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-31-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
@@ -14,9 +14,9 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 321 |
+| Problems Solved | 322 |
 | Easy | 177 |
-| Medium | 113 |
+| Medium | 114 |
 | Hard | 31 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
 | Last Sync | 11 Aug 2026 |
@@ -1213,7 +1213,7 @@
 
 ---
 
-## Uncategorized (36)
+## Uncategorized (37)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1253,6 +1253,7 @@
 | 1240 | Stone Game II | 🟡 Medium | [View](./1240-stone-game-ii/) |
 | 1617 | Stone Game IV | 🔴 Hard | [View](./1617-stone-game-iv/) |
 | 3236 | Smallest Missing Integer Greater Than Sequential Prefix Sum | 🟢 Easy | [View](./3236-smallest-missing-integer-greater-than-sequential-prefix-sum/) |
+| 0400 | Nth Digit | 🟡 Medium | [View](./0400-nth-digit/) |
 
 ---
 
@@ -1271,6 +1272,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 11 Aug 2026 | Nth Digit | 🟡 Medium | C++ |
 | 11 Aug 2026 | Smallest Missing Integer Greater Than Sequential Prefix Sum | 🟢 Easy | C++ |
 | 11 Aug 2026 | Stone Game IV | 🔴 Hard | C++ |
 | 10 Aug 2026 | Stone Game II | 🟡 Medium | C++ |
@@ -1280,7 +1282,6 @@
 | 07 Aug 2026 | Remove All Occurrences of a Substring | 🟡 Medium | C++ |
 | 07 Aug 2026 | Stone Game | 🟡 Medium | Rust |
 | 06 Aug 2026 | Contains Duplicate II | 🟢 Easy | C++ |
-| 06 Aug 2026 | Smallest Divisible Digit Product I | 🟢 Easy | C++ |
 
 ---
 

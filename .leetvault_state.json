@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 321,
+    "total": 322,
     "easy": 177,
-    "medium": 113,
+    "medium": 114,
     "hard": 31,
     "languages": [
       "Bash",
@@ -11440,6 +11440,28 @@
       "questionId": "3236",
       "url": "https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/",
       "difficulty": "Easy",
+      "tags": []
+    },
+    {
+      "title": "Nth Digit",
+      "slug": "nth-digit",
+      "qid": "400",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int findNthDigit(int n) {\n        long long d =9;\n        int f =1;\n        int l =1;\n\n        while(n>d*l){\n            n-= d*l;\n            l++;\n            f *= 10;\n            d *= 10;\n        }\n        f = f + (n-1)/l;\n        string s = to_string(f);\n        return s[(n-1)%l]-'0';\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "7.9 MB",
+          "status": "Accepted",
+          "timestamp": 1786424506,
+          "note": "",
+          "id": 2102312153
+        }
+      ],
+      "questionId": "400",
+      "url": "https://leetcode.com/problems/nth-digit/",
+      "difficulty": "Medium",
       "tags": []
     }
   ]
