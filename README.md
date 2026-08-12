@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-324-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-325-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-179-success)]()
-[![Medium](https://img.shields.io/badge/Medium-114-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-115-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-31-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 324 |
+| Problems Solved | 325 |
 | Easy | 179 |
-| Medium | 114 |
+| Medium | 115 |
 | Hard | 31 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 11 Aug 2026 |
+| Last Sync | 12 Aug 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (153)
+## Array (154)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -182,6 +182,7 @@
 | 0169 | Majority Element | 🟢 Easy | [View](./0169-majority-element/) |
 | 0004 | Median of Two Sorted Arrays | 🔴 Hard | [View](./0004-median-of-two-sorted-arrays/) |
 | 0001 | Two Sum | 🟢 Easy | [View](./0001-two-sum/) |
+| 3225 | Length of Longest Subarray With at Most K Frequency | 🟡 Medium | [View](./3225-length-of-longest-subarray-with-at-most-k-frequency/) |
 
 ---
 
@@ -536,7 +537,7 @@
 
 ---
 
-## Hash Table (59)
+## Hash Table (60)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -599,6 +600,7 @@
 | 0169 | Majority Element | 🟢 Easy | [View](./0169-majority-element/) |
 | 0013 | Roman to Integer | 🟢 Easy | [View](./0013-roman-to-integer/) |
 | 0001 | Two Sum | 🟢 Easy | [View](./0001-two-sum/) |
+| 3225 | Length of Longest Subarray With at Most K Frequency | 🟡 Medium | [View](./3225-length-of-longest-subarray-with-at-most-k-frequency/) |
 
 ---
 
@@ -984,13 +986,14 @@
 
 ---
 
-## Sliding Window (3)
+## Sliding Window (4)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1460 | Number of Substrings Containing All Three Characters | 🟡 Medium | [View](./1460-number-of-substrings-containing-all-three-characters/) |
 | 2001 | Jump Game VII | 🟡 Medium | [View](./2001-jump-game-vii/) |
 | 0239 | Sliding Window Maximum | 🔴 Hard | [View](./0239-sliding-window-maximum/) |
+| 3225 | Length of Longest Subarray With at Most K Frequency | 🟡 Medium | [View](./3225-length-of-longest-subarray-with-at-most-k-frequency/) |
 
 ---
 
@@ -1274,6 +1277,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 12 Aug 2026 | Length of Longest Subarray With at Most K Frequency | 🟡 Medium | C++ |
 | 11 Aug 2026 | Count Odd Numbers in an Interval Range | 🟢 Easy | C++ |
 | 11 Aug 2026 | Number of Good Pairs | 🟢 Easy | C++ |
 | 11 Aug 2026 | Nth Digit | 🟡 Medium | C++ |
@@ -1283,7 +1287,6 @@
 | 09 Aug 2026 | Min Stack | 🟡 Medium | C++ |
 | 09 Aug 2026 | Find the Lexicographically Smallest Valid Sequence | 🟡 Medium | C++ |
 | 07 Aug 2026 | Smallest Divisible Digit Product II | 🔴 Hard | C++ |
-| 07 Aug 2026 | Remove All Occurrences of a Substring | 🟡 Medium | C++ |
 
 ---
 

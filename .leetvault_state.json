@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 324,
+    "total": 325,
     "easy": 179,
-    "medium": 114,
+    "medium": 115,
     "hard": 31,
     "languages": [
       "Bash",
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "11 Aug 2026"
+    "lastSync": "12 Aug 2026"
   },
   "problems": [
     {
@@ -11507,6 +11507,44 @@
       "url": "https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/",
       "difficulty": "Easy",
       "tags": []
+    },
+    {
+      "title": "Length of Longest Subarray With at Most K Frequency",
+      "slug": "length-of-longest-subarray-with-at-most-k-frequency",
+      "qid": "3225",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int maxSubarrayLength(vector<int>& nums, int k) {\n        unordered_map<int, int> counter;\n        int result = 0, lo = 0;\n        for (int hi = 0; hi < nums.size(); ++hi) {\n            auto& c = counter[nums[hi]];\n            c++;\n            while (c > k) {\n                auto out = nums[lo++];\n                counter[out]--;\n            }\n            result = max(result, hi - lo + 1);\n        }\n        return result;\n    }\n};",
+          "runtime": "47 ms",
+          "memory": "149.4 MB",
+          "status": "Accepted",
+          "timestamp": 1786558990,
+          "note": "",
+          "id": 2104625949
+        }
+      ],
+      "questionId": "3225",
+      "url": "https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/",
+      "difficulty": "Medium",
+      "tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "Sliding Window",
+          "slug": "sliding-window"
+        }
+      ],
+      "likes": 1470,
+      "dislikes": 40,
+      "paidOnly": false
     }
   ]
 }
