@@ -1,9 +1,9 @@
 {
   "stats": {
-    "total": 325,
+    "total": 326,
     "easy": 179,
     "medium": 115,
-    "hard": 31,
+    "hard": 32,
     "languages": [
       "Bash",
       "C",
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "12 Aug 2026"
+    "lastSync": "14 Aug 2026"
   },
   "problems": [
     {
@@ -11544,6 +11544,48 @@
       ],
       "likes": 1470,
       "dislikes": 40,
+      "paidOnly": false
+    },
+    {
+      "title": "Longest Substring of One Repeating Character",
+      "slug": "longest-substring-of-one-repeating-character",
+      "qid": "2319",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    struct Node {\n        int val, l, r;\n        Node() : val(1), l(1), r(1) {}\n    };\n\n    vector<Node> tree;\n    string s;\n\n    void calculate(int ind, int tl, int tr, int mid) {\n        Node& curr = tree[ind];\n        Node& left = tree[ind * 2 + 1];\n        Node& right = tree[ind * 2 + 2];\n\n        curr.val = max(left.val, right.val);\n        curr.l = left.l;\n        curr.r = right.r;\n\n        if (s[mid] == s[mid + 1]) {\n            curr.val = max(curr.val, left.r + right.l);\n\n            if (left.l == mid - tl + 1) {\n                curr.l = left.l + right.l;\n            }\n            if (right.r == tr - mid) {\n                curr.r = left.r + right.r;\n            }\n        }\n    }\n\n    void build(int ind, int tl, int tr) {\n        if (tl == tr) {\n            tree[ind] = Node();\n            return;\n        }\n\n        int mid = tl + (tr - tl) / 2;\n        build(2 * ind + 1, tl, mid);\n        build(2 * ind + 2, mid + 1, tr);\n        calculate(ind, tl, tr, mid);\n    }\n\n    void update(int i, char ch, int tl, int tr, int ind) {\n        if (tl == tr) {\n            s[i] = ch;\n            tree[ind] = Node();\n            return;\n        }\n\n        int mid = tl + (tr - tl) / 2;\n        if (i <= mid)\n            update(i, ch, tl, mid, 2 * ind + 1);\n        else\n            update(i, ch, mid + 1, tr, 2 * ind + 2);\n\n        calculate(ind, tl, tr, mid);\n    }\n\n    vector<int> longestRepeating(string s, string queryCharacters, vector<int>& queryIndices) {\n        int n = s.size();\n        this->s = s;\n        tree.resize(4 * n);\n\n        build(0, 0, n - 1);\n        vector<int> ans;\n\n        for (int i = 0; i < queryIndices.size(); ++i) {\n            update(queryIndices[i], queryCharacters[i], 0, n - 1, 0);\n            ans.push_back(tree[0].val);\n        }\n\n        return ans;\n    }\n};",
+          "runtime": "112 ms",
+          "memory": "95.1 MB",
+          "status": "Accepted",
+          "timestamp": 1786648551,
+          "note": "",
+          "id": 2105894252
+        }
+      ],
+      "questionId": "2319",
+      "url": "https://leetcode.com/problems/longest-substring-of-one-repeating-character/",
+      "difficulty": "Hard",
+      "tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Segment Tree",
+          "slug": "segment-tree"
+        },
+        {
+          "name": "Ordered Set",
+          "slug": "ordered-set"
+        }
+      ],
+      "likes": 538,
+      "dislikes": 94,
       "paidOnly": false
     }
   ]

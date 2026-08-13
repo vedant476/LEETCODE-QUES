@@ -2,10 +2,10 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-325-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-326-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-179-success)]()
 [![Medium](https://img.shields.io/badge/Medium-115-orange)]()
-[![Hard](https://img.shields.io/badge/Hard-31-red)]()
+[![Hard](https://img.shields.io/badge/Hard-32-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
 ---
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 325 |
+| Problems Solved | 326 |
 | Easy | 179 |
 | Medium | 115 |
-| Hard | 31 |
+| Hard | 32 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 12 Aug 2026 |
+| Last Sync | 14 Aug 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (154)
+## Array (155)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -183,6 +183,7 @@
 | 0004 | Median of Two Sorted Arrays | 🔴 Hard | [View](./0004-median-of-two-sorted-arrays/) |
 | 0001 | Two Sum | 🟢 Easy | [View](./0001-two-sum/) |
 | 3225 | Length of Longest Subarray With at Most K Frequency | 🟡 Medium | [View](./3225-length-of-longest-subarray-with-at-most-k-frequency/) |
+| 2319 | Longest Substring of One Repeating Character | 🔴 Hard | [View](./2319-longest-substring-of-one-repeating-character/) |
 
 ---
 
@@ -830,11 +831,12 @@
 
 ---
 
-## Ordered Set (1)
+## Ordered Set (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 3435 | Block Placement Queries | 🔴 Hard | [View](./3435-block-placement-queries/) |
+| 2319 | Longest Substring of One Repeating Character | 🔴 Hard | [View](./2319-longest-substring-of-one-repeating-character/) |
 
 ---
 
@@ -935,7 +937,7 @@
 
 ---
 
-## Segment Tree (4)
+## Segment Tree (5)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -943,6 +945,7 @@
 | 4074 | Count Subarrays With Majority Element I | 🟡 Medium | [View](./4074-count-subarrays-with-majority-element-i/) |
 | 4007 | Maximum Total Subarray Value II | 🔴 Hard | [View](./4007-maximum-total-subarray-value-ii/) |
 | 3435 | Block Placement Queries | 🔴 Hard | [View](./3435-block-placement-queries/) |
+| 2319 | Longest Substring of One Repeating Character | 🔴 Hard | [View](./2319-longest-substring-of-one-repeating-character/) |
 
 ---
 
@@ -1070,7 +1073,7 @@
 
 ---
 
-## String (53)
+## String (54)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1127,6 +1130,7 @@
 | 0013 | Roman to Integer | 🟢 Easy | [View](./0013-roman-to-integer/) |
 | 0020 | Valid Parentheses | 🟢 Easy | [View](./0020-valid-parentheses/) |
 | 0344 | Reverse String | 🟢 Easy | [View](./0344-reverse-string/) |
+| 2319 | Longest Substring of One Repeating Character | 🔴 Hard | [View](./2319-longest-substring-of-one-repeating-character/) |
 
 ---
 
@@ -1277,6 +1281,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 14 Aug 2026 | Longest Substring of One Repeating Character | 🔴 Hard | C++ |
 | 12 Aug 2026 | Length of Longest Subarray With at Most K Frequency | 🟡 Medium | C++ |
 | 11 Aug 2026 | Count Odd Numbers in an Interval Range | 🟢 Easy | C++ |
 | 11 Aug 2026 | Number of Good Pairs | 🟢 Easy | C++ |
@@ -1286,7 +1291,6 @@
 | 10 Aug 2026 | Stone Game II | 🟡 Medium | C++ |
 | 09 Aug 2026 | Min Stack | 🟡 Medium | C++ |
 | 09 Aug 2026 | Find the Lexicographically Smallest Valid Sequence | 🟡 Medium | C++ |
-| 07 Aug 2026 | Smallest Divisible Digit Product II | 🔴 Hard | C++ |
 
 ---
 
