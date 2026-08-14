@@ -1,7 +1,7 @@
 {
   "stats": {
-    "total": 326,
-    "easy": 179,
+    "total": 327,
+    "easy": 180,
     "medium": 115,
     "hard": 32,
     "languages": [
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "14 Aug 2026"
+    "lastSync": "15 Aug 2026"
   },
   "problems": [
     {
@@ -11586,6 +11586,44 @@
       ],
       "likes": 538,
       "dislikes": 94,
+      "paidOnly": false
+    },
+    {
+      "title": "Maximum Length Substring With Two Occurrences",
+      "slug": "maximum-length-substring-with-two-occurrences",
+      "qid": "3349",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int maximumLengthSubstring(string s) {\n        unordered_map<int,int> cnt;\n        int ans =0, l=0;\n        for( int r =0;r<s.size();r++){\n            auto& c = cnt[s[r]];\n            c++;\n            while(c>2){\n                auto out = s[l++];\n                cnt[out]--;\n\n            }\n            ans = max(ans, r-l+1);\n\n\n        }\n\n        return ans;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "9.7 MB",
+          "status": "Accepted",
+          "timestamp": 1786733902,
+          "note": "",
+          "id": 2106981740
+        }
+      ],
+      "questionId": "3349",
+      "url": "https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/",
+      "difficulty": "Easy",
+      "tags": [
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Sliding Window",
+          "slug": "sliding-window"
+        }
+      ],
+      "likes": 497,
+      "dislikes": 32,
       "paidOnly": false
     }
   ]

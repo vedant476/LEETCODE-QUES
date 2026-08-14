@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-326-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-179-success)]()
+[![Problems](https://img.shields.io/badge/Problems-327-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-180-success)]()
 [![Medium](https://img.shields.io/badge/Medium-115-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-32-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 326 |
-| Easy | 179 |
+| Problems Solved | 327 |
+| Easy | 180 |
 | Medium | 115 |
 | Hard | 32 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 14 Aug 2026 |
+| Last Sync | 15 Aug 2026 |
 
 ---
 
@@ -538,7 +538,7 @@
 
 ---
 
-## Hash Table (60)
+## Hash Table (61)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -602,6 +602,7 @@
 | 0013 | Roman to Integer | 🟢 Easy | [View](./0013-roman-to-integer/) |
 | 0001 | Two Sum | 🟢 Easy | [View](./0001-two-sum/) |
 | 3225 | Length of Longest Subarray With at Most K Frequency | 🟡 Medium | [View](./3225-length-of-longest-subarray-with-at-most-k-frequency/) |
+| 3349 | Maximum Length Substring With Two Occurrences | 🟢 Easy | [View](./3349-maximum-length-substring-with-two-occurrences/) |
 
 ---
 
@@ -989,7 +990,7 @@
 
 ---
 
-## Sliding Window (4)
+## Sliding Window (5)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -997,6 +998,7 @@
 | 2001 | Jump Game VII | 🟡 Medium | [View](./2001-jump-game-vii/) |
 | 0239 | Sliding Window Maximum | 🔴 Hard | [View](./0239-sliding-window-maximum/) |
 | 3225 | Length of Longest Subarray With at Most K Frequency | 🟡 Medium | [View](./3225-length-of-longest-subarray-with-at-most-k-frequency/) |
+| 3349 | Maximum Length Substring With Two Occurrences | 🟢 Easy | [View](./3349-maximum-length-substring-with-two-occurrences/) |
 
 ---
 
@@ -1073,7 +1075,7 @@
 
 ---
 
-## String (54)
+## String (55)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1131,6 +1133,7 @@
 | 0020 | Valid Parentheses | 🟢 Easy | [View](./0020-valid-parentheses/) |
 | 0344 | Reverse String | 🟢 Easy | [View](./0344-reverse-string/) |
 | 2319 | Longest Substring of One Repeating Character | 🔴 Hard | [View](./2319-longest-substring-of-one-repeating-character/) |
+| 3349 | Maximum Length Substring With Two Occurrences | 🟢 Easy | [View](./3349-maximum-length-substring-with-two-occurrences/) |
 
 ---
 
@@ -1281,6 +1284,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 15 Aug 2026 | Maximum Length Substring With Two Occurrences | 🟢 Easy | C++ |
 | 14 Aug 2026 | Longest Substring of One Repeating Character | 🔴 Hard | C++ |
 | 12 Aug 2026 | Length of Longest Subarray With at Most K Frequency | 🟡 Medium | C++ |
 | 11 Aug 2026 | Count Odd Numbers in an Interval Range | 🟢 Easy | C++ |
@@ -1290,7 +1294,6 @@
 | 11 Aug 2026 | Stone Game IV | 🔴 Hard | C++ |
 | 10 Aug 2026 | Stone Game II | 🟡 Medium | C++ |
 | 09 Aug 2026 | Min Stack | 🟡 Medium | C++ |
-| 09 Aug 2026 | Find the Lexicographically Smallest Valid Sequence | 🟡 Medium | C++ |
 
 ---
 
