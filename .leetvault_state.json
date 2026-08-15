@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 327,
+    "total": 328,
     "easy": 180,
-    "medium": 115,
+    "medium": 116,
     "hard": 32,
     "languages": [
       "Bash",
@@ -11624,6 +11624,40 @@
       ],
       "likes": 497,
       "dislikes": 32,
+      "paidOnly": false
+    },
+    {
+      "title": "Longest Subsequence With Non-Zero Bitwise XOR",
+      "slug": "longest-subsequence-with-non-zero-bitwise-xor",
+      "qid": "4033",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int longestSubsequence(vector<int>& nums) {\n        auto tot = 0, nonZero = 0;\n\n        for (auto& n : nums) {\n            nonZero |= n > 0;\n            tot ^= n;\n        }\n\n        return nonZero * (nums.size() - !tot);\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "171.2 MB",
+          "status": "Accepted",
+          "timestamp": 1786813702,
+          "note": "",
+          "id": 2108032906
+        }
+      ],
+      "questionId": "4033",
+      "url": "https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/",
+      "difficulty": "Medium",
+      "tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Bit Manipulation",
+          "slug": "bit-manipulation"
+        }
+      ],
+      "likes": 307,
+      "dislikes": 19,
       "paidOnly": false
     }
   ]

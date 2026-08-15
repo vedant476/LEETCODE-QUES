@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-327-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-328-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-180-success)]()
-[![Medium](https://img.shields.io/badge/Medium-115-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-116-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-32-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
@@ -14,9 +14,9 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 327 |
+| Problems Solved | 328 |
 | Easy | 180 |
-| Medium | 115 |
+| Medium | 116 |
 | Hard | 32 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
 | Last Sync | 15 Aug 2026 |
@@ -25,7 +25,7 @@
 
 # 📂 Browse by Topic
 
-## Array (155)
+## Array (156)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -184,6 +184,7 @@
 | 0001 | Two Sum | 🟢 Easy | [View](./0001-two-sum/) |
 | 3225 | Length of Longest Subarray With at Most K Frequency | 🟡 Medium | [View](./3225-length-of-longest-subarray-with-at-most-k-frequency/) |
 | 2319 | Longest Substring of One Repeating Character | 🔴 Hard | [View](./2319-longest-substring-of-one-repeating-character/) |
+| 4033 | Longest Subsequence With Non-Zero Bitwise XOR | 🟡 Medium | [View](./4033-longest-subsequence-with-non-zero-bitwise-xor/) |
 
 ---
 
@@ -255,7 +256,7 @@
 
 ---
 
-## Bit Manipulation (23)
+## Bit Manipulation (24)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -282,6 +283,7 @@
 | 0268 | Missing Number | 🟢 Easy | [View](./0268-missing-number/) |
 | 0029 | Divide Two Integers | 🟡 Medium | [View](./0029-divide-two-integers/) |
 | 0190 | Reverse Bits | 🟢 Easy | [View](./0190-reverse-bits/) |
+| 4033 | Longest Subsequence With Non-Zero Bitwise XOR | 🟡 Medium | [View](./4033-longest-subsequence-with-non-zero-bitwise-xor/) |
 
 ---
 
@@ -1284,6 +1286,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 15 Aug 2026 | Longest Subsequence With Non-Zero Bitwise XOR | 🟡 Medium | C++ |
 | 15 Aug 2026 | Maximum Length Substring With Two Occurrences | 🟢 Easy | C++ |
 | 14 Aug 2026 | Longest Substring of One Repeating Character | 🔴 Hard | C++ |
 | 12 Aug 2026 | Length of Longest Subarray With at Most K Frequency | 🟡 Medium | C++ |
@@ -1293,7 +1296,6 @@
 | 11 Aug 2026 | Smallest Missing Integer Greater Than Sequential Prefix Sum | 🟢 Easy | C++ |
 | 11 Aug 2026 | Stone Game IV | 🔴 Hard | C++ |
 | 10 Aug 2026 | Stone Game II | 🟡 Medium | C++ |
-| 09 Aug 2026 | Min Stack | 🟡 Medium | C++ |
 
 ---
 
