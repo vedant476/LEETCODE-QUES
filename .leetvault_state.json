@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 328,
+    "total": 329,
     "easy": 180,
-    "medium": 116,
+    "medium": 117,
     "hard": 32,
     "languages": [
       "Bash",
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "15 Aug 2026"
+    "lastSync": "16 Aug 2026"
   },
   "problems": [
     {
@@ -11658,6 +11658,64 @@
       ],
       "likes": 307,
       "dislikes": 19,
+      "paidOnly": false
+    },
+    {
+      "title": "Stone Game IX",
+      "slug": "stone-game-ix",
+      "qid": "2156",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    bool stoneGameIX(vector<int>& stones) {\n        int f[3] = {0,0,0};\n        for( int i : stones){\n            f[i%3]++;\n        }\n        if (~f[0] & 1)\n            return min(f[1], f[2]) > 0;\n\n        return abs(f[1] - f[2]) > 2;\n    }\n};",
+          "runtime": "12 ms",
+          "memory": "131.4 MB",
+          "status": "Accepted",
+          "timestamp": 1786870373,
+          "note": "",
+          "id": 2108761002
+        }
+      ],
+      "questionId": "2156",
+      "url": "https://leetcode.com/problems/stone-game-ix/",
+      "difficulty": "Medium",
+      "tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Math",
+          "slug": "math"
+        },
+        {
+          "name": "Greedy",
+          "slug": "greedy"
+        },
+        {
+          "name": "Minimax",
+          "slug": "minimax-algorithm"
+        },
+        {
+          "name": "Counting",
+          "slug": "counting"
+        },
+        {
+          "name": "Game Theory",
+          "slug": "game-theory"
+        },
+        {
+          "name": "Nim Game",
+          "slug": "nim-game"
+        },
+        {
+          "name": "Zero-Sum Game",
+          "slug": "zero-sum-game"
+        }
+      ],
+      "likes": 353,
+      "dislikes": 308,
       "paidOnly": false
     }
   ]

@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-328-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-329-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-180-success)]()
-[![Medium](https://img.shields.io/badge/Medium-116-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-117-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-32-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 328 |
+| Problems Solved | 329 |
 | Easy | 180 |
-| Medium | 116 |
+| Medium | 117 |
 | Hard | 32 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 15 Aug 2026 |
+| Last Sync | 16 Aug 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (156)
+## Array (157)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -185,6 +185,7 @@
 | 3225 | Length of Longest Subarray With at Most K Frequency | 🟡 Medium | [View](./3225-length-of-longest-subarray-with-at-most-k-frequency/) |
 | 2319 | Longest Substring of One Repeating Character | 🔴 Hard | [View](./2319-longest-substring-of-one-repeating-character/) |
 | 4033 | Longest Subsequence With Non-Zero Bitwise XOR | 🟡 Medium | [View](./4033-longest-subsequence-with-non-zero-bitwise-xor/) |
+| 2156 | Stone Game IX | 🟡 Medium | [View](./2156-stone-game-ix/) |
 
 ---
 
@@ -343,7 +344,7 @@
 
 ---
 
-## Counting (22)
+## Counting (23)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -369,6 +370,7 @@
 | 1500 | Count Largest Group | 🟢 Easy | [View](./1500-count-largest-group/) |
 | 1510 | Find Lucky Integer in an Array | 🟢 Easy | [View](./1510-find-lucky-integer-in-an-array/) |
 | 0169 | Majority Element | 🟢 Easy | [View](./0169-majority-element/) |
+| 2156 | Stone Game IX | 🟡 Medium | [View](./2156-stone-game-ix/) |
 
 ---
 
@@ -474,7 +476,7 @@
 
 ---
 
-## Game Theory (6)
+## Game Theory (7)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -484,6 +486,7 @@
 | 3462 | Vowels Game in a String | 🟡 Medium | [View](./3462-vowels-game-in-a-string/) |
 | 0828 | Chalkboard XOR Game | 🔴 Hard | [View](./0828-chalkboard-xor-game/) |
 | 1086 | Divisor Game | 🟢 Easy | [View](./1086-divisor-game/) |
+| 2156 | Stone Game IX | 🟡 Medium | [View](./2156-stone-game-ix/) |
 
 ---
 
@@ -517,7 +520,7 @@
 
 ---
 
-## Greedy (16)
+## Greedy (17)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -537,6 +540,7 @@
 | 0011 | Container With Most Water | 🟡 Medium | [View](./0011-container-with-most-water/) |
 | 0561 | Array Partition | 🟢 Easy | [View](./0561-array-partition/) |
 | 0605 | Can Place Flowers | 🟢 Easy | [View](./0605-can-place-flowers/) |
+| 2156 | Stone Game IX | 🟡 Medium | [View](./2156-stone-game-ix/) |
 
 ---
 
@@ -652,7 +656,7 @@
 
 ---
 
-## Math (104)
+## Math (105)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -760,6 +764,7 @@
 | 0066 | Plus One | 🟢 Easy | [View](./0066-plus-one/) |
 | 0029 | Divide Two Integers | 🟡 Medium | [View](./0029-divide-two-integers/) |
 | 0013 | Roman to Integer | 🟢 Easy | [View](./0013-roman-to-integer/) |
+| 2156 | Stone Game IX | 🟡 Medium | [View](./2156-stone-game-ix/) |
 
 ---
 
@@ -798,6 +803,14 @@
 
 ---
 
+## Minimax (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2156 | Stone Game IX | 🟡 Medium | [View](./2156-stone-game-ix/) |
+
+---
+
 ## Monotonic Queue (1)
 
 | # | Problem | Difficulty | Solution |
@@ -811,6 +824,14 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0042 | Trapping Rain Water | 🔴 Hard | [View](./0042-trapping-rain-water/) |
+
+---
+
+## Nim Game (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2156 | Stone Game IX | 🟡 Medium | [View](./2156-stone-game-ix/) |
 
 ---
 
@@ -1282,10 +1303,19 @@
 
 ---
 
+## Zero-Sum Game (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2156 | Stone Game IX | 🟡 Medium | [View](./2156-stone-game-ix/) |
+
+---
+
 # 🔥 Recently Solved
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 16 Aug 2026 | Stone Game IX | 🟡 Medium | C++ |
 | 15 Aug 2026 | Longest Subsequence With Non-Zero Bitwise XOR | 🟡 Medium | C++ |
 | 15 Aug 2026 | Maximum Length Substring With Two Occurrences | 🟢 Easy | C++ |
 | 14 Aug 2026 | Longest Substring of One Repeating Character | 🔴 Hard | C++ |
@@ -1295,7 +1325,6 @@
 | 11 Aug 2026 | Nth Digit | 🟡 Medium | C++ |
 | 11 Aug 2026 | Smallest Missing Integer Greater Than Sequential Prefix Sum | 🟢 Easy | C++ |
 | 11 Aug 2026 | Stone Game IV | 🔴 Hard | C++ |
-| 10 Aug 2026 | Stone Game II | 🟡 Medium | C++ |
 
 ---
 
