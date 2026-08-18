@@ -18,7 +18,7 @@
 | Easy | 181 |
 | Medium | 117 |
 | Hard | 32 |
-| Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
+| Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, Pythondata |
 | Last Sync | 18 Aug 2026 |
 
 ---
