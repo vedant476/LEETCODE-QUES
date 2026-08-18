@@ -1,7 +1,7 @@
 {
   "stats": {
-    "total": 329,
-    "easy": 180,
+    "total": 330,
+    "easy": 181,
     "medium": 117,
     "hard": 32,
     "languages": [
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "16 Aug 2026"
+    "lastSync": "18 Aug 2026"
   },
   "problems": [
     {
@@ -11716,6 +11716,40 @@
       ],
       "likes": 353,
       "dislikes": 308,
+      "paidOnly": false
+    },
+    {
+      "title": "Find the Largest Almost Missing Integer",
+      "slug": "find-the-largest-almost-missing-integer",
+      "qid": "3705",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int largestInteger(vector<int>& nums, int k) {\n        if(nums.size()==1){\n            return -1;\n        }\n        int n = nums.size();\n        if (n == k) {\n            return *max_element(nums.begin(), nums.end());\n        }\n        unordered_map<int,int>frq;\n        for( int i:nums){\n             frq[i]++;\n        }\n        if(k ==1){\n            for( int i=50;i>=1;i--){\n                if(frq[i] == 1) return i;\n            }\n            return -1;\n        }\n        int ans =-1;\n        if(nums.front()!=nums.back()){\n        if (frq[nums.front()] == 1)\n            ans = max(ans, nums.front());\n\n        if (frq[nums.back()] == 1)\n            ans = max(ans, nums.back());\n}\n        return ans;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "29.7 MB",
+          "status": "Accepted",
+          "timestamp": 1787060303,
+          "note": "",
+          "id": 2111470592
+        }
+      ],
+      "questionId": "3705",
+      "url": "https://leetcode.com/problems/find-the-largest-almost-missing-integer/",
+      "difficulty": "Easy",
+      "tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        }
+      ],
+      "likes": 282,
+      "dislikes": 103,
       "paidOnly": false
     }
   ]

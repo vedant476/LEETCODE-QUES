@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-329-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-180-success)]()
+[![Problems](https://img.shields.io/badge/Problems-330-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-181-success)]()
 [![Medium](https://img.shields.io/badge/Medium-117-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-32-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 329 |
-| Easy | 180 |
+| Problems Solved | 330 |
+| Easy | 181 |
 | Medium | 117 |
 | Hard | 32 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 16 Aug 2026 |
+| Last Sync | 18 Aug 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (157)
+## Array (158)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -186,6 +186,7 @@
 | 2319 | Longest Substring of One Repeating Character | 🔴 Hard | [View](./2319-longest-substring-of-one-repeating-character/) |
 | 4033 | Longest Subsequence With Non-Zero Bitwise XOR | 🟡 Medium | [View](./4033-longest-subsequence-with-non-zero-bitwise-xor/) |
 | 2156 | Stone Game IX | 🟡 Medium | [View](./2156-stone-game-ix/) |
+| 3705 | Find the Largest Almost Missing Integer | 🟢 Easy | [View](./3705-find-the-largest-almost-missing-integer/) |
 
 ---
 
@@ -544,7 +545,7 @@
 
 ---
 
-## Hash Table (61)
+## Hash Table (62)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -609,6 +610,7 @@
 | 0001 | Two Sum | 🟢 Easy | [View](./0001-two-sum/) |
 | 3225 | Length of Longest Subarray With at Most K Frequency | 🟡 Medium | [View](./3225-length-of-longest-subarray-with-at-most-k-frequency/) |
 | 3349 | Maximum Length Substring With Two Occurrences | 🟢 Easy | [View](./3349-maximum-length-substring-with-two-occurrences/) |
+| 3705 | Find the Largest Almost Missing Integer | 🟢 Easy | [View](./3705-find-the-largest-almost-missing-integer/) |
 
 ---
 
@@ -1315,6 +1317,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 18 Aug 2026 | Find the Largest Almost Missing Integer | 🟢 Easy | C++ |
 | 16 Aug 2026 | Stone Game IX | 🟡 Medium | C++ |
 | 15 Aug 2026 | Longest Subsequence With Non-Zero Bitwise XOR | 🟡 Medium | C++ |
 | 15 Aug 2026 | Maximum Length Substring With Two Occurrences | 🟢 Easy | C++ |
@@ -1324,7 +1327,6 @@
 | 11 Aug 2026 | Number of Good Pairs | 🟢 Easy | C++ |
 | 11 Aug 2026 | Nth Digit | 🟡 Medium | C++ |
 | 11 Aug 2026 | Smallest Missing Integer Greater Than Sequential Prefix Sum | 🟢 Easy | C++ |
-| 11 Aug 2026 | Stone Game IV | 🔴 Hard | C++ |
 
 ---
 
