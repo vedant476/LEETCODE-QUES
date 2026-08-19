@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 330,
+    "total": 331,
     "easy": 181,
-    "medium": 117,
+    "medium": 118,
     "hard": 32,
     "languages": [
       "Bash",
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "18 Aug 2026"
+    "lastSync": "19 Aug 2026"
   },
   "problems": [
     {
@@ -11750,6 +11750,48 @@
       ],
       "likes": 282,
       "dislikes": 103,
+      "paidOnly": false
+    },
+    {
+      "title": "Cinema Seat Allocation",
+      "slug": "cinema-seat-allocation",
+      "qid": "1487",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int maxNumberOfFamilies(int n, vector<vector<int>>& reservedSeats) {\n        int left = 0b11110000;\n        int middle = 0b11000011;\n        int right = 0b00001111;\n\n        unordered_map<int, int> occupied;\n        for (const vector<int>& seat : reservedSeats) {\n            if (seat[1] >= 2 && seat[1] <= 9) {\n                occupied[seat[0]] |= (1 << (seat[1] - 2));\n            }\n        }\n\n        int ans = (n - occupied.size()) * 2;\n        for (auto& [row, bitmask] : occupied) {\n            if (((bitmask | left) == left) || ((bitmask | middle) == middle) ||\n                ((bitmask | right) == right)) {\n                ++ans;\n            }\n        }\n        return ans;\n    }\n};",
+          "runtime": "18 ms",
+          "memory": "59.2 MB",
+          "status": "Accepted",
+          "timestamp": 1787162750,
+          "note": "",
+          "id": 2113087098
+        }
+      ],
+      "questionId": "1487",
+      "url": "https://leetcode.com/problems/cinema-seat-allocation/",
+      "difficulty": "Medium",
+      "tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "Greedy",
+          "slug": "greedy"
+        },
+        {
+          "name": "Bit Manipulation",
+          "slug": "bit-manipulation"
+        }
+      ],
+      "likes": 1294,
+      "dislikes": 438,
       "paidOnly": false
     }
   ]

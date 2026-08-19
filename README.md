@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-330-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-331-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-181-success)]()
-[![Medium](https://img.shields.io/badge/Medium-117-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-118-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-32-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 330 |
+| Problems Solved | 331 |
 | Easy | 181 |
-| Medium | 117 |
+| Medium | 118 |
 | Hard | 32 |
-| Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, Pythondata |
-| Last Sync | 18 Aug 2026 |
+| Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
+| Last Sync | 19 Aug 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (158)
+## Array (159)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -187,6 +187,7 @@
 | 4033 | Longest Subsequence With Non-Zero Bitwise XOR | 🟡 Medium | [View](./4033-longest-subsequence-with-non-zero-bitwise-xor/) |
 | 2156 | Stone Game IX | 🟡 Medium | [View](./2156-stone-game-ix/) |
 | 3705 | Find the Largest Almost Missing Integer | 🟢 Easy | [View](./3705-find-the-largest-almost-missing-integer/) |
+| 1487 | Cinema Seat Allocation | 🟡 Medium | [View](./1487-cinema-seat-allocation/) |
 
 ---
 
@@ -258,7 +259,7 @@
 
 ---
 
-## Bit Manipulation (24)
+## Bit Manipulation (25)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -286,6 +287,7 @@
 | 0029 | Divide Two Integers | 🟡 Medium | [View](./0029-divide-two-integers/) |
 | 0190 | Reverse Bits | 🟢 Easy | [View](./0190-reverse-bits/) |
 | 4033 | Longest Subsequence With Non-Zero Bitwise XOR | 🟡 Medium | [View](./4033-longest-subsequence-with-non-zero-bitwise-xor/) |
+| 1487 | Cinema Seat Allocation | 🟡 Medium | [View](./1487-cinema-seat-allocation/) |
 
 ---
 
@@ -521,7 +523,7 @@
 
 ---
 
-## Greedy (17)
+## Greedy (18)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -542,10 +544,11 @@
 | 0561 | Array Partition | 🟢 Easy | [View](./0561-array-partition/) |
 | 0605 | Can Place Flowers | 🟢 Easy | [View](./0605-can-place-flowers/) |
 | 2156 | Stone Game IX | 🟡 Medium | [View](./2156-stone-game-ix/) |
+| 1487 | Cinema Seat Allocation | 🟡 Medium | [View](./1487-cinema-seat-allocation/) |
 
 ---
 
-## Hash Table (62)
+## Hash Table (63)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -611,6 +614,7 @@
 | 3225 | Length of Longest Subarray With at Most K Frequency | 🟡 Medium | [View](./3225-length-of-longest-subarray-with-at-most-k-frequency/) |
 | 3349 | Maximum Length Substring With Two Occurrences | 🟢 Easy | [View](./3349-maximum-length-substring-with-two-occurrences/) |
 | 3705 | Find the Largest Almost Missing Integer | 🟢 Easy | [View](./3705-find-the-largest-almost-missing-integer/) |
+| 1487 | Cinema Seat Allocation | 🟡 Medium | [View](./1487-cinema-seat-allocation/) |
 
 ---
 
@@ -1317,6 +1321,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 19 Aug 2026 | Cinema Seat Allocation | 🟡 Medium | C++ |
 | 18 Aug 2026 | Find the Largest Almost Missing Integer | 🟢 Easy | C++ |
 | 16 Aug 2026 | Stone Game IX | 🟡 Medium | C++ |
 | 15 Aug 2026 | Longest Subsequence With Non-Zero Bitwise XOR | 🟡 Medium | C++ |
@@ -1326,7 +1331,6 @@
 | 11 Aug 2026 | Count Odd Numbers in an Interval Range | 🟢 Easy | C++ |
 | 11 Aug 2026 | Number of Good Pairs | 🟢 Easy | C++ |
 | 11 Aug 2026 | Nth Digit | 🟡 Medium | C++ |
-| 11 Aug 2026 | Smallest Missing Integer Greater Than Sequential Prefix Sum | 🟢 Easy | C++ |
 
 ---
 
