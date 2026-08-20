@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-331-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-181-success)]()
+[![Problems](https://img.shields.io/badge/Problems-332-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-182-success)]()
 [![Medium](https://img.shields.io/badge/Medium-118-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-32-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 331 |
-| Easy | 181 |
+| Problems Solved | 332 |
+| Easy | 182 |
 | Medium | 118 |
 | Hard | 32 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 19 Aug 2026 |
+| Last Sync | 20 Aug 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (159)
+## Array (160)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -188,6 +188,7 @@
 | 2156 | Stone Game IX | 🟡 Medium | [View](./2156-stone-game-ix/) |
 | 3705 | Find the Largest Almost Missing Integer | 🟢 Easy | [View](./3705-find-the-largest-almost-missing-integer/) |
 | 1487 | Cinema Seat Allocation | 🟡 Medium | [View](./1487-cinema-seat-allocation/) |
+| 3347 | Distribute Elements Into Two Arrays I | 🟢 Easy | [View](./3347-distribute-elements-into-two-arrays-i/) |
 
 ---
 
@@ -997,7 +998,7 @@
 
 ---
 
-## Simulation (15)
+## Simulation (16)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1016,6 +1017,7 @@
 | 1627 | Last Moment Before All Ants Fall Out of a Plank | 🟡 Medium | [View](./1627-last-moment-before-all-ants-fall-out-of-a-plank/) |
 | 0258 | Add Digits | 🟢 Easy | [View](./0258-add-digits/) |
 | 0067 | Add Binary | 🟢 Easy | [View](./0067-add-binary/) |
+| 3347 | Distribute Elements Into Two Arrays I | 🟢 Easy | [View](./3347-distribute-elements-into-two-arrays-i/) |
 
 ---
 
@@ -1321,6 +1323,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 20 Aug 2026 | Distribute Elements Into Two Arrays I | 🟢 Easy | C++ |
 | 19 Aug 2026 | Cinema Seat Allocation | 🟡 Medium | C++ |
 | 18 Aug 2026 | Find the Largest Almost Missing Integer | 🟢 Easy | C++ |
 | 16 Aug 2026 | Stone Game IX | 🟡 Medium | C++ |
@@ -1330,7 +1333,6 @@
 | 12 Aug 2026 | Length of Longest Subarray With at Most K Frequency | 🟡 Medium | C++ |
 | 11 Aug 2026 | Count Odd Numbers in an Interval Range | 🟢 Easy | C++ |
 | 11 Aug 2026 | Number of Good Pairs | 🟢 Easy | C++ |
-| 11 Aug 2026 | Nth Digit | 🟡 Medium | C++ |
 
 ---
 
