@@ -2,10 +2,10 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-332-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-333-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-182-success)]()
 [![Medium](https://img.shields.io/badge/Medium-118-orange)]()
-[![Hard](https://img.shields.io/badge/Hard-32-red)]()
+[![Hard](https://img.shields.io/badge/Hard-33-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
 ---
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 332 |
+| Problems Solved | 333 |
 | Easy | 182 |
 | Medium | 118 |
-| Hard | 32 |
+| Hard | 33 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 20 Aug 2026 |
+| Last Sync | 21 Aug 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (160)
+## Array (161)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -189,6 +189,7 @@
 | 3705 | Find the Largest Almost Missing Integer | 🟢 Easy | [View](./3705-find-the-largest-almost-missing-integer/) |
 | 1487 | Cinema Seat Allocation | 🟡 Medium | [View](./1487-cinema-seat-allocation/) |
 | 3347 | Distribute Elements Into Two Arrays I | 🟢 Easy | [View](./3347-distribute-elements-into-two-arrays-i/) |
+| 3375 | Kth Smallest Amount With Single Denomination Combination | 🔴 Hard | [View](./3375-kth-smallest-amount-with-single-denomination-combination/) |
 
 ---
 
@@ -210,7 +211,7 @@
 
 ---
 
-## Binary Search (32)
+## Binary Search (33)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -246,6 +247,7 @@
 | 0268 | Missing Number | 🟢 Easy | [View](./0268-missing-number/) |
 | 0035 | Search Insert Position | 🟢 Easy | [View](./0035-search-insert-position/) |
 | 0004 | Median of Two Sorted Arrays | 🔴 Hard | [View](./0004-median-of-two-sorted-arrays/) |
+| 3375 | Kth Smallest Amount With Single Denomination Combination | 🔴 Hard | [View](./3375-kth-smallest-amount-with-single-denomination-combination/) |
 
 ---
 
@@ -260,7 +262,7 @@
 
 ---
 
-## Bit Manipulation (25)
+## Bit Manipulation (26)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -289,6 +291,7 @@
 | 0190 | Reverse Bits | 🟢 Easy | [View](./0190-reverse-bits/) |
 | 4033 | Longest Subsequence With Non-Zero Bitwise XOR | 🟡 Medium | [View](./4033-longest-subsequence-with-non-zero-bitwise-xor/) |
 | 1487 | Cinema Seat Allocation | 🟡 Medium | [View](./1487-cinema-seat-allocation/) |
+| 3375 | Kth Smallest Amount With Single Denomination Combination | 🔴 Hard | [View](./3375-kth-smallest-amount-with-single-denomination-combination/) |
 
 ---
 
@@ -338,13 +341,14 @@
 
 ---
 
-## Combinatorics (3)
+## Combinatorics (4)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 3583 | Sorted GCD Pair Queries | 🔴 Hard | [View](./3583-sorted-gcd-pair-queries/) |
 | 1996 | Number of Ways to Rearrange Sticks With K Sticks Visible | 🔴 Hard | [View](./1996-number-of-ways-to-rearrange-sticks-with-k-sticks-visible/) |
 | 3864 | Count the Number of Computer Unlocking Permutations | 🟡 Medium | [View](./3864-count-the-number-of-computer-unlocking-permutations/) |
+| 3375 | Kth Smallest Amount With Single Denomination Combination | 🔴 Hard | [View](./3375-kth-smallest-amount-with-single-denomination-combination/) |
 
 ---
 
@@ -663,7 +667,7 @@
 
 ---
 
-## Math (105)
+## Math (106)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -772,6 +776,7 @@
 | 0029 | Divide Two Integers | 🟡 Medium | [View](./0029-divide-two-integers/) |
 | 0013 | Roman to Integer | 🟢 Easy | [View](./0013-roman-to-integer/) |
 | 2156 | Stone Game IX | 🟡 Medium | [View](./2156-stone-game-ix/) |
+| 3375 | Kth Smallest Amount With Single Denomination Combination | 🔴 Hard | [View](./3375-kth-smallest-amount-with-single-denomination-combination/) |
 
 ---
 
@@ -842,7 +847,7 @@
 
 ---
 
-## Number Theory (13)
+## Number Theory (14)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -859,6 +864,7 @@
 | 2507 | Number of Common Factors | 🟢 Easy | [View](./2507-number-of-common-factors/) |
 | 4297 | Sum of Primes Between Number and Its Reverse | 🟡 Medium | [View](./4297-sum-of-primes-between-number-and-its-reverse/) |
 | 0258 | Add Digits | 🟢 Easy | [View](./0258-add-digits/) |
+| 3375 | Kth Smallest Amount With Single Denomination Combination | 🔴 Hard | [View](./3375-kth-smallest-amount-with-single-denomination-combination/) |
 
 ---
 
@@ -1323,6 +1329,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 21 Aug 2026 | Kth Smallest Amount With Single Denomination Combination | 🔴 Hard | C++ |
 | 20 Aug 2026 | Distribute Elements Into Two Arrays I | 🟢 Easy | C++ |
 | 19 Aug 2026 | Cinema Seat Allocation | 🟡 Medium | C++ |
 | 18 Aug 2026 | Find the Largest Almost Missing Integer | 🟢 Easy | C++ |
@@ -1332,7 +1339,6 @@
 | 14 Aug 2026 | Longest Substring of One Repeating Character | 🔴 Hard | C++ |
 | 12 Aug 2026 | Length of Longest Subarray With at Most K Frequency | 🟡 Medium | C++ |
 | 11 Aug 2026 | Count Odd Numbers in an Interval Range | 🟢 Easy | C++ |
-| 11 Aug 2026 | Number of Good Pairs | 🟢 Easy | C++ |
 
 ---
 

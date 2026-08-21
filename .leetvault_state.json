@@ -1,9 +1,9 @@
 {
   "stats": {
-    "total": 332,
+    "total": 333,
     "easy": 182,
     "medium": 118,
-    "hard": 32,
+    "hard": 33,
     "languages": [
       "Bash",
       "C",
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "20 Aug 2026"
+    "lastSync": "21 Aug 2026"
   },
   "problems": [
     {
@@ -11826,6 +11826,56 @@
       ],
       "likes": 301,
       "dislikes": 54,
+      "paidOnly": false
+    },
+    {
+      "title": "Kth Smallest Amount With Single Denomination Combination",
+      "slug": "kth-smallest-amount-with-single-denomination-combination",
+      "qid": "3375",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "using ll=long long;\nconstexpr int N=1<<15;\nll dp[N];\nclass Solution {\npublic:\n    static ll f(long long x, unsigned bitMask){\n        ll cnt=0;\n        for(unsigned i=1; i<=bitMask; i++)\n            cnt+=(popcount(i)&1)?(x/dp[i]):(-x/dp[i]);\n        return cnt;\n    }\n\n    static long long findKthSmallest(vector<int>& coins, int k) {\n        sort(coins.begin(), coins.end(), greater<>());\n        if (coins.back()==1) return k;\n        bitset<26> valid_coin=0;\n        for (int c: coins){\n            valid_coin[c]=1;\n            for(int r=2*c; r<26; r+=c) valid_coin[r]=0;\n        }\n        coins.clear();\n        for(int i=1; i<=25; i++) \n            if(valid_coin[i]) coins.push_back(i);\n\n        int sz=coins.size();\n        if (sz==1) return (ll)coins[0]*k;\n\n        unsigned bitMask=(1<<sz)-1;\n        memset(dp, -1, (1<<sz)*sizeof(ll));\n\n        // Loop through all possible subsets of coins\n        for (int bMask=1; bMask<=bitMask; bMask++) {\n            ll lcm=1;\n            for (int i=0; i<sz; i++) {\n                if (bMask & (1LL<<i)) {\n                    lcm=lcm/gcd(lcm, coins[i])*coins[i] ; // compute LCM\n                }\n            }\n            dp[bMask]=lcm;\n        }\n       \n        ll l=k+1, r=(ll)coins[0]*k, mid, ans=r;\n\n        while (l<=r) {\n            mid=l+(r-l)/2;\n            if (f(mid, bitMask)>=k){\n                ans=mid;\n                r=mid-1;\n            }\n            else\n                l=mid+1;\n        }\n        return ans;\n    }\n};\n\n\nauto init = []() {\n    ios::sync_with_stdio(0);\n    cin.tie(0);\n    cout.tie(0);\n    return 'c';\n}();",
+          "runtime": "0 ms",
+          "memory": "20.7 MB",
+          "status": "Accepted",
+          "timestamp": 1787336313,
+          "note": "",
+          "id": 2115401953
+        }
+      ],
+      "questionId": "3375",
+      "url": "https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/",
+      "difficulty": "Hard",
+      "tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Math",
+          "slug": "math"
+        },
+        {
+          "name": "Binary Search",
+          "slug": "binary-search"
+        },
+        {
+          "name": "Bit Manipulation",
+          "slug": "bit-manipulation"
+        },
+        {
+          "name": "Combinatorics",
+          "slug": "combinatorics"
+        },
+        {
+          "name": "Number Theory",
+          "slug": "number-theory"
+        }
+      ],
+      "likes": 483,
+      "dislikes": 31,
       "paidOnly": false
     }
   ]
