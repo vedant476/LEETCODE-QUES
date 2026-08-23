@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-333-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-334-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-182-success)]()
-[![Medium](https://img.shields.io/badge/Medium-118-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-119-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-33-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 333 |
+| Problems Solved | 334 |
 | Easy | 182 |
-| Medium | 118 |
+| Medium | 119 |
 | Hard | 33 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 21 Aug 2026 |
+| Last Sync | 23 Aug 2026 |
 
 ---
 
@@ -484,7 +484,7 @@
 
 ---
 
-## Game Theory (7)
+## Game Theory (8)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -495,6 +495,7 @@
 | 0828 | Chalkboard XOR Game | 🔴 Hard | [View](./0828-chalkboard-xor-game/) |
 | 1086 | Divisor Game | 🟢 Easy | [View](./1086-divisor-game/) |
 | 2156 | Stone Game IX | 🟡 Medium | [View](./2156-stone-game-ix/) |
+| 2039 | Sum Game | 🟡 Medium | [View](./2039-sum-game/) |
 
 ---
 
@@ -528,7 +529,7 @@
 
 ---
 
-## Greedy (18)
+## Greedy (19)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -550,6 +551,7 @@
 | 0605 | Can Place Flowers | 🟢 Easy | [View](./0605-can-place-flowers/) |
 | 2156 | Stone Game IX | 🟡 Medium | [View](./2156-stone-game-ix/) |
 | 1487 | Cinema Seat Allocation | 🟡 Medium | [View](./1487-cinema-seat-allocation/) |
+| 2039 | Sum Game | 🟡 Medium | [View](./2039-sum-game/) |
 
 ---
 
@@ -667,7 +669,7 @@
 
 ---
 
-## Math (106)
+## Math (107)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -777,6 +779,7 @@
 | 0013 | Roman to Integer | 🟢 Easy | [View](./0013-roman-to-integer/) |
 | 2156 | Stone Game IX | 🟡 Medium | [View](./2156-stone-game-ix/) |
 | 3375 | Kth Smallest Amount With Single Denomination Combination | 🔴 Hard | [View](./3375-kth-smallest-amount-with-single-denomination-combination/) |
+| 2039 | Sum Game | 🟡 Medium | [View](./2039-sum-game/) |
 
 ---
 
@@ -1112,7 +1115,7 @@
 
 ---
 
-## String (55)
+## String (56)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1171,6 +1174,7 @@
 | 0344 | Reverse String | 🟢 Easy | [View](./0344-reverse-string/) |
 | 2319 | Longest Substring of One Repeating Character | 🔴 Hard | [View](./2319-longest-substring-of-one-repeating-character/) |
 | 3349 | Maximum Length Substring With Two Occurrences | 🟢 Easy | [View](./3349-maximum-length-substring-with-two-occurrences/) |
+| 2039 | Sum Game | 🟡 Medium | [View](./2039-sum-game/) |
 
 ---
 
@@ -1329,6 +1333,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 23 Aug 2026 | Sum Game | 🟡 Medium | C++ |
 | 21 Aug 2026 | Kth Smallest Amount With Single Denomination Combination | 🔴 Hard | C++ |
 | 20 Aug 2026 | Distribute Elements Into Two Arrays I | 🟢 Easy | C++ |
 | 19 Aug 2026 | Cinema Seat Allocation | 🟡 Medium | C++ |
@@ -1338,7 +1343,6 @@
 | 15 Aug 2026 | Maximum Length Substring With Two Occurrences | 🟢 Easy | C++ |
 | 14 Aug 2026 | Longest Substring of One Repeating Character | 🔴 Hard | C++ |
 | 12 Aug 2026 | Length of Longest Subarray With at Most K Frequency | 🟡 Medium | C++ |
-| 11 Aug 2026 | Count Odd Numbers in an Interval Range | 🟢 Easy | C++ |
 
 ---
 

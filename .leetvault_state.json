@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 333,
+    "total": 334,
     "easy": 182,
-    "medium": 118,
+    "medium": 119,
     "hard": 33,
     "languages": [
       "Bash",
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "21 Aug 2026"
+    "lastSync": "23 Aug 2026"
   },
   "problems": [
     {
@@ -11876,6 +11876,48 @@
       ],
       "likes": 483,
       "dislikes": 31,
+      "paidOnly": false
+    },
+    {
+      "title": "Sum Game",
+      "slug": "sum-game",
+      "qid": "2039",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    bool sumGame(string& num) {\n        const int n=num.size(), n2=n>>1;\n        int diff=0;\n        for(int i=0; i<n; i++){\n            const char c=num[i];\n            bool isq=c=='?', half=i<n2;\n            int sgn=(half<<1)-1;\n            int d=(-isq & 9)+(-!isq & (c-'0')<<1);\n            diff+=sgn*d;\n        }\n        return diff!=0;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "12.9 MB",
+          "status": "Accepted",
+          "timestamp": 1787509589,
+          "note": "",
+          "id": 2117712138
+        }
+      ],
+      "questionId": "2039",
+      "url": "https://leetcode.com/problems/sum-game/",
+      "difficulty": "Medium",
+      "tags": [
+        {
+          "name": "Math",
+          "slug": "math"
+        },
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Greedy",
+          "slug": "greedy"
+        },
+        {
+          "name": "Game Theory",
+          "slug": "game-theory"
+        }
+      ],
+      "likes": 824,
+      "dislikes": 132,
       "paidOnly": false
     }
   ]
