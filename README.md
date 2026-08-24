@@ -2,10 +2,10 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-334-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-335-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-182-success)]()
 [![Medium](https://img.shields.io/badge/Medium-119-orange)]()
-[![Hard](https://img.shields.io/badge/Hard-33-red)]()
+[![Hard](https://img.shields.io/badge/Hard-34-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
 ---
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 334 |
+| Problems Solved | 335 |
 | Easy | 182 |
 | Medium | 119 |
-| Hard | 33 |
+| Hard | 34 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 23 Aug 2026 |
+| Last Sync | 24 Aug 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (161)
+## Array (162)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -190,6 +190,7 @@
 | 1487 | Cinema Seat Allocation | 🟡 Medium | [View](./1487-cinema-seat-allocation/) |
 | 3347 | Distribute Elements Into Two Arrays I | 🟢 Easy | [View](./3347-distribute-elements-into-two-arrays-i/) |
 | 3375 | Kth Smallest Amount With Single Denomination Combination | 🔴 Hard | [View](./3375-kth-smallest-amount-with-single-denomination-combination/) |
+| 2002 | Stone Game VIII | 🔴 Hard | [View](./2002-stone-game-viii/) |
 
 ---
 
@@ -438,7 +439,7 @@
 
 ---
 
-## Dynamic Programming (21)
+## Dynamic Programming (22)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -463,6 +464,7 @@
 | 1086 | Divisor Game | 🟢 Easy | [View](./1086-divisor-game/) |
 | 1362 | Airplane Seat Assignment Probability | 🟡 Medium | [View](./1362-airplane-seat-assignment-probability/) |
 | 1013 | Fibonacci Number | 🟢 Easy | [View](./1013-fibonacci-number/) |
+| 2002 | Stone Game VIII | 🔴 Hard | [View](./2002-stone-game-viii/) |
 
 ---
 
@@ -484,7 +486,7 @@
 
 ---
 
-## Game Theory (8)
+## Game Theory (9)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -496,6 +498,7 @@
 | 1086 | Divisor Game | 🟢 Easy | [View](./1086-divisor-game/) |
 | 2156 | Stone Game IX | 🟡 Medium | [View](./2156-stone-game-ix/) |
 | 2039 | Sum Game | 🟡 Medium | [View](./2039-sum-game/) |
+| 2002 | Stone Game VIII | 🔴 Hard | [View](./2002-stone-game-viii/) |
 
 ---
 
@@ -669,7 +672,7 @@
 
 ---
 
-## Math (107)
+## Math (108)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -780,6 +783,7 @@
 | 2156 | Stone Game IX | 🟡 Medium | [View](./2156-stone-game-ix/) |
 | 3375 | Kth Smallest Amount With Single Denomination Combination | 🔴 Hard | [View](./3375-kth-smallest-amount-with-single-denomination-combination/) |
 | 2039 | Sum Game | 🟡 Medium | [View](./2039-sum-game/) |
+| 2002 | Stone Game VIII | 🔴 Hard | [View](./2002-stone-game-viii/) |
 
 ---
 
@@ -818,11 +822,12 @@
 
 ---
 
-## Minimax (1)
+## Minimax (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2156 | Stone Game IX | 🟡 Medium | [View](./2156-stone-game-ix/) |
+| 2002 | Stone Game VIII | 🔴 Hard | [View](./2002-stone-game-viii/) |
 
 ---
 
@@ -880,7 +885,7 @@
 
 ---
 
-## Prefix Sum (12)
+## Prefix Sum (13)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -896,6 +901,7 @@
 | 2571 | Find the Pivot Integer | 🟢 Easy | [View](./2571-find-the-pivot-integer/) |
 | 2787 | Movement of Robots | 🟡 Medium | [View](./2787-movement-of-robots/) |
 | 2001 | Jump Game VII | 🟡 Medium | [View](./2001-jump-game-vii/) |
+| 2002 | Stone Game VIII | 🔴 Hard | [View](./2002-stone-game-viii/) |
 
 ---
 
@@ -1321,11 +1327,12 @@
 
 ---
 
-## Zero-Sum Game (1)
+## Zero-Sum Game (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2156 | Stone Game IX | 🟡 Medium | [View](./2156-stone-game-ix/) |
+| 2002 | Stone Game VIII | 🔴 Hard | [View](./2002-stone-game-viii/) |
 
 ---
 
@@ -1333,6 +1340,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 24 Aug 2026 | Stone Game VIII | 🔴 Hard | C++ |
 | 23 Aug 2026 | Sum Game | 🟡 Medium | C++ |
 | 21 Aug 2026 | Kth Smallest Amount With Single Denomination Combination | 🔴 Hard | C++ |
 | 20 Aug 2026 | Distribute Elements Into Two Arrays I | 🟢 Easy | C++ |
@@ -1342,7 +1350,6 @@
 | 15 Aug 2026 | Longest Subsequence With Non-Zero Bitwise XOR | 🟡 Medium | C++ |
 | 15 Aug 2026 | Maximum Length Substring With Two Occurrences | 🟢 Easy | C++ |
 | 14 Aug 2026 | Longest Substring of One Repeating Character | 🔴 Hard | C++ |
-| 12 Aug 2026 | Length of Longest Subarray With at Most K Frequency | 🟡 Medium | C++ |
 
 ---
 

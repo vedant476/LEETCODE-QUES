@@ -1,9 +1,9 @@
 {
   "stats": {
-    "total": 334,
+    "total": 335,
     "easy": 182,
     "medium": 119,
-    "hard": 33,
+    "hard": 34,
     "languages": [
       "Bash",
       "C",
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "23 Aug 2026"
+    "lastSync": "24 Aug 2026"
   },
   "problems": [
     {
@@ -11918,6 +11918,60 @@
       ],
       "likes": 824,
       "dislikes": 132,
+      "paidOnly": false
+    },
+    {
+      "title": "Stone Game VIII",
+      "slug": "stone-game-viii",
+      "qid": "2002",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int stoneGameVIII(vector<int>& A) {\n        int n = A.size();\n        for (int i = 1; i < n; i++)\n            A[i] += A[i - 1];\n\n        int ans = A.back();\n        for (int i = n - 2; i > 0; i--)\n            ans = max(ans, A[i] - ans);\n\n        return ans;\n    }\n};",
+          "runtime": "103 ms",
+          "memory": "87.1 MB",
+          "status": "Accepted",
+          "timestamp": 1787595602,
+          "note": "",
+          "id": 2118837140
+        }
+      ],
+      "questionId": "2002",
+      "url": "https://leetcode.com/problems/stone-game-viii/",
+      "difficulty": "Hard",
+      "tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Math",
+          "slug": "math"
+        },
+        {
+          "name": "Dynamic Programming",
+          "slug": "dynamic-programming"
+        },
+        {
+          "name": "Minimax",
+          "slug": "minimax-algorithm"
+        },
+        {
+          "name": "Prefix Sum",
+          "slug": "prefix-sum"
+        },
+        {
+          "name": "Game Theory",
+          "slug": "game-theory"
+        },
+        {
+          "name": "Zero-Sum Game",
+          "slug": "zero-sum-game"
+        }
+      ],
+      "likes": 666,
+      "dislikes": 41,
       "paidOnly": false
     }
   ]
