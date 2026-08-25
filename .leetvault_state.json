@@ -1,7 +1,7 @@
 {
   "stats": {
-    "total": 335,
-    "easy": 182,
+    "total": 336,
+    "easy": 183,
     "medium": 119,
     "hard": 34,
     "languages": [
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "24 Aug 2026"
+    "lastSync": "25 Aug 2026"
   },
   "problems": [
     {
@@ -11972,6 +11972,40 @@
       ],
       "likes": 666,
       "dislikes": 41,
+      "paidOnly": false
+    },
+    {
+      "title": "Smallest Missing Multiple of K",
+      "slug": "smallest-missing-multiple-of-k",
+      "qid": "4080",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int missingMultiple(vector<int>& nums, int k) {\n        uint64_t x[2] = {0, 0};\n        for (auto& n : nums)\n            if (n % k == 0) {\n                int i = n / k - 1;\n                x[i >> 6] |= 1ULL << (i & 63);\n            }\n\n        int z = x[0] == -1ULL;\n        return (z * 64 + bit_width(++x[z] & -x[z])) * k;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "24 MB",
+          "status": "Accepted",
+          "timestamp": 1787682321,
+          "note": "",
+          "id": 2120048617
+        }
+      ],
+      "questionId": "4080",
+      "url": "https://leetcode.com/problems/smallest-missing-multiple-of-k/",
+      "difficulty": "Easy",
+      "tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        }
+      ],
+      "likes": 320,
+      "dislikes": 14,
       "paidOnly": false
     }
   ]

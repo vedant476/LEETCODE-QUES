@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-335-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-182-success)]()
+[![Problems](https://img.shields.io/badge/Problems-336-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-183-success)]()
 [![Medium](https://img.shields.io/badge/Medium-119-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-34-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 335 |
-| Easy | 182 |
+| Problems Solved | 336 |
+| Easy | 183 |
 | Medium | 119 |
 | Hard | 34 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 24 Aug 2026 |
+| Last Sync | 25 Aug 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (162)
+## Array (163)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -191,6 +191,7 @@
 | 3347 | Distribute Elements Into Two Arrays I | 🟢 Easy | [View](./3347-distribute-elements-into-two-arrays-i/) |
 | 3375 | Kth Smallest Amount With Single Denomination Combination | 🔴 Hard | [View](./3375-kth-smallest-amount-with-single-denomination-combination/) |
 | 2002 | Stone Game VIII | 🔴 Hard | [View](./2002-stone-game-viii/) |
+| 4080 | Smallest Missing Multiple of K | 🟢 Easy | [View](./4080-smallest-missing-multiple-of-k/) |
 
 ---
 
@@ -558,7 +559,7 @@
 
 ---
 
-## Hash Table (63)
+## Hash Table (64)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -625,6 +626,7 @@
 | 3349 | Maximum Length Substring With Two Occurrences | 🟢 Easy | [View](./3349-maximum-length-substring-with-two-occurrences/) |
 | 3705 | Find the Largest Almost Missing Integer | 🟢 Easy | [View](./3705-find-the-largest-almost-missing-integer/) |
 | 1487 | Cinema Seat Allocation | 🟡 Medium | [View](./1487-cinema-seat-allocation/) |
+| 4080 | Smallest Missing Multiple of K | 🟢 Easy | [View](./4080-smallest-missing-multiple-of-k/) |
 
 ---
 
@@ -1340,6 +1342,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 25 Aug 2026 | Smallest Missing Multiple of K | 🟢 Easy | C++ |
 | 24 Aug 2026 | Stone Game VIII | 🔴 Hard | C++ |
 | 23 Aug 2026 | Sum Game | 🟡 Medium | C++ |
 | 21 Aug 2026 | Kth Smallest Amount With Single Denomination Combination | 🔴 Hard | C++ |
@@ -1349,7 +1352,6 @@
 | 16 Aug 2026 | Stone Game IX | 🟡 Medium | C++ |
 | 15 Aug 2026 | Longest Subsequence With Non-Zero Bitwise XOR | 🟡 Medium | C++ |
 | 15 Aug 2026 | Maximum Length Substring With Two Occurrences | 🟢 Easy | C++ |
-| 14 Aug 2026 | Longest Substring of One Repeating Character | 🔴 Hard | C++ |
 
 ---
 
