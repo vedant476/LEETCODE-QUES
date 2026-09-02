@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 8 ms |
@@ -20,10 +20,7 @@ https://leetcode.com/problems/maximum-ice-cream-bars/
 
 ## 🏷 Tags
 
-- Array
-- Greedy
-- Sorting
-- Counting Sort
+- None
 
 ---
 

@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟢 Easy |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,10 +20,7 @@ https://leetcode.com/problems/binary-tree-postorder-traversal/
 
 ## 🏷 Tags
 
-- Stack
-- Tree
-- Depth-First Search
-- Binary Tree
+- None
 
 ---
 

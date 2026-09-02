@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 9 ms |
@@ -20,10 +20,7 @@ https://leetcode.com/problems/jump-game-vii/
 
 ## 🏷 Tags
 
-- String
-- Dynamic Programming
-- Sliding Window
-- Prefix Sum
+- None
 
 ---
 

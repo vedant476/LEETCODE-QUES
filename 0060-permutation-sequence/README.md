@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🔴 Hard |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 51 ms |
@@ -20,8 +20,7 @@ https://leetcode.com/problems/permutation-sequence/
 
 ## 🏷 Tags
 
-- Math
-- Recursion
+- None
 
 ---
 

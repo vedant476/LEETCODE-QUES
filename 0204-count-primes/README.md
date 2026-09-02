@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,10 +20,7 @@ https://leetcode.com/problems/count-primes/
 
 ## 🏷 Tags
 
-- Array
-- Math
-- Enumeration
-- Number Theory
+- None
 
 ---
 

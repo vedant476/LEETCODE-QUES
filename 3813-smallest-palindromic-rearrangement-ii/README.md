@@ -2,12 +2,12 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🔴 Hard |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
-| Runtime | 227 ms |
-| Memory | 18.8 MB |
-| Submission ID | 2086690663 |
+| Runtime | 0 ms |
+| Memory | 14.4 MB |
+| Submission ID | 2086690911 |
 | Solved On | 30 Jul 2026 |
 
 ---
@@ -34,7 +34,7 @@ No notes provided.
 
 | Language | Runtime | Memory | File |
 |----------|---------|--------|------|
-| C++ | 227 ms | 18.8 MB | [solution.cpp](./solution.cpp) |
+| C++ | 0 ms | 14.4 MB | [solution.cpp](./solution.cpp) |
 
 ---
 Generated automatically using [LeetVault](https://github.com/vedant476/LeetVault).

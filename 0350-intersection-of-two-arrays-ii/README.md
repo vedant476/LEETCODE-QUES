@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟢 Easy |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,11 +20,7 @@ https://leetcode.com/problems/intersection-of-two-arrays-ii/
 
 ## 🏷 Tags
 
-- Array
-- Hash Table
-- Two Pointers
-- Binary Search
-- Sorting
+- None
 
 ---
 

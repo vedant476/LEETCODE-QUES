@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🔴 Hard |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 361 ms |
@@ -20,10 +20,7 @@ https://leetcode.com/problems/maximum-total-subarray-value-ii/
 
 ## 🏷 Tags
 
-- Array
-- Greedy
-- Segment Tree
-- Heap (Priority Queue)
+- None
 
 ---
 

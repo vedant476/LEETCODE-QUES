@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🔴 Hard |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,9 +20,7 @@ https://leetcode.com/problems/median-of-two-sorted-arrays/
 
 ## 🏷 Tags
 
-- Array
-- Binary Search
-- Divide and Conquer
+- None
 
 ---
 

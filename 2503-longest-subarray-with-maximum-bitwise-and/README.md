@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 4 ms |
@@ -20,9 +20,7 @@ https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/
 
 ## 🏷 Tags
 
-- Array
-- Bit Manipulation
-- Brainteaser
+- None
 
 ---
 

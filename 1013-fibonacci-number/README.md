@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟢 Easy |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 2 ms |
@@ -20,10 +20,7 @@ https://leetcode.com/problems/fibonacci-number/
 
 ## 🏷 Tags
 
-- Math
-- Dynamic Programming
-- Recursion
-- Memoization
+- None
 
 ---
 

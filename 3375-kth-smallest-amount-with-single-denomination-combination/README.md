@@ -20,12 +20,7 @@ https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combi
 
 ## 🏷 Tags
 
-- Array
-- Math
-- Binary Search
-- Bit Manipulation
-- Combinatorics
-- Number Theory
+- None
 
 ---
 

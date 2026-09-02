@@ -20,10 +20,7 @@ https://leetcode.com/problems/cinema-seat-allocation/
 
 ## 🏷 Tags
 
-- Array
-- Hash Table
-- Greedy
-- Bit Manipulation
+- None
 
 ---
 

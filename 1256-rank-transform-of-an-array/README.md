@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟢 Easy |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 73 ms |
@@ -20,9 +20,7 @@ https://leetcode.com/problems/rank-transform-of-an-array/
 
 ## 🏷 Tags
 
-- Array
-- Hash Table
-- Sorting
+- None
 
 ---
 

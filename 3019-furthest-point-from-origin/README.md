@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟢 Easy |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,8 +20,7 @@ https://leetcode.com/problems/furthest-point-from-origin/
 
 ## 🏷 Tags
 
-- String
-- Counting
+- None
 
 ---
 

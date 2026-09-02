@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟢 Easy |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 15 ms |
@@ -20,10 +20,7 @@ https://leetcode.com/problems/palindrome-linked-list/
 
 ## 🏷 Tags
 
-- Linked List
-- Two Pointers
-- Stack
-- Recursion
+- None
 
 ---
 

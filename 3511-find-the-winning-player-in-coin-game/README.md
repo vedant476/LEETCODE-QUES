@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟢 Easy |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,9 +20,7 @@ https://leetcode.com/problems/find-the-winning-player-in-coin-game/
 
 ## 🏷 Tags
 
-- Math
-- Simulation
-- Game Theory
+- None
 
 ---
 

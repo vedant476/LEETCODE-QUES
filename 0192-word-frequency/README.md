@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | Bash |
 | Status | ✅ Accepted |
 | Runtime | 75 ms |
@@ -20,7 +20,7 @@ https://leetcode.com/problems/word-frequency/
 
 ## 🏷 Tags
 
-- Shell
+- None
 
 ---
 

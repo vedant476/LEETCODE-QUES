@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 49 ms |
@@ -20,9 +20,7 @@ https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/
 
 ## 🏷 Tags
 
-- Math
-- Dynamic Programming
-- Enumeration
+- None
 
 ---
 

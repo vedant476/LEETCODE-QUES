@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🔴 Hard |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 565 ms |
@@ -20,8 +20,7 @@ https://leetcode.com/problems/number-of-zigzag-arrays-ii/
 
 ## 🏷 Tags
 
-- Math
-- Dynamic Programming
+- None
 
 ---
 

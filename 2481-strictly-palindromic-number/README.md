@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | Racket |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,9 +20,7 @@ https://leetcode.com/problems/strictly-palindromic-number/
 
 ## 🏷 Tags
 
-- Math
-- Two Pointers
-- Brainteaser
+- None
 
 ---
 

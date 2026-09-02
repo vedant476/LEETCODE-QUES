@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🔴 Hard |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 13 ms |
@@ -20,9 +20,7 @@ https://leetcode.com/problems/jump-game-v/
 
 ## 🏷 Tags
 
-- Array
-- Dynamic Programming
-- Sorting
+- None
 
 ---
 

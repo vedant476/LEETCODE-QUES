@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟢 Easy |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,9 +20,7 @@ https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/
 
 ## 🏷 Tags
 
-- Hash Table
-- String
-- Counting
+- None
 
 ---
 

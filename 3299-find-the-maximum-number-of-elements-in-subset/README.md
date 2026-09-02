@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 73 ms |
@@ -20,9 +20,7 @@ https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/
 
 ## 🏷 Tags
 
-- Array
-- Hash Table
-- Enumeration
+- None
 
 ---
 

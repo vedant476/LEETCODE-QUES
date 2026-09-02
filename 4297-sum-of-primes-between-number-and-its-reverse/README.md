@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,8 +20,7 @@ https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/
 
 ## 🏷 Tags
 
-- Math
-- Number Theory
+- None
 
 ---
 

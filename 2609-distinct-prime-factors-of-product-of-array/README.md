@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | JavaScript |
 | Status | ✅ Accepted |
 | Runtime | 73 ms |
@@ -20,10 +20,7 @@ https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/
 
 ## 🏷 Tags
 
-- Array
-- Hash Table
-- Math
-- Number Theory
+- None
 
 ---
 

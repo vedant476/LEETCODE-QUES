@@ -2,13 +2,13 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟢 Easy |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
-| Runtime | 0 ms |
-| Memory | 31.6 MB |
-| Submission ID | 2046701259 |
-| Solved On | 26 Jun 2026 |
+| Runtime | 27 ms |
+| Memory | 31.7 MB |
+| Submission ID | 2081633265 |
+| Solved On | 26 Jul 2026 |
 
 ---
 
@@ -20,9 +20,7 @@ https://leetcode.com/problems/maximum-product-of-three-numbers/
 
 ## 🏷 Tags
 
-- Array
-- Math
-- Sorting
+- None
 
 ---
 
@@ -36,7 +34,7 @@ No notes provided.
 
 | Language | Runtime | Memory | File |
 |----------|---------|--------|------|
-| C++ | 0 ms | 31.6 MB | [solution.cpp](./solution.cpp) |
+| C++ | 27 ms | 31.7 MB | [solution.cpp](./solution.cpp) |
 
 ---
 Generated automatically using [LeetVault](https://github.com/vedant476/LeetVault).

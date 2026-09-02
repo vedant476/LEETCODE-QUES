@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🔴 Hard |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 70 ms |
@@ -20,14 +20,7 @@ https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/
 
 ## 🏷 Tags
 
-- Array
-- Two Pointers
-- Binary Search
-- Dynamic Programming
-- Greedy
-- Bit Manipulation
-- Graph Theory
-- Sorting
+- None
 
 ---
 

@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟢 Easy |
+| Difficulty | ⚪ Unknown |
 | Language | Go |
 | Status | ✅ Accepted |
 | Runtime | 1 ms |
@@ -20,7 +20,7 @@ https://leetcode.com/problems/find-the-maximum-achievable-number/
 
 ## 🏷 Tags
 
-- Math
+- None
 
 ---
 

@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,9 +20,7 @@ https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/
 
 ## 🏷 Tags
 
-- Linked List
-- Math
-- Number Theory
+- None
 
 ---
 

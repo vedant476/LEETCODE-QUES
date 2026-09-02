@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 19 ms |
@@ -20,9 +20,7 @@ https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii
 
 ## 🏷 Tags
 
-- Math
-- String
-- Prefix Sum
+- None
 
 ---
 

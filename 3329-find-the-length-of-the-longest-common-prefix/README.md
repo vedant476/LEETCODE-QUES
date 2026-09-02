@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 323 ms |
@@ -20,10 +20,7 @@ https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/
 
 ## 🏷 Tags
 
-- Array
-- Hash Table
-- String
-- Trie
+- None
 
 ---
 

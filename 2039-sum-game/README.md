@@ -20,10 +20,7 @@ https://leetcode.com/problems/sum-game/
 
 ## 🏷 Tags
 
-- Math
-- String
-- Greedy
-- Game Theory
+- None
 
 ---
 

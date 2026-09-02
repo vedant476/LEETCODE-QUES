@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🔴 Hard |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 48 ms |
@@ -20,9 +20,7 @@ https://leetcode.com/problems/longest-common-suffix-queries/
 
 ## 🏷 Tags
 
-- Array
-- String
-- Trie
+- None
 
 ---
 

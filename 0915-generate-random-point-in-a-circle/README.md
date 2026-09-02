@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 12 ms |
@@ -20,10 +20,7 @@ https://leetcode.com/problems/generate-random-point-in-a-circle/
 
 ## 🏷 Tags
 
-- Math
-- Geometry
-- Rejection Sampling
-- Randomized
+- None
 
 ---
 

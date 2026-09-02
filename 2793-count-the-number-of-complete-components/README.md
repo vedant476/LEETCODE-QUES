@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 36 ms |
@@ -20,10 +20,7 @@ https://leetcode.com/problems/count-the-number-of-complete-components/
 
 ## 🏷 Tags
 
-- Depth-First Search
-- Breadth-First Search
-- Union-Find
-- Graph Theory
+- None
 
 ---
 

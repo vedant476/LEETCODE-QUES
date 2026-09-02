@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟢 Easy |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,7 +20,7 @@ https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/
 
 ## 🏷 Tags
 
-- Math
+- None
 
 ---
 

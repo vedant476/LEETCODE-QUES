@@ -20,8 +20,7 @@ https://leetcode.com/problems/smallest-missing-multiple-of-k/
 
 ## 🏷 Tags
 
-- Array
-- Hash Table
+- None
 
 ---
 

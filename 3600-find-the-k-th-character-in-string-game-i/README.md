@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟢 Easy |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,10 +20,7 @@ https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/
 
 ## 🏷 Tags
 
-- Math
-- Bit Manipulation
-- Recursion
-- Simulation
+- None
 
 ---
 

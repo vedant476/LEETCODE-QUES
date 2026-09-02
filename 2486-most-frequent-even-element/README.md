@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟢 Easy |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 3 ms |
@@ -20,9 +20,7 @@ https://leetcode.com/problems/most-frequent-even-element/
 
 ## 🏷 Tags
 
-- Array
-- Hash Table
-- Counting
+- None
 
 ---
 

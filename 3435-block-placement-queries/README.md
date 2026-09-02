@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🔴 Hard |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 259 ms |
@@ -20,11 +20,7 @@ https://leetcode.com/problems/block-placement-queries/
 
 ## 🏷 Tags
 
-- Array
-- Binary Search
-- Binary Indexed Tree
-- Segment Tree
-- Ordered Set
+- None
 
 ---
 

@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🔴 Hard |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 1188 ms |
@@ -20,10 +20,7 @@ https://leetcode.com/problems/find-the-number-of-subsequences-with-equal-gcd/
 
 ## 🏷 Tags
 
-- Array
-- Math
-- Dynamic Programming
-- Number Theory
+- None
 
 ---
 

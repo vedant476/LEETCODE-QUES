@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | Java |
 | Status | ❌ Compile Error |
 | Runtime | N/A |
@@ -20,10 +20,7 @@ https://leetcode.com/problems/maximum-gap/
 
 ## 🏷 Tags
 
-- Array
-- Sorting
-- Bucket Sort
-- Radix Sort
+- None
 
 ---
 

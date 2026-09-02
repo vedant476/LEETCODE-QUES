@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🔴 Hard |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 8 ms |
@@ -20,9 +20,7 @@ https://leetcode.com/problems/number-of-paths-with-max-score/
 
 ## 🏷 Tags
 
-- Array
-- Dynamic Programming
-- Matrix
+- None
 
 ---
 

@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,10 +20,7 @@ https://leetcode.com/problems/airplane-seat-assignment-probability/
 
 ## 🏷 Tags
 
-- Math
-- Dynamic Programming
-- Brainteaser
-- Probability and Statistics
+- None
 
 ---
 

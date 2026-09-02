@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟢 Easy |
+| Difficulty | ⚪ Unknown |
 | Language | C |
 | Status | ✅ Accepted |
 | Runtime | 50 ms |
@@ -20,8 +20,7 @@ https://leetcode.com/problems/reverse-string/
 
 ## 🏷 Tags
 
-- Two Pointers
-- String
+- None
 
 ---
 

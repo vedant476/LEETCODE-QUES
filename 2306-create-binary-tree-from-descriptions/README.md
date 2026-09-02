@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 194 ms |
@@ -20,10 +20,7 @@ https://leetcode.com/problems/create-binary-tree-from-descriptions/
 
 ## 🏷 Tags
 
-- Array
-- Hash Table
-- Tree
-- Binary Tree
+- None
 
 ---
 

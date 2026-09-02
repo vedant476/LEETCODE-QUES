@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 1 ms |
@@ -20,8 +20,7 @@ https://leetcode.com/problems/minimum-moves-to-equal-array-elements/
 
 ## 🏷 Tags
 
-- Array
-- Math
+- None
 
 ---
 

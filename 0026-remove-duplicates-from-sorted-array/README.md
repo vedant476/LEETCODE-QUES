@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟢 Easy |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 91 ms |
@@ -20,8 +20,7 @@ https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
 ## 🏷 Tags
 
-- Array
-- Two Pointers
+- None
 
 ---
 

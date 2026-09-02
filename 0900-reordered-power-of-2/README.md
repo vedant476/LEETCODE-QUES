@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,11 +20,7 @@ https://leetcode.com/problems/reordered-power-of-2/
 
 ## 🏷 Tags
 
-- Hash Table
-- Math
-- Sorting
-- Counting
-- Enumeration
+- None
 
 ---
 

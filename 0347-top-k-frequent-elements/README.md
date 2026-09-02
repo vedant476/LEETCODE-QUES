@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 4 ms |
@@ -20,14 +20,7 @@ https://leetcode.com/problems/top-k-frequent-elements/
 
 ## 🏷 Tags
 
-- Array
-- Hash Table
-- Divide and Conquer
-- Sorting
-- Heap (Priority Queue)
-- Bucket Sort
-- Counting
-- Quickselect
+- None
 
 ---
 

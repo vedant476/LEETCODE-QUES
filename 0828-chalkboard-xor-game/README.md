@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🔴 Hard |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,11 +20,7 @@ https://leetcode.com/problems/chalkboard-xor-game/
 
 ## 🏷 Tags
 
-- Array
-- Math
-- Bit Manipulation
-- Brainteaser
-- Game Theory
+- None
 
 ---
 

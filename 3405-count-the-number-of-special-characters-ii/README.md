@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 30 ms |
@@ -20,8 +20,7 @@ https://leetcode.com/problems/count-the-number-of-special-characters-ii/
 
 ## 🏷 Tags
 
-- Hash Table
-- String
+- None
 
 ---
 

@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 8 ms |
@@ -20,12 +20,7 @@ https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/
 
 ## 🏷 Tags
 
-- Array
-- String
-- Divide and Conquer
-- Sorting
-- Heap (Priority Queue)
-- Quickselect
+- None
 
 ---
 

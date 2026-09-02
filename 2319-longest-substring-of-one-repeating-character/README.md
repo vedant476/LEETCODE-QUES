@@ -20,10 +20,7 @@ https://leetcode.com/problems/longest-substring-of-one-repeating-character/
 
 ## 🏷 Tags
 
-- Array
-- String
-- Segment Tree
-- Ordered Set
+- None
 
 ---
 

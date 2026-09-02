@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟢 Easy |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 2 ms |
@@ -20,10 +20,7 @@ https://leetcode.com/problems/divide-array-into-equal-pairs/
 
 ## 🏷 Tags
 
-- Array
-- Hash Table
-- Bit Manipulation
-- Counting
+- None
 
 ---
 

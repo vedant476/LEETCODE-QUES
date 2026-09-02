@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🔴 Hard |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 2 ms |
@@ -20,8 +20,7 @@ https://leetcode.com/problems/candy/
 
 ## 🏷 Tags
 
-- Array
-- Greedy
+- None
 
 ---
 

@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟢 Easy |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 1 ms |
@@ -20,8 +20,7 @@ https://leetcode.com/problems/minimum-swaps-to-move-zeros-to-end/
 
 ## 🏷 Tags
 
-- Array
-- Two Pointers
+- None
 
 ---
 

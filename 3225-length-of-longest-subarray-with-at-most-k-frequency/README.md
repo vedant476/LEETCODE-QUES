@@ -20,9 +20,7 @@ https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequenc
 
 ## 🏷 Tags
 
-- Array
-- Hash Table
-- Sliding Window
+- None
 
 ---
 

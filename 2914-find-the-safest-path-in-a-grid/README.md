@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 183 ms |
@@ -20,12 +20,7 @@ https://leetcode.com/problems/find-the-safest-path-in-a-grid/
 
 ## 🏷 Tags
 
-- Array
-- Binary Search
-- Breadth-First Search
-- Union-Find
-- Heap (Priority Queue)
-- Matrix
+- None
 
 ---
 

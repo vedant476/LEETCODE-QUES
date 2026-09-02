@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟢 Easy |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,8 +20,7 @@ https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-b
 
 ## 🏷 Tags
 
-- Array
-- Math
+- None
 
 ---
 

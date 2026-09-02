@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 1 ms |
@@ -20,9 +20,7 @@ https://leetcode.com/problems/container-with-most-water/
 
 ## 🏷 Tags
 
-- Array
-- Two Pointers
-- Greedy
+- None
 
 ---
 

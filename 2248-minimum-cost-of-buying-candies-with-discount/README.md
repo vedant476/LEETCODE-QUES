@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟢 Easy |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,9 +20,7 @@ https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/
 
 ## 🏷 Tags
 
-- Array
-- Greedy
-- Sorting
+- None
 
 ---
 

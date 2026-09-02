@@ -20,13 +20,7 @@ https://leetcode.com/problems/stone-game-viii/
 
 ## 🏷 Tags
 
-- Array
-- Math
-- Dynamic Programming
-- Minimax
-- Prefix Sum
-- Game Theory
-- Zero-Sum Game
+- None
 
 ---
 

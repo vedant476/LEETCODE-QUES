@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 4 ms |
@@ -20,8 +20,7 @@ https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
 
 ## 🏷 Tags
 
-- Linked List
-- Two Pointers
+- None
 
 ---
 

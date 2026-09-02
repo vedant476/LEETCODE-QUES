@@ -20,8 +20,7 @@ https://leetcode.com/problems/find-the-largest-almost-missing-integer/
 
 ## 🏷 Tags
 
-- Array
-- Hash Table
+- None
 
 ---
 

@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🔴 Hard |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 27 ms |
@@ -20,14 +20,7 @@ https://leetcode.com/problems/sorted-gcd-pair-queries/
 
 ## 🏷 Tags
 
-- Array
-- Hash Table
-- Math
-- Binary Search
-- Combinatorics
-- Counting
-- Number Theory
-- Prefix Sum
+- None
 
 ---
 

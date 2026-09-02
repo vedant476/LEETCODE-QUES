@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 7 ms |
@@ -20,10 +20,7 @@ https://leetcode.com/problems/vowels-game-in-a-string/
 
 ## 🏷 Tags
 
-- Math
-- String
-- Brainteaser
-- Game Theory
+- None
 
 ---
 

@@ -20,8 +20,7 @@ https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/
 
 ## 🏷 Tags
 
-- Array
-- Bit Manipulation
+- None
 
 ---
 

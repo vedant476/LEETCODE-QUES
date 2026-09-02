@@ -20,8 +20,7 @@ https://leetcode.com/problems/distribute-elements-into-two-arrays-i/
 
 ## 🏷 Tags
 
-- Array
-- Simulation
+- None
 
 ---
 

@@ -20,14 +20,7 @@ https://leetcode.com/problems/stone-game-ix/
 
 ## 🏷 Tags
 
-- Array
-- Math
-- Greedy
-- Minimax
-- Counting
-- Game Theory
-- Nim Game
-- Zero-Sum Game
+- None
 
 ---
 

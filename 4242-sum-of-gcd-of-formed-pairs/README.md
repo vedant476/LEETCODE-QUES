@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟡 Medium |
+| Difficulty | ⚪ Unknown |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 66 ms |
@@ -20,12 +20,7 @@ https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/
 
 ## 🏷 Tags
 
-- Array
-- Math
-- Two Pointers
-- Sorting
-- Simulation
-- Number Theory
+- None
 
 ---
 

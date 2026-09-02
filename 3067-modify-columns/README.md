@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | 🟢 Easy |
+| Difficulty | ⚪ Unknown |
 | Language | pythondata |
 | Status | ✅ Accepted |
 | Runtime | 284 ms |
