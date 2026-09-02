@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-336-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-183-success)]()
+[![Problems](https://img.shields.io/badge/Problems-337-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-184-success)]()
 [![Medium](https://img.shields.io/badge/Medium-119-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-34-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 336 |
-| Easy | 183 |
+| Problems Solved | 337 |
+| Easy | 184 |
 | Medium | 119 |
 | Hard | 34 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 25 Aug 2026 |
+| Last Sync | 03 Sep 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (163)
+## Array (164)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -192,6 +192,7 @@
 | 3375 | Kth Smallest Amount With Single Denomination Combination | 🔴 Hard | [View](./3375-kth-smallest-amount-with-single-denomination-combination/) |
 | 2002 | Stone Game VIII | 🔴 Hard | [View](./2002-stone-game-viii/) |
 | 4080 | Smallest Missing Multiple of K | 🟢 Easy | [View](./4080-smallest-missing-multiple-of-k/) |
+| 4256 | Construct Uniform Parity Array I | 🟢 Easy | [View](./4256-construct-uniform-parity-array-i/) |
 
 ---
 
@@ -674,7 +675,7 @@
 
 ---
 
-## Math (108)
+## Math (109)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -786,6 +787,7 @@
 | 3375 | Kth Smallest Amount With Single Denomination Combination | 🔴 Hard | [View](./3375-kth-smallest-amount-with-single-denomination-combination/) |
 | 2039 | Sum Game | 🟡 Medium | [View](./2039-sum-game/) |
 | 2002 | Stone Game VIII | 🔴 Hard | [View](./2002-stone-game-viii/) |
+| 4256 | Construct Uniform Parity Array I | 🟢 Easy | [View](./4256-construct-uniform-parity-array-i/) |
 
 ---
 
@@ -1342,6 +1344,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 03 Sep 2026 | Construct Uniform Parity Array I | 🟢 Easy | C++ |
 | 25 Aug 2026 | Smallest Missing Multiple of K | 🟢 Easy | C++ |
 | 24 Aug 2026 | Stone Game VIII | 🔴 Hard | C++ |
 | 23 Aug 2026 | Sum Game | 🟡 Medium | C++ |
@@ -1351,7 +1354,6 @@
 | 18 Aug 2026 | Find the Largest Almost Missing Integer | 🟢 Easy | C++ |
 | 16 Aug 2026 | Stone Game IX | 🟡 Medium | C++ |
 | 15 Aug 2026 | Longest Subsequence With Non-Zero Bitwise XOR | 🟡 Medium | C++ |
-| 15 Aug 2026 | Maximum Length Substring With Two Occurrences | 🟢 Easy | C++ |
 
 ---
 
