@@ -1344,7 +1344,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
-| 03 Sep 2026 | Construct Uniform Parity Array I | 🟢 Easy | C++ |
+| 03 Sep 2026 | Construct Uniform Parity Array I | 🟢 Easy | C# |
 | 25 Aug 2026 | Smallest Missing Multiple of K | 🟢 Easy | C++ |
 | 24 Aug 2026 | Stone Game VIII | 🔴 Hard | C++ |
 | 23 Aug 2026 | Sum Game | 🟡 Medium | C++ |

@@ -36,6 +36,7 @@ No notes provided.
 | Language | Runtime | Memory | File |
 |----------|---------|--------|------|
 | C++ | 0 ms | 30.5 MB | [solution.cpp](./solution.cpp) |
+| C# | 0 ms | 46.4 MB | [Solution.cs](./Solution.cs) |
 
 ---
 Generated automatically using [LeetVault](https://github.com/vedant476/LeetVault).

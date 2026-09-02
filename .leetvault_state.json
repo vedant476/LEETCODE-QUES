@@ -12023,6 +12023,17 @@
           "timestamp": 1788374413,
           "note": "",
           "id": 2128863779
+        },
+        {
+          "filename": "Solution.cs",
+          "language": "csharp",
+          "code": "public class Solution {\n    public bool UniformArray(int[] nums1) {\n        return true;\n    }\n}",
+          "runtime": "0 ms",
+          "memory": "46.4 MB",
+          "status": "Accepted",
+          "timestamp": 1788374494,
+          "note": "",
+          "id": 2128865218
         }
       ],
       "questionId": "4256",
