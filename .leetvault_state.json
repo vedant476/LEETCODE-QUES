@@ -1,7 +1,7 @@
 {
   "stats": {
-    "total": 348,
-    "easy": 6,
+    "total": 349,
+    "easy": 7,
     "medium": 6,
     "hard": 4,
     "languages": [
@@ -6893,6 +6893,44 @@
       ],
       "likes": 345,
       "dislikes": 30,
+      "paidOnly": false
+    },
+    {
+      "title": "Sort Array By Parity",
+      "slug": "sort-array-by-parity",
+      "qid": "941",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    vector<int> sortArrayByParity(vector<int>& nums) {\n        vector<int> ans;\n        for( int i : nums){\n            if( !(i % 2) ) ans.push_back(i);\n        }\n        for( int i : nums){\n            if( i % 2 ) ans.push_back(i);\n        }\n        return ans;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "20.6 MB",
+          "status": "Accepted",
+          "timestamp": 1788463250,
+          "note": "",
+          "id": 2130035577
+        }
+      ],
+      "questionId": "941",
+      "url": "https://leetcode.com/problems/sort-array-by-parity/",
+      "difficulty": "Easy",
+      "tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Two Pointers",
+          "slug": "two-pointers"
+        },
+        {
+          "name": "Sorting",
+          "slug": "sorting"
+        }
+      ],
+      "likes": 5767,
+      "dislikes": 158,
       "paidOnly": false
     }
   ]
