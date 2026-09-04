@@ -1,7 +1,7 @@
 {
   "stats": {
-    "total": 349,
-    "easy": 7,
+    "total": 350,
+    "easy": 8,
     "medium": 6,
     "hard": 4,
     "languages": [
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "04 Sep 2026"
+    "lastSync": "05 Sep 2026"
   },
   "problems": [
     {
@@ -6931,6 +6931,40 @@
       ],
       "likes": 5767,
       "dislikes": 158,
+      "paidOnly": false
+    },
+    {
+      "title": "Smallest Stable Index I",
+      "slug": "smallest-stable-index-i",
+      "qid": "4284",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int firstStableIndex(vector<int>& nums, int k) {\n        for(int i =0 ; i<nums.size();++i){\n            int mx = nums[i];\n            int mn = nums[i];\n            for(int j = 0 ;j<i;++j){\n                mx = max(nums[j],mx);  \n            }\n            for(int j = i+1 ;j<nums.size();++j){\n                mn = min(nums[j],mn);\n            }\n\n            if(mx-mn <=k) return i;\n            \n        }\n        return -1;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "30.3 MB",
+          "status": "Accepted",
+          "timestamp": 1788557804,
+          "note": "",
+          "id": 2131150567
+        }
+      ],
+      "questionId": "4284",
+      "url": "https://leetcode.com/problems/smallest-stable-index-i/",
+      "difficulty": "Easy",
+      "tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Prefix Sum",
+          "slug": "prefix-sum"
+        }
+      ],
+      "likes": 283,
+      "dislikes": 25,
       "paidOnly": false
     }
   ]
