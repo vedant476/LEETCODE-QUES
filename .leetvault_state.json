@@ -1,9 +1,9 @@
 {
   "stats": {
-    "total": 350,
+    "total": 351,
     "easy": 8,
     "medium": 6,
-    "hard": 4,
+    "hard": 5,
     "languages": [
       "Bash",
       "C",
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "05 Sep 2026"
+    "lastSync": "07 Sep 2026"
   },
   "problems": [
     {
@@ -6965,6 +6965,40 @@
       ],
       "likes": 283,
       "dislikes": 25,
+      "paidOnly": false
+    },
+    {
+      "title": "Distinct Subsequences II",
+      "slug": "distinct-subsequences-ii",
+      "qid": "977",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\n    static constexpr int MOD = 1e9 + 7;\n\npublic:\n    int distinctSubseqII(string s) {\n        int tot = 0, dp[26]{};\n\n        for (auto& c : s) {\n            c -= 'a';\n            int add = (tot - dp[c] + MOD) % MOD;\n            dp[c] = 1 + tot;\n            tot = (dp[c] + add) % MOD;\n        }\n\n        return tot;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "8.7 MB",
+          "status": "Accepted",
+          "timestamp": 1788805735,
+          "note": "",
+          "id": 2134295048
+        }
+      ],
+      "questionId": "977",
+      "url": "https://leetcode.com/problems/distinct-subsequences-ii/",
+      "difficulty": "Hard",
+      "tags": [
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Dynamic Programming",
+          "slug": "dynamic-programming"
+        }
+      ],
+      "likes": 2108,
+      "dislikes": 47,
       "paidOnly": false
     }
   ]

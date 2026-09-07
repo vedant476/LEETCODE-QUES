@@ -2,10 +2,10 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-350-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-351-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-8-success)]()
 [![Medium](https://img.shields.io/badge/Medium-6-orange)]()
-[![Hard](https://img.shields.io/badge/Hard-4-red)]()
+[![Hard](https://img.shields.io/badge/Hard-5-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
 ---
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 350 |
+| Problems Solved | 351 |
 | Easy | 8 |
 | Medium | 6 |
-| Hard | 4 |
+| Hard | 5 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 05 Sep 2026 |
+| Last Sync | 07 Sep 2026 |
 
 ---
 
@@ -32,6 +32,14 @@
 | 4258 | Construct Uniform Parity Array II | 🟡 Medium | [View](./4258-construct-uniform-parity-array-ii/) |
 | 0941 | Sort Array By Parity | 🟢 Easy | [View](./0941-sort-array-by-parity/) |
 | 4284 | Smallest Stable Index I | 🟢 Easy | [View](./4284-smallest-stable-index-i/) |
+
+---
+
+## Dynamic Programming (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 0977 | Distinct Subsequences II | 🔴 Hard | [View](./0977-distinct-subsequences-ii/) |
 
 ---
 
@@ -56,6 +64,14 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0941 | Sort Array By Parity | 🟢 Easy | [View](./0941-sort-array-by-parity/) |
+
+---
+
+## String (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 0977 | Distinct Subsequences II | 🔴 Hard | [View](./0977-distinct-subsequences-ii/) |
 
 ---
 
@@ -425,6 +441,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 07 Sep 2026 | Distinct Subsequences II | 🔴 Hard | C++ |
 | 05 Sep 2026 | Smallest Stable Index I | 🟢 Easy | C++ |
 | 04 Sep 2026 | Sort Array By Parity | 🟢 Easy | C++ |
 | 04 Sep 2026 | Construct Uniform Parity Array II | 🟡 Medium | C++ |
@@ -434,7 +451,6 @@
 | 31 Aug 2026 | Removing Minimum and Maximum From Array | ⚪ Unknown | C++ |
 | 29 Aug 2026 | Make Lexicographically Smallest Array by Swapping Elements | ⚪ Unknown | C++ |
 | 28 Aug 2026 | Lexicographically Smallest Palindromic Permutation Greater Than Target | ⚪ Unknown | C++ |
-| 28 Aug 2026 | Lexicographically Smallest Permutation Greater Than Target | ⚪ Unknown | C++ |
 
 ---
 
