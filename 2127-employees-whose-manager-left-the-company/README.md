@@ -2,13 +2,13 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟢 Easy |
 | Language | MySQL |
 | Status | ✅ Accepted |
-| Runtime | 1199 ms |
-| Memory | 0.0B |
-| Submission ID | 1420965091 |
-| Solved On | 13 Oct 2024 |
+| Runtime | 343 ms |
+| Memory | 0B |
+| Submission ID | 2137823192 |
+| Solved On | 10 Sep 2026 |
 
 ---
 
@@ -20,7 +20,7 @@ https://leetcode.com/problems/employees-whose-manager-left-the-company/
 
 ## 🏷 Tags
 
-- None
+- Database
 
 ---
 
@@ -34,7 +34,7 @@ No notes provided.
 
 | Language | Runtime | Memory | File |
 |----------|---------|--------|------|
-| MySQL | 1199 ms | 0.0B | [solution.sql](./solution.sql) |
+| MySQL | 343 ms | 0B | [solution.sql](./solution.sql) |
 
 ---
 Generated automatically using [LeetVault](https://github.com/vedant476/LeetVault).

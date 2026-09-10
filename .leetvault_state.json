@@ -1,7 +1,7 @@
 {
   "stats": {
     "total": 352,
-    "easy": 8,
+    "easy": 9,
     "medium": 7,
     "hard": 5,
     "languages": [
@@ -6846,18 +6846,25 @@
     {
       "title": "Employees Whose Manager Left the Company",
       "slug": "employees-whose-manager-left-the-company",
-      "qid": 2127,
+      "qid": "2127",
       "files": [
         {
           "filename": "solution.sql",
           "language": "mysql",
-          "code": "# Write your MySQL query statement below\nSelect employee_id from Employees where salary< 30000 and manager_id NOT IN (select employee_id from Employees)\norder by employee_id;",
-          "runtime": "1199 ms",
-          "memory": "0.0B",
+          "code": "SELECT sub.employee_id\nFROM Employees sub\nLEFT JOIN Employees sup\n  ON sub.manager_id = sup.employee_id\nWHERE sub.salary < 30000\n  AND (sup.employee_id IS NULL)\n  AND sub.manager_id IS NOT NULL\nORDER BY sub.employee_id",
+          "runtime": "343 ms",
+          "memory": "0B",
           "status": "Accepted",
-          "timestamp": 1728822468,
+          "timestamp": 1789063289,
           "note": "",
-          "id": 1420965091
+          "id": 2137823192
+        }
+      ],
+      "difficulty": "Easy",
+      "tags": [
+        {
+          "name": "Database",
+          "slug": "database"
         }
       ]
     },

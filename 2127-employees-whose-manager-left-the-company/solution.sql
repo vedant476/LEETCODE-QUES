@@ -1,3 +1,8 @@
-# Write your MySQL query statement below
-Select employee_id from Employees where salary< 30000 and manager_id NOT IN (select employee_id from Employees)
-order by employee_id;
+SELECT sub.employee_id
+FROM Employees sub
+LEFT JOIN Employees sup
+  ON sub.manager_id = sup.employee_id
+WHERE sub.salary < 30000
+  AND (sup.employee_id IS NULL)
+  AND sub.manager_id IS NOT NULL
+ORDER BY sub.employee_id
