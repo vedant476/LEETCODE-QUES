@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-351-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-352-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-8-success)]()
-[![Medium](https://img.shields.io/badge/Medium-6-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-7-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-5-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 351 |
+| Problems Solved | 352 |
 | Easy | 8 |
-| Medium | 6 |
+| Medium | 7 |
 | Hard | 5 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 07 Sep 2026 |
+| Last Sync | 10 Sep 2026 |
 
 ---
 
@@ -32,6 +32,22 @@
 | 4258 | Construct Uniform Parity Array II | 🟡 Medium | [View](./4258-construct-uniform-parity-array-ii/) |
 | 0941 | Sort Array By Parity | 🟢 Easy | [View](./0941-sort-array-by-parity/) |
 | 4284 | Smallest Stable Index I | 🟢 Easy | [View](./4284-smallest-stable-index-i/) |
+
+---
+
+## Binary Tree (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2347 | Count Nodes Equal to Average of Subtree | 🟡 Medium | [View](./2347-count-nodes-equal-to-average-of-subtree/) |
+
+---
+
+## Depth-First Search (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2347 | Count Nodes Equal to Average of Subtree | 🟡 Medium | [View](./2347-count-nodes-equal-to-average-of-subtree/) |
 
 ---
 
@@ -72,6 +88,14 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0977 | Distinct Subsequences II | 🔴 Hard | [View](./0977-distinct-subsequences-ii/) |
+
+---
+
+## Tree (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2347 | Count Nodes Equal to Average of Subtree | 🟡 Medium | [View](./2347-count-nodes-equal-to-average-of-subtree/) |
 
 ---
 
@@ -441,6 +465,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 10 Sep 2026 | Count Nodes Equal to Average of Subtree | 🟡 Medium | C++ |
 | 07 Sep 2026 | Distinct Subsequences II | 🔴 Hard | C++ |
 | 05 Sep 2026 | Smallest Stable Index I | 🟢 Easy | C++ |
 | 04 Sep 2026 | Sort Array By Parity | 🟢 Easy | C++ |
@@ -450,7 +475,6 @@
 | 01 Sep 2026 | Find the Minimum and Maximum Number of Nodes Between Critical Points | ⚪ Unknown | C++ |
 | 31 Aug 2026 | Removing Minimum and Maximum From Array | ⚪ Unknown | C++ |
 | 29 Aug 2026 | Make Lexicographically Smallest Array by Swapping Elements | ⚪ Unknown | C++ |
-| 28 Aug 2026 | Lexicographically Smallest Palindromic Permutation Greater Than Target | ⚪ Unknown | C++ |
 
 ---
 

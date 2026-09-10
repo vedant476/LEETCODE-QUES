@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 351,
+    "total": 352,
     "easy": 8,
-    "medium": 6,
+    "medium": 7,
     "hard": 5,
     "languages": [
       "Bash",
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "07 Sep 2026"
+    "lastSync": "10 Sep 2026"
   },
   "problems": [
     {
@@ -6999,6 +6999,44 @@
       ],
       "likes": 2108,
       "dislikes": 47,
+      "paidOnly": false
+    },
+    {
+      "title": "Count Nodes Equal to Average of Subtree",
+      "slug": "count-nodes-equal-to-average-of-subtree",
+      "qid": "2347",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int ans=0;\n    pair<int, int> helper(TreeNode* root){\n        if(root==NULL) return {0,0};\n\n        auto left = helper(root->left);\n        auto right = helper(root->right);\n\n        int sum=left.first+right.first+root->val;\n        int count=left.second+right.second+1;\n\n        if(sum/count==root->val){\n            ans++;\n        }\n\n        return {sum, count};\n    }\n\n    int averageOfSubtree(TreeNode* root) {\n        helper(root);\n        return ans;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "15.9 MB",
+          "status": "Accepted",
+          "timestamp": 1789063012,
+          "note": "",
+          "id": 2137817358
+        }
+      ],
+      "questionId": "2347",
+      "url": "https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/",
+      "difficulty": "Medium",
+      "tags": [
+        {
+          "name": "Tree",
+          "slug": "tree"
+        },
+        {
+          "name": "Depth-First Search",
+          "slug": "depth-first-search"
+        },
+        {
+          "name": "Binary Tree",
+          "slug": "binary-tree"
+        }
+      ],
+      "likes": 2626,
+      "dislikes": 73,
       "paidOnly": false
     }
   ]
