@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-352-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-353-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-9-success)]()
-[![Medium](https://img.shields.io/badge/Medium-7-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-8-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-5-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
@@ -14,9 +14,9 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 352 |
+| Problems Solved | 353 |
 | Easy | 9 |
-| Medium | 7 |
+| Medium | 8 |
 | Hard | 5 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
 | Last Sync | 10 Sep 2026 |
@@ -67,6 +67,14 @@
 
 ---
 
+## Hash Table (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 0003 | Longest Substring Without Repeating Characters | 🟡 Medium | [View](./0003-longest-substring-without-repeating-characters/) |
+
+---
+
 ## Math (1)
 
 | # | Problem | Difficulty | Solution |
@@ -83,6 +91,14 @@
 
 ---
 
+## Sliding Window (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 0003 | Longest Substring Without Repeating Characters | 🟡 Medium | [View](./0003-longest-substring-without-repeating-characters/) |
+
+---
+
 ## Sorting (1)
 
 | # | Problem | Difficulty | Solution |
@@ -91,11 +107,12 @@
 
 ---
 
-## String (1)
+## String (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0977 | Distinct Subsequences II | 🔴 Hard | [View](./0977-distinct-subsequences-ii/) |
+| 0003 | Longest Substring Without Repeating Characters | 🟡 Medium | [View](./0003-longest-substring-without-repeating-characters/) |
 
 ---
 
@@ -472,6 +489,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 10 Sep 2026 | Longest Substring Without Repeating Characters | 🟡 Medium | C++ |
 | 10 Sep 2026 | Employees Whose Manager Left the Company | 🟢 Easy | MySQL |
 | 10 Sep 2026 | Count Nodes Equal to Average of Subtree | 🟡 Medium | C++ |
 | 07 Sep 2026 | Distinct Subsequences II | 🔴 Hard | C++ |
@@ -481,7 +499,6 @@
 | 03 Sep 2026 | Construct Uniform Parity Array I | 🟢 Easy | C# |
 | 01 Sep 2026 | Minimum Moves to Clean the Classroom | ⚪ Unknown | C++ |
 | 01 Sep 2026 | Find the Minimum and Maximum Number of Nodes Between Critical Points | ⚪ Unknown | C++ |
-| 31 Aug 2026 | Removing Minimum and Maximum From Array | ⚪ Unknown | C++ |
 
 ---
 

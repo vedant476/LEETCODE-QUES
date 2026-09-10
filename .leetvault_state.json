@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 352,
+    "total": 353,
     "easy": 9,
-    "medium": 7,
+    "medium": 8,
     "hard": 5,
     "languages": [
       "Bash",
@@ -7044,6 +7044,44 @@
       ],
       "likes": 2626,
       "dislikes": 73,
+      "paidOnly": false
+    },
+    {
+      "title": "Longest Substring Without Repeating Characters",
+      "slug": "longest-substring-without-repeating-characters",
+      "qid": "3",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int lengthOfLongestSubstring(string s) {\n        unordered_map<char,int> cmap;\n        int mx = 0;\n        int l =0;\n        for( int r = 0 ;r< s.size();r++){\n        if(  cmap.count(s[r])==0||cmap[s[r]]<l){\n            cmap[s[r]] =r;\n            mx = max(mx,r-l+1);\n        }\n        else {\n            l = cmap [s[r]]+1;\n            cmap[s[r]] =r;\n        }\n        }\n        return mx;\n    }\n};",
+          "runtime": "42 ms",
+          "memory": "19.3 MB",
+          "status": "Accepted",
+          "timestamp": 1789064521,
+          "note": "",
+          "id": 2137848825
+        }
+      ],
+      "questionId": "3",
+      "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+      "difficulty": "Medium",
+      "tags": [
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Sliding Window",
+          "slug": "sliding-window"
+        }
+      ],
+      "likes": 45715,
+      "dislikes": 2242,
       "paidOnly": false
     }
   ]
