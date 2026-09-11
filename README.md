@@ -3,7 +3,7 @@
 > Automatically synchronized using **LeetVault**
 
 [![Problems](https://img.shields.io/badge/Problems-353-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-9-success)]()
+[![Easy](https://img.shields.io/badge/Easy-10-success)]()
 [![Medium](https://img.shields.io/badge/Medium-8-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-5-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
@@ -15,20 +15,21 @@
 | Metric | Count |
 |---------|------:|
 | Problems Solved | 353 |
-| Easy | 9 |
+| Easy | 10 |
 | Medium | 8 |
 | Hard | 5 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 10 Sep 2026 |
+| Last Sync | 11 Sep 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (3)
+## Array (4)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 3799 | Unique 3-Digit Even Numbers | 🟢 Easy | [View](./3799-unique-3-digit-even-numbers/) |
 | 4258 | Construct Uniform Parity Array II | 🟡 Medium | [View](./4258-construct-uniform-parity-array-ii/) |
 | 0941 | Sort Array By Parity | 🟢 Easy | [View](./0941-sort-array-by-parity/) |
 | 4284 | Smallest Stable Index I | 🟢 Easy | [View](./4284-smallest-stable-index-i/) |
@@ -67,10 +68,19 @@
 
 ---
 
-## Hash Table (1)
+## Enumeration (1)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 3799 | Unique 3-Digit Even Numbers | 🟢 Easy | [View](./3799-unique-3-digit-even-numbers/) |
+
+---
+
+## Hash Table (2)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 3799 | Unique 3-Digit Even Numbers | 🟢 Easy | [View](./3799-unique-3-digit-even-numbers/) |
 | 0003 | Longest Substring Without Repeating Characters | 🟡 Medium | [View](./0003-longest-substring-without-repeating-characters/) |
 
 ---
@@ -88,6 +98,14 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 4284 | Smallest Stable Index I | 🟢 Easy | [View](./4284-smallest-stable-index-i/) |
+
+---
+
+## Recursion (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 3799 | Unique 3-Digit Even Numbers | 🟢 Easy | [View](./3799-unique-3-digit-even-numbers/) |
 
 ---
 
@@ -132,7 +150,7 @@
 
 ---
 
-## Uncategorized (346)
+## Uncategorized (345)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -209,7 +227,6 @@
 | 3995 | GCD of Odd and Even Sums | ⚪ Unknown | [View](./3995-gcd-of-odd-and-even-sums/) |
 | 3608 | Find the Number of Subsequences With Equal GCD | ⚪ Unknown | [View](./3608-find-the-number-of-subsequences-with-equal-gcd/) |
 | 2215 | Finding 3-Digit Even Numbers | ⚪ Unknown | [View](./2215-finding-3-digit-even-numbers/) |
-| 3799 | Unique 3-Digit Even Numbers | ⚪ Unknown | [View](./3799-unique-3-digit-even-numbers/) |
 | 3600 | Find the K-th Character in String Game I | ⚪ Unknown | [View](./3600-find-the-k-th-character-in-string-game-i/) |
 | 0231 | Power of Two | ⚪ Unknown | [View](./0231-power-of-two/) |
 | 1212 | Sequential Digits | ⚪ Unknown | [View](./1212-sequential-digits/) |
@@ -489,6 +506,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 11 Sep 2026 | Unique 3-Digit Even Numbers | 🟢 Easy | Python3 |
 | 10 Sep 2026 | Longest Substring Without Repeating Characters | 🟡 Medium | C++ |
 | 10 Sep 2026 | Employees Whose Manager Left the Company | 🟢 Easy | MySQL |
 | 10 Sep 2026 | Count Nodes Equal to Average of Subtree | 🟡 Medium | C++ |
@@ -498,7 +516,6 @@
 | 04 Sep 2026 | Construct Uniform Parity Array II | 🟡 Medium | C++ |
 | 03 Sep 2026 | Construct Uniform Parity Array I | 🟢 Easy | C# |
 | 01 Sep 2026 | Minimum Moves to Clean the Classroom | ⚪ Unknown | C++ |
-| 01 Sep 2026 | Find the Minimum and Maximum Number of Nodes Between Critical Points | ⚪ Unknown | C++ |
 
 ---
 

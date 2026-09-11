@@ -1,7 +1,7 @@
 {
   "stats": {
     "total": 353,
-    "easy": 9,
+    "easy": 10,
     "medium": 8,
     "hard": 5,
     "languages": [
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "10 Sep 2026"
+    "lastSync": "11 Sep 2026"
   },
   "problems": [
     {
@@ -1459,7 +1459,7 @@
     {
       "title": "Unique 3-Digit Even Numbers",
       "slug": "unique-3-digit-even-numbers",
-      "qid": 3799,
+      "qid": "3799",
       "files": [
         {
           "filename": "solution.cpp",
@@ -1471,6 +1471,36 @@
           "timestamp": 1784013728,
           "note": "",
           "id": 2067052862
+        },
+        {
+          "filename": "solution.py",
+          "language": "python3",
+          "code": "class Solution:\n    def totalNumbers(self, digits: List[int]) -> int:\n        f = Counter(digits)\n\n        res = 0\n        for n in range(100, 1000, 2):\n            i, r = divmod(n, 100)\n            j, k = divmod(r, 10)\n            res += f[i] > 0 and f[j] > (i == j) and f[k] > (i == k) + (j == k)\n\n        return res",
+          "runtime": "83 ms",
+          "memory": "19.4 MB",
+          "status": "Accepted",
+          "timestamp": 1789143987,
+          "note": "",
+          "id": 2138742035
+        }
+      ],
+      "difficulty": "Easy",
+      "tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "Recursion",
+          "slug": "recursion"
+        },
+        {
+          "name": "Enumeration",
+          "slug": "enumeration"
         }
       ]
     },

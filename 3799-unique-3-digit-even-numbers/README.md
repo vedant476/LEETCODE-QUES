@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟢 Easy |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 1 ms |
@@ -20,7 +20,10 @@ https://leetcode.com/problems/unique-3-digit-even-numbers/
 
 ## 🏷 Tags
 
-- None
+- Array
+- Hash Table
+- Recursion
+- Enumeration
 
 ---
 
@@ -35,6 +38,7 @@ No notes provided.
 | Language | Runtime | Memory | File |
 |----------|---------|--------|------|
 | C++ | 1 ms | 28.7 MB | [solution.cpp](./solution.cpp) |
+| Python3 | 83 ms | 19.4 MB | [solution.py](./solution.py) |
 
 ---
 Generated automatically using [LeetVault](https://github.com/vedant476/LeetVault).
