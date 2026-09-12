@@ -1,9 +1,9 @@
 {
   "stats": {
-    "total": 353,
+    "total": 354,
     "easy": 10,
     "medium": 8,
-    "hard": 5,
+    "hard": 6,
     "languages": [
       "Bash",
       "C",
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "11 Sep 2026"
+    "lastSync": "13 Sep 2026"
   },
   "problems": [
     {
@@ -7112,6 +7112,48 @@
       ],
       "likes": 45715,
       "dislikes": 2242,
+      "paidOnly": false
+    },
+    {
+      "title": "Maximum Score of Non-overlapping Intervals",
+      "slug": "maximum-score-of-non-overlapping-intervals",
+      "qid": "3562",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "using ll = long long;\n\nstruct Node {\n    ll score = 0;\n    array<int, 4> a{};\n    int sz = 0;\n\n    void add(int i) { a[sz++] = i, sort(a.begin(), a.begin() + sz); }\n};\n\nbool lex(const Node& x, const Node& y) {\n    for (int i = 0; i < min(x.sz, y.sz); ++i)\n        if (x.a[i] != y.a[i])\n            return x.a[i] < y.a[i];\n\n    return x.sz < y.sz;\n}\n\nclass Solution {\npublic:\n    vector<int> maximumWeight(vector<vector<int>>& intervals) {\n        int n = intervals.size();\n        for (int i = 0; i < n; ++i)\n            intervals[i].push_back(i);\n\n        sort(begin(intervals), end(intervals));\n\n        vector<int> nxt(n);\n\n        for (int i = 0; i < n; ++i) {\n            int l = i + 1, r = n;\n\n            while (l < r) {\n                int m = l + (r - l) / 2;\n\n                if (intervals[m][0] > intervals[i][1])\n                    r = m;\n\n                else\n                    l = m + 1;\n            }\n\n            nxt[i] = l;\n        }\n\n        vector<Node> dp(n + 1), ndp(n + 1);\n\n        for (int k = 1; k <= 4; ++k) {\n            for (auto& node : ndp)\n                node = Node();\n\n            for (int i = n - 1; i >= 0; --i) {\n                Node skip = ndp[i + 1], take = dp[nxt[i]];\n\n                take.score += intervals[i][2], take.add(intervals[i][3]);\n\n                if (take.score > skip.score ||\n                    take.score == skip.score && lex(take, skip))\n                    ndp[i] = take;\n\n                else\n                    ndp[i] = skip;\n            }\n\n            swap(dp, ndp);\n        }\n\n        return vector<int>(dp[0].a.begin(), dp[0].a.begin() + dp[0].sz);\n    }\n};",
+          "runtime": "367 ms",
+          "memory": "130.4 MB",
+          "status": "Accepted",
+          "timestamp": 1789244635,
+          "note": "",
+          "id": 2139988505
+        }
+      ],
+      "questionId": "3562",
+      "url": "https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals/",
+      "difficulty": "Hard",
+      "tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Binary Search",
+          "slug": "binary-search"
+        },
+        {
+          "name": "Dynamic Programming",
+          "slug": "dynamic-programming"
+        },
+        {
+          "name": "Sorting",
+          "slug": "sorting"
+        }
+      ],
+      "likes": 264,
+      "dislikes": 30,
       "paidOnly": false
     }
   ]

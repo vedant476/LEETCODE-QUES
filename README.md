@@ -2,10 +2,10 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-353-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-354-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-10-success)]()
 [![Medium](https://img.shields.io/badge/Medium-8-orange)]()
-[![Hard](https://img.shields.io/badge/Hard-5-red)]()
+[![Hard](https://img.shields.io/badge/Hard-6-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
 ---
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 353 |
+| Problems Solved | 354 |
 | Easy | 10 |
 | Medium | 8 |
-| Hard | 5 |
+| Hard | 6 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 11 Sep 2026 |
+| Last Sync | 13 Sep 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (4)
+## Array (5)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -33,6 +33,15 @@
 | 4258 | Construct Uniform Parity Array II | 🟡 Medium | [View](./4258-construct-uniform-parity-array-ii/) |
 | 0941 | Sort Array By Parity | 🟢 Easy | [View](./0941-sort-array-by-parity/) |
 | 4284 | Smallest Stable Index I | 🟢 Easy | [View](./4284-smallest-stable-index-i/) |
+| 3562 | Maximum Score of Non-overlapping Intervals | 🔴 Hard | [View](./3562-maximum-score-of-non-overlapping-intervals/) |
+
+---
+
+## Binary Search (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 3562 | Maximum Score of Non-overlapping Intervals | 🔴 Hard | [View](./3562-maximum-score-of-non-overlapping-intervals/) |
 
 ---
 
@@ -60,11 +69,12 @@
 
 ---
 
-## Dynamic Programming (1)
+## Dynamic Programming (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0977 | Distinct Subsequences II | 🔴 Hard | [View](./0977-distinct-subsequences-ii/) |
+| 3562 | Maximum Score of Non-overlapping Intervals | 🔴 Hard | [View](./3562-maximum-score-of-non-overlapping-intervals/) |
 
 ---
 
@@ -117,11 +127,12 @@
 
 ---
 
-## Sorting (1)
+## Sorting (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0941 | Sort Array By Parity | 🟢 Easy | [View](./0941-sort-array-by-parity/) |
+| 3562 | Maximum Score of Non-overlapping Intervals | 🔴 Hard | [View](./3562-maximum-score-of-non-overlapping-intervals/) |
 
 ---
 
@@ -506,6 +517,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 13 Sep 2026 | Maximum Score of Non-overlapping Intervals | 🔴 Hard | C++ |
 | 11 Sep 2026 | Unique 3-Digit Even Numbers | 🟢 Easy | Python3 |
 | 10 Sep 2026 | Longest Substring Without Repeating Characters | 🟡 Medium | C++ |
 | 10 Sep 2026 | Employees Whose Manager Left the Company | 🟢 Easy | MySQL |
@@ -515,7 +527,6 @@
 | 04 Sep 2026 | Sort Array By Parity | 🟢 Easy | C++ |
 | 04 Sep 2026 | Construct Uniform Parity Array II | 🟡 Medium | C++ |
 | 03 Sep 2026 | Construct Uniform Parity Array I | 🟢 Easy | C# |
-| 01 Sep 2026 | Minimum Moves to Clean the Classroom | ⚪ Unknown | C++ |
 
 ---
 
