@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-354-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-355-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-10-success)]()
-[![Medium](https://img.shields.io/badge/Medium-8-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-9-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-6-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
@@ -14,9 +14,9 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 354 |
+| Problems Solved | 355 |
 | Easy | 10 |
-| Medium | 8 |
+| Medium | 9 |
 | Hard | 6 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
 | Last Sync | 13 Sep 2026 |
@@ -25,7 +25,7 @@
 
 # 📂 Browse by Topic
 
-## Array (5)
+## Array (6)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -34,6 +34,7 @@
 | 0941 | Sort Array By Parity | 🟢 Easy | [View](./0941-sort-array-by-parity/) |
 | 4284 | Smallest Stable Index I | 🟢 Easy | [View](./4284-smallest-stable-index-i/) |
 | 3562 | Maximum Score of Non-overlapping Intervals | 🔴 Hard | [View](./3562-maximum-score-of-non-overlapping-intervals/) |
+| 0864 | Image Overlap | 🟡 Medium | [View](./0864-image-overlap/) |
 
 ---
 
@@ -100,6 +101,14 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 4258 | Construct Uniform Parity Array II | 🟡 Medium | [View](./4258-construct-uniform-parity-array-ii/) |
+
+---
+
+## Matrix (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 0864 | Image Overlap | 🟡 Medium | [View](./0864-image-overlap/) |
 
 ---
 
@@ -517,6 +526,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 13 Sep 2026 | Image Overlap | 🟡 Medium | C++ |
 | 13 Sep 2026 | Maximum Score of Non-overlapping Intervals | 🔴 Hard | C++ |
 | 11 Sep 2026 | Unique 3-Digit Even Numbers | 🟢 Easy | Python3 |
 | 10 Sep 2026 | Longest Substring Without Repeating Characters | 🟡 Medium | C++ |
@@ -526,7 +536,6 @@
 | 05 Sep 2026 | Smallest Stable Index I | 🟢 Easy | C++ |
 | 04 Sep 2026 | Sort Array By Parity | 🟢 Easy | C++ |
 | 04 Sep 2026 | Construct Uniform Parity Array II | 🟡 Medium | C++ |
-| 03 Sep 2026 | Construct Uniform Parity Array I | 🟢 Easy | C# |
 
 ---
 

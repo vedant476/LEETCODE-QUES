@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 354,
+    "total": 355,
     "easy": 10,
-    "medium": 8,
+    "medium": 9,
     "hard": 6,
     "languages": [
       "Bash",
@@ -7154,6 +7154,40 @@
       ],
       "likes": 264,
       "dislikes": 30,
+      "paidOnly": false
+    },
+    {
+      "title": "Image Overlap",
+      "slug": "image-overlap",
+      "qid": "864",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int largestOverlap(vector<vector<int>>& img1, vector<vector<int>>& img2) {\n        const int n=img1.size();\n        bitset<30> B1[n], B2[n];\n        for(int i=0; i<n; i++)\n            for(int j=0; j<n; j++){\n                B1[i][j]=img1[i][j];\n                B2[i][j]=img2[i][j];\n            }\n        \n        int ans=0;\n        for(int i=-n+1; i<n; i++){// up/down\n            for(int j=-n+1; j<n; j++){ // left/right\n                int cnt=0;\n                for(int k=0; k<n; k++){// row\n                    int k1=k+i;\n                    if (k1<0 || k1>=n) continue;\n                    auto sB=(j<0)?B1[k1]<<(-j):B1[k1]>>j;\n                    cnt+=(sB & B2[k]).count();\n                }\n                ans=max(ans, cnt);\n            }\n        }\n        return ans;\n    }\n};",
+          "runtime": "6 ms",
+          "memory": "13 MB",
+          "status": "Accepted",
+          "timestamp": 1789319488,
+          "note": "",
+          "id": 2140837833
+        }
+      ],
+      "questionId": "864",
+      "url": "https://leetcode.com/problems/image-overlap/",
+      "difficulty": "Medium",
+      "tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Matrix",
+          "slug": "matrix"
+        }
+      ],
+      "likes": 1656,
+      "dislikes": 529,
       "paidOnly": false
     }
   ]
