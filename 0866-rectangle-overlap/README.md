@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟢 Easy |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -20,7 +20,8 @@ https://leetcode.com/problems/rectangle-overlap/
 
 ## 🏷 Tags
 
-- None
+- Math
+- Geometry
 
 ---
 
@@ -35,6 +36,7 @@ No notes provided.
 | Language | Runtime | Memory | File |
 |----------|---------|--------|------|
 | C++ | 0 ms | 9.8 MB | [solution.cpp](./solution.cpp) |
+| Rust | 0 ms | 2.1 MB | [solution.rs](./solution.rs) |
 
 ---
 Generated automatically using [LeetVault](https://github.com/vedant476/LeetVault).

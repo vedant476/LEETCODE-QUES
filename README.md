@@ -3,7 +3,7 @@
 > Automatically synchronized using **LeetVault**
 
 [![Problems](https://img.shields.io/badge/Problems-355-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-10-success)]()
+[![Easy](https://img.shields.io/badge/Easy-11-success)]()
 [![Medium](https://img.shields.io/badge/Medium-9-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-6-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
@@ -15,11 +15,11 @@
 | Metric | Count |
 |---------|------:|
 | Problems Solved | 355 |
-| Easy | 10 |
+| Easy | 11 |
 | Medium | 9 |
 | Hard | 6 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 13 Sep 2026 |
+| Last Sync | 15 Sep 2026 |
 
 ---
 
@@ -87,6 +87,14 @@
 
 ---
 
+## Geometry (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 0866 | Rectangle Overlap | 🟢 Easy | [View](./0866-rectangle-overlap/) |
+
+---
+
 ## Hash Table (2)
 
 | # | Problem | Difficulty | Solution |
@@ -96,10 +104,11 @@
 
 ---
 
-## Math (1)
+## Math (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 0866 | Rectangle Overlap | 🟢 Easy | [View](./0866-rectangle-overlap/) |
 | 4258 | Construct Uniform Parity Array II | 🟡 Medium | [View](./4258-construct-uniform-parity-array-ii/) |
 
 ---
@@ -170,7 +179,7 @@
 
 ---
 
-## Uncategorized (345)
+## Uncategorized (344)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -290,7 +299,6 @@
 | 0136 | Single Number | ⚪ Unknown | [View](./0136-single-number/) |
 | 0191 | Number of 1 Bits | ⚪ Unknown | [View](./0191-number-of-1-bits/) |
 | 0223 | Rectangle Area | ⚪ Unknown | [View](./0223-rectangle-area/) |
-| 0866 | Rectangle Overlap | ⚪ Unknown | [View](./0866-rectangle-overlap/) |
 | 0919 | Projection Area of 3D Shapes | ⚪ Unknown | [View](./0919-projection-area-of-3d-shapes/) |
 | 3964 | Number of ZigZag Arrays II | ⚪ Unknown | [View](./3964-number-of-zigzag-arrays-ii/) |
 | 3962 | Number of ZigZag Arrays I | ⚪ Unknown | [View](./3962-number-of-zigzag-arrays-i/) |
@@ -526,6 +534,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 15 Sep 2026 | Rectangle Overlap | 🟢 Easy | Rust |
 | 13 Sep 2026 | Image Overlap | 🟡 Medium | C++ |
 | 13 Sep 2026 | Maximum Score of Non-overlapping Intervals | 🔴 Hard | C++ |
 | 11 Sep 2026 | Unique 3-Digit Even Numbers | 🟢 Easy | Python3 |
@@ -535,7 +544,6 @@
 | 07 Sep 2026 | Distinct Subsequences II | 🔴 Hard | C++ |
 | 05 Sep 2026 | Smallest Stable Index I | 🟢 Easy | C++ |
 | 04 Sep 2026 | Sort Array By Parity | 🟢 Easy | C++ |
-| 04 Sep 2026 | Construct Uniform Parity Array II | 🟡 Medium | C++ |
 
 ---
 

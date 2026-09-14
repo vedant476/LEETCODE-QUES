@@ -1,7 +1,7 @@
 {
   "stats": {
     "total": 355,
-    "easy": 10,
+    "easy": 11,
     "medium": 9,
     "hard": 6,
     "languages": [
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "13 Sep 2026"
+    "lastSync": "15 Sep 2026"
   },
   "problems": [
     {
@@ -2358,7 +2358,7 @@
     {
       "title": "Rectangle Overlap",
       "slug": "rectangle-overlap",
-      "qid": 866,
+      "qid": "866",
       "files": [
         {
           "filename": "solution.cpp",
@@ -2370,6 +2370,28 @@
           "timestamp": 1782298073,
           "note": "",
           "id": 2044506703
+        },
+        {
+          "filename": "solution.rs",
+          "language": "rust",
+          "code": "impl Solution {\n    pub fn is_rectangle_overlap(rec1: Vec<i32>, rec2: Vec<i32>) -> bool {\n                rec2[0]<rec1[2] &&\n                rec2[2]>rec1[0] &&\n                rec2[3]>rec1[1] &&\n                rec2[1]<rec1[3]\n    }\n}",
+          "runtime": "0 ms",
+          "memory": "2.1 MB",
+          "status": "Accepted",
+          "timestamp": 1789411638,
+          "note": "",
+          "id": 2141921449
+        }
+      ],
+      "difficulty": "Easy",
+      "tags": [
+        {
+          "name": "Math",
+          "slug": "math"
+        },
+        {
+          "name": "Geometry",
+          "slug": "geometry"
         }
       ]
     },
