@@ -2,10 +2,10 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-355-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-356-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-11-success)]()
 [![Medium](https://img.shields.io/badge/Medium-9-orange)]()
-[![Hard](https://img.shields.io/badge/Hard-6-red)]()
+[![Hard](https://img.shields.io/badge/Hard-7-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
 ---
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 355 |
+| Problems Solved | 356 |
 | Easy | 11 |
 | Medium | 9 |
-| Hard | 6 |
+| Hard | 7 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 15 Sep 2026 |
+| Last Sync | 16 Sep 2026 |
 
 ---
 
@@ -70,12 +70,13 @@
 
 ---
 
-## Dynamic Programming (2)
+## Dynamic Programming (3)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0977 | Distinct Subsequences II | 🔴 Hard | [View](./0977-distinct-subsequences-ii/) |
 | 3562 | Maximum Score of Non-overlapping Intervals | 🔴 Hard | [View](./3562-maximum-score-of-non-overlapping-intervals/) |
+| 2559 | Maximum Number of Non-overlapping Palindrome Substrings | 🔴 Hard | [View](./2559-maximum-number-of-non-overlapping-palindrome-substrings/) |
 
 ---
 
@@ -92,6 +93,14 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0866 | Rectangle Overlap | 🟢 Easy | [View](./0866-rectangle-overlap/) |
+
+---
+
+## Greedy (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2559 | Maximum Number of Non-overlapping Palindrome Substrings | 🔴 Hard | [View](./2559-maximum-number-of-non-overlapping-palindrome-substrings/) |
 
 ---
 
@@ -154,12 +163,13 @@
 
 ---
 
-## String (2)
+## String (3)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0977 | Distinct Subsequences II | 🔴 Hard | [View](./0977-distinct-subsequences-ii/) |
 | 0003 | Longest Substring Without Repeating Characters | 🟡 Medium | [View](./0003-longest-substring-without-repeating-characters/) |
+| 2559 | Maximum Number of Non-overlapping Palindrome Substrings | 🔴 Hard | [View](./2559-maximum-number-of-non-overlapping-palindrome-substrings/) |
 
 ---
 
@@ -171,11 +181,12 @@
 
 ---
 
-## Two Pointers (1)
+## Two Pointers (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0941 | Sort Array By Parity | 🟢 Easy | [View](./0941-sort-array-by-parity/) |
+| 2559 | Maximum Number of Non-overlapping Palindrome Substrings | 🔴 Hard | [View](./2559-maximum-number-of-non-overlapping-palindrome-substrings/) |
 
 ---
 
@@ -534,6 +545,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 16 Sep 2026 | Maximum Number of Non-overlapping Palindrome Substrings | 🔴 Hard | C++ |
 | 15 Sep 2026 | Rectangle Overlap | 🟢 Easy | Rust |
 | 13 Sep 2026 | Image Overlap | 🟡 Medium | C++ |
 | 13 Sep 2026 | Maximum Score of Non-overlapping Intervals | 🔴 Hard | C++ |
@@ -543,7 +555,6 @@
 | 10 Sep 2026 | Count Nodes Equal to Average of Subtree | 🟡 Medium | C++ |
 | 07 Sep 2026 | Distinct Subsequences II | 🔴 Hard | C++ |
 | 05 Sep 2026 | Smallest Stable Index I | 🟢 Easy | C++ |
-| 04 Sep 2026 | Sort Array By Parity | 🟢 Easy | C++ |
 
 ---
 

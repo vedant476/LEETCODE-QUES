@@ -1,9 +1,9 @@
 {
   "stats": {
-    "total": 355,
+    "total": 356,
     "easy": 11,
     "medium": 9,
-    "hard": 6,
+    "hard": 7,
     "languages": [
       "Bash",
       "C",
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "15 Sep 2026"
+    "lastSync": "16 Sep 2026"
   },
   "problems": [
     {
@@ -7210,6 +7210,48 @@
       ],
       "likes": 1656,
       "dislikes": 529,
+      "paidOnly": false
+    },
+    {
+      "title": "Maximum Number of Non-overlapping Palindrome Substrings",
+      "slug": "maximum-number-of-non-overlapping-palindrome-substrings",
+      "qid": "2559",
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int maxPalindromes(string s, int k) {\n        int n = s.size();\n        if (k == 1) return n;\n\n        int res = 0;\n\n        for (int i = 0; i <= n - k;) {\n            int step = 1;\n\n            for (int d : {k, k + 1}) {\n                if (i + d <= n && equal(s.begin() + i, s.begin() + i + (d >> 1),\n                                        s.rbegin() + (n - (i + d)))) {\n                    step = d;\n                    res++;\n                    break;\n                }\n            }\n\n            i += step;\n        }\n\n        return res;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "8.9 MB",
+          "status": "Accepted",
+          "timestamp": 1789502932,
+          "note": "",
+          "id": 2143042047
+        }
+      ],
+      "questionId": "2559",
+      "url": "https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/",
+      "difficulty": "Hard",
+      "tags": [
+        {
+          "name": "Two Pointers",
+          "slug": "two-pointers"
+        },
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Dynamic Programming",
+          "slug": "dynamic-programming"
+        },
+        {
+          "name": "Greedy",
+          "slug": "greedy"
+        }
+      ],
+      "likes": 751,
+      "dislikes": 21,
       "paidOnly": false
     }
   ]
