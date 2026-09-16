@@ -2,7 +2,8 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟢 Easy |
+| Acceptance Rate | 50.5% |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -18,9 +19,66 @@ https://leetcode.com/problems/power-of-two/
 
 ---
 
+<details>
+<summary>Show problem statement</summary>
+
+<p>Given an integer <code>n</code>, return <em><code>true</code> if it is a power of two. Otherwise, return <code>false</code></em>.</p>
+
+<p>An integer <code>n</code> is a power of two, if there exists an integer <code>x</code> such that <code>n == 2<sup>x</sup></code>.</p>
+
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+
+<pre>
+<strong>Input:</strong> n = 1
+<strong>Output:</strong> true
+<strong>Explanation: </strong>2<sup>0</sup> = 1
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> n = 16
+<strong>Output:</strong> true
+<strong>Explanation: </strong>2<sup>4</sup> = 16
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> n = 3
+<strong>Output:</strong> false
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>-2<sup>31</sup> &lt;= n &lt;= 2<sup>31</sup> - 1</code></li>
+</ul>
+
+<p>&nbsp;</p>
+<strong>Follow up:</strong> Could you solve it without loops/recursion?
+
+</details>
+
+---
+
 ## 🏷 Tags
 
-- None
+- Math
+- Bit Manipulation
+- Recursion
+
+---
+
+## 🔁 Similar Problems
+
+| Problem | Difficulty |
+|---------|------------|
+| [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | 🟢 Easy |
+| [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 Easy |
+| [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy |
 
 ---
 
@@ -37,4 +95,4 @@ No notes provided.
 | C++ | 0 ms | 7.9 MB | [solution.cpp](./solution.cpp) |
 
 ---
-Generated automatically using [LeetVault](https://github.com/vedant476/LeetVault).
+Generated using [LeetVault](https://github.com/vedant476/LeetVault).

@@ -2,7 +2,8 @@
 
 | Property | Value |
 |----------|-------|
-| Difficulty | ⚪ Unknown |
+| Difficulty | 🟡 Medium |
+| Acceptance Rate | 55.8% |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -18,9 +19,43 @@ https://leetcode.com/problems/sum-of-two-integers/
 
 ---
 
+<details>
+<summary>Show problem statement</summary>
+
+<p>Given two integers <code>a</code> and <code>b</code>, return <em>the sum of the two integers without using the operators</em> <code>+</code> <em>and</em> <code>-</code>.</p>
+
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> a = 1, b = 2
+<strong>Output:</strong> 3
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> a = 2, b = 3
+<strong>Output:</strong> 5
+</pre>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>-1000 &lt;= a, b &lt;= 1000</code></li>
+</ul>
+
+
+</details>
+
+---
+
 ## 🏷 Tags
 
-- None
+- Math
+- Bit Manipulation
+
+---
+
+## 🔁 Similar Problems
+
+| Problem | Difficulty |
+|---------|------------|
+| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 🟡 Medium |
 
 ---
 
@@ -37,4 +72,4 @@ No notes provided.
 | C++ | 0 ms | 7.7 MB | [solution.cpp](./solution.cpp) |
 
 ---
-Generated automatically using [LeetVault](https://github.com/vedant476/LeetVault).
+Generated using [LeetVault](https://github.com/vedant476/LeetVault).

@@ -3,6 +3,7 @@
 | Property | Value |
 |----------|-------|
 | Difficulty | 🟢 Easy |
+| Acceptance Rate | 77.7% |
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
@@ -18,9 +19,58 @@ https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/
 
 ---
 
+<details>
+<summary>Show problem statement</summary>
+
+Given a string <code>s</code>, return the <strong>maximum</strong> length of a <span data-keyword="substring">substring</span>&nbsp;such that it contains <em>at most two occurrences</em> of each character.
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">s = &quot;bcbbbcba&quot;</span></p>
+
+<p><strong>Output:</strong> <span class="example-io">4</span></p>
+
+<p><strong>Explanation:</strong></p>
+The following substring has a length of 4 and contains at most two occurrences of each character: <code>&quot;bcbb<u>bcba</u>&quot;</code>.</div>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">s = &quot;aaaa&quot;</span></p>
+
+<p><strong>Output:</strong> <span class="example-io">2</span></p>
+
+<p><strong>Explanation:</strong></p>
+The following substring has a length of 2 and contains at most two occurrences of each character: <code>&quot;<u>aa</u>aa&quot;</code>.</div>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>2 &lt;= s.length &lt;= 100</code></li>
+	<li><code>s</code> consists only of lowercase English letters.</li>
+</ul>
+
+
+</details>
+
+---
+
 ## 🏷 Tags
 
-- None
+- Hash Table
+- String
+- Sliding Window
+
+---
+
+<details>
+<summary>💡 Hints (click to expand)</summary>
+
+1. We can try all substrings by brute-force since the constraints are very small.
+
+</details>
 
 ---
 
@@ -37,4 +87,4 @@ No notes provided.
 | C++ | 0 ms | 9.7 MB | [solution.cpp](./solution.cpp) |
 
 ---
-Generated automatically using [LeetVault](https://github.com/vedant476/LeetVault).
+Generated using [LeetVault](https://github.com/vedant476/LeetVault).
