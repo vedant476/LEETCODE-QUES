@@ -2,10 +2,10 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-1-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-2-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-1-success)]()
 [![Medium](https://img.shields.io/badge/Medium-0-orange)]()
-[![Hard](https://img.shields.io/badge/Hard-0-red)]()
+[![Hard](https://img.shields.io/badge/Hard-1-red)]()
 [![Languages](https://img.shields.io/badge/Languages-1-blueviolet)]()
 
 ---
@@ -14,22 +14,31 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 1 |
+| Problems Solved | 2 |
 | Easy | 1 |
 | Medium | 0 |
-| Hard | 0 |
+| Hard | 1 |
 | Languages | C++ |
-| Last Sync | 24 Sep 2026 |
+| Last Sync | 29 Sep 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (1)
+## Array (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2116 | Count Number of Pairs With Absolute Difference K | 🟢 Easy | [View](./2116-count-number-of-pairs-with-absolute-difference-k/) |
+| 2349 |  Check if There Is a Valid Parentheses String Path | 🔴 Hard | [View](./2349-check-if-there-is-a-valid-parentheses-string-path/) |
+
+---
+
+## Bracket Sequences (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2349 |  Check if There Is a Valid Parentheses String Path | 🔴 Hard | [View](./2349-check-if-there-is-a-valid-parentheses-string-path/) |
 
 ---
 
@@ -41,6 +50,14 @@
 
 ---
 
+## Dynamic Programming (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2349 |  Check if There Is a Valid Parentheses String Path | 🔴 Hard | [View](./2349-check-if-there-is-a-valid-parentheses-string-path/) |
+
+---
+
 ## Hash Table (1)
 
 | # | Problem | Difficulty | Solution |
@@ -49,10 +66,19 @@
 
 ---
 
+## Matrix (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2349 |  Check if There Is a Valid Parentheses String Path | 🔴 Hard | [View](./2349-check-if-there-is-a-valid-parentheses-string-path/) |
+
+---
+
 # 🔥 Recently Solved
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 29 Sep 2026 |  Check if There Is a Valid Parentheses String Path | 🔴 Hard | C++ |
 | 24 Sep 2026 | Count Number of Pairs With Absolute Difference K | 🟢 Easy | C++ |
 
 ---

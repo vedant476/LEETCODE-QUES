@@ -1,13 +1,13 @@
 {
   "stats": {
-    "total": 1,
+    "total": 2,
     "easy": 1,
     "medium": 0,
-    "hard": 0,
+    "hard": 1,
     "languages": [
       "C++"
     ],
-    "lastSync": "24 Sep 2026"
+    "lastSync": "29 Sep 2026"
   },
   "problems": [
     {
@@ -84,6 +84,66 @@
         }
       ],
       "url": "https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/"
+    },
+    {
+      "title": " Check if There Is a Valid Parentheses String Path",
+      "slug": "check-if-there-is-a-valid-parentheses-string-path",
+      "qid": "2349",
+      "difficulty": "Hard",
+      "tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Dynamic Programming",
+          "slug": "dynamic-programming"
+        },
+        {
+          "name": "Matrix",
+          "slug": "matrix"
+        },
+        {
+          "name": "Bracket Sequences",
+          "slug": "bracket-sequences"
+        }
+      ],
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "const unsigned long long C = 1ull << 63;\nstruct Bitbuf {\n    unsigned long long data[2];\n\n    void set(int x) {\n        if( x<64 ) {\n            data[0] |= 1 << x;\n        } else {\n            data[1] |= 1 << (x-64);\n        }\n    }\n\n    void setzero() {\n        data[0] |= 1;\n    }\n\n    void merge(Bitbuf const& other) {\n        data[0] |= other.data[0];\n        data[1] |= other.data[1];\n    }\n\n    void copy(Bitbuf const& other) {\n        data[0] = other.data[0];\n        data[1] = other.data[1];\n    }\n\n    void copy_and_shift(Bitbuf const& other, int dir) {\n        copy(other);\n        shift(dir);\n    }\n\n    void init() {\n        data[0] = 1ull;\n        data[1] = 0ull;\n    }\n\n    \n    void inc() {\n        data[1] <<= 1ull;\n        if( (data[0]&C)==C ) {\n            data[1] |= 1ull;\n        }\n        data[0] <<= 1ull;\n    }\n\n    void dec() {\n        data[0] >>= 1ull;\n        if( (data[1]&1ull)==1ull ) {\n            data[0] |= C;\n        }\n        data[1] >>= 1ull;\n    }\n\n    void shift(int d) {\n        if( d>0 ) {\n            inc();\n        } else {\n            dec();\n        }\n    }\n\n    bool contains_zero() {\n        return (data[0]&1ull)==1ull;\n    }\n\n};\n\nclass Solution {\npublic:\n    bool hasValidPath(vector<vector<char>>& grid) {\n        const int R=grid.size(), C=grid[0].size();\n        vector<vector<Bitbuf>> buf(2, vector<Bitbuf>(C));\n        auto val = [&](int r, int c) {\n            switch (grid[r][c]) {\n                case '(': return 1;\n                default: return -1;\n            }\n        };\n        if( grid[0][0]==')' || grid.back().back()=='(' ) {\n            return false;\n        }\n        buf[0][0].init();\n        buf[0][0].shift(val(0, 0));\n\n        for( int c=1;c<C;++c ) {\n            buf[0][c].copy_and_shift(buf[0][c-1], val(0, c));\n            \n        }\n        for( int r=1;r<R;++r ) {\n            int curr = r%2;\n            int pref = (r+1)%2;\n            buf[curr][0].copy_and_shift(buf[pref][0], val(r, 0));\n            for( int c=1;c<C;++c ) {\n                buf[curr][c].copy(buf[curr][c-1]);\n                buf[curr][c].merge(buf[pref][c]);\n                buf[curr][c].shift(val(r, c));\n            }\n        }\n        \n        return buf[(grid.size()+1)%2].back().contains_zero();\n    }\n};",
+          "runtime": "10 ms",
+          "memory": "17.9 MB",
+          "status": "Accepted",
+          "timestamp": 1790682098,
+          "id": 2157028609
+        }
+      ],
+      "questionId": "2349",
+      "paidOnly": false,
+      "likes": 546,
+      "dislikes": 9,
+      "acceptanceRate": "40.7%",
+      "content": "<p>A parentheses string is a <strong>non-empty</strong> string consisting only of <code>&#39;(&#39;</code> and <code>&#39;)&#39;</code>. It is <strong>valid</strong> if <strong>any</strong> of the following conditions is <strong>true</strong>:</p>\n\n<ul>\n\t<li>It is <code>()</code>.</li>\n\t<li>It can be written as <code>AB</code> (<code>A</code> concatenated with <code>B</code>), where <code>A</code> and <code>B</code> are valid parentheses strings.</li>\n\t<li>It can be written as <code>(A)</code>, where <code>A</code> is a valid parentheses string.</li>\n</ul>\n\n<p>You are given an <code>m x n</code> matrix of parentheses <code>grid</code>. A <strong>valid parentheses string path</strong> in the grid is a path satisfying <strong>all</strong> of the following conditions:</p>\n\n<ul>\n\t<li>The path starts from the upper left cell <code>(0, 0)</code>.</li>\n\t<li>The path ends at the bottom-right cell <code>(m - 1, n - 1)</code>.</li>\n\t<li>The path only ever moves <strong>down</strong> or <strong>right</strong>.</li>\n\t<li>The resulting parentheses string formed by the path is <strong>valid</strong>.</li>\n</ul>\n\n<p>Return <code>true</code> <em>if there exists a <strong>valid parentheses string path</strong> in the grid.</em> Otherwise, return <code>false</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2022/03/15/example1drawio.png\" style=\"width: 521px; height: 300px;\" />\n<pre>\n<strong>Input:</strong> grid = [[&quot;(&quot;,&quot;(&quot;,&quot;(&quot;],[&quot;)&quot;,&quot;(&quot;,&quot;)&quot;],[&quot;(&quot;,&quot;(&quot;,&quot;)&quot;],[&quot;(&quot;,&quot;(&quot;,&quot;)&quot;]]\n<strong>Output:</strong> true\n<strong>Explanation:</strong> The above diagram shows two possible paths that form valid parentheses strings.\nThe first path shown results in the valid parentheses string &quot;()(())&quot;.\nThe second path shown results in the valid parentheses string &quot;((()))&quot;.\nNote that there may be other valid parentheses string paths.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2022/03/15/example2drawio.png\" style=\"width: 165px; height: 165px;\" />\n<pre>\n<strong>Input:</strong> grid = [[&quot;)&quot;,&quot;)&quot;],[&quot;(&quot;,&quot;(&quot;]]\n<strong>Output:</strong> false\n<strong>Explanation:</strong> The two possible paths form the parentheses strings &quot;))(&quot; and &quot;)((&quot;. Since neither of them are valid parentheses strings, we return false.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>m == grid.length</code></li>\n\t<li><code>n == grid[i].length</code></li>\n\t<li><code>1 &lt;= m, n &lt;= 100</code></li>\n\t<li><code>grid[i][j]</code> is either <code>&#39;(&#39;</code> or <code>&#39;)&#39;</code>.</li>\n</ul>\n",
+      "hints": [
+        "What observations can you make about the number of open brackets and close brackets for any prefix of a valid bracket sequence?",
+        "The number of open brackets must always be greater than or equal to the number of close brackets.",
+        "Could you use dynamic programming?"
+      ],
+      "similarQuestions": [
+        {
+          "difficulty": "Medium",
+          "title": "Check if There is a Valid Path in a Grid",
+          "titleSlug": "check-if-there-is-a-valid-path-in-a-grid"
+        },
+        {
+          "difficulty": "Medium",
+          "title": "Check if a Parentheses String Can Be Valid",
+          "titleSlug": "check-if-a-parentheses-string-can-be-valid"
+        }
+      ],
+      "url": "https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/"
     }
   ]
 }
