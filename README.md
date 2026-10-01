@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-381-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-196-success)]()
+[![Problems](https://img.shields.io/badge/Problems-382-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-197-success)]()
 [![Medium](https://img.shields.io/badge/Medium-139-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-44-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
@@ -14,8 +14,8 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 381 |
-| Easy | 196 |
+| Problems Solved | 382 |
+| Easy | 197 |
 | Medium | 139 |
 | Hard | 44 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
@@ -901,7 +901,7 @@
 
 ---
 
-## Math (137)
+## Math (138)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1042,6 +1042,7 @@
 | 0066 | Plus One | 🟢 Easy | [View](./0066-plus-one/) |
 | 0029 | Divide Two Integers | 🟡 Medium | [View](./0029-divide-two-integers/) |
 | 0013 | Roman to Integer | 🟢 Easy | [View](./0013-roman-to-integer/) |
+| 3830 | Find Closest Person | 🟢 Easy | [View](./3830-find-closest-person/) |
 
 ---
 
@@ -1756,6 +1757,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 02 Oct 2026 | Find Closest Person | 🟢 Easy | C++ |
 | 01 Oct 2026 | Lexicographically Largest Power Array | ⚪ Unknown | C++ |
 | 01 Oct 2026 | Valid Parentheses | 🟢 Easy | C++ |
 | 01 Oct 2026 | Maximum Nesting Depth of Two Valid Parentheses Strings | 🟡 Medium | C++ |
@@ -1765,7 +1767,6 @@
 | 27 Sep 2026 | Evaluate the Bracket Pairs of a String | 🟡 Medium | C++ |
 | 26 Sep 2026 | Brace Expansion II | 🔴 Hard | C++ |
 | 24 Sep 2026 | Count Number of Pairs With Absolute Difference K | 🟢 Easy | C++ |
-| 24 Sep 2026 | Smallest Index With Digit Sum Equal to Index | 🟢 Easy | C++ |
 
 ---
 
