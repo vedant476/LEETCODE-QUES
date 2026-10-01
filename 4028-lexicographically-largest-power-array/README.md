@@ -4,11 +4,11 @@
 |----------|-------|
 | Difficulty | ⚪ Unknown |
 | Language | C++ |
-| Status | ❌ Wrong Answer |
-| Runtime | N/A |
-| Memory | N/A |
-| Submission ID | 2147283173 |
-| Solved On | 20 Sep 2026 |
+| Status | ✅ Accepted |
+| Runtime | 41 ms |
+| Memory | 183.7 MB |
+| Submission ID | 2159508447 |
+| Solved On | 01 Oct 2026 |
 
 ---
 
@@ -34,7 +34,7 @@ No notes provided.
 
 | Language | Runtime | Memory | File |
 |----------|---------|--------|------|
-| C++ | N/A | N/A | [solution.cpp](./solution.cpp) |
+| C++ | 41 ms | 183.7 MB | [solution.cpp](./solution.cpp) |
 
 ---
 Generated using [LeetVault](https://github.com/vedant476/LeetVault).
