@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-382-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-197-success)]()
+[![Problems](https://img.shields.io/badge/Problems-383-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-198-success)]()
 [![Medium](https://img.shields.io/badge/Medium-139-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-44-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
@@ -14,8 +14,8 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 382 |
-| Easy | 197 |
+| Problems Solved | 383 |
+| Easy | 198 |
 | Medium | 139 |
 | Hard | 44 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
@@ -312,7 +312,7 @@
 
 ---
 
-## Bit Manipulation (30)
+## Bit Manipulation (31)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -346,6 +346,7 @@
 | 0268 | Missing Number | 🟢 Easy | [View](./0268-missing-number/) |
 | 0029 | Divide Two Integers | 🟡 Medium | [View](./0029-divide-two-integers/) |
 | 0190 | Reverse Bits | 🟢 Easy | [View](./0190-reverse-bits/) |
+| 0405 | Convert a Number to Hexadecimal | 🟢 Easy | [View](./0405-convert-a-number-to-hexadecimal/) |
 
 ---
 
@@ -901,7 +902,7 @@
 
 ---
 
-## Math (138)
+## Math (139)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1043,6 +1044,7 @@
 | 0029 | Divide Two Integers | 🟡 Medium | [View](./0029-divide-two-integers/) |
 | 0013 | Roman to Integer | 🟢 Easy | [View](./0013-roman-to-integer/) |
 | 3830 | Find Closest Person | 🟢 Easy | [View](./3830-find-closest-person/) |
+| 0405 | Convert a Number to Hexadecimal | 🟢 Easy | [View](./0405-convert-a-number-to-hexadecimal/) |
 
 ---
 
@@ -1525,7 +1527,7 @@
 
 ---
 
-## String (82)
+## String (83)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1611,6 +1613,7 @@
 | 0058 | Length of Last Word | 🟢 Easy | [View](./0058-length-of-last-word/) |
 | 0013 | Roman to Integer | 🟢 Easy | [View](./0013-roman-to-integer/) |
 | 0344 | Reverse String | 🟢 Easy | [View](./0344-reverse-string/) |
+| 0405 | Convert a Number to Hexadecimal | 🟢 Easy | [View](./0405-convert-a-number-to-hexadecimal/) |
 
 ---
 
@@ -1757,6 +1760,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 02 Oct 2026 | Convert a Number to Hexadecimal | 🟢 Easy | C++ |
 | 02 Oct 2026 | Find Closest Person | 🟢 Easy | C++ |
 | 01 Oct 2026 | Lexicographically Largest Power Array | ⚪ Unknown | C++ |
 | 01 Oct 2026 | Valid Parentheses | 🟢 Easy | C++ |
@@ -1766,7 +1770,6 @@
 | 28 Sep 2026 | Reverse Substrings Between Each Pair of Parentheses | 🟡 Medium | C++ |
 | 27 Sep 2026 | Evaluate the Bracket Pairs of a String | 🟡 Medium | C++ |
 | 26 Sep 2026 | Brace Expansion II | 🔴 Hard | C++ |
-| 24 Sep 2026 | Count Number of Pairs With Absolute Difference K | 🟢 Easy | C++ |
 
 ---
 
