@@ -1,6 +1,6 @@
 {
   "stats": {
-    "total": 3,
+    "total": 4,
     "easy": 2,
     "medium": 0,
     "hard": 1,
@@ -220,6 +220,25 @@
         }
       ],
       "url": "https://leetcode.com/problems/valid-parentheses/"
+    },
+    {
+      "title": "Lexicographically Largest Power Array",
+      "slug": "lexicographically-largest-power-array",
+      "qid": "4059",
+      "difficulty": "Unknown",
+      "tags": [],
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\n    vector<int> res;\n    vector<int> done;\n\n    void f(const vector<int>& A, int i) {\n        if (i == 15) return;\n        if (done[i]) {\n            f(A, i + 1);\n            return;\n        }\n        vector<int> L, R;\n        for (int a : A) {\n            if (a & (1 << (14 - i))) {\n                L.push_back(a);\n            } else {\n                R.push_back(a);\n            }\n        }\n        if (!L.empty()) {\n            res[i] += L.size();\n            f(L, i + 1);\n        }\n        if (!R.empty()) {\n            done[i] = 1;\n            f(R, i + 1);\n        }\n    }\n\npublic:\n    vector<int> largestPower(vector<int>& A) {\n        res.assign(15, 0);\n        done.assign(15, 0);\n        f(A, 0);\n        return res;\n    }\n};",
+          "runtime": "41 ms",
+          "memory": "183.7 MB",
+          "status": "Accepted",
+          "timestamp": 1790878372,
+          "id": 2159508447
+        }
+      ]
     }
   ]
 }

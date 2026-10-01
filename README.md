@@ -2,7 +2,7 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-3-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-4-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-2-success)]()
 [![Medium](https://img.shields.io/badge/Medium-0-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-1-red)]()
@@ -14,7 +14,7 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 3 |
+| Problems Solved | 4 |
 | Easy | 2 |
 | Medium | 0 |
 | Hard | 1 |
@@ -91,10 +91,19 @@
 
 ---
 
+## Uncategorized (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 4059 | Lexicographically Largest Power Array | ⚪ Unknown | [View](./4059-lexicographically-largest-power-array/) |
+
+---
+
 # 🔥 Recently Solved
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 01 Oct 2026 | Lexicographically Largest Power Array | ⚪ Unknown | C++ |
 | 01 Oct 2026 | Valid Parentheses | 🟢 Easy | C++ |
 | 29 Sep 2026 |  Check if There Is a Valid Parentheses String Path | 🔴 Hard | C++ |
 | 24 Sep 2026 | Count Number of Pairs With Absolute Difference K | 🟢 Easy | C++ |
