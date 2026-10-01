@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-2-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-1-success)]()
+[![Problems](https://img.shields.io/badge/Problems-3-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-2-success)]()
 [![Medium](https://img.shields.io/badge/Medium-0-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-1-red)]()
 [![Languages](https://img.shields.io/badge/Languages-1-blueviolet)]()
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 2 |
-| Easy | 1 |
+| Problems Solved | 3 |
+| Easy | 2 |
 | Medium | 0 |
 | Hard | 1 |
 | Languages | C++ |
-| Last Sync | 29 Sep 2026 |
+| Last Sync | 01 Oct 2026 |
 
 ---
 
@@ -34,11 +34,12 @@
 
 ---
 
-## Bracket Sequences (1)
+## Bracket Sequences (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2349 |  Check if There Is a Valid Parentheses String Path | 🔴 Hard | [View](./2349-check-if-there-is-a-valid-parentheses-string-path/) |
+| 0020 | Valid Parentheses | 🟢 Easy | [View](./0020-valid-parentheses/) |
 
 ---
 
@@ -74,10 +75,27 @@
 
 ---
 
+## Stack (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 0020 | Valid Parentheses | 🟢 Easy | [View](./0020-valid-parentheses/) |
+
+---
+
+## String (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 0020 | Valid Parentheses | 🟢 Easy | [View](./0020-valid-parentheses/) |
+
+---
+
 # 🔥 Recently Solved
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 01 Oct 2026 | Valid Parentheses | 🟢 Easy | C++ |
 | 29 Sep 2026 |  Check if There Is a Valid Parentheses String Path | 🔴 Hard | C++ |
 | 24 Sep 2026 | Count Number of Pairs With Absolute Difference K | 🟢 Easy | C++ |
 

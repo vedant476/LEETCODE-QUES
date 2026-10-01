@@ -1,13 +1,13 @@
 {
   "stats": {
-    "total": 2,
-    "easy": 1,
+    "total": 3,
+    "easy": 2,
     "medium": 0,
     "hard": 1,
     "languages": [
       "C++"
     ],
-    "lastSync": "29 Sep 2026"
+    "lastSync": "01 Oct 2026"
   },
   "problems": [
     {
@@ -144,6 +144,82 @@
         }
       ],
       "url": "https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/"
+    },
+    {
+      "title": "Valid Parentheses",
+      "slug": "valid-parentheses",
+      "qid": "20",
+      "difficulty": "Easy",
+      "tags": [
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Stack",
+          "slug": "stack"
+        },
+        {
+          "name": "Bracket Sequences",
+          "slug": "bracket-sequences"
+        }
+      ],
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    bool isValid(string str) {\n        if (str.size() % 2)\n            return 0;\n\n        int j = 0;\n\n        for (char s : str)\n            if ((s & 3) != 1)\n                str[j++] = s;\n            else if (j == 0 || ((s - str[--j] + 1) >> 1) != 1)\n                return 0;\n\n        return j == 0;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "8.6 MB",
+          "status": "Accepted",
+          "timestamp": 1790823715,
+          "id": 2158720944
+        }
+      ],
+      "questionId": "20",
+      "paidOnly": false,
+      "likes": 28424,
+      "dislikes": 2026,
+      "acceptanceRate": "44.8%",
+      "content": "<p>Given a string <code>s</code> containing just the characters <code>&#39;(&#39;</code>, <code>&#39;)&#39;</code>, <code>&#39;{&#39;</code>, <code>&#39;}&#39;</code>, <code>&#39;[&#39;</code> and <code>&#39;]&#39;</code>, determine if the input string is valid.</p>\n\n<p>An input string is valid if:</p>\n\n<ol>\n\t<li>Open brackets must be closed by the same type of brackets.</li>\n\t<li>Open brackets must be closed in the correct order.</li>\n\t<li>Every close bracket has a corresponding open bracket of the same type.</li>\n</ol>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = &quot;()&quot;</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">true</span></p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = &quot;()[]{}&quot;</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">true</span></p>\n</div>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = &quot;(]&quot;</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">false</span></p>\n</div>\n\n<p><strong class=\"example\">Example 4:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = &quot;([])&quot;</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">true</span></p>\n</div>\n\n<p><strong class=\"example\">Example 5:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = &quot;([)]&quot;</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">false</span></p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>s</code> consists of parentheses only <code>&#39;()[]{}&#39;</code>.</li>\n</ul>\n",
+      "hints": [
+        "Use a stack of characters.",
+        "When you encounter an opening bracket, push it to the top of the stack.",
+        "When you encounter a closing bracket, check if the top of the stack was the opening for it. If yes, pop it from the stack. Otherwise, return false."
+      ],
+      "similarQuestions": [
+        {
+          "difficulty": "Medium",
+          "title": "Generate Parentheses",
+          "titleSlug": "generate-parentheses"
+        },
+        {
+          "difficulty": "Hard",
+          "title": "Longest Valid Parentheses",
+          "titleSlug": "longest-valid-parentheses"
+        },
+        {
+          "difficulty": "Hard",
+          "title": "Remove Invalid Parentheses",
+          "titleSlug": "remove-invalid-parentheses"
+        },
+        {
+          "difficulty": "Medium",
+          "title": "Check If Word Is Valid After Substitutions",
+          "titleSlug": "check-if-word-is-valid-after-substitutions"
+        },
+        {
+          "difficulty": "Medium",
+          "title": "Check if a Parentheses String Can Be Valid",
+          "titleSlug": "check-if-a-parentheses-string-can-be-valid"
+        },
+        {
+          "difficulty": "Medium",
+          "title": "Move Pieces to Obtain a String",
+          "titleSlug": "move-pieces-to-obtain-a-string"
+        }
+      ],
+      "url": "https://leetcode.com/problems/valid-parentheses/"
     }
   ]
 }

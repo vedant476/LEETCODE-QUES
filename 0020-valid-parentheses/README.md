@@ -4,12 +4,12 @@
 |----------|-------|
 | Difficulty | 🟢 Easy |
 | Acceptance Rate | 44.8% |
-| Language | C |
+| Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
-| Memory | 7.9 MB |
-| Submission ID | 1742722543 |
-| Solved On | 21 Aug 2025 |
+| Memory | 8.6 MB |
+| Submission ID | 2158720944 |
+| Solved On | 01 Oct 2026 |
 
 ---
 
@@ -128,7 +128,7 @@ No notes provided.
 
 | Language | Runtime | Memory | File |
 |----------|---------|--------|------|
-| C | 0 ms | 7.9 MB | [solution.c](./solution.c) |
+| C++ | 0 ms | 8.6 MB | [solution.cpp](./solution.cpp) |
 
 ---
 Generated using [LeetVault](https://github.com/vedant476/LeetVault).
