@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-383-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-384-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-198-success)]()
-[![Medium](https://img.shields.io/badge/Medium-139-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-140-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-44-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
@@ -14,9 +14,9 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 383 |
+| Problems Solved | 384 |
 | Easy | 198 |
-| Medium | 139 |
+| Medium | 140 |
 | Hard | 44 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
 | Last Sync | 02 Oct 2026 |
@@ -235,7 +235,7 @@
 
 ---
 
-## Backtracking (5)
+## Backtracking (6)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -244,6 +244,7 @@
 | 0017 | Letter Combinations of a Phone Number | 🟡 Medium | [View](./0017-letter-combinations-of-a-phone-number/) |
 | 0078 | Subsets | 🟡 Medium | [View](./0078-subsets/) |
 | 0046 | Permutations | 🟡 Medium | [View](./0046-permutations/) |
+| 0022 | Generate Parentheses | 🟡 Medium | [View](./0022-generate-parentheses/) |
 
 ---
 
@@ -367,7 +368,7 @@
 
 ---
 
-## Bracket Sequences (5)
+## Bracket Sequences (6)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -376,6 +377,7 @@
 | 2349 |  Check if There Is a Valid Parentheses String Path | 🔴 Hard | [View](./2349-check-if-there-is-a-valid-parentheses-string-path/) |
 | 1737 | Maximum Nesting Depth of the Parentheses | 🟢 Easy | [View](./1737-maximum-nesting-depth-of-the-parentheses/) |
 | 1298 | Reverse Substrings Between Each Pair of Parentheses | 🟡 Medium | [View](./1298-reverse-substrings-between-each-pair-of-parentheses/) |
+| 0022 | Generate Parentheses | 🟡 Medium | [View](./0022-generate-parentheses/) |
 
 ---
 
@@ -553,7 +555,7 @@
 
 ---
 
-## Dynamic Programming (38)
+## Dynamic Programming (39)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -595,6 +597,7 @@
 | 1086 | Divisor Game | 🟢 Easy | [View](./1086-divisor-game/) |
 | 1362 | Airplane Seat Assignment Probability | 🟡 Medium | [View](./1362-airplane-seat-assignment-probability/) |
 | 1013 | Fibonacci Number | 🟢 Easy | [View](./1013-fibonacci-number/) |
+| 0022 | Generate Parentheses | 🟡 Medium | [View](./0022-generate-parentheses/) |
 
 ---
 
@@ -1527,7 +1530,7 @@
 
 ---
 
-## String (83)
+## String (84)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1614,6 +1617,7 @@
 | 0013 | Roman to Integer | 🟢 Easy | [View](./0013-roman-to-integer/) |
 | 0344 | Reverse String | 🟢 Easy | [View](./0344-reverse-string/) |
 | 0405 | Convert a Number to Hexadecimal | 🟢 Easy | [View](./0405-convert-a-number-to-hexadecimal/) |
+| 0022 | Generate Parentheses | 🟡 Medium | [View](./0022-generate-parentheses/) |
 
 ---
 
@@ -1760,6 +1764,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 02 Oct 2026 | Generate Parentheses | 🟡 Medium | C++ |
 | 02 Oct 2026 | Convert a Number to Hexadecimal | 🟢 Easy | C++ |
 | 02 Oct 2026 | Find Closest Person | 🟢 Easy | C++ |
 | 01 Oct 2026 | Lexicographically Largest Power Array | ⚪ Unknown | C++ |
@@ -1769,7 +1774,6 @@
 | 29 Sep 2026 | Maximum Nesting Depth of the Parentheses | 🟢 Easy | C++ |
 | 28 Sep 2026 | Reverse Substrings Between Each Pair of Parentheses | 🟡 Medium | C++ |
 | 27 Sep 2026 | Evaluate the Bracket Pairs of a String | 🟡 Medium | C++ |
-| 26 Sep 2026 | Brace Expansion II | 🔴 Hard | C++ |
 
 ---
 
