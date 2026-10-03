@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-385-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-198-success)]()
+[![Problems](https://img.shields.io/badge/Problems-386-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-199-success)]()
 [![Medium](https://img.shields.io/badge/Medium-140-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-45-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
@@ -14,8 +14,8 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 385 |
-| Easy | 198 |
+| Problems Solved | 386 |
+| Easy | 199 |
 | Medium | 140 |
 | Hard | 45 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
@@ -25,7 +25,7 @@
 
 # 📂 Browse by Topic
 
-## Array (203)
+## Array (204)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -232,6 +232,7 @@
 | 0169 | Majority Element | 🟢 Easy | [View](./0169-majority-element/) |
 | 0004 | Median of Two Sorted Arrays | 🔴 Hard | [View](./0004-median-of-two-sorted-arrays/) |
 | 0001 | Two Sum | 🟢 Easy | [View](./0001-two-sum/) |
+| 1018 | Largest Perimeter Triangle | 🟢 Easy | [View](./1018-largest-perimeter-triangle/) |
 
 ---
 
@@ -716,7 +717,7 @@
 
 ---
 
-## Greedy (31)
+## Greedy (32)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -751,6 +752,7 @@
 | 0011 | Container With Most Water | 🟡 Medium | [View](./0011-container-with-most-water/) |
 | 0561 | Array Partition | 🟢 Easy | [View](./0561-array-partition/) |
 | 0605 | Can Place Flowers | 🟢 Easy | [View](./0605-can-place-flowers/) |
+| 1018 | Largest Perimeter Triangle | 🟢 Easy | [View](./1018-largest-perimeter-triangle/) |
 
 ---
 
@@ -907,7 +909,7 @@
 
 ---
 
-## Math (139)
+## Math (140)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1050,6 +1052,7 @@
 | 0013 | Roman to Integer | 🟢 Easy | [View](./0013-roman-to-integer/) |
 | 3830 | Find Closest Person | 🟢 Easy | [View](./3830-find-closest-person/) |
 | 0405 | Convert a Number to Hexadecimal | 🟢 Easy | [View](./0405-convert-a-number-to-hexadecimal/) |
+| 1018 | Largest Perimeter Triangle | 🟢 Easy | [View](./1018-largest-perimeter-triangle/) |
 
 ---
 
@@ -1185,12 +1188,13 @@
 
 ---
 
-## Polygons (2)
+## Polygons (3)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0830 | Largest Triangle Area | 🟢 Easy | [View](./0830-largest-triangle-area/) |
 | 3321 | Type of Triangle | 🟢 Easy | [View](./3321-type-of-triangle/) |
+| 1018 | Largest Perimeter Triangle | 🟢 Easy | [View](./1018-largest-perimeter-triangle/) |
 
 ---
 
@@ -1277,13 +1281,14 @@
 
 ---
 
-## Quicksort (3)
+## Quicksort (4)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0056 | Merge Intervals | 🟡 Medium | [View](./0056-merge-intervals/) |
 | 1217 | Relative Sort Array | 🟢 Easy | [View](./1217-relative-sort-array/) |
 | 0075 | Sort Colors | 🟡 Medium | [View](./0075-sort-colors/) |
+| 1018 | Largest Perimeter Triangle | 🟢 Easy | [View](./1018-largest-perimeter-triangle/) |
 
 ---
 
@@ -1432,7 +1437,7 @@
 
 ---
 
-## Sorting (64)
+## Sorting (65)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1500,6 +1505,7 @@
 | 0268 | Missing Number | 🟢 Easy | [View](./0268-missing-number/) |
 | 1626 | Can Make Arithmetic Progression From Sequence | 🟢 Easy | [View](./1626-can-make-arithmetic-progression-from-sequence/) |
 | 0169 | Majority Element | 🟢 Easy | [View](./0169-majority-element/) |
+| 1018 | Largest Perimeter Triangle | 🟢 Easy | [View](./1018-largest-perimeter-triangle/) |
 
 ---
 
@@ -1768,6 +1774,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 04 Oct 2026 | Largest Perimeter Triangle | 🟢 Easy | C++ |
 | 04 Oct 2026 | Longest Valid Parentheses | 🔴 Hard | C++ |
 | 02 Oct 2026 | Generate Parentheses | 🟡 Medium | C++ |
 | 02 Oct 2026 | Convert a Number to Hexadecimal | 🟢 Easy | C++ |
@@ -1777,7 +1784,6 @@
 | 01 Oct 2026 | Maximum Nesting Depth of Two Valid Parentheses Strings | 🟡 Medium | C++ |
 | 29 Sep 2026 |  Check if There Is a Valid Parentheses String Path | 🔴 Hard | C++ |
 | 29 Sep 2026 | Maximum Nesting Depth of the Parentheses | 🟢 Easy | C++ |
-| 28 Sep 2026 | Reverse Substrings Between Each Pair of Parentheses | 🟡 Medium | C++ |
 
 ---
 
