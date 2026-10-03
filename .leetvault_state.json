@@ -1,9 +1,9 @@
 {
   "stats": {
-    "total": 384,
+    "total": 385,
     "easy": 198,
     "medium": 140,
-    "hard": 44,
+    "hard": 45,
     "languages": [
       "Bash",
       "C",
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "02 Oct 2026"
+    "lastSync": "04 Oct 2026"
   },
   "problems": [
     {
@@ -21707,10 +21707,45 @@
       "url": "https://leetcode.com/problems/convert-a-number-to-hexadecimal/"
     },
     {
-      "title": "Generate Parentheses",
-      "slug": "generate-parentheses",
-      "qid": "22",
+      "acceptanceRate": "79.1%",
+      "content": "<p>Given <code>n</code> pairs of parentheses, write a function to <em>generate all combinations of well-formed parentheses</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> n = 3\n<strong>Output:</strong> [\"((()))\",\"(()())\",\"(())()\",\"()(())\",\"()()()\"]\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> n = 1\n<strong>Output:</strong> [\"()\"]\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n &lt;= 8</code></li>\n</ul>\n",
       "difficulty": "Medium",
+      "dislikes": 1097,
+      "files": [
+        {
+          "code": "class Solution {\npublic:\n    void backtrack(string curr,int open,int close,int n,vector<string>& res){\n        if(curr.length()==2*n){\n            res.push_back(curr);\n            return;\n        }\n        if(open<n) backtrack(curr+'(',open+1,close,n,res);\n        if(close<open) backtrack(curr+')',open,close+1,n,res);\n    }\n    vector<string> generateParenthesis(int n) {\n        vector<string> res;\n        backtrack(\"\",0,0,n,res);\n        return res;\n    }\n};",
+          "filename": "solution.cpp",
+          "id": 2160307695,
+          "language": "cpp",
+          "memory": "15.8 MB",
+          "runtime": "5 ms",
+          "status": "Accepted",
+          "timestamp": 1790956553
+        }
+      ],
+      "hints": [],
+      "likes": 23559,
+      "paidOnly": false,
+      "qid": "22",
+      "questionId": "22",
+      "similarQuestions": [
+        {
+          "difficulty": "Medium",
+          "title": "Letter Combinations of a Phone Number",
+          "titleSlug": "letter-combinations-of-a-phone-number"
+        },
+        {
+          "difficulty": "Easy",
+          "title": "Valid Parentheses",
+          "titleSlug": "valid-parentheses"
+        },
+        {
+          "difficulty": "Medium",
+          "title": "Check if a Parentheses String Can Be Valid",
+          "titleSlug": "check-if-a-parentheses-string-can-be-valid"
+        }
+      ],
+      "slug": "generate-parentheses",
       "tags": [
         {
           "name": "String",
@@ -21729,43 +21764,59 @@
           "slug": "bracket-sequences"
         }
       ],
+      "title": "Generate Parentheses",
+      "url": "https://leetcode.com/problems/generate-parentheses/"
+    },
+    {
+      "title": "Longest Valid Parentheses",
+      "slug": "longest-valid-parentheses",
+      "qid": "32",
+      "difficulty": "Hard",
+      "tags": [
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Dynamic Programming",
+          "slug": "dynamic-programming"
+        },
+        {
+          "name": "Stack",
+          "slug": "stack"
+        },
+        {
+          "name": "Bracket Sequences",
+          "slug": "bracket-sequences"
+        }
+      ],
       "files": [
         {
           "filename": "solution.cpp",
           "language": "cpp",
-          "code": "class Solution {\npublic:\n    void backtrack(string curr,int open,int close,int n,vector<string>& res){\n        if(curr.length()==2*n){\n            res.push_back(curr);\n            return;\n        }\n        if(open<n) backtrack(curr+'(',open+1,close,n,res);\n        if(close<open) backtrack(curr+')',open,close+1,n,res);\n    }\n    vector<string> generateParenthesis(int n) {\n        vector<string> res;\n        backtrack(\"\",0,0,n,res);\n        return res;\n    }\n};",
-          "runtime": "5 ms",
-          "memory": "15.8 MB",
+          "code": "class Solution {\npublic:\n    int longestValidParentheses(string s) {\n        stack<int> st;\n        int a =0;\n        st.push(-1);\n        for( int i = 0 ;i< s.size();i++){\n            if(s[i] == '('){\n           st.push(i);\n            }\n            else{\n            st.pop();\n             if (st.empty())\n                st.push(i);\n            else \n                a = max(a, i-st.top());\n                }\n        }\n\n        return a;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "11.7 MB",
           "status": "Accepted",
-          "timestamp": 1790956553,
-          "id": 2160307695
+          "timestamp": 1791054126,
+          "id": 2161412963
         }
       ],
-      "questionId": "22",
+      "questionId": "32",
       "paidOnly": false,
-      "likes": 23559,
-      "dislikes": 1097,
-      "acceptanceRate": "79.1%",
-      "content": "<p>Given <code>n</code> pairs of parentheses, write a function to <em>generate all combinations of well-formed parentheses</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> n = 3\n<strong>Output:</strong> [\"((()))\",\"(()())\",\"(())()\",\"()(())\",\"()()()\"]\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> n = 1\n<strong>Output:</strong> [\"()\"]\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n &lt;= 8</code></li>\n</ul>\n",
+      "likes": 13459,
+      "dislikes": 470,
+      "acceptanceRate": "39.6%",
+      "content": "<p>Given a string containing just the characters <code>&#39;(&#39;</code> and <code>&#39;)&#39;</code>, return <em>the length of the longest valid (well-formed) parentheses </em><span data-keyword=\"substring-nonempty\"><em>substring</em></span>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;(()&quot;\n<strong>Output:</strong> 2\n<strong>Explanation:</strong> The longest valid parentheses substring is &quot;()&quot;.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;)()())&quot;\n<strong>Output:</strong> 4\n<strong>Explanation:</strong> The longest valid parentheses substring is &quot;()()&quot;.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;&quot;\n<strong>Output:</strong> 0\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= s.length &lt;= 3 * 10<sup>4</sup></code></li>\n\t<li><code>s[i]</code> is <code>&#39;(&#39;</code>, or <code>&#39;)&#39;</code>.</li>\n</ul>\n",
       "hints": [],
       "similarQuestions": [
-        {
-          "difficulty": "Medium",
-          "title": "Letter Combinations of a Phone Number",
-          "titleSlug": "letter-combinations-of-a-phone-number"
-        },
         {
           "difficulty": "Easy",
           "title": "Valid Parentheses",
           "titleSlug": "valid-parentheses"
-        },
-        {
-          "difficulty": "Medium",
-          "title": "Check if a Parentheses String Can Be Valid",
-          "titleSlug": "check-if-a-parentheses-string-can-be-valid"
         }
       ],
-      "url": "https://leetcode.com/problems/generate-parentheses/"
+      "url": "https://leetcode.com/problems/longest-valid-parentheses/"
     }
   ]
 }

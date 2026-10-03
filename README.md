@@ -2,10 +2,10 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-384-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-385-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-198-success)]()
 [![Medium](https://img.shields.io/badge/Medium-140-orange)]()
-[![Hard](https://img.shields.io/badge/Hard-44-red)]()
+[![Hard](https://img.shields.io/badge/Hard-45-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
 ---
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 384 |
+| Problems Solved | 385 |
 | Easy | 198 |
 | Medium | 140 |
-| Hard | 44 |
+| Hard | 45 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 02 Oct 2026 |
+| Last Sync | 04 Oct 2026 |
 
 ---
 
@@ -368,7 +368,7 @@
 
 ---
 
-## Bracket Sequences (6)
+## Bracket Sequences (7)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -378,6 +378,7 @@
 | 1737 | Maximum Nesting Depth of the Parentheses | 🟢 Easy | [View](./1737-maximum-nesting-depth-of-the-parentheses/) |
 | 1298 | Reverse Substrings Between Each Pair of Parentheses | 🟡 Medium | [View](./1298-reverse-substrings-between-each-pair-of-parentheses/) |
 | 0022 | Generate Parentheses | 🟡 Medium | [View](./0022-generate-parentheses/) |
+| 0032 | Longest Valid Parentheses | 🔴 Hard | [View](./0032-longest-valid-parentheses/) |
 
 ---
 
@@ -555,7 +556,7 @@
 
 ---
 
-## Dynamic Programming (39)
+## Dynamic Programming (40)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -598,6 +599,7 @@
 | 1362 | Airplane Seat Assignment Probability | 🟡 Medium | [View](./1362-airplane-seat-assignment-probability/) |
 | 1013 | Fibonacci Number | 🟢 Easy | [View](./1013-fibonacci-number/) |
 | 0022 | Generate Parentheses | 🟡 Medium | [View](./0022-generate-parentheses/) |
+| 0032 | Longest Valid Parentheses | 🔴 Hard | [View](./0032-longest-valid-parentheses/) |
 
 ---
 
@@ -1509,7 +1511,7 @@
 
 ---
 
-## Stack (14)
+## Stack (15)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1527,10 +1529,11 @@
 | 0094 | Binary Tree Inorder Traversal | 🟢 Easy | [View](./0094-binary-tree-inorder-traversal/) |
 | 0234 | Palindrome Linked List | 🟢 Easy | [View](./0234-palindrome-linked-list/) |
 | 0042 | Trapping Rain Water | 🔴 Hard | [View](./0042-trapping-rain-water/) |
+| 0032 | Longest Valid Parentheses | 🔴 Hard | [View](./0032-longest-valid-parentheses/) |
 
 ---
 
-## String (84)
+## String (85)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1618,6 +1621,7 @@
 | 0344 | Reverse String | 🟢 Easy | [View](./0344-reverse-string/) |
 | 0405 | Convert a Number to Hexadecimal | 🟢 Easy | [View](./0405-convert-a-number-to-hexadecimal/) |
 | 0022 | Generate Parentheses | 🟡 Medium | [View](./0022-generate-parentheses/) |
+| 0032 | Longest Valid Parentheses | 🔴 Hard | [View](./0032-longest-valid-parentheses/) |
 
 ---
 
@@ -1764,6 +1768,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 04 Oct 2026 | Longest Valid Parentheses | 🔴 Hard | C++ |
 | 02 Oct 2026 | Generate Parentheses | 🟡 Medium | C++ |
 | 02 Oct 2026 | Convert a Number to Hexadecimal | 🟢 Easy | C++ |
 | 02 Oct 2026 | Find Closest Person | 🟢 Easy | C++ |
@@ -1773,7 +1778,6 @@
 | 29 Sep 2026 |  Check if There Is a Valid Parentheses String Path | 🔴 Hard | C++ |
 | 29 Sep 2026 | Maximum Nesting Depth of the Parentheses | 🟢 Easy | C++ |
 | 28 Sep 2026 | Reverse Substrings Between Each Pair of Parentheses | 🟡 Medium | C++ |
-| 27 Sep 2026 | Evaluate the Bracket Pairs of a String | 🟡 Medium | C++ |
 
 ---
 
