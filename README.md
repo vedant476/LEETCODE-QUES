@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-386-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-387-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-199-success)]()
-[![Medium](https://img.shields.io/badge/Medium-140-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-141-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-45-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
@@ -14,9 +14,9 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 386 |
+| Problems Solved | 387 |
 | Easy | 199 |
-| Medium | 140 |
+| Medium | 141 |
 | Hard | 45 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
 | Last Sync | 04 Oct 2026 |
@@ -383,7 +383,7 @@
 
 ---
 
-## Brainteaser (17)
+## Brainteaser (18)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -404,6 +404,7 @@
 | 0828 | Chalkboard XOR Game | 🔴 Hard | [View](./0828-chalkboard-xor-game/) |
 | 1086 | Divisor Game | 🟢 Easy | [View](./1086-divisor-game/) |
 | 1362 | Airplane Seat Assignment Probability | 🟡 Medium | [View](./1362-airplane-seat-assignment-probability/) |
+| 1103 | Moving Stones Until Consecutive | 🟡 Medium | [View](./1103-moving-stones-until-consecutive/) |
 
 ---
 
@@ -909,7 +910,7 @@
 
 ---
 
-## Math (140)
+## Math (141)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1053,6 +1054,7 @@
 | 3830 | Find Closest Person | 🟢 Easy | [View](./3830-find-closest-person/) |
 | 0405 | Convert a Number to Hexadecimal | 🟢 Easy | [View](./0405-convert-a-number-to-hexadecimal/) |
 | 1018 | Largest Perimeter Triangle | 🟢 Easy | [View](./1018-largest-perimeter-triangle/) |
+| 1103 | Moving Stones Until Consecutive | 🟡 Medium | [View](./1103-moving-stones-until-consecutive/) |
 
 ---
 
@@ -1774,6 +1776,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 04 Oct 2026 | Moving Stones Until Consecutive | 🟡 Medium | C++ |
 | 04 Oct 2026 | Largest Perimeter Triangle | 🟢 Easy | C++ |
 | 04 Oct 2026 | Longest Valid Parentheses | 🔴 Hard | C++ |
 | 02 Oct 2026 | Generate Parentheses | 🟡 Medium | C++ |
@@ -1783,7 +1786,6 @@
 | 01 Oct 2026 | Valid Parentheses | 🟢 Easy | C++ |
 | 01 Oct 2026 | Maximum Nesting Depth of Two Valid Parentheses Strings | 🟡 Medium | C++ |
 | 29 Sep 2026 |  Check if There Is a Valid Parentheses String Path | 🔴 Hard | C++ |
-| 29 Sep 2026 | Maximum Nesting Depth of the Parentheses | 🟢 Easy | C++ |
 
 ---
 
