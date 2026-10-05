@@ -1,13 +1,13 @@
 {
   "stats": {
-    "total": 1,
+    "total": 2,
     "easy": 0,
-    "medium": 0,
+    "medium": 1,
     "hard": 0,
     "languages": [
       "C++"
     ],
-    "lastSync": "04 Oct 2026"
+    "lastSync": "05 Oct 2026"
   },
   "problems": [
     {
@@ -28,6 +28,71 @@
           "id": 2161642524
         }
       ]
+    },
+    {
+      "title": "Valid Parenthesis String",
+      "slug": "valid-parenthesis-string",
+      "qid": "678",
+      "difficulty": "Medium",
+      "tags": [
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Dynamic Programming",
+          "slug": "dynamic-programming"
+        },
+        {
+          "name": "Stack",
+          "slug": "stack"
+        },
+        {
+          "name": "Greedy",
+          "slug": "greedy"
+        },
+        {
+          "name": "Bracket Sequences",
+          "slug": "bracket-sequences"
+        }
+      ],
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    bool checkValidString(string s) {\n        int low = 0, high = 0;\n        for (char c : s) {\n            if (c == '(') {\n                low++;\n                high++;\n            } else if (c == ')') {\n                low--;\n                high--;\n            } else {\n                low--;\n                high++;\n            }\n            if (high < 0) return false;\n            if (low < 0) low = 0;\n        }\n        return low == 0;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "8.1 MB",
+          "status": "Accepted",
+          "timestamp": 1791173742,
+          "id": 2162690802
+        }
+      ],
+      "questionId": "678",
+      "paidOnly": false,
+      "likes": 7152,
+      "dislikes": 227,
+      "acceptanceRate": "40.5%",
+      "content": "<p>Given a string <code>s</code> containing only three types of characters: <code>&#39;(&#39;</code>, <code>&#39;)&#39;</code> and <code>&#39;*&#39;</code>, return <code>true</code> <em>if</em> <code>s</code> <em>is <strong>valid</strong></em>.</p>\n\n<p>The following rules define a <strong>valid</strong> string:</p>\n\n<ul>\n\t<li>Any left parenthesis <code>&#39;(&#39;</code> must have a corresponding right parenthesis <code>&#39;)&#39;</code>.</li>\n\t<li>Any right parenthesis <code>&#39;)&#39;</code> must have a corresponding left parenthesis <code>&#39;(&#39;</code>.</li>\n\t<li>Left parenthesis <code>&#39;(&#39;</code> must go before the corresponding right parenthesis <code>&#39;)&#39;</code>.</li>\n\t<li><code>&#39;*&#39;</code> could be treated as a single right parenthesis <code>&#39;)&#39;</code> or a single left parenthesis <code>&#39;(&#39;</code> or an empty string <code>&quot;&quot;</code>.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> s = \"()\"\n<strong>Output:</strong> true\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> s = \"(*)\"\n<strong>Output:</strong> true\n</pre><p><strong class=\"example\">Example 3:</strong></p>\n<pre><strong>Input:</strong> s = \"(*))\"\n<strong>Output:</strong> true\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 100</code></li>\n\t<li><code>s[i]</code> is <code>&#39;(&#39;</code>, <code>&#39;)&#39;</code> or <code>&#39;*&#39;</code>.</li>\n</ul>\n",
+      "hints": [
+        "Use backtracking to explore all possible combinations of treating '*' as either '(', ')', or an empty string. If any combination leads to a valid string, return true.",
+        "DP[i][j] represents whether the substring s[i:j] is valid.",
+        "Keep track of the count of open parentheses encountered so far. If you encounter a close parenthesis, it should balance with an open parenthesis. Utilize a stack to handle this effectively.",
+        "How about using 2 stacks instead of 1? Think about it."
+      ],
+      "similarQuestions": [
+        {
+          "difficulty": "Hard",
+          "title": "Special Binary String",
+          "titleSlug": "special-binary-string"
+        },
+        {
+          "difficulty": "Medium",
+          "title": "Check if a Parentheses String Can Be Valid",
+          "titleSlug": "check-if-a-parentheses-string-can-be-valid"
+        }
+      ],
+      "url": "https://leetcode.com/problems/valid-parenthesis-string/"
     }
   ]
 }
