@@ -1,13 +1,13 @@
 {
   "stats": {
-    "total": 2,
+    "total": 3,
     "easy": 0,
-    "medium": 1,
+    "medium": 2,
     "hard": 0,
     "languages": [
       "C++"
     ],
-    "lastSync": "05 Oct 2026"
+    "lastSync": "06 Oct 2026"
   },
   "problems": [
     {
@@ -93,6 +93,47 @@
         }
       ],
       "url": "https://leetcode.com/problems/valid-parenthesis-string/"
+    },
+    {
+      "title": "Score of Parentheses",
+      "slug": "score-of-parentheses",
+      "qid": "886",
+      "difficulty": "Medium",
+      "tags": [
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Stack",
+          "slug": "stack"
+        },
+        {
+          "name": "Bracket Sequences",
+          "slug": "bracket-sequences"
+        }
+      ],
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int scoreOfParentheses(string s) {\n        int score = 0, depth = 0;\n        for (int i = 0; i < s.size(); ++i) {\n            if (s[i] == '(') {\n                ++depth;\n            } else {\n                --depth;\n                if (s[i - 1] == '(') {\n                    score += 1 << depth;\n                }\n            }\n        }\n        return score;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "7.9 MB",
+          "status": "Accepted",
+          "timestamp": 1791227655,
+          "id": 2163537874
+        }
+      ],
+      "questionId": "886",
+      "paidOnly": false,
+      "likes": 5643,
+      "dislikes": 240,
+      "acceptanceRate": "63.5%",
+      "content": "<p>Given a balanced parentheses string <code>s</code>, return <em>the <strong>score</strong> of the string</em>.</p>\n\n<p>The <strong>score</strong> of a balanced parentheses string is based on the following rule:</p>\n\n<ul>\n\t<li><code>&quot;()&quot;</code> has score <code>1</code>.</li>\n\t<li><code>AB</code> has score <code>A + B</code>, where <code>A</code> and <code>B</code> are balanced parentheses strings.</li>\n\t<li><code>(A)</code> has score <code>2 * A</code>, where <code>A</code> is a balanced parentheses string.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;()&quot;\n<strong>Output:</strong> 1\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;(())&quot;\n<strong>Output:</strong> 2\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;()()&quot;\n<strong>Output:</strong> 2\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= s.length &lt;= 50</code></li>\n\t<li><code>s</code> consists of only <code>&#39;(&#39;</code> and <code>&#39;)&#39;</code>.</li>\n\t<li><code>s</code> is a balanced parentheses string.</li>\n</ul>\n",
+      "hints": [],
+      "similarQuestions": [],
+      "url": "https://leetcode.com/problems/score-of-parentheses/"
     }
   ]
 }
