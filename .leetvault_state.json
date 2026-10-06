@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 3,
+    "total": 4,
     "easy": 0,
-    "medium": 2,
+    "medium": 3,
     "hard": 0,
     "languages": [
       "C++"
@@ -134,6 +134,57 @@
       "hints": [],
       "similarQuestions": [],
       "url": "https://leetcode.com/problems/score-of-parentheses/"
+    },
+    {
+      "title": "Minimum Add to Make Parentheses Valid",
+      "slug": "minimum-add-to-make-parentheses-valid",
+      "qid": "957",
+      "difficulty": "Medium",
+      "tags": [
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Stack",
+          "slug": "stack"
+        },
+        {
+          "name": "Greedy",
+          "slug": "greedy"
+        },
+        {
+          "name": "Bracket Sequences",
+          "slug": "bracket-sequences"
+        }
+      ],
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int minAddToMakeValid(string s) {\n        int A =0,B = 0;\n        for( auto ch : s ){\n            if( ch == '(')\n                A++;\n            else {\n                if(A > 0){\n                    A--;\n                }\n                else{\n                    B++;}\n            }      \n        }\n        return A+B;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "8.4 MB",
+          "status": "Accepted",
+          "timestamp": 1791271152,
+          "id": 2163967918
+        }
+      ],
+      "questionId": "957",
+      "paidOnly": false,
+      "likes": 5016,
+      "dislikes": 251,
+      "acceptanceRate": "74.3%",
+      "content": "<p>A parentheses string is valid if and only if:</p>\n\n<ul>\n\t<li>It is the empty string,</li>\n\t<li>It can be written as <code>AB</code> (<code>A</code> concatenated with <code>B</code>), where <code>A</code> and <code>B</code> are valid strings, or</li>\n\t<li>It can be written as <code>(A)</code>, where <code>A</code> is a valid string.</li>\n</ul>\n\n<p>You are given a parentheses string <code>s</code>. In one move, you can insert a parenthesis at any position of the string.</p>\n\n<ul>\n\t<li>For example, if <code>s = &quot;()))&quot;</code>, you can insert an opening parenthesis to be <code>&quot;(<strong>(</strong>)))&quot;</code> or a closing parenthesis to be <code>&quot;())<strong>)</strong>)&quot;</code>.</li>\n</ul>\n\n<p>Return <em>the minimum number of moves required to make </em><code>s</code><em> valid</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;())&quot;\n<strong>Output:</strong> 1\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;(((&quot;\n<strong>Output:</strong> 3\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 1000</code></li>\n\t<li><code>s[i]</code> is either <code>&#39;(&#39;</code> or <code>&#39;)&#39;</code>.</li>\n</ul>\n",
+      "hints": [],
+      "similarQuestions": [
+        {
+          "difficulty": "Medium",
+          "title": "Minimum Number of Swaps to Make the String Balanced",
+          "titleSlug": "minimum-number-of-swaps-to-make-the-string-balanced"
+        }
+      ],
+      "url": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/"
     }
   ]
 }
