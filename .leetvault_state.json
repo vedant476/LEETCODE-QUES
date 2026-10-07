@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 11,
+    "total": 12,
     "easy": 4,
-    "medium": 3,
+    "medium": 4,
     "hard": 2,
     "languages": [
       "C++"
@@ -538,6 +538,67 @@
           "id": 2165762868
         }
       ]
+    },
+    {
+      "title": "Spiral Matrix",
+      "slug": "spiral-matrix",
+      "qid": "54",
+      "difficulty": "Medium",
+      "tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Matrix",
+          "slug": "matrix"
+        },
+        {
+          "name": "Simulation",
+          "slug": "simulation"
+        }
+      ],
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    vector<int> spiralOrder(vector<vector<int>>& matrix) {\n        vector<int> v;\n        int t=0,b=matrix.size()-1,\n            l=0,r=matrix[0].size()-1;\n        while(t <= b && l <= r){\n        for( int i =l;i<=r;i++){\n            v.push_back(matrix[t][i]);\n        }\n        t++;\n        for( int i =t;i<=b;i++){\n             v.push_back(matrix[i][r]);\n        }\n        r--;\n        if(t<=b){\n            for( int i =r;i>=l;i--){\n             v.push_back(matrix[b][i]);\n        }\n        b--;}\n        if(l<=r){\n        for( int i =b;i>=t;i--){\n             v.push_back(matrix[i][l]);\n        }\n        l++;\n        }\n        }\n        return v;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "9.4 MB",
+          "status": "Accepted",
+          "timestamp": 1791410017,
+          "id": 2165768002
+        }
+      ],
+      "questionId": "54",
+      "paidOnly": false,
+      "likes": 17822,
+      "dislikes": 1598,
+      "acceptanceRate": "57.8%",
+      "content": "<p>Given an <code>m x n</code> <code>matrix</code>, return <em>all elements of the</em> <code>matrix</code> <em>in spiral order</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2020/11/13/spiral1.jpg\" style=\"width: 242px; height: 242px;\" />\n<pre>\n<strong>Input:</strong> matrix = [[1,2,3],[4,5,6],[7,8,9]]\n<strong>Output:</strong> [1,2,3,6,9,8,7,4,5]\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2020/11/13/spiral.jpg\" style=\"width: 322px; height: 242px;\" />\n<pre>\n<strong>Input:</strong> matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]\n<strong>Output:</strong> [1,2,3,4,8,12,11,10,9,5,6,7]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>m == matrix.length</code></li>\n\t<li><code>n == matrix[i].length</code></li>\n\t<li><code>1 &lt;= m, n &lt;= 10</code></li>\n\t<li><code>-100 &lt;= matrix[i][j] &lt;= 100</code></li>\n</ul>\n",
+      "hints": [
+        "Well for some problems, the best way really is to come up with some algorithms for simulation. Basically, you need to simulate what the problem asks us to do.",
+        "We go boundary by boundary and move inwards. That is the essential operation. First row, last column, last row, first column, and then we move inwards by 1 and repeat. That's all. That is all the simulation that we need.",
+        "Think about when you want to switch the progress on one of the indexes. If you progress on i out of [i, j], you'll shift in the same column. Similarly, by changing values for j, you'd be shifting in the same row.\r\nAlso, keep track of the end of a boundary so that you can move inwards and then keep repeating. It's always best to simulate edge cases like a single column or a single row to see if anything breaks or not."
+      ],
+      "similarQuestions": [
+        {
+          "difficulty": "Medium",
+          "title": "Spiral Matrix II",
+          "titleSlug": "spiral-matrix-ii"
+        },
+        {
+          "difficulty": "Medium",
+          "title": "Spiral Matrix III",
+          "titleSlug": "spiral-matrix-iii"
+        },
+        {
+          "difficulty": "Medium",
+          "title": "Spiral Matrix IV",
+          "titleSlug": "spiral-matrix-iv"
+        }
+      ],
+      "url": "https://leetcode.com/problems/spiral-matrix/"
     }
   ]
 }

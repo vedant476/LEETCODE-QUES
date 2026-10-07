@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-11-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-12-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-4-success)]()
-[![Medium](https://img.shields.io/badge/Medium-3-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-4-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-2-red)]()
 [![Languages](https://img.shields.io/badge/Languages-1-blueviolet)]()
 
@@ -14,9 +14,9 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 11 |
+| Problems Solved | 12 |
 | Easy | 4 |
-| Medium | 3 |
+| Medium | 4 |
 | Hard | 2 |
 | Languages | C++ |
 | Last Sync | 08 Oct 2026 |
@@ -25,13 +25,14 @@
 
 # 📂 Browse by Topic
 
-## Array (3)
+## Array (4)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0748 | Largest Number At Least Twice of Others | 🟢 Easy | [View](./0748-largest-number-at-least-twice-of-others/) |
 | 1039 | Find the Town Judge | 🟢 Easy | [View](./1039-find-the-town-judge/) |
 | 2301 | Count Array Pairs Divisible by K | 🔴 Hard | [View](./2301-count-array-pairs-divisible-by-k/) |
+| 0054 | Spiral Matrix | 🟡 Medium | [View](./0054-spiral-matrix/) |
 
 ---
 
@@ -138,11 +139,27 @@
 
 ---
 
+## Matrix (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 0054 | Spiral Matrix | 🟡 Medium | [View](./0054-spiral-matrix/) |
+
+---
+
 ## Number Theory (1)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2301 | Count Array Pairs Divisible by K | 🔴 Hard | [View](./2301-count-array-pairs-divisible-by-k/) |
+
+---
+
+## Simulation (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 0054 | Spiral Matrix | 🟡 Medium | [View](./0054-spiral-matrix/) |
 
 ---
 
@@ -196,6 +213,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 08 Oct 2026 | Spiral Matrix | 🟡 Medium | C++ |
 | 08 Oct 2026 | Count Good Strings | ⚪ Unknown | C++ |
 | 08 Oct 2026 | Count Array Pairs Divisible by K | 🔴 Hard | C++ |
 | 08 Oct 2026 | Find if Path Exists in Graph | 🟢 Easy | C++ |
@@ -205,7 +223,6 @@
 | 08 Oct 2026 | Remove Invalid Parentheses | 🔴 Hard | C++ |
 | 06 Oct 2026 | Minimum Add to Make Parentheses Valid | 🟡 Medium | C++ |
 | 06 Oct 2026 | Score of Parentheses | 🟡 Medium | C++ |
-| 05 Oct 2026 | Valid Parenthesis String | 🟡 Medium | C++ |
 
 ---
 
