@@ -1,6 +1,6 @@
 {
   "stats": {
-    "total": 10,
+    "total": 11,
     "easy": 4,
     "medium": 3,
     "hard": 2,
@@ -519,6 +519,25 @@
         }
       ],
       "url": "https://leetcode.com/problems/count-array-pairs-divisible-by-k/"
+    },
+    {
+      "title": "Count Good Strings",
+      "slug": "count-good-strings",
+      "qid": "4073",
+      "difficulty": "Unknown",
+      "tags": [],
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\nint mod = 1e9 +7;\n    pair<long long,long long> fib(long long n){\n        if( n == 0) return {0,1};\n\n        auto [a,b] = fib(n/2);\n        long long c = a*((2*b -a + mod)%mod ) % mod;\n        long long d = (a*a % mod + b*b %mod)%mod;\n        if(n%2 == 0){\n            return {c,d};\n        }\n        else return {d, (c+d) % mod};\n    }\n    int countGoodStrings(long long n) {\n        long long a = fib(n).first;\n        a = (a*2)%mod;\n        return a;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "8.4 MB",
+          "status": "Accepted",
+          "timestamp": 1791409079,
+          "id": 2165762868
+        }
+      ]
     }
   ]
 }

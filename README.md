@@ -2,7 +2,7 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-10-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-11-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-4-success)]()
 [![Medium](https://img.shields.io/badge/Medium-3-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-2-red)]()
@@ -14,7 +14,7 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 10 |
+| Problems Solved | 11 |
 | Easy | 4 |
 | Medium | 3 |
 | Hard | 2 |
@@ -175,11 +175,12 @@
 
 ---
 
-## Uncategorized (1)
+## Uncategorized (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 4070 | Minimum Rotations to Dial a Number I | ⚪ Unknown | [View](./4070-minimum-rotations-to-dial-a-number-i/) |
+| 4073 | Count Good Strings | ⚪ Unknown | [View](./4073-count-good-strings/) |
 
 ---
 
@@ -195,6 +196,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 08 Oct 2026 | Count Good Strings | ⚪ Unknown | C++ |
 | 08 Oct 2026 | Count Array Pairs Divisible by K | 🔴 Hard | C++ |
 | 08 Oct 2026 | Find if Path Exists in Graph | 🟢 Easy | C++ |
 | 08 Oct 2026 | Find Center of Star Graph | 🟢 Easy | C++ |
@@ -204,7 +206,6 @@
 | 06 Oct 2026 | Minimum Add to Make Parentheses Valid | 🟡 Medium | C++ |
 | 06 Oct 2026 | Score of Parentheses | 🟡 Medium | C++ |
 | 05 Oct 2026 | Valid Parenthesis String | 🟡 Medium | C++ |
-| 04 Oct 2026 | Minimum Rotations to Dial a Number I | ⚪ Unknown | C++ |
 
 ---
 
