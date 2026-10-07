@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-6-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-1-success)]()
+[![Problems](https://img.shields.io/badge/Problems-7-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-2-success)]()
 [![Medium](https://img.shields.io/badge/Medium-3-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-1-red)]()
 [![Languages](https://img.shields.io/badge/Languages-1-blueviolet)]()
@@ -14,8 +14,8 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 6 |
-| Easy | 1 |
+| Problems Solved | 7 |
+| Easy | 2 |
 | Medium | 3 |
 | Hard | 1 |
 | Languages | C++ |
@@ -25,11 +25,12 @@
 
 # 📂 Browse by Topic
 
-## Array (1)
+## Array (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0748 | Largest Number At Least Twice of Others | 🟢 Easy | [View](./0748-largest-number-at-least-twice-of-others/) |
+| 1039 | Find the Town Judge | 🟢 Easy | [View](./1039-find-the-town-judge/) |
 
 ---
 
@@ -67,12 +68,28 @@
 
 ---
 
+## Graph Theory (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1039 | Find the Town Judge | 🟢 Easy | [View](./1039-find-the-town-judge/) |
+
+---
+
 ## Greedy (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0678 | Valid Parenthesis String | 🟡 Medium | [View](./0678-valid-parenthesis-string/) |
 | 0957 | Minimum Add to Make Parentheses Valid | 🟡 Medium | [View](./0957-minimum-add-to-make-parentheses-valid/) |
+
+---
+
+## Hash Table (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1039 | Find the Town Judge | 🟢 Easy | [View](./1039-find-the-town-judge/) |
 
 ---
 
@@ -117,6 +134,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 08 Oct 2026 | Find the Town Judge | 🟢 Easy | C++ |
 | 08 Oct 2026 | Largest Number At Least Twice of Others | 🟢 Easy | C++ |
 | 08 Oct 2026 | Remove Invalid Parentheses | 🔴 Hard | C++ |
 | 06 Oct 2026 | Minimum Add to Make Parentheses Valid | 🟡 Medium | C++ |
