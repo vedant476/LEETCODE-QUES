@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-7-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-2-success)]()
+[![Problems](https://img.shields.io/badge/Problems-8-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-3-success)]()
 [![Medium](https://img.shields.io/badge/Medium-3-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-1-red)]()
 [![Languages](https://img.shields.io/badge/Languages-1-blueviolet)]()
@@ -14,8 +14,8 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 7 |
-| Easy | 2 |
+| Problems Solved | 8 |
+| Easy | 3 |
 | Medium | 3 |
 | Hard | 1 |
 | Languages | C++ |
@@ -68,11 +68,12 @@
 
 ---
 
-## Graph Theory (1)
+## Graph Theory (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1039 | Find the Town Judge | 🟢 Easy | [View](./1039-find-the-town-judge/) |
+| 1916 | Find Center of Star Graph | 🟢 Easy | [View](./1916-find-center-of-star-graph/) |
 
 ---
 
@@ -134,6 +135,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 08 Oct 2026 | Find Center of Star Graph | 🟢 Easy | C++ |
 | 08 Oct 2026 | Find the Town Judge | 🟢 Easy | C++ |
 | 08 Oct 2026 | Largest Number At Least Twice of Others | 🟢 Easy | C++ |
 | 08 Oct 2026 | Remove Invalid Parentheses | 🔴 Hard | C++ |
