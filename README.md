@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-8-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-3-success)]()
+[![Problems](https://img.shields.io/badge/Problems-9-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-4-success)]()
 [![Medium](https://img.shields.io/badge/Medium-3-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-1-red)]()
 [![Languages](https://img.shields.io/badge/Languages-1-blueviolet)]()
@@ -14,8 +14,8 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 8 |
-| Easy | 3 |
+| Problems Solved | 9 |
+| Easy | 4 |
 | Medium | 3 |
 | Hard | 1 |
 | Languages | C++ |
@@ -52,11 +52,20 @@
 
 ---
 
-## Breadth-First Search (1)
+## Breadth-First Search (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0301 | Remove Invalid Parentheses | 🔴 Hard | [View](./0301-remove-invalid-parentheses/) |
+| 2121 | Find if Path Exists in Graph | 🟢 Easy | [View](./2121-find-if-path-exists-in-graph/) |
+
+---
+
+## Depth-First Search (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2121 | Find if Path Exists in Graph | 🟢 Easy | [View](./2121-find-if-path-exists-in-graph/) |
 
 ---
 
@@ -68,12 +77,13 @@
 
 ---
 
-## Graph Theory (2)
+## Graph Theory (3)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1039 | Find the Town Judge | 🟢 Easy | [View](./1039-find-the-town-judge/) |
 | 1916 | Find Center of Star Graph | 🟢 Easy | [View](./1916-find-center-of-star-graph/) |
+| 2121 | Find if Path Exists in Graph | 🟢 Easy | [View](./2121-find-if-path-exists-in-graph/) |
 
 ---
 
@@ -131,10 +141,19 @@
 
 ---
 
+## Union-Find (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2121 | Find if Path Exists in Graph | 🟢 Easy | [View](./2121-find-if-path-exists-in-graph/) |
+
+---
+
 # 🔥 Recently Solved
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 08 Oct 2026 | Find if Path Exists in Graph | 🟢 Easy | C++ |
 | 08 Oct 2026 | Find Center of Star Graph | 🟢 Easy | C++ |
 | 08 Oct 2026 | Find the Town Judge | 🟢 Easy | C++ |
 | 08 Oct 2026 | Largest Number At Least Twice of Others | 🟢 Easy | C++ |
