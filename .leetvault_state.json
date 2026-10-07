@@ -1,13 +1,13 @@
 {
   "stats": {
-    "total": 4,
+    "total": 5,
     "easy": 0,
     "medium": 3,
-    "hard": 0,
+    "hard": 1,
     "languages": [
       "C++"
     ],
-    "lastSync": "06 Oct 2026"
+    "lastSync": "08 Oct 2026"
   },
   "problems": [
     {
@@ -185,6 +185,63 @@
         }
       ],
       "url": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/"
+    },
+    {
+      "title": "Remove Invalid Parentheses",
+      "slug": "remove-invalid-parentheses",
+      "qid": "301",
+      "difficulty": "Hard",
+      "tags": [
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Backtracking",
+          "slug": "backtracking"
+        },
+        {
+          "name": "Breadth-First Search",
+          "slug": "breadth-first-search"
+        }
+      ],
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\n\n    void remove(string s, int sS,int dS,char o,char c,vector<string>&v){\n        int b = 0;\n\n        for( int i = sS;i<s.size();i++){\n            if(s[i] == o) b++;\n            else if(s[i] == c) b--;\n\n            if(b>=0){\n                continue;\n            }\n            for(int j = dS;j<= i;j++){\n                if( s[j] == c && (j == dS || s[j-1] != c)){\n                    remove(s.substr(0,j) + s.substr(j+1),i,j,o,c,v);\n                }\n            }\n            return;\n        }\n        reverse(s.begin(),s.end());\n\n        if(o =='('){\n            remove(s,0,0,')','(',v);\n        }\n        else {\n            v.push_back(s);\n        }\n\n    }\npublic:\n    vector<string> removeInvalidParentheses(string s) {\n        vector<string> v;\n        remove(s,0,0,'(',')',v);\n        return v;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "10.9 MB",
+          "status": "Accepted",
+          "timestamp": 1791401874,
+          "id": 2165704690
+        }
+      ],
+      "questionId": "301",
+      "paidOnly": false,
+      "likes": 6092,
+      "dislikes": 303,
+      "acceptanceRate": "50.1%",
+      "content": "<p>Given a string <code>s</code> that contains parentheses and letters, remove the minimum number of invalid parentheses to make the input string valid.</p>\n\n<p>Return <em>a list of <strong>unique strings</strong> that are valid with the minimum number of removals</em>. You may return the answer in <strong>any order</strong>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;()())()&quot;\n<strong>Output:</strong> [&quot;(())()&quot;,&quot;()()()&quot;]\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;(a)())()&quot;\n<strong>Output:</strong> [&quot;(a())()&quot;,&quot;(a)()()&quot;]\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;)(&quot;\n<strong>Output:</strong> [&quot;&quot;]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 25</code></li>\n\t<li><code>s</code> consists of lowercase English letters and parentheses <code>&#39;(&#39;</code> and <code>&#39;)&#39;</code>.</li>\n\t<li>There will be at most <code>20</code> parentheses in <code>s</code>.</li>\n</ul>\n",
+      "hints": [
+        "Since we do not know which brackets can be removed, we try all the options! We can use recursion.",
+        "In the recursion, for each bracket, we can either use it or remove it.",
+        "Recursion will generate all the valid parentheses strings but we want the ones with the least number of parentheses deleted.",
+        "We can count the number of invalid brackets to be deleted and only generate the valid strings in the recusrion."
+      ],
+      "similarQuestions": [
+        {
+          "difficulty": "Easy",
+          "title": "Valid Parentheses",
+          "titleSlug": "valid-parentheses"
+        },
+        {
+          "difficulty": "Medium",
+          "title": "Minimum Number of Swaps to Make the String Balanced",
+          "titleSlug": "minimum-number-of-swaps-to-make-the-string-balanced"
+        }
+      ],
+      "url": "https://leetcode.com/problems/remove-invalid-parentheses/"
     }
   ]
 }
