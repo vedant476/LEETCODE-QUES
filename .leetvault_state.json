@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 13,
+    "total": 14,
     "easy": 4,
-    "medium": 4,
+    "medium": 5,
     "hard": 3,
     "languages": [
       "C++"
@@ -648,6 +648,54 @@
       "hints": [],
       "similarQuestions": [],
       "url": "https://leetcode.com/problems/perfect-rectangle/"
+    },
+    {
+      "title": "Rotate List",
+      "slug": "rotate-list",
+      "qid": "61",
+      "difficulty": "Medium",
+      "tags": [
+        {
+          "name": "Linked List",
+          "slug": "linked-list"
+        },
+        {
+          "name": "Two Pointers",
+          "slug": "two-pointers"
+        }
+      ],
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    ListNode* rotateRight(ListNode* head, int k) {\n        if (!head || !head->next || k == 0)\n            return head;\n        int size = 1;\n\n        ListNode* temp = head;\n\n        while (temp->next) {\n            size++;\n            temp = temp->next;\n        }\n        k = k%size;\n        if (k == 0) return head;\n        temp->next = head;\n        int s = size - k;\n        ListNode* curr = head;\n\n        while(--s){\n            curr = curr->next;\n        }\n\n        ListNode* V = curr->next;\n        curr->next = nullptr;\n\n        return V;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "16.3 MB",
+          "status": "Accepted",
+          "timestamp": 1791413432,
+          "id": 2165784253
+        }
+      ],
+      "questionId": "61",
+      "paidOnly": false,
+      "likes": 11635,
+      "dislikes": 1561,
+      "acceptanceRate": "43.2%",
+      "content": "<p>Given the <code>head</code> of a linked&nbsp;list, rotate the list to the right by <code>k</code> places.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2020/11/13/rotate1.jpg\" style=\"width: 450px; height: 191px;\" />\n<pre>\n<strong>Input:</strong> head = [1,2,3,4,5], k = 2\n<strong>Output:</strong> [4,5,1,2,3]\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2020/11/13/roate2.jpg\" style=\"width: 305px; height: 350px;\" />\n<pre>\n<strong>Input:</strong> head = [0,1,2], k = 4\n<strong>Output:</strong> [2,0,1]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li>The number of nodes in the list is in the range <code>[0, 500]</code>.</li>\n\t<li><code>-100 &lt;= Node.val &lt;= 100</code></li>\n\t<li><code>0 &lt;= k &lt;= 2 * 10<sup>9</sup></code></li>\n</ul>\n",
+      "hints": [],
+      "similarQuestions": [
+        {
+          "difficulty": "Medium",
+          "title": "Rotate Array",
+          "titleSlug": "rotate-array"
+        },
+        {
+          "difficulty": "Medium",
+          "title": "Split Linked List in Parts",
+          "titleSlug": "split-linked-list-in-parts"
+        }
+      ],
+      "url": "https://leetcode.com/problems/rotate-list/"
     }
   ]
 }

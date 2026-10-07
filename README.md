@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-13-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-14-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-4-success)]()
-[![Medium](https://img.shields.io/badge/Medium-4-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-5-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-3-red)]()
 [![Languages](https://img.shields.io/badge/Languages-1-blueviolet)]()
 
@@ -14,9 +14,9 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 13 |
+| Problems Solved | 14 |
 | Easy | 4 |
-| Medium | 4 |
+| Medium | 5 |
 | Hard | 3 |
 | Languages | C++ |
 | Last Sync | 08 Oct 2026 |
@@ -141,6 +141,14 @@
 
 ---
 
+## Linked List (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 0061 | Rotate List | 🟡 Medium | [View](./0061-rotate-list/) |
+
+---
+
 ## Math (2)
 
 | # | Problem | Difficulty | Solution |
@@ -211,6 +219,14 @@
 
 ---
 
+## Two Pointers (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 0061 | Rotate List | 🟡 Medium | [View](./0061-rotate-list/) |
+
+---
+
 ## Uncategorized (2)
 
 | # | Problem | Difficulty | Solution |
@@ -232,6 +248,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 08 Oct 2026 | Rotate List | 🟡 Medium | C++ |
 | 08 Oct 2026 | Perfect Rectangle | 🔴 Hard | C++ |
 | 08 Oct 2026 | Spiral Matrix | 🟡 Medium | C++ |
 | 08 Oct 2026 | Count Good Strings | ⚪ Unknown | C++ |
@@ -241,7 +258,6 @@
 | 08 Oct 2026 | Find the Town Judge | 🟢 Easy | C++ |
 | 08 Oct 2026 | Largest Number At Least Twice of Others | 🟢 Easy | C++ |
 | 08 Oct 2026 | Remove Invalid Parentheses | 🔴 Hard | C++ |
-| 06 Oct 2026 | Minimum Add to Make Parentheses Valid | 🟡 Medium | C++ |
 
 ---
 
