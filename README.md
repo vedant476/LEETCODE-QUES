@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-5-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-0-success)]()
+[![Problems](https://img.shields.io/badge/Problems-6-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-1-success)]()
 [![Medium](https://img.shields.io/badge/Medium-3-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-1-red)]()
 [![Languages](https://img.shields.io/badge/Languages-1-blueviolet)]()
@@ -14,8 +14,8 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 5 |
-| Easy | 0 |
+| Problems Solved | 6 |
+| Easy | 1 |
 | Medium | 3 |
 | Hard | 1 |
 | Languages | C++ |
@@ -24,6 +24,14 @@
 ---
 
 # 📂 Browse by Topic
+
+## Array (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 0748 | Largest Number At Least Twice of Others | 🟢 Easy | [View](./0748-largest-number-at-least-twice-of-others/) |
+
+---
 
 ## Backtracking (1)
 
@@ -68,6 +76,14 @@
 
 ---
 
+## Sorting (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 0748 | Largest Number At Least Twice of Others | 🟢 Easy | [View](./0748-largest-number-at-least-twice-of-others/) |
+
+---
+
 ## Stack (3)
 
 | # | Problem | Difficulty | Solution |
@@ -101,6 +117,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 08 Oct 2026 | Largest Number At Least Twice of Others | 🟢 Easy | C++ |
 | 08 Oct 2026 | Remove Invalid Parentheses | 🔴 Hard | C++ |
 | 06 Oct 2026 | Minimum Add to Make Parentheses Valid | 🟡 Medium | C++ |
 | 06 Oct 2026 | Score of Parentheses | 🟡 Medium | C++ |
