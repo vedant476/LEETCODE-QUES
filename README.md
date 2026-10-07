@@ -2,10 +2,10 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-9-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-10-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-4-success)]()
 [![Medium](https://img.shields.io/badge/Medium-3-orange)]()
-[![Hard](https://img.shields.io/badge/Hard-1-red)]()
+[![Hard](https://img.shields.io/badge/Hard-2-red)]()
 [![Languages](https://img.shields.io/badge/Languages-1-blueviolet)]()
 
 ---
@@ -14,10 +14,10 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 9 |
+| Problems Solved | 10 |
 | Easy | 4 |
 | Medium | 3 |
-| Hard | 1 |
+| Hard | 2 |
 | Languages | C++ |
 | Last Sync | 08 Oct 2026 |
 
@@ -25,12 +25,13 @@
 
 # 📂 Browse by Topic
 
-## Array (2)
+## Array (3)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0748 | Largest Number At Least Twice of Others | 🟢 Easy | [View](./0748-largest-number-at-least-twice-of-others/) |
 | 1039 | Find the Town Judge | 🟢 Easy | [View](./1039-find-the-town-judge/) |
+| 2301 | Count Array Pairs Divisible by K | 🔴 Hard | [View](./2301-count-array-pairs-divisible-by-k/) |
 
 ---
 
@@ -61,6 +62,14 @@
 
 ---
 
+## Counting (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2301 | Count Array Pairs Divisible by K | 🔴 Hard | [View](./2301-count-array-pairs-divisible-by-k/) |
+
+---
+
 ## Depth-First Search (1)
 
 | # | Problem | Difficulty | Solution |
@@ -77,6 +86,14 @@
 
 ---
 
+## Euclidean Algorithm (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2301 | Count Array Pairs Divisible by K | 🔴 Hard | [View](./2301-count-array-pairs-divisible-by-k/) |
+
+---
+
 ## Graph Theory (3)
 
 | # | Problem | Difficulty | Solution |
@@ -84,6 +101,14 @@
 | 1039 | Find the Town Judge | 🟢 Easy | [View](./1039-find-the-town-judge/) |
 | 1916 | Find Center of Star Graph | 🟢 Easy | [View](./1916-find-center-of-star-graph/) |
 | 2121 | Find if Path Exists in Graph | 🟢 Easy | [View](./2121-find-if-path-exists-in-graph/) |
+
+---
+
+## Greatest Common Divisor (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2301 | Count Array Pairs Divisible by K | 🔴 Hard | [View](./2301-count-array-pairs-divisible-by-k/) |
 
 ---
 
@@ -96,11 +121,28 @@
 
 ---
 
-## Hash Table (1)
+## Hash Table (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1039 | Find the Town Judge | 🟢 Easy | [View](./1039-find-the-town-judge/) |
+| 2301 | Count Array Pairs Divisible by K | 🔴 Hard | [View](./2301-count-array-pairs-divisible-by-k/) |
+
+---
+
+## Math (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2301 | Count Array Pairs Divisible by K | 🔴 Hard | [View](./2301-count-array-pairs-divisible-by-k/) |
+
+---
+
+## Number Theory (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2301 | Count Array Pairs Divisible by K | 🔴 Hard | [View](./2301-count-array-pairs-divisible-by-k/) |
 
 ---
 
@@ -153,6 +195,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 08 Oct 2026 | Count Array Pairs Divisible by K | 🔴 Hard | C++ |
 | 08 Oct 2026 | Find if Path Exists in Graph | 🟢 Easy | C++ |
 | 08 Oct 2026 | Find Center of Star Graph | 🟢 Easy | C++ |
 | 08 Oct 2026 | Find the Town Judge | 🟢 Easy | C++ |
