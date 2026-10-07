@@ -2,10 +2,10 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-12-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-13-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-4-success)]()
 [![Medium](https://img.shields.io/badge/Medium-4-orange)]()
-[![Hard](https://img.shields.io/badge/Hard-2-red)]()
+[![Hard](https://img.shields.io/badge/Hard-3-red)]()
 [![Languages](https://img.shields.io/badge/Languages-1-blueviolet)]()
 
 ---
@@ -14,10 +14,10 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 12 |
+| Problems Solved | 13 |
 | Easy | 4 |
 | Medium | 4 |
-| Hard | 2 |
+| Hard | 3 |
 | Languages | C++ |
 | Last Sync | 08 Oct 2026 |
 
@@ -25,7 +25,7 @@
 
 # 📂 Browse by Topic
 
-## Array (4)
+## Array (5)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -33,6 +33,7 @@
 | 1039 | Find the Town Judge | 🟢 Easy | [View](./1039-find-the-town-judge/) |
 | 2301 | Count Array Pairs Divisible by K | 🔴 Hard | [View](./2301-count-array-pairs-divisible-by-k/) |
 | 0054 | Spiral Matrix | 🟡 Medium | [View](./0054-spiral-matrix/) |
+| 0391 | Perfect Rectangle | 🔴 Hard | [View](./0391-perfect-rectangle/) |
 
 ---
 
@@ -95,6 +96,14 @@
 
 ---
 
+## Geometry (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 0391 | Perfect Rectangle | 🔴 Hard | [View](./0391-perfect-rectangle/) |
+
+---
+
 ## Graph Theory (3)
 
 | # | Problem | Difficulty | Solution |
@@ -122,20 +131,22 @@
 
 ---
 
-## Hash Table (2)
+## Hash Table (3)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1039 | Find the Town Judge | 🟢 Easy | [View](./1039-find-the-town-judge/) |
 | 2301 | Count Array Pairs Divisible by K | 🔴 Hard | [View](./2301-count-array-pairs-divisible-by-k/) |
+| 0391 | Perfect Rectangle | 🔴 Hard | [View](./0391-perfect-rectangle/) |
 
 ---
 
-## Math (1)
+## Math (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2301 | Count Array Pairs Divisible by K | 🔴 Hard | [View](./2301-count-array-pairs-divisible-by-k/) |
+| 0391 | Perfect Rectangle | 🔴 Hard | [View](./0391-perfect-rectangle/) |
 
 ---
 
@@ -192,6 +203,14 @@
 
 ---
 
+## Sweep Line (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 0391 | Perfect Rectangle | 🔴 Hard | [View](./0391-perfect-rectangle/) |
+
+---
+
 ## Uncategorized (2)
 
 | # | Problem | Difficulty | Solution |
@@ -213,6 +232,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 08 Oct 2026 | Perfect Rectangle | 🔴 Hard | C++ |
 | 08 Oct 2026 | Spiral Matrix | 🟡 Medium | C++ |
 | 08 Oct 2026 | Count Good Strings | ⚪ Unknown | C++ |
 | 08 Oct 2026 | Count Array Pairs Divisible by K | 🔴 Hard | C++ |
@@ -222,7 +242,6 @@
 | 08 Oct 2026 | Largest Number At Least Twice of Others | 🟢 Easy | C++ |
 | 08 Oct 2026 | Remove Invalid Parentheses | 🔴 Hard | C++ |
 | 06 Oct 2026 | Minimum Add to Make Parentheses Valid | 🟡 Medium | C++ |
-| 06 Oct 2026 | Score of Parentheses | 🟡 Medium | C++ |
 
 ---
 
