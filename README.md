@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-14-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-4-success)]()
+[![Problems](https://img.shields.io/badge/Problems-15-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-5-success)]()
 [![Medium](https://img.shields.io/badge/Medium-5-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-3-red)]()
 [![Languages](https://img.shields.io/badge/Languages-1-blueviolet)]()
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 14 |
-| Easy | 4 |
+| Problems Solved | 15 |
+| Easy | 5 |
 | Medium | 5 |
 | Hard | 3 |
 | Languages | C++ |
-| Last Sync | 08 Oct 2026 |
+| Last Sync | 09 Oct 2026 |
 
 ---
 
@@ -45,13 +45,14 @@
 
 ---
 
-## Bracket Sequences (3)
+## Bracket Sequences (4)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0678 | Valid Parenthesis String | 🟡 Medium | [View](./0678-valid-parenthesis-string/) |
 | 0886 | Score of Parentheses | 🟡 Medium | [View](./0886-score-of-parentheses/) |
 | 0957 | Minimum Add to Make Parentheses Valid | 🟡 Medium | [View](./0957-minimum-add-to-make-parentheses-valid/) |
+| 1078 | Remove Outermost Parentheses | 🟢 Easy | [View](./1078-remove-outermost-parentheses/) |
 
 ---
 
@@ -190,17 +191,18 @@
 
 ---
 
-## Stack (3)
+## Stack (4)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0678 | Valid Parenthesis String | 🟡 Medium | [View](./0678-valid-parenthesis-string/) |
 | 0886 | Score of Parentheses | 🟡 Medium | [View](./0886-score-of-parentheses/) |
 | 0957 | Minimum Add to Make Parentheses Valid | 🟡 Medium | [View](./0957-minimum-add-to-make-parentheses-valid/) |
+| 1078 | Remove Outermost Parentheses | 🟢 Easy | [View](./1078-remove-outermost-parentheses/) |
 
 ---
 
-## String (4)
+## String (5)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -208,6 +210,7 @@
 | 0886 | Score of Parentheses | 🟡 Medium | [View](./0886-score-of-parentheses/) |
 | 0957 | Minimum Add to Make Parentheses Valid | 🟡 Medium | [View](./0957-minimum-add-to-make-parentheses-valid/) |
 | 0301 | Remove Invalid Parentheses | 🔴 Hard | [View](./0301-remove-invalid-parentheses/) |
+| 1078 | Remove Outermost Parentheses | 🟢 Easy | [View](./1078-remove-outermost-parentheses/) |
 
 ---
 
@@ -248,6 +251,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 09 Oct 2026 | Remove Outermost Parentheses | 🟢 Easy | C++ |
 | 08 Oct 2026 | Rotate List | 🟡 Medium | C++ |
 | 08 Oct 2026 | Perfect Rectangle | 🔴 Hard | C++ |
 | 08 Oct 2026 | Spiral Matrix | 🟡 Medium | C++ |
@@ -257,7 +261,6 @@
 | 08 Oct 2026 | Find Center of Star Graph | 🟢 Easy | C++ |
 | 08 Oct 2026 | Find the Town Judge | 🟢 Easy | C++ |
 | 08 Oct 2026 | Largest Number At Least Twice of Others | 🟢 Easy | C++ |
-| 08 Oct 2026 | Remove Invalid Parentheses | 🔴 Hard | C++ |
 
 ---
 
