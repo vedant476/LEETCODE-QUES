@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 16,
+    "total": 17,
     "easy": 5,
-    "medium": 6,
+    "medium": 7,
     "hard": 3,
     "languages": [
       "C++"
@@ -809,6 +809,60 @@
         }
       ],
       "url": "https://leetcode.com/problems/jump-game-iii/"
+    },
+    {
+      "title": "Minimum Insertions to Balance a Parentheses String",
+      "slug": "minimum-insertions-to-balance-a-parentheses-string",
+      "qid": "1648",
+      "difficulty": "Medium",
+      "tags": [
+        {
+          "name": "String",
+          "slug": "string"
+        },
+        {
+          "name": "Stack",
+          "slug": "stack"
+        },
+        {
+          "name": "Greedy",
+          "slug": "greedy"
+        },
+        {
+          "name": "Bracket Sequences",
+          "slug": "bracket-sequences"
+        }
+      ],
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "\nclass Solution {\npublic:\n    int minInsertions(string s) {\n        int r =0,t=0;\n\n        for (char c :s) {\n            if (c == '(') {\n                if(t%2) r++,t++;\n                else t+=2;\n            } \n            else if(t == 0) r++, t=1;\n            else t--;\n            \n        }\n\n        return r+t;\n    }\n};\n",
+          "runtime": "2 ms",
+          "memory": "15.7 MB",
+          "status": "Accepted",
+          "timestamp": 1791551718,
+          "id": 2167305209
+        }
+      ],
+      "questionId": "1648",
+      "paidOnly": false,
+      "likes": 1285,
+      "dislikes": 299,
+      "acceptanceRate": "53.7%",
+      "content": "<p>Given a parentheses string <code>s</code> containing only the characters <code>&#39;(&#39;</code> and <code>&#39;)&#39;</code>. A parentheses string is <strong>balanced</strong> if:</p>\n\n<ul>\n\t<li>Any left parenthesis <code>&#39;(&#39;</code> must have a corresponding two consecutive right parenthesis <code>&#39;))&#39;</code>.</li>\n\t<li>Left parenthesis <code>&#39;(&#39;</code> must go before the corresponding two consecutive right parenthesis <code>&#39;))&#39;</code>.</li>\n</ul>\n\n<p>In other words, we treat <code>&#39;(&#39;</code> as an opening parenthesis and <code>&#39;))&#39;</code> as a closing parenthesis.</p>\n\n<ul>\n\t<li>For example, <code>&quot;())&quot;</code>, <code>&quot;())(())))&quot;</code> and <code>&quot;(())())))&quot;</code> are balanced, <code>&quot;)()&quot;</code>, <code>&quot;()))&quot;</code> and <code>&quot;(()))&quot;</code> are not balanced.</li>\n</ul>\n\n<p>You can insert the characters <code>&#39;(&#39;</code> and <code>&#39;)&#39;</code> at any position of the string to balance it if needed.</p>\n\n<p>Return <em>the minimum number of insertions</em> needed to make <code>s</code> balanced.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;(()))&quot;\n<strong>Output:</strong> 1\n<strong>Explanation:</strong> The second &#39;(&#39; has two matching &#39;))&#39;, but the first &#39;(&#39; has only &#39;)&#39; matching. We need to add one more &#39;)&#39; at the end of the string to be &quot;(())))&quot; which is balanced.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;())&quot;\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> The string is already balanced.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;))())(&quot;\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> Add &#39;(&#39; to match the first &#39;))&#39;, Add &#39;))&#39; to match the last &#39;(&#39;.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>s</code> consists of <code>&#39;(&#39;</code> and <code>&#39;)&#39;</code> only.</li>\n</ul>\n",
+      "hints": [
+        "Use a stack to keep opening brackets. If you face single closing ')' add 1 to the answer and consider it as '))'.",
+        "If you have '))' with empty stack, add 1 to the answer, If after finishing you have x opening remaining in the stack, add 2x to the answer."
+      ],
+      "similarQuestions": [
+        {
+          "difficulty": "Medium",
+          "title": "Minimum Number of Swaps to Make the String Balanced",
+          "titleSlug": "minimum-number-of-swaps-to-make-the-string-balanced"
+        }
+      ],
+      "url": "https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/"
     }
   ]
 }
