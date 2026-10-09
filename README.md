@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-15-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-16-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-5-success)]()
-[![Medium](https://img.shields.io/badge/Medium-5-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-6-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-3-red)]()
 [![Languages](https://img.shields.io/badge/Languages-1-blueviolet)]()
 
@@ -14,9 +14,9 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 15 |
+| Problems Solved | 16 |
 | Easy | 5 |
-| Medium | 5 |
+| Medium | 6 |
 | Hard | 3 |
 | Languages | C++ |
 | Last Sync | 09 Oct 2026 |
@@ -25,7 +25,7 @@
 
 # 📂 Browse by Topic
 
-## Array (5)
+## Array (6)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -34,6 +34,7 @@
 | 2301 | Count Array Pairs Divisible by K | 🔴 Hard | [View](./2301-count-array-pairs-divisible-by-k/) |
 | 0054 | Spiral Matrix | 🟡 Medium | [View](./0054-spiral-matrix/) |
 | 0391 | Perfect Rectangle | 🔴 Hard | [View](./0391-perfect-rectangle/) |
+| 1428 | Jump Game III | 🟡 Medium | [View](./1428-jump-game-iii/) |
 
 ---
 
@@ -56,12 +57,13 @@
 
 ---
 
-## Breadth-First Search (2)
+## Breadth-First Search (3)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0301 | Remove Invalid Parentheses | 🔴 Hard | [View](./0301-remove-invalid-parentheses/) |
 | 2121 | Find if Path Exists in Graph | 🟢 Easy | [View](./2121-find-if-path-exists-in-graph/) |
+| 1428 | Jump Game III | 🟡 Medium | [View](./1428-jump-game-iii/) |
 
 ---
 
@@ -73,11 +75,12 @@
 
 ---
 
-## Depth-First Search (1)
+## Depth-First Search (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2121 | Find if Path Exists in Graph | 🟢 Easy | [View](./2121-find-if-path-exists-in-graph/) |
+| 1428 | Jump Game III | 🟡 Medium | [View](./1428-jump-game-iii/) |
 
 ---
 
@@ -251,6 +254,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 09 Oct 2026 | Jump Game III | 🟡 Medium | C++ |
 | 09 Oct 2026 | Remove Outermost Parentheses | 🟢 Easy | C++ |
 | 08 Oct 2026 | Rotate List | 🟡 Medium | C++ |
 | 08 Oct 2026 | Perfect Rectangle | 🔴 Hard | C++ |
@@ -260,7 +264,6 @@
 | 08 Oct 2026 | Find if Path Exists in Graph | 🟢 Easy | C++ |
 | 08 Oct 2026 | Find Center of Star Graph | 🟢 Easy | C++ |
 | 08 Oct 2026 | Find the Town Judge | 🟢 Easy | C++ |
-| 08 Oct 2026 | Largest Number At Least Twice of Others | 🟢 Easy | C++ |
 
 ---
 
