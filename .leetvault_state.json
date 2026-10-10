@@ -1,13 +1,13 @@
 {
   "stats": {
-    "total": 17,
+    "total": 18,
     "easy": 5,
     "medium": 7,
     "hard": 3,
     "languages": [
       "C++"
     ],
-    "lastSync": "09 Oct 2026"
+    "lastSync": "10 Oct 2026"
   },
   "problems": [
     {
@@ -863,6 +863,25 @@
         }
       ],
       "url": "https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/"
+    },
+    {
+      "title": "Longest Resilient Subarray I",
+      "slug": "longest-resilient-subarray-i",
+      "qid": "101198",
+      "difficulty": "Unknown",
+      "tags": [],
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int resilientSubarray(vector<int>& nums, int k) {\n        int n =nums.size(),ans =1;\n        int i =0;\n        while(n>i){\n            int r = nums[i] % k;\n            int j =i;\n            while(j<n&&nums[j]%k==r) j++;\n            int m = j-i;\n            int step = k/ __gcd(r,k);\n            ans = max(ans,((m-1)/step)*step + 1);\n            i =j;\n        }\n        return ans;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "39.9 MB",
+          "status": "Accepted",
+          "timestamp": 1791645923,
+          "id": 2168343819
+        }
+      ]
     }
   ]
 }

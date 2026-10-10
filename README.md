@@ -2,7 +2,7 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-17-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-18-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-5-success)]()
 [![Medium](https://img.shields.io/badge/Medium-7-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-3-red)]()
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 17 |
+| Problems Solved | 18 |
 | Easy | 5 |
 | Medium | 7 |
 | Hard | 3 |
 | Languages | C++ |
-| Last Sync | 09 Oct 2026 |
+| Last Sync | 10 Oct 2026 |
 
 ---
 
@@ -237,12 +237,13 @@
 
 ---
 
-## Uncategorized (2)
+## Uncategorized (3)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 4070 | Minimum Rotations to Dial a Number I | ⚪ Unknown | [View](./4070-minimum-rotations-to-dial-a-number-i/) |
 | 4073 | Count Good Strings | ⚪ Unknown | [View](./4073-count-good-strings/) |
+| 101198 | Longest Resilient Subarray I | ⚪ Unknown | [View](./101198-longest-resilient-subarray-i/) |
 
 ---
 
@@ -258,6 +259,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 10 Oct 2026 | Longest Resilient Subarray I | ⚪ Unknown | C++ |
 | 09 Oct 2026 | Minimum Insertions to Balance a Parentheses String | 🟡 Medium | C++ |
 | 09 Oct 2026 | Jump Game III | 🟡 Medium | C++ |
 | 09 Oct 2026 | Remove Outermost Parentheses | 🟢 Easy | C++ |
@@ -267,7 +269,6 @@
 | 08 Oct 2026 | Count Good Strings | ⚪ Unknown | C++ |
 | 08 Oct 2026 | Count Array Pairs Divisible by K | 🔴 Hard | C++ |
 | 08 Oct 2026 | Find if Path Exists in Graph | 🟢 Easy | C++ |
-| 08 Oct 2026 | Find Center of Star Graph | 🟢 Easy | C++ |
 
 ---
 
