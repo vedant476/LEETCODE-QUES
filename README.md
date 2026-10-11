@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-19-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-5-success)]()
+[![Problems](https://img.shields.io/badge/Problems-20-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-6-success)]()
 [![Medium](https://img.shields.io/badge/Medium-8-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-3-red)]()
 [![Languages](https://img.shields.io/badge/Languages-1-blueviolet)]()
@@ -14,8 +14,8 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 19 |
-| Easy | 5 |
+| Problems Solved | 20 |
+| Easy | 6 |
 | Medium | 8 |
 | Hard | 3 |
 | Languages | C++ |
@@ -25,7 +25,7 @@
 
 # 📂 Browse by Topic
 
-## Array (7)
+## Array (8)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -36,6 +36,7 @@
 | 0391 | Perfect Rectangle | 🔴 Hard | [View](./0391-perfect-rectangle/) |
 | 1428 | Jump Game III | 🟡 Medium | [View](./1428-jump-game-iii/) |
 | 2418 | Minimum Sum of Squared Difference | 🟡 Medium | [View](./2418-minimum-sum-of-squared-difference/) |
+| 2844 | Sum of Squares of Special Elements  | 🟢 Easy | [View](./2844-sum-of-squares-of-special-elements/) |
 
 ---
 
@@ -99,6 +100,14 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0678 | Valid Parenthesis String | 🟡 Medium | [View](./0678-valid-parenthesis-string/) |
+
+---
+
+## Enumeration (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2844 | Sum of Squares of Special Elements  | 🟢 Easy | [View](./2844-sum-of-squares-of-special-elements/) |
 
 ---
 
@@ -278,6 +287,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 11 Oct 2026 | Sum of Squares of Special Elements  | 🟢 Easy | C++ |
 | 11 Oct 2026 | Minimum Sum of Squared Difference | 🟡 Medium | C++ |
 | 10 Oct 2026 | Longest Resilient Subarray I | ⚪ Unknown | C++ |
 | 09 Oct 2026 | Minimum Insertions to Balance a Parentheses String | 🟡 Medium | C++ |
@@ -287,7 +297,6 @@
 | 08 Oct 2026 | Perfect Rectangle | 🔴 Hard | C++ |
 | 08 Oct 2026 | Spiral Matrix | 🟡 Medium | C++ |
 | 08 Oct 2026 | Count Good Strings | ⚪ Unknown | C++ |
-| 08 Oct 2026 | Count Array Pairs Divisible by K | 🔴 Hard | C++ |
 
 ---
 
