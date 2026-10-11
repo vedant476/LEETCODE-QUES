@@ -6,10 +6,10 @@
 | Acceptance Rate | 55.8% |
 | Language | C++ |
 | Status | ✅ Accepted |
-| Runtime | 8 ms |
-| Memory | 205 MB |
-| Submission ID | 2165745303 |
-| Solved On | 08 Oct 2026 |
+| Runtime | 574 ms |
+| Memory | 359.1 MB |
+| Submission ID | 2168992055 |
+| Solved On | 11 Oct 2026 |
 
 ---
 
@@ -94,7 +94,7 @@ No notes provided.
 
 | Language | Runtime | Memory | File |
 |----------|---------|--------|------|
-| C++ | 8 ms | 205 MB | [solution.cpp](./solution.cpp) |
+| C++ | 574 ms | 359.1 MB | [solution.cpp](./solution.cpp) |
 
 ---
 Generated using [LeetVault](https://github.com/vedant476/LeetVault).

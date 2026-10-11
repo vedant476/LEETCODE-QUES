@@ -410,12 +410,12 @@
         {
           "filename": "solution.cpp",
           "language": "cpp",
-          "code": "class Solution {\npublic:\n    bool validPath(int n, vector<vector<int>>& edges, int source, int destination) {\n        if(source == destination) return true;\n        vector<int> father(n);\n        for(int i = 0; i < n; i++) father[i] = i;\n        int size = edges.size();\n        for(int i = 0; i < size ; i ++){\n            int u = edges[i][0], v = edges[i][1];\n            int father_u = father[u], father_v = father[v];\n            while(father_u != father[father_u]) father_u = father[father_u];\n            while(father_v != father[father_v]) father_v = father[father_v];\n            int dest = min(father_u, father_v);\n            father[father_u] = father[father_v] = dest;\n        }\n        int father_s = father[source] , father_d = father[destination];\n        while(father_s != father[father_s]) father_s = father[father_s];\n        while(father_d != father[father_d]) father_d = father[father_d];\n        return father_d == father_s;\n    }\n};",
-          "runtime": "8 ms",
-          "memory": "205 MB",
+          "code": "class Solution {\npublic:\n    bool validPath(int n, vector<vector<int>>& edges, int start, int end) {\n        unordered_map<int,vector<int>> graph; \n        for(auto e : edges) {\n            graph[e[0]].push_back(e[1]);\n            graph[e[1]].push_back(e[0]);\n        }\n        vector<bool> visited(n,0);        \n        queue<int> q;\n        q.push(start);\n        visited[start] = 1; \n        while(!q.empty()) {\n            int curr = q.front();\n            q.pop();\n            if(curr == end)\n                return 1; \n            for(auto &node : graph[curr]){\n                if(!visited[node]){\n                    visited[node] = 1; \n                    q.push(node);\n                }\n            }\n        }\n        \n        return false;\n    }\n};",
+          "runtime": "574 ms",
+          "memory": "359.1 MB",
           "status": "Accepted",
-          "timestamp": 1791406397,
-          "id": 2165745303
+          "timestamp": 1791700365,
+          "id": 2168992055
         }
       ],
       "questionId": "2121",

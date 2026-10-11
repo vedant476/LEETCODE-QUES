@@ -287,6 +287,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 11 Oct 2026 | Find if Path Exists in Graph | 🟢 Easy | C++ |
 | 11 Oct 2026 | Sum of Squares of Special Elements  | 🟢 Easy | C++ |
 | 11 Oct 2026 | Minimum Sum of Squared Difference | 🟡 Medium | C++ |
 | 10 Oct 2026 | Longest Resilient Subarray I | ⚪ Unknown | C++ |
@@ -296,7 +297,6 @@
 | 08 Oct 2026 | Rotate List | 🟡 Medium | C++ |
 | 08 Oct 2026 | Perfect Rectangle | 🔴 Hard | C++ |
 | 08 Oct 2026 | Spiral Matrix | 🟡 Medium | C++ |
-| 08 Oct 2026 | Count Good Strings | ⚪ Unknown | C++ |
 
 ---
 
