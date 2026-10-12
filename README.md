@@ -2,10 +2,10 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-23-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-24-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-7-success)]()
 [![Medium](https://img.shields.io/badge/Medium-10-orange)]()
-[![Hard](https://img.shields.io/badge/Hard-3-red)]()
+[![Hard](https://img.shields.io/badge/Hard-4-red)]()
 [![Languages](https://img.shields.io/badge/Languages-2-blueviolet)]()
 
 ---
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 23 |
+| Problems Solved | 24 |
 | Easy | 7 |
 | Medium | 10 |
-| Hard | 3 |
+| Hard | 4 |
 | Languages | C, C++ |
-| Last Sync | 12 Oct 2026 |
+| Last Sync | 13 Oct 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (10)
+## Array (11)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -39,6 +39,7 @@
 | 2844 | Sum of Squares of Special Elements  | 🟢 Easy | [View](./2844-sum-of-squares-of-special-elements/) |
 | 0692 | Top K Frequent Words | 🟡 Medium | [View](./0692-top-k-frequent-words/) |
 | 0169 | Majority Element | 🟢 Easy | [View](./0169-majority-element/) |
+| 3153 | Apply Operations on Array to Maximize Sum of Squares | 🔴 Hard | [View](./3153-apply-operations-on-array-to-maximize-sum-of-squares/) |
 
 ---
 
@@ -55,6 +56,14 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2418 | Minimum Sum of Squared Difference | 🟡 Medium | [View](./2418-minimum-sum-of-squared-difference/) |
+
+---
+
+## Bit Manipulation (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 3153 | Apply Operations on Array to Maximize Sum of Squares | 🔴 Hard | [View](./3153-apply-operations-on-array-to-maximize-sum-of-squares/) |
 
 ---
 
@@ -175,7 +184,7 @@
 
 ---
 
-## Greedy (4)
+## Greedy (5)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -183,10 +192,11 @@
 | 0957 | Minimum Add to Make Parentheses Valid | 🟡 Medium | [View](./0957-minimum-add-to-make-parentheses-valid/) |
 | 1648 | Minimum Insertions to Balance a Parentheses String | 🟡 Medium | [View](./1648-minimum-insertions-to-balance-a-parentheses-string/) |
 | 2418 | Minimum Sum of Squared Difference | 🟡 Medium | [View](./2418-minimum-sum-of-squared-difference/) |
+| 3153 | Apply Operations on Array to Maximize Sum of Squares | 🔴 Hard | [View](./3153-apply-operations-on-array-to-maximize-sum-of-squares/) |
 
 ---
 
-## Hash Table (6)
+## Hash Table (7)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -196,6 +206,7 @@
 | 0451 | Sort Characters By Frequency | 🟡 Medium | [View](./0451-sort-characters-by-frequency/) |
 | 0692 | Top K Frequent Words | 🟡 Medium | [View](./0692-top-k-frequent-words/) |
 | 0169 | Majority Element | 🟢 Easy | [View](./0169-majority-element/) |
+| 3153 | Apply Operations on Array to Maximize Sum of Squares | 🔴 Hard | [View](./3153-apply-operations-on-array-to-maximize-sum-of-squares/) |
 
 ---
 
@@ -335,6 +346,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 13 Oct 2026 | Apply Operations on Array to Maximize Sum of Squares | 🔴 Hard | C++ |
 | 12 Oct 2026 | Majority Element | 🟢 Easy | C |
 | 12 Oct 2026 | Top K Frequent Words | 🟡 Medium | C++ |
 | 12 Oct 2026 | Sort Characters By Frequency | 🟡 Medium | C++ |
@@ -344,7 +356,6 @@
 | 10 Oct 2026 | Longest Resilient Subarray I | ⚪ Unknown | C++ |
 | 09 Oct 2026 | Minimum Insertions to Balance a Parentheses String | 🟡 Medium | C++ |
 | 09 Oct 2026 | Jump Game III | 🟡 Medium | C++ |
-| 09 Oct 2026 | Remove Outermost Parentheses | 🟢 Easy | C++ |
 
 ---
 
