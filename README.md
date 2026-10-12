@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-21-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-22-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-6-success)]()
-[![Medium](https://img.shields.io/badge/Medium-9-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-10-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-3-red)]()
 [![Languages](https://img.shields.io/badge/Languages-1-blueviolet)]()
 
@@ -14,9 +14,9 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 21 |
+| Problems Solved | 22 |
 | Easy | 6 |
-| Medium | 9 |
+| Medium | 10 |
 | Hard | 3 |
 | Languages | C++ |
 | Last Sync | 12 Oct 2026 |
@@ -25,7 +25,7 @@
 
 # 📂 Browse by Topic
 
-## Array (8)
+## Array (9)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -37,6 +37,7 @@
 | 1428 | Jump Game III | 🟡 Medium | [View](./1428-jump-game-iii/) |
 | 2418 | Minimum Sum of Squared Difference | 🟡 Medium | [View](./2418-minimum-sum-of-squared-difference/) |
 | 2844 | Sum of Squares of Special Elements  | 🟢 Easy | [View](./2844-sum-of-squares-of-special-elements/) |
+| 0692 | Top K Frequent Words | 🟡 Medium | [View](./0692-top-k-frequent-words/) |
 
 ---
 
@@ -78,20 +79,22 @@
 
 ---
 
-## Bucket Sort (1)
+## Bucket Sort (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0451 | Sort Characters By Frequency | 🟡 Medium | [View](./0451-sort-characters-by-frequency/) |
+| 0692 | Top K Frequent Words | 🟡 Medium | [View](./0692-top-k-frequent-words/) |
 
 ---
 
-## Counting (2)
+## Counting (3)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2301 | Count Array Pairs Divisible by K | 🔴 Hard | [View](./2301-count-array-pairs-divisible-by-k/) |
 | 0451 | Sort Characters By Frequency | 🟡 Medium | [View](./0451-sort-characters-by-frequency/) |
+| 0692 | Top K Frequent Words | 🟡 Medium | [View](./0692-top-k-frequent-words/) |
 
 ---
 
@@ -165,7 +168,7 @@
 
 ---
 
-## Hash Table (4)
+## Hash Table (5)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -173,15 +176,17 @@
 | 2301 | Count Array Pairs Divisible by K | 🔴 Hard | [View](./2301-count-array-pairs-divisible-by-k/) |
 | 0391 | Perfect Rectangle | 🔴 Hard | [View](./0391-perfect-rectangle/) |
 | 0451 | Sort Characters By Frequency | 🟡 Medium | [View](./0451-sort-characters-by-frequency/) |
+| 0692 | Top K Frequent Words | 🟡 Medium | [View](./0692-top-k-frequent-words/) |
 
 ---
 
-## Heap (Priority Queue) (2)
+## Heap (Priority Queue) (3)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2418 | Minimum Sum of Squared Difference | 🟡 Medium | [View](./2418-minimum-sum-of-squared-difference/) |
 | 0451 | Sort Characters By Frequency | 🟡 Medium | [View](./0451-sort-characters-by-frequency/) |
+| 0692 | Top K Frequent Words | 🟡 Medium | [View](./0692-top-k-frequent-words/) |
 
 ---
 
@@ -226,13 +231,14 @@
 
 ---
 
-## Sorting (3)
+## Sorting (4)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0748 | Largest Number At Least Twice of Others | 🟢 Easy | [View](./0748-largest-number-at-least-twice-of-others/) |
 | 2418 | Minimum Sum of Squared Difference | 🟡 Medium | [View](./2418-minimum-sum-of-squared-difference/) |
 | 0451 | Sort Characters By Frequency | 🟡 Medium | [View](./0451-sort-characters-by-frequency/) |
+| 0692 | Top K Frequent Words | 🟡 Medium | [View](./0692-top-k-frequent-words/) |
 
 ---
 
@@ -248,7 +254,7 @@
 
 ---
 
-## String (7)
+## String (8)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -259,6 +265,7 @@
 | 1078 | Remove Outermost Parentheses | 🟢 Easy | [View](./1078-remove-outermost-parentheses/) |
 | 1648 | Minimum Insertions to Balance a Parentheses String | 🟡 Medium | [View](./1648-minimum-insertions-to-balance-a-parentheses-string/) |
 | 0451 | Sort Characters By Frequency | 🟡 Medium | [View](./0451-sort-characters-by-frequency/) |
+| 0692 | Top K Frequent Words | 🟡 Medium | [View](./0692-top-k-frequent-words/) |
 
 ---
 
@@ -267,6 +274,14 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0391 | Perfect Rectangle | 🔴 Hard | [View](./0391-perfect-rectangle/) |
+
+---
+
+## Trie (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 0692 | Top K Frequent Words | 🟡 Medium | [View](./0692-top-k-frequent-words/) |
 
 ---
 
@@ -300,6 +315,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 12 Oct 2026 | Top K Frequent Words | 🟡 Medium | C++ |
 | 12 Oct 2026 | Sort Characters By Frequency | 🟡 Medium | C++ |
 | 11 Oct 2026 | Find if Path Exists in Graph | 🟢 Easy | C++ |
 | 11 Oct 2026 | Sum of Squares of Special Elements  | 🟢 Easy | C++ |
@@ -309,7 +325,6 @@
 | 09 Oct 2026 | Jump Game III | 🟡 Medium | C++ |
 | 09 Oct 2026 | Remove Outermost Parentheses | 🟢 Easy | C++ |
 | 08 Oct 2026 | Rotate List | 🟡 Medium | C++ |
-| 08 Oct 2026 | Perfect Rectangle | 🔴 Hard | C++ |
 
 ---
 
