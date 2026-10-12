@@ -1,10 +1,11 @@
 {
   "stats": {
-    "total": 22,
-    "easy": 6,
+    "total": 23,
+    "easy": 7,
     "medium": 10,
     "hard": 3,
     "languages": [
+      "C",
       "C++"
     ],
     "lastSync": "12 Oct 2026"
@@ -1178,6 +1179,95 @@
         }
       ],
       "url": "https://leetcode.com/problems/top-k-frequent-words/"
+    },
+    {
+      "title": "Majority Element",
+      "slug": "majority-element",
+      "qid": "169",
+      "difficulty": "Easy",
+      "tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "Divide and Conquer",
+          "slug": "divide-and-conquer"
+        },
+        {
+          "name": "Sorting",
+          "slug": "sorting"
+        },
+        {
+          "name": "Counting",
+          "slug": "counting"
+        },
+        {
+          "name": "Boyer–Moore Majority Vote Algorithm",
+          "slug": "boyer-moore-majority-vote-algorithm"
+        }
+      ],
+      "files": [
+        {
+          "filename": "solution.c",
+          "language": "c",
+          "code": "int majorityElement(int* nums, int n) {\n    int ans, cnt = 0;\n        for(int i=0;i<n;i++){\n            if(cnt == 0){\n                cnt = 1;\n                ans = nums[i];\n            }\n            else if(nums[i] == ans){\n                cnt++;\n            }\n            else{\n                cnt--;\n            }\n        }\n    return ans;\n}",
+          "runtime": "0 ms",
+          "memory": "11.7 MB",
+          "status": "Accepted",
+          "timestamp": 1791815067,
+          "id": 2170260131
+        }
+      ],
+      "questionId": "169",
+      "paidOnly": false,
+      "likes": 23208,
+      "dislikes": 838,
+      "acceptanceRate": "66.5%",
+      "content": "<p>Given an array <code>nums</code> of size <code>n</code>, return <em>the majority element</em>.</p>\n\n<p>The majority element is the element that appears more than <code>&lfloor;n / 2&rfloor;</code> times. You may assume that the majority element always exists in the array.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> nums = [3,2,3]\n<strong>Output:</strong> 3\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> nums = [2,2,1,1,1,2,2]\n<strong>Output:</strong> 2\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == nums.length</code></li>\n\t<li><code>1 &lt;= n &lt;= 5 * 10<sup>4</sup></code></li>\n\t<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>\n\t<li>The input is generated such that a majority element will exist in the array.</li>\n</ul>\n\n<p>&nbsp;</p>\n<strong>Follow-up:</strong> Could you solve the problem in linear time and in <code>O(1)</code> space?",
+      "hints": [],
+      "similarQuestions": [
+        {
+          "difficulty": "Medium",
+          "title": "Majority Element II",
+          "titleSlug": "majority-element-ii"
+        },
+        {
+          "difficulty": "Easy",
+          "title": "Check If a Number Is Majority Element in a Sorted Array",
+          "titleSlug": "check-if-a-number-is-majority-element-in-a-sorted-array"
+        },
+        {
+          "difficulty": "Easy",
+          "title": "Most Frequent Even Element",
+          "titleSlug": "most-frequent-even-element"
+        },
+        {
+          "difficulty": "Medium",
+          "title": "Minimum Index of a Valid Split",
+          "titleSlug": "minimum-index-of-a-valid-split"
+        },
+        {
+          "difficulty": "Easy",
+          "title": "Minimum Operations to Exceed Threshold Value I",
+          "titleSlug": "minimum-operations-to-exceed-threshold-value-i"
+        },
+        {
+          "difficulty": "Medium",
+          "title": "Find the Most Common Response",
+          "titleSlug": "find-the-most-common-response"
+        },
+        {
+          "difficulty": "Easy",
+          "title": "Find Valid Pair of Adjacent Digits in String",
+          "titleSlug": "find-valid-pair-of-adjacent-digits-in-string"
+        }
+      ],
+      "url": "https://leetcode.com/problems/majority-element/"
     }
   ]
 }

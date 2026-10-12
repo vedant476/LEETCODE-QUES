@@ -2,11 +2,11 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-22-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-6-success)]()
+[![Problems](https://img.shields.io/badge/Problems-23-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-7-success)]()
 [![Medium](https://img.shields.io/badge/Medium-10-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-3-red)]()
-[![Languages](https://img.shields.io/badge/Languages-1-blueviolet)]()
+[![Languages](https://img.shields.io/badge/Languages-2-blueviolet)]()
 
 ---
 
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 22 |
-| Easy | 6 |
+| Problems Solved | 23 |
+| Easy | 7 |
 | Medium | 10 |
 | Hard | 3 |
-| Languages | C++ |
+| Languages | C, C++ |
 | Last Sync | 12 Oct 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (9)
+## Array (10)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -38,6 +38,7 @@
 | 2418 | Minimum Sum of Squared Difference | 🟡 Medium | [View](./2418-minimum-sum-of-squared-difference/) |
 | 2844 | Sum of Squares of Special Elements  | 🟢 Easy | [View](./2844-sum-of-squares-of-special-elements/) |
 | 0692 | Top K Frequent Words | 🟡 Medium | [View](./0692-top-k-frequent-words/) |
+| 0169 | Majority Element | 🟢 Easy | [View](./0169-majority-element/) |
 
 ---
 
@@ -54,6 +55,14 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2418 | Minimum Sum of Squared Difference | 🟡 Medium | [View](./2418-minimum-sum-of-squared-difference/) |
+
+---
+
+## Boyer–Moore Majority Vote Algorithm (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 0169 | Majority Element | 🟢 Easy | [View](./0169-majority-element/) |
 
 ---
 
@@ -88,13 +97,14 @@
 
 ---
 
-## Counting (3)
+## Counting (4)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2301 | Count Array Pairs Divisible by K | 🔴 Hard | [View](./2301-count-array-pairs-divisible-by-k/) |
 | 0451 | Sort Characters By Frequency | 🟡 Medium | [View](./0451-sort-characters-by-frequency/) |
 | 0692 | Top K Frequent Words | 🟡 Medium | [View](./0692-top-k-frequent-words/) |
+| 0169 | Majority Element | 🟢 Easy | [View](./0169-majority-element/) |
 
 ---
 
@@ -104,6 +114,14 @@
 |---|---------|------------|----------|
 | 2121 | Find if Path Exists in Graph | 🟢 Easy | [View](./2121-find-if-path-exists-in-graph/) |
 | 1428 | Jump Game III | 🟡 Medium | [View](./1428-jump-game-iii/) |
+
+---
+
+## Divide and Conquer (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 0169 | Majority Element | 🟢 Easy | [View](./0169-majority-element/) |
 
 ---
 
@@ -168,7 +186,7 @@
 
 ---
 
-## Hash Table (5)
+## Hash Table (6)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -177,6 +195,7 @@
 | 0391 | Perfect Rectangle | 🔴 Hard | [View](./0391-perfect-rectangle/) |
 | 0451 | Sort Characters By Frequency | 🟡 Medium | [View](./0451-sort-characters-by-frequency/) |
 | 0692 | Top K Frequent Words | 🟡 Medium | [View](./0692-top-k-frequent-words/) |
+| 0169 | Majority Element | 🟢 Easy | [View](./0169-majority-element/) |
 
 ---
 
@@ -231,7 +250,7 @@
 
 ---
 
-## Sorting (4)
+## Sorting (5)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -239,6 +258,7 @@
 | 2418 | Minimum Sum of Squared Difference | 🟡 Medium | [View](./2418-minimum-sum-of-squared-difference/) |
 | 0451 | Sort Characters By Frequency | 🟡 Medium | [View](./0451-sort-characters-by-frequency/) |
 | 0692 | Top K Frequent Words | 🟡 Medium | [View](./0692-top-k-frequent-words/) |
+| 0169 | Majority Element | 🟢 Easy | [View](./0169-majority-element/) |
 
 ---
 
@@ -315,6 +335,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 12 Oct 2026 | Majority Element | 🟢 Easy | C |
 | 12 Oct 2026 | Top K Frequent Words | 🟡 Medium | C++ |
 | 12 Oct 2026 | Sort Characters By Frequency | 🟡 Medium | C++ |
 | 11 Oct 2026 | Find if Path Exists in Graph | 🟢 Easy | C++ |
@@ -324,7 +345,6 @@
 | 09 Oct 2026 | Minimum Insertions to Balance a Parentheses String | 🟡 Medium | C++ |
 | 09 Oct 2026 | Jump Game III | 🟡 Medium | C++ |
 | 09 Oct 2026 | Remove Outermost Parentheses | 🟢 Easy | C++ |
-| 08 Oct 2026 | Rotate List | 🟡 Medium | C++ |
 
 ---
 
