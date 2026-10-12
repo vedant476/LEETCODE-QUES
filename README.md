@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-20-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-21-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-6-success)]()
-[![Medium](https://img.shields.io/badge/Medium-8-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-9-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-3-red)]()
 [![Languages](https://img.shields.io/badge/Languages-1-blueviolet)]()
 
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 20 |
+| Problems Solved | 21 |
 | Easy | 6 |
-| Medium | 8 |
+| Medium | 9 |
 | Hard | 3 |
 | Languages | C++ |
-| Last Sync | 11 Oct 2026 |
+| Last Sync | 12 Oct 2026 |
 
 ---
 
@@ -78,11 +78,20 @@
 
 ---
 
-## Counting (1)
+## Bucket Sort (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 0451 | Sort Characters By Frequency | 🟡 Medium | [View](./0451-sort-characters-by-frequency/) |
+
+---
+
+## Counting (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2301 | Count Array Pairs Divisible by K | 🔴 Hard | [View](./2301-count-array-pairs-divisible-by-k/) |
+| 0451 | Sort Characters By Frequency | 🟡 Medium | [View](./0451-sort-characters-by-frequency/) |
 
 ---
 
@@ -156,21 +165,23 @@
 
 ---
 
-## Hash Table (3)
+## Hash Table (4)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1039 | Find the Town Judge | 🟢 Easy | [View](./1039-find-the-town-judge/) |
 | 2301 | Count Array Pairs Divisible by K | 🔴 Hard | [View](./2301-count-array-pairs-divisible-by-k/) |
 | 0391 | Perfect Rectangle | 🔴 Hard | [View](./0391-perfect-rectangle/) |
+| 0451 | Sort Characters By Frequency | 🟡 Medium | [View](./0451-sort-characters-by-frequency/) |
 
 ---
 
-## Heap (Priority Queue) (1)
+## Heap (Priority Queue) (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2418 | Minimum Sum of Squared Difference | 🟡 Medium | [View](./2418-minimum-sum-of-squared-difference/) |
+| 0451 | Sort Characters By Frequency | 🟡 Medium | [View](./0451-sort-characters-by-frequency/) |
 
 ---
 
@@ -215,12 +226,13 @@
 
 ---
 
-## Sorting (2)
+## Sorting (3)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0748 | Largest Number At Least Twice of Others | 🟢 Easy | [View](./0748-largest-number-at-least-twice-of-others/) |
 | 2418 | Minimum Sum of Squared Difference | 🟡 Medium | [View](./2418-minimum-sum-of-squared-difference/) |
+| 0451 | Sort Characters By Frequency | 🟡 Medium | [View](./0451-sort-characters-by-frequency/) |
 
 ---
 
@@ -236,7 +248,7 @@
 
 ---
 
-## String (6)
+## String (7)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -246,6 +258,7 @@
 | 0301 | Remove Invalid Parentheses | 🔴 Hard | [View](./0301-remove-invalid-parentheses/) |
 | 1078 | Remove Outermost Parentheses | 🟢 Easy | [View](./1078-remove-outermost-parentheses/) |
 | 1648 | Minimum Insertions to Balance a Parentheses String | 🟡 Medium | [View](./1648-minimum-insertions-to-balance-a-parentheses-string/) |
+| 0451 | Sort Characters By Frequency | 🟡 Medium | [View](./0451-sort-characters-by-frequency/) |
 
 ---
 
@@ -287,6 +300,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 12 Oct 2026 | Sort Characters By Frequency | 🟡 Medium | C++ |
 | 11 Oct 2026 | Find if Path Exists in Graph | 🟢 Easy | C++ |
 | 11 Oct 2026 | Sum of Squares of Special Elements  | 🟢 Easy | C++ |
 | 11 Oct 2026 | Minimum Sum of Squared Difference | 🟡 Medium | C++ |
@@ -296,7 +310,6 @@
 | 09 Oct 2026 | Remove Outermost Parentheses | 🟢 Easy | C++ |
 | 08 Oct 2026 | Rotate List | 🟡 Medium | C++ |
 | 08 Oct 2026 | Perfect Rectangle | 🔴 Hard | C++ |
-| 08 Oct 2026 | Spiral Matrix | 🟡 Medium | C++ |
 
 ---
 
