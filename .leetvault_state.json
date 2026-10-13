@@ -1,14 +1,14 @@
 {
   "stats": {
-    "total": 24,
+    "total": 25,
     "easy": 7,
-    "medium": 10,
+    "medium": 11,
     "hard": 4,
     "languages": [
       "C",
       "C++"
     ],
-    "lastSync": "13 Oct 2026"
+    "lastSync": "14 Oct 2026"
   },
   "problems": [
     {
@@ -1322,6 +1322,50 @@
         }
       ],
       "url": "https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/"
+    },
+    {
+      "title": "Maximum Alternating Sum of Squares",
+      "slug": "maximum-alternating-sum-of-squares",
+      "qid": "4078",
+      "difficulty": "Medium",
+      "tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Greedy",
+          "slug": "greedy"
+        },
+        {
+          "name": "Sorting",
+          "slug": "sorting"
+        }
+      ],
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "int speedup = []{ios::sync_with_stdio(0); cin.tie(0); return 0;}();\n\nclass Solution {\npublic:\n    long long maxAlternatingSum(vector<int>& nums) {\n        int m = size(nums)/2;\n        for (int &n : nums) n = n*n;\n        nth_element(begin(nums), begin(nums) + m, end(nums));\n        return accumulate(begin(nums)+m, end(nums), -accumulate(begin(nums), begin(nums)+m, 0ll));\n    }\n};",
+          "runtime": "10 ms",
+          "memory": "176.1 MB",
+          "status": "Accepted",
+          "timestamp": 1791924438,
+          "id": 2171594223
+        }
+      ],
+      "questionId": "4078",
+      "paidOnly": false,
+      "likes": 73,
+      "dislikes": 1,
+      "acceptanceRate": "61.2%",
+      "content": "<p>You are given an integer array <code>nums</code>. You may <strong>rearrange the elements</strong> in any order.</p>\n\n<p>The <strong>alternating score</strong> of an array <code>arr</code> is defined as:</p>\n\n<ul>\n\t<li><code>score = arr[0]<sup>2</sup> - arr[1]<sup>2</sup> + arr[2]<sup>2</sup> - arr[3]<sup>2</sup> + ...</code></li>\n</ul>\n\n<p>Return an integer denoting the <strong>maximum possible alternating score</strong> of <code>nums</code> after rearranging its elements.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [1,2,3]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">12</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>A possible rearrangement for <code>nums</code> is <code>[2,1,3]</code>, which gives the maximum alternating score among all possible rearrangements.</p>\n\n<p>The alternating score is calculated as:</p>\n\n<p><code>score = 2<sup>2</sup> - 1<sup>2</sup> + 3<sup>2</sup> = 4 - 1 + 9 = 12</code></p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [1,-1,2,-2,3,-3]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">16</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>A possible rearrangement for <code>nums</code> is <code>[-3,-1,-2,1,3,2]</code>, which gives the maximum alternating score among all possible rearrangements.</p>\n\n<p>The alternating score is calculated as:</p>\n\n<p><code>score = (-3)<sup>2</sup> - (-1)<sup>2</sup> + (-2)<sup>2</sup> - (1)<sup>2</sup> + (3)<sup>2</sup> - (2)<sup>2</sup> = 9 - 1 + 4 - 1 + 9 - 4 = 16</code></p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-4 * 10<sup>4</sup> &lt;= nums[i] &lt;= 4 * 10<sup>4</sup></code></li>\n</ul>\n",
+      "hints": [
+        "The score uses squares of values. The original signs of <code>nums</code> don't affect the squared terms.",
+        "In the alternating sum, even indices contribute positively and odd indices negatively."
+      ],
+      "similarQuestions": [],
+      "url": "https://leetcode.com/problems/maximum-alternating-sum-of-squares/"
     }
   ]
 }
