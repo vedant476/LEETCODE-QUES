@@ -6,7 +6,8 @@
     "hard": 4,
     "languages": [
       "C",
-      "C++"
+      "C++",
+      "Python3"
     ],
     "lastSync": "14 Oct 2026"
   },
@@ -1343,6 +1344,16 @@
         }
       ],
       "files": [
+        {
+          "filename": "solution.py",
+          "language": "python3",
+          "code": "import numpy as np\n\nclass Solution:\n    def maxAlternatingSum(self, nums: List[int]) -> int:\n        sq = np.square(np.array(nums, dtype=np.int64))\n        h = len(nums) // 2\n        return int(sq.sum() - 2 * np.partition(sq, h)[:h].sum())  \n    ",
+          "runtime": "45 ms",
+          "memory": "44.7 MB",
+          "status": "Accepted",
+          "timestamp": 1791924883,
+          "id": 2171597304
+        },
         {
           "filename": "solution.cpp",
           "language": "cpp",

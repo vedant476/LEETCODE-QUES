@@ -6,7 +6,7 @@
 [![Easy](https://img.shields.io/badge/Easy-7-success)]()
 [![Medium](https://img.shields.io/badge/Medium-11-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-4-red)]()
-[![Languages](https://img.shields.io/badge/Languages-2-blueviolet)]()
+[![Languages](https://img.shields.io/badge/Languages-3-blueviolet)]()
 
 ---
 
@@ -18,7 +18,7 @@
 | Easy | 7 |
 | Medium | 11 |
 | Hard | 4 |
-| Languages | C, C++ |
+| Languages | C, C++, Python3 |
 | Last Sync | 14 Oct 2026 |
 
 ---
@@ -349,7 +349,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
-| 14 Oct 2026 | Maximum Alternating Sum of Squares | 🟡 Medium | C++ |
+| 14 Oct 2026 | Maximum Alternating Sum of Squares | 🟡 Medium | Python3 |
 | 13 Oct 2026 | Apply Operations on Array to Maximize Sum of Squares | 🔴 Hard | C++ |
 | 12 Oct 2026 | Majority Element | 🟢 Easy | C |
 | 12 Oct 2026 | Top K Frequent Words | 🟡 Medium | C++ |

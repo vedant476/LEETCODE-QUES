@@ -4,11 +4,11 @@
 |----------|-------|
 | Difficulty | 🟡 Medium |
 | Acceptance Rate | 61.2% |
-| Language | C++ |
+| Language | Python3 |
 | Status | ✅ Accepted |
-| Runtime | 10 ms |
-| Memory | 176.1 MB |
-| Submission ID | 2171594223 |
+| Runtime | 45 ms |
+| Memory | 44.7 MB |
+| Submission ID | 2171597304 |
 | Solved On | 14 Oct 2026 |
 
 ---
@@ -106,6 +106,7 @@ No notes provided.
 
 | Language | Runtime | Memory | File |
 |----------|---------|--------|------|
+| Python3 | 45 ms | 44.7 MB | [solution.py](./solution.py) |
 | C++ | 10 ms | 176.1 MB | [solution.cpp](./solution.cpp) |
 
 ---
