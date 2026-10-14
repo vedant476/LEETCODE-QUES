@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-25-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-26-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-7-success)]()
-[![Medium](https://img.shields.io/badge/Medium-11-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-12-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-4-red)]()
 [![Languages](https://img.shields.io/badge/Languages-3-blueviolet)]()
 
@@ -14,9 +14,9 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 25 |
+| Problems Solved | 26 |
 | Easy | 7 |
-| Medium | 11 |
+| Medium | 12 |
 | Hard | 4 |
 | Languages | C, C++, Python3 |
 | Last Sync | 14 Oct 2026 |
@@ -185,7 +185,7 @@
 
 ---
 
-## Greedy (6)
+## Greedy (7)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -195,6 +195,7 @@
 | 2418 | Minimum Sum of Squared Difference | 🟡 Medium | [View](./2418-minimum-sum-of-squared-difference/) |
 | 3153 | Apply Operations on Array to Maximize Sum of Squares | 🔴 Hard | [View](./3153-apply-operations-on-array-to-maximize-sum-of-squares/) |
 | 4078 | Maximum Alternating Sum of Squares | 🟡 Medium | [View](./4078-maximum-alternating-sum-of-squares/) |
+| 4084 | Maximize Sum of Squares of Digits | 🟡 Medium | [View](./4084-maximize-sum-of-squares-of-digits/) |
 
 ---
 
@@ -230,12 +231,13 @@
 
 ---
 
-## Math (2)
+## Math (3)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2301 | Count Array Pairs Divisible by K | 🔴 Hard | [View](./2301-count-array-pairs-divisible-by-k/) |
 | 0391 | Perfect Rectangle | 🔴 Hard | [View](./0391-perfect-rectangle/) |
+| 4084 | Maximize Sum of Squares of Digits | 🟡 Medium | [View](./4084-maximize-sum-of-squares-of-digits/) |
 
 ---
 
@@ -349,6 +351,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 14 Oct 2026 | Maximize Sum of Squares of Digits | 🟡 Medium | C++ |
 | 14 Oct 2026 | Maximum Alternating Sum of Squares | 🟡 Medium | Python3 |
 | 13 Oct 2026 | Apply Operations on Array to Maximize Sum of Squares | 🔴 Hard | C++ |
 | 12 Oct 2026 | Majority Element | 🟢 Easy | C |
@@ -358,7 +361,6 @@
 | 11 Oct 2026 | Sum of Squares of Special Elements  | 🟢 Easy | C++ |
 | 11 Oct 2026 | Minimum Sum of Squared Difference | 🟡 Medium | C++ |
 | 10 Oct 2026 | Longest Resilient Subarray I | ⚪ Unknown | C++ |
-| 09 Oct 2026 | Minimum Insertions to Balance a Parentheses String | 🟡 Medium | C++ |
 
 ---
 
