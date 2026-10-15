@@ -1492,12 +1492,12 @@
         {
           "filename": "solution.cpp",
           "language": "cpp",
-          "code": "class Solution {\npublic:\n    int maximumStrongPairXor(vector<int>& nums) {\n        int mx = INT_MIN;\n       for( int i = 0;i<nums.size();i++){\n        for( int j = 0;j<nums.size();j++){\n            int x = nums[i],y = nums[j];\n            if(abs(x - y) <= min(x, y)){\n                mx = max( mx, x^y);\n            }\n        }\n       }\n       return mx ; \n    }\n};",
-          "runtime": "1 ms",
-          "memory": "27.6 MB",
+          "code": "class Solution {\npublic:\n    int maximumStrongPairXor(vector<int>& nums) {\n        sort(nums.begin(),nums.end());\n\n        int n = nums.size(),mx= 0,s = 0;\n\n        for( int r =0 ;r<n;r++ ){\n            while(nums[r]>2*nums[s]){\n                s++;\n            }\n\n            for( int k = s;k<r;k++){\n                mx = max(mx, nums[r]^nums[k]);\n            }\n        }\n        return mx;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "27.9 MB",
           "status": "Accepted",
-          "timestamp": 1792087575,
-          "id": 2173283532
+          "timestamp": 1792088126,
+          "id": 2173292537
         }
       ],
       "questionId": "3193",

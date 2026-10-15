@@ -1,15 +1,19 @@
 class Solution {
 public:
     int maximumStrongPairXor(vector<int>& nums) {
-        int mx = INT_MIN;
-       for( int i = 0;i<nums.size();i++){
-        for( int j = 0;j<nums.size();j++){
-            int x = nums[i],y = nums[j];
-            if(abs(x - y) <= min(x, y)){
-                mx = max( mx, x^y);
+        sort(nums.begin(),nums.end());
+
+        int n = nums.size(),mx= 0,s = 0;
+
+        for( int r =0 ;r<n;r++ ){
+            while(nums[r]>2*nums[s]){
+                s++;
+            }
+
+            for( int k = s;k<r;k++){
+                mx = max(mx, nums[r]^nums[k]);
             }
         }
-       }
-       return mx ; 
+        return mx;
     }
 };
