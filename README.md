@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-26-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-7-success)]()
+[![Problems](https://img.shields.io/badge/Problems-27-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-8-success)]()
 [![Medium](https://img.shields.io/badge/Medium-12-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-4-red)]()
 [![Languages](https://img.shields.io/badge/Languages-3-blueviolet)]()
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 26 |
-| Easy | 7 |
+| Problems Solved | 27 |
+| Easy | 8 |
 | Medium | 12 |
 | Hard | 4 |
 | Languages | C, C++, Python3 |
-| Last Sync | 14 Oct 2026 |
+| Last Sync | 15 Oct 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (12)
+## Array (13)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -41,6 +41,7 @@
 | 0169 | Majority Element | 🟢 Easy | [View](./0169-majority-element/) |
 | 3153 | Apply Operations on Array to Maximize Sum of Squares | 🔴 Hard | [View](./3153-apply-operations-on-array-to-maximize-sum-of-squares/) |
 | 4078 | Maximum Alternating Sum of Squares | 🟡 Medium | [View](./4078-maximum-alternating-sum-of-squares/) |
+| 3163 | Subarrays Distinct Element Sum of Squares I | 🟢 Easy | [View](./3163-subarrays-distinct-element-sum-of-squares-i/) |
 
 ---
 
@@ -199,7 +200,7 @@
 
 ---
 
-## Hash Table (7)
+## Hash Table (8)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -210,6 +211,7 @@
 | 0692 | Top K Frequent Words | 🟡 Medium | [View](./0692-top-k-frequent-words/) |
 | 0169 | Majority Element | 🟢 Easy | [View](./0169-majority-element/) |
 | 3153 | Apply Operations on Array to Maximize Sum of Squares | 🔴 Hard | [View](./3153-apply-operations-on-array-to-maximize-sum-of-squares/) |
+| 3163 | Subarrays Distinct Element Sum of Squares I | 🟢 Easy | [View](./3163-subarrays-distinct-element-sum-of-squares-i/) |
 
 ---
 
@@ -254,6 +256,14 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2301 | Count Array Pairs Divisible by K | 🔴 Hard | [View](./2301-count-array-pairs-divisible-by-k/) |
+
+---
+
+## Segment Tree (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 3163 | Subarrays Distinct Element Sum of Squares I | 🟢 Easy | [View](./3163-subarrays-distinct-element-sum-of-squares-i/) |
 
 ---
 
@@ -351,6 +361,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 15 Oct 2026 | Subarrays Distinct Element Sum of Squares I | 🟢 Easy | C++ |
 | 14 Oct 2026 | Maximize Sum of Squares of Digits | 🟡 Medium | C++ |
 | 14 Oct 2026 | Maximum Alternating Sum of Squares | 🟡 Medium | Python3 |
 | 13 Oct 2026 | Apply Operations on Array to Maximize Sum of Squares | 🔴 Hard | C++ |
@@ -360,7 +371,6 @@
 | 11 Oct 2026 | Find if Path Exists in Graph | 🟢 Easy | C++ |
 | 11 Oct 2026 | Sum of Squares of Special Elements  | 🟢 Easy | C++ |
 | 11 Oct 2026 | Minimum Sum of Squared Difference | 🟡 Medium | C++ |
-| 10 Oct 2026 | Longest Resilient Subarray I | ⚪ Unknown | C++ |
 
 ---
 
