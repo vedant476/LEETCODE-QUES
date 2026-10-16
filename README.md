@@ -2,10 +2,10 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-28-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-29-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-9-success)]()
 [![Medium](https://img.shields.io/badge/Medium-12-orange)]()
-[![Hard](https://img.shields.io/badge/Hard-4-red)]()
+[![Hard](https://img.shields.io/badge/Hard-5-red)]()
 [![Languages](https://img.shields.io/badge/Languages-3-blueviolet)]()
 
 ---
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 28 |
+| Problems Solved | 29 |
 | Easy | 9 |
 | Medium | 12 |
-| Hard | 4 |
+| Hard | 5 |
 | Languages | C, C++, Python3 |
-| Last Sync | 15 Oct 2026 |
+| Last Sync | 17 Oct 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (14)
+## Array (15)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -43,6 +43,7 @@
 | 4078 | Maximum Alternating Sum of Squares | 🟡 Medium | [View](./4078-maximum-alternating-sum-of-squares/) |
 | 3163 | Subarrays Distinct Element Sum of Squares I | 🟢 Easy | [View](./3163-subarrays-distinct-element-sum-of-squares-i/) |
 | 3193 | Maximum Strong Pair XOR I | 🟢 Easy | [View](./3193-maximum-strong-pair-xor-i/) |
+| 3139 | Subarrays Distinct Element Sum of Squares II | 🔴 Hard | [View](./3139-subarrays-distinct-element-sum-of-squares-ii/) |
 
 ---
 
@@ -51,6 +52,14 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0301 | Remove Invalid Parentheses | 🔴 Hard | [View](./0301-remove-invalid-parentheses/) |
+
+---
+
+## Binary Indexed Tree (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 3139 | Subarrays Distinct Element Sum of Squares II | 🔴 Hard | [View](./3139-subarrays-distinct-element-sum-of-squares-ii/) |
 
 ---
 
@@ -202,7 +211,7 @@
 
 ---
 
-## Hash Table (9)
+## Hash Table (10)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -215,6 +224,7 @@
 | 3153 | Apply Operations on Array to Maximize Sum of Squares | 🔴 Hard | [View](./3153-apply-operations-on-array-to-maximize-sum-of-squares/) |
 | 3163 | Subarrays Distinct Element Sum of Squares I | 🟢 Easy | [View](./3163-subarrays-distinct-element-sum-of-squares-i/) |
 | 3193 | Maximum Strong Pair XOR I | 🟢 Easy | [View](./3193-maximum-strong-pair-xor-i/) |
+| 3139 | Subarrays Distinct Element Sum of Squares II | 🔴 Hard | [View](./3139-subarrays-distinct-element-sum-of-squares-ii/) |
 
 ---
 
@@ -262,11 +272,12 @@
 
 ---
 
-## Segment Tree (1)
+## Segment Tree (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 3163 | Subarrays Distinct Element Sum of Squares I | 🟢 Easy | [View](./3163-subarrays-distinct-element-sum-of-squares-i/) |
+| 3139 | Subarrays Distinct Element Sum of Squares II | 🔴 Hard | [View](./3139-subarrays-distinct-element-sum-of-squares-ii/) |
 
 ---
 
@@ -373,6 +384,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 17 Oct 2026 | Subarrays Distinct Element Sum of Squares II | 🔴 Hard | C++ |
 | 15 Oct 2026 | Maximum Strong Pair XOR I | 🟢 Easy | C++ |
 | 15 Oct 2026 | Subarrays Distinct Element Sum of Squares I | 🟢 Easy | C++ |
 | 14 Oct 2026 | Maximize Sum of Squares of Digits | 🟡 Medium | C++ |
@@ -382,7 +394,6 @@
 | 12 Oct 2026 | Top K Frequent Words | 🟡 Medium | C++ |
 | 12 Oct 2026 | Sort Characters By Frequency | 🟡 Medium | C++ |
 | 11 Oct 2026 | Find if Path Exists in Graph | 🟢 Easy | C++ |
-| 11 Oct 2026 | Sum of Squares of Special Elements  | 🟢 Easy | C++ |
 
 ---
 
