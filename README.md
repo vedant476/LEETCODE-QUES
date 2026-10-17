@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-29-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-30-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-9-success)]()
-[![Medium](https://img.shields.io/badge/Medium-12-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-13-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-5-red)]()
 [![Languages](https://img.shields.io/badge/Languages-3-blueviolet)]()
 
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 29 |
+| Problems Solved | 30 |
 | Easy | 9 |
-| Medium | 12 |
+| Medium | 13 |
 | Hard | 5 |
 | Languages | C, C++, Python3 |
-| Last Sync | 17 Oct 2026 |
+| Last Sync | 18 Oct 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (15)
+## Array (16)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -44,6 +44,7 @@
 | 3163 | Subarrays Distinct Element Sum of Squares I | 🟢 Easy | [View](./3163-subarrays-distinct-element-sum-of-squares-i/) |
 | 3193 | Maximum Strong Pair XOR I | 🟢 Easy | [View](./3193-maximum-strong-pair-xor-i/) |
 | 3139 | Subarrays Distinct Element Sum of Squares II | 🔴 Hard | [View](./3139-subarrays-distinct-element-sum-of-squares-ii/) |
+| 3847 | Minimum Swaps to Sort by Digit Sum | 🟡 Medium | [View](./3847-minimum-swaps-to-sort-by-digit-sum/) |
 
 ---
 
@@ -211,7 +212,7 @@
 
 ---
 
-## Hash Table (10)
+## Hash Table (11)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -225,6 +226,7 @@
 | 3163 | Subarrays Distinct Element Sum of Squares I | 🟢 Easy | [View](./3163-subarrays-distinct-element-sum-of-squares-i/) |
 | 3193 | Maximum Strong Pair XOR I | 🟢 Easy | [View](./3193-maximum-strong-pair-xor-i/) |
 | 3139 | Subarrays Distinct Element Sum of Squares II | 🔴 Hard | [View](./3139-subarrays-distinct-element-sum-of-squares-ii/) |
+| 3847 | Minimum Swaps to Sort by Digit Sum | 🟡 Medium | [View](./3847-minimum-swaps-to-sort-by-digit-sum/) |
 
 ---
 
@@ -297,7 +299,7 @@
 
 ---
 
-## Sorting (6)
+## Sorting (7)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -307,6 +309,7 @@
 | 0692 | Top K Frequent Words | 🟡 Medium | [View](./0692-top-k-frequent-words/) |
 | 0169 | Majority Element | 🟢 Easy | [View](./0169-majority-element/) |
 | 4078 | Maximum Alternating Sum of Squares | 🟡 Medium | [View](./4078-maximum-alternating-sum-of-squares/) |
+| 3847 | Minimum Swaps to Sort by Digit Sum | 🟡 Medium | [View](./3847-minimum-swaps-to-sort-by-digit-sum/) |
 
 ---
 
@@ -384,6 +387,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 18 Oct 2026 | Minimum Swaps to Sort by Digit Sum | 🟡 Medium | C++ |
 | 17 Oct 2026 | Subarrays Distinct Element Sum of Squares II | 🔴 Hard | C++ |
 | 15 Oct 2026 | Maximum Strong Pair XOR I | 🟢 Easy | C++ |
 | 15 Oct 2026 | Subarrays Distinct Element Sum of Squares I | 🟢 Easy | C++ |
@@ -393,7 +397,6 @@
 | 12 Oct 2026 | Majority Element | 🟢 Easy | C |
 | 12 Oct 2026 | Top K Frequent Words | 🟡 Medium | C++ |
 | 12 Oct 2026 | Sort Characters By Frequency | 🟡 Medium | C++ |
-| 11 Oct 2026 | Find if Path Exists in Graph | 🟢 Easy | C++ |
 
 ---
 

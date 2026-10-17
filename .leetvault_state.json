@@ -1,15 +1,15 @@
 {
   "stats": {
-    "total": 29,
+    "total": 30,
     "easy": 9,
-    "medium": 12,
+    "medium": 13,
     "hard": 5,
     "languages": [
       "C",
       "C++",
       "Python3"
     ],
-    "lastSync": "17 Oct 2026"
+    "lastSync": "18 Oct 2026"
   },
   "problems": [
     {
@@ -1570,6 +1570,50 @@
       ],
       "similarQuestions": [],
       "url": "https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/"
+    },
+    {
+      "title": "Minimum Swaps to Sort by Digit Sum",
+      "slug": "minimum-swaps-to-sort-by-digit-sum",
+      "qid": "3847",
+      "difficulty": "Medium",
+      "tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "Sorting",
+          "slug": "sorting"
+        }
+      ],
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int minSwaps(vector<int>& nums) {\n        auto digit_sum = [](int x) {\n            int s = 0;\n            for (; x > 0; x /= 10) s += x % 10;\n            return s;\n        };\n        int n = nums.size();\n        vector<pair<int, int>> keyed; \n\n        for (int x : nums) keyed.emplace_back(digit_sum(x), x);\n        ranges::sort(keyed);\n\n        unordered_map<int, int> rank;  \n        for (int k = 0; k < n; k++) rank[keyed[k].second] = k;\n        \n        vector<int> home; \n        for (int x : nums) home.push_back(rank[x]);\n\n        int swaps = 0;\n        for (int i = 0; i < n; i++) {\n            while (home[i] != i) {  \n                int j = home[i];\n                swap(home[i], home[j]);\n                swaps++;\n            }\n        }\n        return swaps;\n    }\n};",
+          "runtime": "435 ms",
+          "memory": "244.4 MB",
+          "status": "Accepted",
+          "timestamp": 1792268492,
+          "id": 2174875016
+        }
+      ],
+      "questionId": "3847",
+      "paidOnly": false,
+      "likes": 157,
+      "dislikes": 6,
+      "acceptanceRate": "50.1%",
+      "content": "<p>You are given an array <code>nums</code> of <strong>distinct</strong> positive integers. You need to sort the array in <strong>increasing</strong> order based on the sum of the digits of each number. If two numbers have the same digit sum, the <strong>smaller</strong> number appears first in the sorted order.</p>\n\n<p>Return the <strong>minimum</strong> number of swaps required to rearrange <code>nums</code> into this sorted order.</p>\n\n<p>A <strong>swap</strong> is defined as exchanging the values at two distinct positions in the array.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [37,100]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">1</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>Compute the digit sum for each integer: <code>[3 + 7 = 10, 1 + 0 + 0 = 1] &rarr; [10, 1]</code></li>\n\t<li>Sort the integers based on digit sum: <code>[100, 37]</code>. Swap <code>37</code> with <code>100</code> to obtain the sorted order.</li>\n\t<li>Thus, the minimum number of swaps required to rearrange <code>nums</code> is 1.</li>\n</ul>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [22,14,33,7]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">0</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>Compute the digit sum for each integer: <code>[2 + 2 = 4, 1 + 4 = 5, 3 + 3 = 6, 7 = 7] &rarr; [4, 5, 6, 7]</code></li>\n\t<li>Sort the integers based on digit sum: <code>[22, 14, 33, 7]</code>. The array is already sorted.</li>\n\t<li>Thus, the minimum number of swaps required to rearrange <code>nums</code> is 0.</li>\n</ul>\n</div>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [18,43,34,16]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">2</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>Compute the digit sum for each integer: <code>[1 + 8 = 9, 4 + 3 = 7, 3 + 4 = 7, 1 + 6 = 7] &rarr; [9, 7, 7, 7]</code></li>\n\t<li>Sort the integers based on digit sum: <code>[16, 34, 43, 18]</code>. Swap <code>18</code> with <code>16</code>, and swap <code>43</code> with <code>34</code> to obtain the sorted order.</li>\n\t<li>Thus, the minimum number of swaps required to rearrange <code>nums</code> is 2.</li>\n</ul>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>\n\t<li><code>nums</code> consists of <strong>distinct</strong> positive integers.</li>\n</ul>\n",
+      "hints": [
+        "First, sort the array based on digit sum (and value as a tiebreaker). Then, map each original value to its index in the sorted array.",
+        "Now, the problem reduces to finding the minimum number of swaps to sort this mapped array. The answer is <code>n - number_of_cycles</code> in the permutation."
+      ],
+      "similarQuestions": [],
+      "url": "https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/"
     }
   ]
 }
