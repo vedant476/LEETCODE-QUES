@@ -2,10 +2,10 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-30-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-31-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-9-success)]()
 [![Medium](https://img.shields.io/badge/Medium-13-orange)]()
-[![Hard](https://img.shields.io/badge/Hard-5-red)]()
+[![Hard](https://img.shields.io/badge/Hard-6-red)]()
 [![Languages](https://img.shields.io/badge/Languages-3-blueviolet)]()
 
 ---
@@ -14,10 +14,10 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 30 |
+| Problems Solved | 31 |
 | Easy | 9 |
 | Medium | 13 |
-| Hard | 5 |
+| Hard | 6 |
 | Languages | C, C++, Python3 |
 | Last Sync | 18 Oct 2026 |
 
@@ -25,7 +25,7 @@
 
 # 📂 Browse by Topic
 
-## Array (16)
+## Array (17)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -45,6 +45,7 @@
 | 3193 | Maximum Strong Pair XOR I | 🟢 Easy | [View](./3193-maximum-strong-pair-xor-i/) |
 | 3139 | Subarrays Distinct Element Sum of Squares II | 🔴 Hard | [View](./3139-subarrays-distinct-element-sum-of-squares-ii/) |
 | 3847 | Minimum Swaps to Sort by Digit Sum | 🟡 Medium | [View](./3847-minimum-swaps-to-sort-by-digit-sum/) |
+| 1692 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | [View](./1692-number-of-ways-to-reorder-array-to-get-same-bst/) |
 
 ---
 
@@ -69,6 +70,22 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2418 | Minimum Sum of Squared Difference | 🟡 Medium | [View](./2418-minimum-sum-of-squared-difference/) |
+
+---
+
+## Binary Search Tree (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1692 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | [View](./1692-number-of-ways-to-reorder-array-to-get-same-bst/) |
+
+---
+
+## Binary Tree (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1692 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | [View](./1692-number-of-ways-to-reorder-array-to-get-same-bst/) |
 
 ---
 
@@ -120,6 +137,14 @@
 
 ---
 
+## Combinatorics (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1692 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | [View](./1692-number-of-ways-to-reorder-array-to-get-same-bst/) |
+
+---
+
 ## Counting (4)
 
 | # | Problem | Difficulty | Solution |
@@ -140,19 +165,21 @@
 
 ---
 
-## Divide and Conquer (1)
+## Divide and Conquer (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0169 | Majority Element | 🟢 Easy | [View](./0169-majority-element/) |
+| 1692 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | [View](./1692-number-of-ways-to-reorder-array-to-get-same-bst/) |
 
 ---
 
-## Dynamic Programming (1)
+## Dynamic Programming (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0678 | Valid Parenthesis String | 🟡 Medium | [View](./0678-valid-parenthesis-string/) |
+| 1692 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | [View](./1692-number-of-ways-to-reorder-array-to-get-same-bst/) |
 
 ---
 
@@ -169,6 +196,14 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2301 | Count Array Pairs Divisible by K | 🔴 Hard | [View](./2301-count-array-pairs-divisible-by-k/) |
+
+---
+
+## Fermat's Little Theorem (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1692 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | [View](./1692-number-of-ways-to-reorder-array-to-get-same-bst/) |
 
 ---
 
@@ -248,13 +283,14 @@
 
 ---
 
-## Math (3)
+## Math (4)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2301 | Count Array Pairs Divisible by K | 🔴 Hard | [View](./2301-count-array-pairs-divisible-by-k/) |
 | 0391 | Perfect Rectangle | 🔴 Hard | [View](./0391-perfect-rectangle/) |
 | 4084 | Maximize Sum of Squares of Digits | 🟡 Medium | [View](./4084-maximize-sum-of-squares-of-digits/) |
+| 1692 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | [View](./1692-number-of-ways-to-reorder-array-to-get-same-bst/) |
 
 ---
 
@@ -263,6 +299,14 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0054 | Spiral Matrix | 🟡 Medium | [View](./0054-spiral-matrix/) |
+
+---
+
+## Memoization (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1692 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | [View](./1692-number-of-ways-to-reorder-array-to-get-same-bst/) |
 
 ---
 
@@ -348,6 +392,14 @@
 
 ---
 
+## Tree (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1692 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | [View](./1692-number-of-ways-to-reorder-array-to-get-same-bst/) |
+
+---
+
 ## Trie (2)
 
 | # | Problem | Difficulty | Solution |
@@ -375,11 +427,12 @@
 
 ---
 
-## Union-Find (1)
+## Union-Find (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2121 | Find if Path Exists in Graph | 🟢 Easy | [View](./2121-find-if-path-exists-in-graph/) |
+| 1692 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | [View](./1692-number-of-ways-to-reorder-array-to-get-same-bst/) |
 
 ---
 
@@ -387,6 +440,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 18 Oct 2026 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | Python3 |
 | 18 Oct 2026 | Minimum Swaps to Sort by Digit Sum | 🟡 Medium | C++ |
 | 17 Oct 2026 | Subarrays Distinct Element Sum of Squares II | 🔴 Hard | C++ |
 | 15 Oct 2026 | Maximum Strong Pair XOR I | 🟢 Easy | C++ |
@@ -396,7 +450,6 @@
 | 13 Oct 2026 | Apply Operations on Array to Maximize Sum of Squares | 🔴 Hard | C++ |
 | 12 Oct 2026 | Majority Element | 🟢 Easy | C |
 | 12 Oct 2026 | Top K Frequent Words | 🟡 Medium | C++ |
-| 12 Oct 2026 | Sort Characters By Frequency | 🟡 Medium | C++ |
 
 ---
 
