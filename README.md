@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-31-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-9-success)]()
+[![Problems](https://img.shields.io/badge/Problems-32-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-10-success)]()
 [![Medium](https://img.shields.io/badge/Medium-13-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-6-red)]()
 [![Languages](https://img.shields.io/badge/Languages-3-blueviolet)]()
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 31 |
-| Easy | 9 |
+| Problems Solved | 32 |
+| Easy | 10 |
 | Medium | 13 |
 | Hard | 6 |
 | Languages | C, C++, Python3 |
-| Last Sync | 18 Oct 2026 |
+| Last Sync | 19 Oct 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (17)
+## Array (18)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -46,6 +46,7 @@
 | 3139 | Subarrays Distinct Element Sum of Squares II | 🔴 Hard | [View](./3139-subarrays-distinct-element-sum-of-squares-ii/) |
 | 3847 | Minimum Swaps to Sort by Digit Sum | 🟡 Medium | [View](./3847-minimum-swaps-to-sort-by-digit-sum/) |
 | 1692 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | [View](./1692-number-of-ways-to-reorder-array-to-get-same-bst/) |
+| 2210 | Find Target Indices After Sorting Array | 🟢 Easy | [View](./2210-find-target-indices-after-sorting-array/) |
 
 ---
 
@@ -65,11 +66,12 @@
 
 ---
 
-## Binary Search (1)
+## Binary Search (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2418 | Minimum Sum of Squared Difference | 🟡 Medium | [View](./2418-minimum-sum-of-squared-difference/) |
+| 2210 | Find Target Indices After Sorting Array | 🟢 Easy | [View](./2210-find-target-indices-after-sorting-array/) |
 
 ---
 
@@ -343,7 +345,7 @@
 
 ---
 
-## Sorting (7)
+## Sorting (8)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -354,6 +356,7 @@
 | 0169 | Majority Element | 🟢 Easy | [View](./0169-majority-element/) |
 | 4078 | Maximum Alternating Sum of Squares | 🟡 Medium | [View](./4078-maximum-alternating-sum-of-squares/) |
 | 3847 | Minimum Swaps to Sort by Digit Sum | 🟡 Medium | [View](./3847-minimum-swaps-to-sort-by-digit-sum/) |
+| 2210 | Find Target Indices After Sorting Array | 🟢 Easy | [View](./2210-find-target-indices-after-sorting-array/) |
 
 ---
 
@@ -440,6 +443,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 19 Oct 2026 | Find Target Indices After Sorting Array | 🟢 Easy | C++ |
 | 18 Oct 2026 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | Python3 |
 | 18 Oct 2026 | Minimum Swaps to Sort by Digit Sum | 🟡 Medium | C++ |
 | 17 Oct 2026 | Subarrays Distinct Element Sum of Squares II | 🔴 Hard | C++ |
@@ -449,7 +453,6 @@
 | 14 Oct 2026 | Maximum Alternating Sum of Squares | 🟡 Medium | Python3 |
 | 13 Oct 2026 | Apply Operations on Array to Maximize Sum of Squares | 🔴 Hard | C++ |
 | 12 Oct 2026 | Majority Element | 🟢 Easy | C |
-| 12 Oct 2026 | Top K Frequent Words | 🟡 Medium | C++ |
 
 ---
 
