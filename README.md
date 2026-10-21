@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-32-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-33-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-10-success)]()
-[![Medium](https://img.shields.io/badge/Medium-13-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-14-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-6-red)]()
 [![Languages](https://img.shields.io/badge/Languages-3-blueviolet)]()
 
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 32 |
+| Problems Solved | 33 |
 | Easy | 10 |
-| Medium | 13 |
+| Medium | 14 |
 | Hard | 6 |
 | Languages | C, C++, Python3 |
-| Last Sync | 19 Oct 2026 |
+| Last Sync | 22 Oct 2026 |
 
 ---
 
@@ -372,7 +372,7 @@
 
 ---
 
-## String (8)
+## String (9)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -384,6 +384,7 @@
 | 1648 | Minimum Insertions to Balance a Parentheses String | 🟡 Medium | [View](./1648-minimum-insertions-to-balance-a-parentheses-string/) |
 | 0451 | Sort Characters By Frequency | 🟡 Medium | [View](./0451-sort-characters-by-frequency/) |
 | 0692 | Top K Frequent Words | 🟡 Medium | [View](./0692-top-k-frequent-words/) |
+| 4220 | Minimum Operations to Sort a String | 🟡 Medium | [View](./4220-minimum-operations-to-sort-a-string/) |
 
 ---
 
@@ -443,6 +444,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 22 Oct 2026 | Minimum Operations to Sort a String | 🟡 Medium | C++ |
 | 19 Oct 2026 | Find Target Indices After Sorting Array | 🟢 Easy | C++ |
 | 18 Oct 2026 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | Python3 |
 | 18 Oct 2026 | Minimum Swaps to Sort by Digit Sum | 🟡 Medium | C++ |
@@ -452,7 +454,6 @@
 | 14 Oct 2026 | Maximize Sum of Squares of Digits | 🟡 Medium | C++ |
 | 14 Oct 2026 | Maximum Alternating Sum of Squares | 🟡 Medium | Python3 |
 | 13 Oct 2026 | Apply Operations on Array to Maximize Sum of Squares | 🔴 Hard | C++ |
-| 12 Oct 2026 | Majority Element | 🟢 Easy | C |
 
 ---
 
