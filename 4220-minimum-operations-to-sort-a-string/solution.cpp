@@ -1,12 +1,18 @@
 class Solution {
 public:
     int minOperations(string s) {
-        if(is_sorted(s.begin(), s.end())) return 0;
-        if(s.size() == 2 ) return -1;
+        char minC = 'z', maxC = 'a';
+        for (const char& c : s) {
+            minC = min(minC, c);
+            maxC = max(maxC, c);
+        }
 
-        auto [lo, hi] = minmax_element(s.begin() + 1, s.end() - 1);
-
-        if(s[0] <= min(*lo, s.back()) || max(s[0], *hi) <= s.back()) return 1;
-            return s.back() < *lo && *hi < s[0] ? 3 : 2;
+        int n = s.size();
+        if (is_sorted(s.begin(), s.end())) return 0;
+        if (s[0] == minC || s[n - 1] == maxC) return 1;
+        for (int i = 1; i < n - 1; i += 1) {
+            if (s[i] == minC || s[i] == maxC) return 2;
+        }
+        return (n == 2) ? -1 : 3;
     }
 };
