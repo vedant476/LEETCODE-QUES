@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-33-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-34-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-10-success)]()
-[![Medium](https://img.shields.io/badge/Medium-14-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-15-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-6-red)]()
 [![Languages](https://img.shields.io/badge/Languages-3-blueviolet)]()
 
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 33 |
+| Problems Solved | 34 |
 | Easy | 10 |
-| Medium | 14 |
+| Medium | 15 |
 | Hard | 6 |
 | Languages | C, C++, Python3 |
-| Last Sync | 22 Oct 2026 |
+| Last Sync | 23 Oct 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (18)
+## Array (19)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -47,6 +47,7 @@
 | 3847 | Minimum Swaps to Sort by Digit Sum | 🟡 Medium | [View](./3847-minimum-swaps-to-sort-by-digit-sum/) |
 | 1692 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | [View](./1692-number-of-ways-to-reorder-array-to-get-same-bst/) |
 | 2210 | Find Target Indices After Sorting Array | 🟢 Easy | [View](./2210-find-target-indices-after-sorting-array/) |
+| 4184 | Minimum Operations to Sort a Permutation | 🟡 Medium | [View](./4184-minimum-operations-to-sort-a-permutation/) |
 
 ---
 
@@ -444,6 +445,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 23 Oct 2026 | Minimum Operations to Sort a Permutation | 🟡 Medium | C++ |
 | 22 Oct 2026 | Minimum Operations to Sort a String | 🟡 Medium | C++ |
 | 19 Oct 2026 | Find Target Indices After Sorting Array | 🟢 Easy | C++ |
 | 18 Oct 2026 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | Python3 |
@@ -453,7 +455,6 @@
 | 15 Oct 2026 | Subarrays Distinct Element Sum of Squares I | 🟢 Easy | C++ |
 | 14 Oct 2026 | Maximize Sum of Squares of Digits | 🟡 Medium | C++ |
 | 14 Oct 2026 | Maximum Alternating Sum of Squares | 🟡 Medium | Python3 |
-| 13 Oct 2026 | Apply Operations on Array to Maximize Sum of Squares | 🔴 Hard | C++ |
 
 ---
 

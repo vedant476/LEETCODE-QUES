@@ -1,15 +1,15 @@
 {
   "stats": {
-    "total": 33,
+    "total": 34,
     "easy": 10,
-    "medium": 14,
+    "medium": 15,
     "hard": 6,
     "languages": [
       "C",
       "C++",
       "Python3"
     ],
-    "lastSync": "22 Oct 2026"
+    "lastSync": "23 Oct 2026"
   },
   "problems": [
     {
@@ -1788,6 +1788,47 @@
       ],
       "similarQuestions": [],
       "url": "https://leetcode.com/problems/minimum-operations-to-sort-a-string/"
+    },
+    {
+      "title": "Minimum Operations to Sort a Permutation",
+      "slug": "minimum-operations-to-sort-a-permutation",
+      "qid": "4184",
+      "difficulty": "Medium",
+      "tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        }
+      ],
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int minOperations(auto& A) {\n        int n =A.size();\n        int a =1,d=1;\n        for( int i=1 ;i<n;i++){\n            a += A[i] == (A[i - 1] + 1) % n;\n            d += A[i - 1] == (A[i] + 1) % n; \n        }\n        if( a == n)\n            return A.front() ? min(n - A.front(), A.front() + 2) : 0;\n        if (d == n)\n            return min(n - A.back(), A.back()) + 1;\n        return -1;\n    }\n};",
+          "runtime": "5 ms",
+          "memory": "141 MB",
+          "status": "Accepted",
+          "timestamp": 1792698165,
+          "id": 2179155278
+        }
+      ],
+      "questionId": "4184",
+      "paidOnly": false,
+      "likes": 93,
+      "dislikes": 8,
+      "acceptanceRate": "28.2%",
+      "content": "<p>You are given an integer array <code>nums</code> of length <code>n</code>, where <code>nums</code> is a <span data-keyword=\"permutation-array\">permutation</span> of the integers from 0 to <code>n - 1</code>.</p>\n\n<p>You may perform <strong>only</strong> the following operations:</p>\n\n<ul>\n\t<li><strong>Reverse</strong> the entire array.</li>\n\t<li><strong>Rotate Left by One</strong>: Move the first element to the end of the array, and rest elements to left by one position.</li>\n</ul>\n\n<p>Return an integer denoting the <strong>minimum</strong> number of operations required to sort the array in <strong>increasing</strong> order. If it is <strong>not possible</strong> to sort the array using only the given operations, return -1.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [0,2,1]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">2</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>Rotate Left by one: <code>[2, 1, 0]</code></li>\n\t<li>Reverse the array: <code>[0, 1, 2]</code></li>\n</ul>\n\n<p>The array becomes sorted in 2 operations, which is minimal</p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [1,0,2]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">2</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>Reverse the array: <code>[2, 0, 1]</code></li>\n\t<li>Rotate Left by one: <code>[0, 1, 2]</code></li>\n</ul>\n\n<p>The array becomes sorted in 2 operations, which is minimal.</p>\n</div>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [2,0,1,3]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">-1</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>It is impossible to reach <code>[2, 0, 1, 3]</code>. Thus, the answer is -1.</p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n == nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>0 &lt;= nums[i] &lt;= n - 1</code></li>\n\t<li><code>nums</code> is a permutation of integers from 0 to <code>n - 1</code>.</li>\n</ul>\n",
+      "hints": [
+        "<strong>1a. (Case Analysis)</strong>\r\n\r\nThe operations generate only rotations of <code>nums</code> and rotations of <code>reverse(nums)</code>.",
+        "<strong>1b. (Case Analysis)</strong>\r\n\r\nSo sorting is possible if and only if <code>nums</code> is a rotation of increasing order, or a rotation of decreasing order.",
+        "<strong>1c. (Case Analysis)</strong>\r\n\r\nIf <code>nums</code> is increasing cyclically and <code>nums[i] = 0</code>, then rotating left <code>i</code> times sorts the array, or we may reverse, rotate, then reverse again.\r\n\r\nTake the minimum between these possibilities.",
+        "<strong>1d. (Case Analysis)</strong>\r\n\r\nIf <code>nums</code> is decreasing cyclically, try both possibilities: reverse first, or rotate first and then reverse. Take the minimum valid cost.",
+        "<strong>2a. (Breadth-First Search)</strong>\r\n\r\nAs follows from Hint 1a and 1b, each reachable array can be represented as a state. Since all reachable arrays belong to one of two families, we can compress a state into <code>(type, shift)</code>.\r\n\r\n<code>type = 0</code>: a rotation of the original array.\r\n<code>type = 1</code>: a rotation of the reversed array.\r\n\r\n<code>shift</code> denotes the number of left rotations applied within that family.",
+        "<strong>2b. (Breadth-First Search)</strong>\r\n\r\nA left rotation changes <code>shift</code> to <code>(shift + 1) % n</code>.\r\n\r\nA reverse toggles <code>type</code>, while also changing the corresponding <code>shift</code> to <code>(n - shift) % n</code>.",
+        "<strong>2c. (Breadth-First Search)</strong>\r\n\r\nBuild a graph on these <code>2n</code> states using the two allowed operations, then run BFS from <code>(0, 0)</code> to the state representing the input array."
+      ],
+      "similarQuestions": [],
+      "url": "https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/"
     }
   ]
 }
