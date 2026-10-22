@@ -1,6 +1,6 @@
 {
   "stats": {
-    "total": 34,
+    "total": 35,
     "easy": 10,
     "medium": 15,
     "hard": 6,
@@ -1829,6 +1829,25 @@
       ],
       "similarQuestions": [],
       "url": "https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/"
+    },
+    {
+      "title": "Minimum Interval Selection to Cover Target Intervals",
+      "slug": "minimum-interval-selection-to-cover-target-intervals",
+      "qid": "4086",
+      "difficulty": "Unknown",
+      "tags": [],
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int minSelection(vector<vector<int>>& a, vector<vector<int>>& t) {\n        sort(a.begin(),a.end());\n        sort(t.begin(),t.end());\n        int i=0,n=a.size(),best=INT_MIN,reach=INT_MIN,cnt=0;\n        for(auto &x:t){\n            int L=x[0],R=x[1];\n            while(reach< R){\n                int need=max(reach,L);\n                while(i<n && a[i][0] <=need)best=max(best,a[i++][1]);\n                \n                if(best < need || best <=reach)return -1;\n                reach=best;\n                cnt++;\n            }\n        }\n        return cnt;\n    }\n};",
+          "runtime": "111 ms",
+          "memory": "212.2 MB",
+          "status": "Accepted",
+          "timestamp": 1792698303,
+          "id": 2179156575
+        }
+      ]
     }
   ]
 }

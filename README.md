@@ -2,7 +2,7 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-34-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-35-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-10-success)]()
 [![Medium](https://img.shields.io/badge/Medium-15-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-6-red)]()
@@ -14,7 +14,7 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 34 |
+| Problems Solved | 35 |
 | Easy | 10 |
 | Medium | 15 |
 | Hard | 6 |
@@ -422,13 +422,14 @@
 
 ---
 
-## Uncategorized (3)
+## Uncategorized (4)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 4070 | Minimum Rotations to Dial a Number I | ⚪ Unknown | [View](./4070-minimum-rotations-to-dial-a-number-i/) |
 | 4073 | Count Good Strings | ⚪ Unknown | [View](./4073-count-good-strings/) |
 | 101198 | Longest Resilient Subarray I | ⚪ Unknown | [View](./101198-longest-resilient-subarray-i/) |
+| 4086 | Minimum Interval Selection to Cover Target Intervals | ⚪ Unknown | [View](./4086-minimum-interval-selection-to-cover-target-intervals/) |
 
 ---
 
@@ -445,6 +446,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 23 Oct 2026 | Minimum Interval Selection to Cover Target Intervals | ⚪ Unknown | C++ |
 | 23 Oct 2026 | Minimum Operations to Sort a Permutation | 🟡 Medium | C++ |
 | 22 Oct 2026 | Minimum Operations to Sort a String | 🟡 Medium | C++ |
 | 19 Oct 2026 | Find Target Indices After Sorting Array | 🟢 Easy | C++ |
@@ -454,7 +456,6 @@
 | 15 Oct 2026 | Maximum Strong Pair XOR I | 🟢 Easy | C++ |
 | 15 Oct 2026 | Subarrays Distinct Element Sum of Squares I | 🟢 Easy | C++ |
 | 14 Oct 2026 | Maximize Sum of Squares of Digits | 🟡 Medium | C++ |
-| 14 Oct 2026 | Maximum Alternating Sum of Squares | 🟡 Medium | Python3 |
 
 ---
 
