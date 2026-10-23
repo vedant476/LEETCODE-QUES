@@ -4,11 +4,11 @@
 |----------|-------|
 | Difficulty | 🟢 Easy |
 | Acceptance Rate | 50.0% |
-| Language | C |
+| Language | Python3 |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
-| Memory | 8.2 MB |
-| Submission ID | 2179836690 |
+| Memory | 19.2 MB |
+| Submission ID | 2179841953 |
 | Solved On | 23 Oct 2026 |
 
 ---
@@ -79,6 +79,7 @@ No notes provided.
 
 | Language | Runtime | Memory | File |
 |----------|---------|--------|------|
+| Python3 | 0 ms | 19.2 MB | [solution.py](./solution.py) |
 | C | 0 ms | 8.2 MB | [solution.c](./solution.c) |
 | Java | 0 ms | 41.7 MB | [Solution.java](./Solution.java) |
 | C++ | 0 ms | 7.5 MB | [solution.cpp](./solution.cpp) |
