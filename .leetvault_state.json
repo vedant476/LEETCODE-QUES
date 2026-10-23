@@ -1935,6 +1935,16 @@
       ],
       "files": [
         {
+          "filename": "solution.c",
+          "language": "c",
+          "code": "bool checkPerfectNumber(int num) {\n    return num==6||num==28||num==496||num==8128||num==33550336;\n}",
+          "runtime": "0 ms",
+          "memory": "8.2 MB",
+          "status": "Accepted",
+          "timestamp": 1792773886,
+          "id": 2179836690
+        },
+        {
           "filename": "Solution.java",
           "language": "java",
           "code": "class Solution {\n    public boolean checkPerfectNumber(int num) {\n        return num==6||num==28||num==496||num==8128||num==33550336;\n    }\n}",

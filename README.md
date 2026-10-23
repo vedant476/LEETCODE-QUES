@@ -450,7 +450,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
-| 23 Oct 2026 | Perfect Number | 🟢 Easy | Java |
+| 23 Oct 2026 | Perfect Number | 🟢 Easy | C |
 | 23 Oct 2026 | Zigzag Conversion | 🟡 Medium | C++ |
 | 23 Oct 2026 | Maximum K to Sort a Permutation | 🟡 Medium | C++ |
 | 23 Oct 2026 | Minimum Interval Selection to Cover Target Intervals | ⚪ Unknown | C++ |
