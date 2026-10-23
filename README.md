@@ -6,7 +6,7 @@
 [![Easy](https://img.shields.io/badge/Easy-11-success)]()
 [![Medium](https://img.shields.io/badge/Medium-17-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-6-red)]()
-[![Languages](https://img.shields.io/badge/Languages-3-blueviolet)]()
+[![Languages](https://img.shields.io/badge/Languages-4-blueviolet)]()
 
 ---
 
@@ -18,7 +18,7 @@
 | Easy | 11 |
 | Medium | 17 |
 | Hard | 6 |
-| Languages | C, C++, Python3 |
+| Languages | C, C++, Java, Python3 |
 | Last Sync | 23 Oct 2026 |
 
 ---
@@ -450,7 +450,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
-| 23 Oct 2026 | Perfect Number | 🟢 Easy | C++ |
+| 23 Oct 2026 | Perfect Number | 🟢 Easy | Java |
 | 23 Oct 2026 | Zigzag Conversion | 🟡 Medium | C++ |
 | 23 Oct 2026 | Maximum K to Sort a Permutation | 🟡 Medium | C++ |
 | 23 Oct 2026 | Minimum Interval Selection to Cover Target Intervals | ⚪ Unknown | C++ |

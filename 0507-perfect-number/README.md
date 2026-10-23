@@ -4,11 +4,11 @@
 |----------|-------|
 | Difficulty | 🟢 Easy |
 | Acceptance Rate | 50.0% |
-| Language | C++ |
+| Language | Java |
 | Status | ✅ Accepted |
 | Runtime | 0 ms |
-| Memory | 7.5 MB |
-| Submission ID | 2179833526 |
+| Memory | 41.7 MB |
+| Submission ID | 2179835590 |
 | Solved On | 23 Oct 2026 |
 
 ---
@@ -79,6 +79,7 @@ No notes provided.
 
 | Language | Runtime | Memory | File |
 |----------|---------|--------|------|
+| Java | 0 ms | 41.7 MB | [Solution.java](./Solution.java) |
 | C++ | 0 ms | 7.5 MB | [solution.cpp](./solution.cpp) |
 
 ---
