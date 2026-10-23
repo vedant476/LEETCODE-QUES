@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-36-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-37-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-10-success)]()
-[![Medium](https://img.shields.io/badge/Medium-16-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-17-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-6-red)]()
 [![Languages](https://img.shields.io/badge/Languages-3-blueviolet)]()
 
@@ -14,9 +14,9 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 36 |
+| Problems Solved | 37 |
 | Easy | 10 |
-| Medium | 16 |
+| Medium | 17 |
 | Hard | 6 |
 | Languages | C, C++, Python3 |
 | Last Sync | 23 Oct 2026 |
@@ -375,7 +375,7 @@
 
 ---
 
-## String (9)
+## String (10)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -388,6 +388,7 @@
 | 0451 | Sort Characters By Frequency | 🟡 Medium | [View](./0451-sort-characters-by-frequency/) |
 | 0692 | Top K Frequent Words | 🟡 Medium | [View](./0692-top-k-frequent-words/) |
 | 4220 | Minimum Operations to Sort a String | 🟡 Medium | [View](./4220-minimum-operations-to-sort-a-string/) |
+| 0006 | Zigzag Conversion | 🟡 Medium | [View](./0006-zigzag-conversion/) |
 
 ---
 
@@ -448,6 +449,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 23 Oct 2026 | Zigzag Conversion | 🟡 Medium | C++ |
 | 23 Oct 2026 | Maximum K to Sort a Permutation | 🟡 Medium | C++ |
 | 23 Oct 2026 | Minimum Interval Selection to Cover Target Intervals | ⚪ Unknown | C++ |
 | 23 Oct 2026 | Minimum Operations to Sort a Permutation | 🟡 Medium | C++ |
@@ -457,7 +459,6 @@
 | 18 Oct 2026 | Minimum Swaps to Sort by Digit Sum | 🟡 Medium | C++ |
 | 17 Oct 2026 | Subarrays Distinct Element Sum of Squares II | 🔴 Hard | C++ |
 | 15 Oct 2026 | Maximum Strong Pair XOR I | 🟢 Easy | C++ |
-| 15 Oct 2026 | Subarrays Distinct Element Sum of Squares I | 🟢 Easy | C++ |
 
 ---
 

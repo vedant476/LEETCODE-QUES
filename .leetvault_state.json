@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 36,
+    "total": 37,
     "easy": 10,
-    "medium": 16,
+    "medium": 17,
     "hard": 6,
     "languages": [
       "C",
@@ -1887,6 +1887,39 @@
       ],
       "similarQuestions": [],
       "url": "https://leetcode.com/problems/maximum-k-to-sort-a-permutation/"
+    },
+    {
+      "title": "Zigzag Conversion",
+      "slug": "zigzag-conversion",
+      "qid": "6",
+      "difficulty": "Medium",
+      "tags": [
+        {
+          "name": "String",
+          "slug": "string"
+        }
+      ],
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    string convert(string s, int numRows) {\n        if (numRows == 1) return s;\n        char a[10000];\n        std::size_t len = s.length();\n        int index =0;\n        for (int i = 0; i < numRows; i++) {\n            for (int j = i; j < len; j +=2*(numRows-1)) {\n                a[index++] = s[j];\n                if (i > 0 && i<numRows-1 && j+2*(numRows-1)-2*i<len) {\n                    a[index++] = s[j + 2*(numRows - 1)-2*i];\n                }\n            }\n        }\n        a[index]='\\0';\n        return a;\n    }\n};",
+          "runtime": "1 ms",
+          "memory": "11.3 MB",
+          "status": "Accepted",
+          "timestamp": 1792753200,
+          "id": 2179589648
+        }
+      ],
+      "questionId": "6",
+      "paidOnly": false,
+      "likes": 9537,
+      "dislikes": 16025,
+      "acceptanceRate": "55.0%",
+      "content": "<p>The string <code>&quot;PAYPALISHIRING&quot;</code> is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)</p>\n\n<pre>\nP   A   H   N\nA P L S I I G\nY   I   R\n</pre>\n\n<p>And then read line by line: <code>&quot;PAHNAPLSIIGYIR&quot;</code></p>\n\n<p>Write the code that will take a string and make this conversion given a number of rows:</p>\n\n<pre>\nstring convert(string s, int numRows);\n</pre>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;PAYPALISHIRING&quot;, numRows = 3\n<strong>Output:</strong> &quot;PAHNAPLSIIGYIR&quot;\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;PAYPALISHIRING&quot;, numRows = 4\n<strong>Output:</strong> &quot;PINALSIGYAHRPI&quot;\n<strong>Explanation:</strong>\nP     I    N\nA   L S  I G\nY A   H R\nP     I\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> s = &quot;A&quot;, numRows = 1\n<strong>Output:</strong> &quot;A&quot;\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 1000</code></li>\n\t<li><code>s</code> consists of English letters (lower-case and upper-case), <code>&#39;,&#39;</code> and <code>&#39;.&#39;</code>.</li>\n\t<li><code>1 &lt;= numRows &lt;= 1000</code></li>\n</ul>\n",
+      "hints": [],
+      "similarQuestions": [],
+      "url": "https://leetcode.com/problems/zigzag-conversion/"
     }
   ]
 }
