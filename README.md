@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-35-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-36-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-10-success)]()
-[![Medium](https://img.shields.io/badge/Medium-15-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-16-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-6-red)]()
 [![Languages](https://img.shields.io/badge/Languages-3-blueviolet)]()
 
@@ -14,9 +14,9 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 35 |
+| Problems Solved | 36 |
 | Easy | 10 |
-| Medium | 15 |
+| Medium | 16 |
 | Hard | 6 |
 | Languages | C, C++, Python3 |
 | Last Sync | 23 Oct 2026 |
@@ -25,7 +25,7 @@
 
 # 📂 Browse by Topic
 
-## Array (19)
+## Array (20)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -48,6 +48,7 @@
 | 1692 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | [View](./1692-number-of-ways-to-reorder-array-to-get-same-bst/) |
 | 2210 | Find Target Indices After Sorting Array | 🟢 Easy | [View](./2210-find-target-indices-after-sorting-array/) |
 | 4184 | Minimum Operations to Sort a Permutation | 🟡 Medium | [View](./4184-minimum-operations-to-sort-a-permutation/) |
+| 3950 | Maximum K to Sort a Permutation | 🟡 Medium | [View](./3950-maximum-k-to-sort-a-permutation/) |
 
 ---
 
@@ -92,12 +93,13 @@
 
 ---
 
-## Bit Manipulation (2)
+## Bit Manipulation (3)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 3153 | Apply Operations on Array to Maximize Sum of Squares | 🔴 Hard | [View](./3153-apply-operations-on-array-to-maximize-sum-of-squares/) |
 | 3193 | Maximum Strong Pair XOR I | 🟢 Easy | [View](./3193-maximum-strong-pair-xor-i/) |
+| 3950 | Maximum K to Sort a Permutation | 🟡 Medium | [View](./3950-maximum-k-to-sort-a-permutation/) |
 
 ---
 
@@ -446,6 +448,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 23 Oct 2026 | Maximum K to Sort a Permutation | 🟡 Medium | C++ |
 | 23 Oct 2026 | Minimum Interval Selection to Cover Target Intervals | ⚪ Unknown | C++ |
 | 23 Oct 2026 | Minimum Operations to Sort a Permutation | 🟡 Medium | C++ |
 | 22 Oct 2026 | Minimum Operations to Sort a String | 🟡 Medium | C++ |
@@ -455,7 +458,6 @@
 | 17 Oct 2026 | Subarrays Distinct Element Sum of Squares II | 🔴 Hard | C++ |
 | 15 Oct 2026 | Maximum Strong Pair XOR I | 🟢 Easy | C++ |
 | 15 Oct 2026 | Subarrays Distinct Element Sum of Squares I | 🟢 Easy | C++ |
-| 14 Oct 2026 | Maximize Sum of Squares of Digits | 🟡 Medium | C++ |
 
 ---
 
