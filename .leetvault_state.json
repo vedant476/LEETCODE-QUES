@@ -1,7 +1,7 @@
 {
   "stats": {
-    "total": 37,
-    "easy": 10,
+    "total": 38,
+    "easy": 11,
     "medium": 17,
     "hard": 6,
     "languages": [
@@ -1920,6 +1920,45 @@
       "hints": [],
       "similarQuestions": [],
       "url": "https://leetcode.com/problems/zigzag-conversion/"
+    },
+    {
+      "title": "Perfect Number",
+      "slug": "perfect-number",
+      "qid": "507",
+      "difficulty": "Easy",
+      "tags": [
+        {
+          "name": "Math",
+          "slug": "math"
+        }
+      ],
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    bool checkPerfectNumber(int num) {\n        return num==6||num==28||num==496||num==8128||num==33550336;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "7.5 MB",
+          "status": "Accepted",
+          "timestamp": 1792773668,
+          "id": 2179833526
+        }
+      ],
+      "questionId": "507",
+      "paidOnly": false,
+      "likes": 1332,
+      "dislikes": 1295,
+      "acceptanceRate": "50.0%",
+      "content": "<p>A <a href=\"https://en.wikipedia.org/wiki/Perfect_number\" target=\"_blank\"><strong>perfect number</strong></a> is a <strong>positive integer</strong> that is equal to the sum of its <strong>positive divisors</strong>, excluding the number itself. A <strong>divisor</strong> of an integer <code>x</code> is an integer that can divide <code>x</code> evenly.</p>\n\n<p>Given an integer <code>n</code>, return <code>true</code><em> if </em><code>n</code><em> is a perfect number, otherwise return </em><code>false</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> num = 28\n<strong>Output:</strong> true\n<strong>Explanation:</strong> 28 = 1 + 2 + 4 + 7 + 14\n1, 2, 4, 7, and 14 are all divisors of 28.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> num = 7\n<strong>Output:</strong> false\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= num &lt;= 10<sup>8</sup></code></li>\n</ul>\n",
+      "hints": [],
+      "similarQuestions": [
+        {
+          "difficulty": "Easy",
+          "title": "Self Dividing Numbers",
+          "titleSlug": "self-dividing-numbers"
+        }
+      ],
+      "url": "https://leetcode.com/problems/perfect-number/"
     }
   ]
 }

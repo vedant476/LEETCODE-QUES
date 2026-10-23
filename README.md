@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-37-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-10-success)]()
+[![Problems](https://img.shields.io/badge/Problems-38-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-11-success)]()
 [![Medium](https://img.shields.io/badge/Medium-17-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-6-red)]()
 [![Languages](https://img.shields.io/badge/Languages-3-blueviolet)]()
@@ -14,8 +14,8 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 37 |
-| Easy | 10 |
+| Problems Solved | 38 |
+| Easy | 11 |
 | Medium | 17 |
 | Hard | 6 |
 | Languages | C, C++, Python3 |
@@ -288,7 +288,7 @@
 
 ---
 
-## Math (4)
+## Math (5)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -296,6 +296,7 @@
 | 0391 | Perfect Rectangle | 🔴 Hard | [View](./0391-perfect-rectangle/) |
 | 4084 | Maximize Sum of Squares of Digits | 🟡 Medium | [View](./4084-maximize-sum-of-squares-of-digits/) |
 | 1692 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | [View](./1692-number-of-ways-to-reorder-array-to-get-same-bst/) |
+| 0507 | Perfect Number | 🟢 Easy | [View](./0507-perfect-number/) |
 
 ---
 
@@ -449,6 +450,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 23 Oct 2026 | Perfect Number | 🟢 Easy | C++ |
 | 23 Oct 2026 | Zigzag Conversion | 🟡 Medium | C++ |
 | 23 Oct 2026 | Maximum K to Sort a Permutation | 🟡 Medium | C++ |
 | 23 Oct 2026 | Minimum Interval Selection to Cover Target Intervals | ⚪ Unknown | C++ |
@@ -458,7 +460,6 @@
 | 18 Oct 2026 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | Python3 |
 | 18 Oct 2026 | Minimum Swaps to Sort by Digit Sum | 🟡 Medium | C++ |
 | 17 Oct 2026 | Subarrays Distinct Element Sum of Squares II | 🔴 Hard | C++ |
-| 15 Oct 2026 | Maximum Strong Pair XOR I | 🟢 Easy | C++ |
 
 ---
 
