@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-38-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-11-success)]()
+[![Problems](https://img.shields.io/badge/Problems-39-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-12-success)]()
 [![Medium](https://img.shields.io/badge/Medium-17-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-6-red)]()
 [![Languages](https://img.shields.io/badge/Languages-4-blueviolet)]()
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 38 |
-| Easy | 11 |
+| Problems Solved | 39 |
+| Easy | 12 |
 | Medium | 17 |
 | Hard | 6 |
 | Languages | C, C++, Java, Python3 |
-| Last Sync | 23 Oct 2026 |
+| Last Sync | 24 Oct 2026 |
 
 ---
 
@@ -288,7 +288,7 @@
 
 ---
 
-## Math (5)
+## Math (6)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -297,6 +297,7 @@
 | 4084 | Maximize Sum of Squares of Digits | 🟡 Medium | [View](./4084-maximize-sum-of-squares-of-digits/) |
 | 1692 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | [View](./1692-number-of-ways-to-reorder-array-to-get-same-bst/) |
 | 0507 | Perfect Number | 🟢 Easy | [View](./0507-perfect-number/) |
+| 2496 | Count Days Spent Together | 🟢 Easy | [View](./2496-count-days-spent-together/) |
 
 ---
 
@@ -376,7 +377,7 @@
 
 ---
 
-## String (10)
+## String (11)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -390,6 +391,7 @@
 | 0692 | Top K Frequent Words | 🟡 Medium | [View](./0692-top-k-frequent-words/) |
 | 4220 | Minimum Operations to Sort a String | 🟡 Medium | [View](./4220-minimum-operations-to-sort-a-string/) |
 | 0006 | Zigzag Conversion | 🟡 Medium | [View](./0006-zigzag-conversion/) |
+| 2496 | Count Days Spent Together | 🟢 Easy | [View](./2496-count-days-spent-together/) |
 
 ---
 
@@ -450,6 +452,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 24 Oct 2026 | Count Days Spent Together | 🟢 Easy | C++ |
 | 23 Oct 2026 | Perfect Number | 🟢 Easy | Python3 |
 | 23 Oct 2026 | Zigzag Conversion | 🟡 Medium | C++ |
 | 23 Oct 2026 | Maximum K to Sort a Permutation | 🟡 Medium | C++ |
@@ -459,7 +462,6 @@
 | 19 Oct 2026 | Find Target Indices After Sorting Array | 🟢 Easy | C++ |
 | 18 Oct 2026 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | Python3 |
 | 18 Oct 2026 | Minimum Swaps to Sort by Digit Sum | 🟡 Medium | C++ |
-| 17 Oct 2026 | Subarrays Distinct Element Sum of Squares II | 🔴 Hard | C++ |
 
 ---
 
