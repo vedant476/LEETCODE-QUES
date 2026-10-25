@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-39-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-40-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-12-success)]()
-[![Medium](https://img.shields.io/badge/Medium-17-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-18-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-6-red)]()
 [![Languages](https://img.shields.io/badge/Languages-4-blueviolet)]()
 
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 39 |
+| Problems Solved | 40 |
 | Easy | 12 |
-| Medium | 17 |
+| Medium | 18 |
 | Hard | 6 |
 | Languages | C, C++, Java, Python3 |
-| Last Sync | 24 Oct 2026 |
+| Last Sync | 26 Oct 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (20)
+## Array (21)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -49,6 +49,7 @@
 | 2210 | Find Target Indices After Sorting Array | 🟢 Easy | [View](./2210-find-target-indices-after-sorting-array/) |
 | 4184 | Minimum Operations to Sort a Permutation | 🟡 Medium | [View](./4184-minimum-operations-to-sort-a-permutation/) |
 | 3950 | Maximum K to Sort a Permutation | 🟡 Medium | [View](./3950-maximum-k-to-sort-a-permutation/) |
+| 1380 | Number of Closed Islands | 🟡 Medium | [View](./1380-number-of-closed-islands/) |
 
 ---
 
@@ -123,13 +124,14 @@
 
 ---
 
-## Breadth-First Search (3)
+## Breadth-First Search (4)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0301 | Remove Invalid Parentheses | 🔴 Hard | [View](./0301-remove-invalid-parentheses/) |
 | 2121 | Find if Path Exists in Graph | 🟢 Easy | [View](./2121-find-if-path-exists-in-graph/) |
 | 1428 | Jump Game III | 🟡 Medium | [View](./1428-jump-game-iii/) |
+| 1380 | Number of Closed Islands | 🟡 Medium | [View](./1380-number-of-closed-islands/) |
 
 ---
 
@@ -161,12 +163,13 @@
 
 ---
 
-## Depth-First Search (2)
+## Depth-First Search (3)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2121 | Find if Path Exists in Graph | 🟢 Easy | [View](./2121-find-if-path-exists-in-graph/) |
 | 1428 | Jump Game III | 🟡 Medium | [View](./1428-jump-game-iii/) |
+| 1380 | Number of Closed Islands | 🟡 Medium | [View](./1380-number-of-closed-islands/) |
 
 ---
 
@@ -301,11 +304,12 @@
 
 ---
 
-## Matrix (1)
+## Matrix (2)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0054 | Spiral Matrix | 🟡 Medium | [View](./0054-spiral-matrix/) |
+| 1380 | Number of Closed Islands | 🟡 Medium | [View](./1380-number-of-closed-islands/) |
 
 ---
 
@@ -439,12 +443,13 @@
 
 ---
 
-## Union-Find (2)
+## Union-Find (3)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2121 | Find if Path Exists in Graph | 🟢 Easy | [View](./2121-find-if-path-exists-in-graph/) |
 | 1692 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | [View](./1692-number-of-ways-to-reorder-array-to-get-same-bst/) |
+| 1380 | Number of Closed Islands | 🟡 Medium | [View](./1380-number-of-closed-islands/) |
 
 ---
 
@@ -452,6 +457,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 26 Oct 2026 | Number of Closed Islands | 🟡 Medium | C++ |
 | 24 Oct 2026 | Count Days Spent Together | 🟢 Easy | C++ |
 | 23 Oct 2026 | Perfect Number | 🟢 Easy | Python3 |
 | 23 Oct 2026 | Zigzag Conversion | 🟡 Medium | C++ |
@@ -461,7 +467,6 @@
 | 22 Oct 2026 | Minimum Operations to Sort a String | 🟡 Medium | C++ |
 | 19 Oct 2026 | Find Target Indices After Sorting Array | 🟢 Easy | C++ |
 | 18 Oct 2026 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | Python3 |
-| 18 Oct 2026 | Minimum Swaps to Sort by Digit Sum | 🟡 Medium | C++ |
 
 ---
 
