@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-40-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-41-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-12-success)]()
-[![Medium](https://img.shields.io/badge/Medium-18-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-19-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-6-red)]()
 [![Languages](https://img.shields.io/badge/Languages-4-blueviolet)]()
 
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 40 |
+| Problems Solved | 41 |
 | Easy | 12 |
-| Medium | 18 |
+| Medium | 19 |
 | Hard | 6 |
 | Languages | C, C++, Java, Python3 |
-| Last Sync | 26 Oct 2026 |
+| Last Sync | 27 Oct 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (21)
+## Array (22)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -50,6 +50,7 @@
 | 4184 | Minimum Operations to Sort a Permutation | 🟡 Medium | [View](./4184-minimum-operations-to-sort-a-permutation/) |
 | 3950 | Maximum K to Sort a Permutation | 🟡 Medium | [View](./3950-maximum-k-to-sort-a-permutation/) |
 | 1380 | Number of Closed Islands | 🟡 Medium | [View](./1380-number-of-closed-islands/) |
+| 3823 | Count Islands With Total Value Divisible by K | 🟡 Medium | [View](./3823-count-islands-with-total-value-divisible-by-k/) |
 
 ---
 
@@ -124,7 +125,7 @@
 
 ---
 
-## Breadth-First Search (4)
+## Breadth-First Search (5)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -132,6 +133,7 @@
 | 2121 | Find if Path Exists in Graph | 🟢 Easy | [View](./2121-find-if-path-exists-in-graph/) |
 | 1428 | Jump Game III | 🟡 Medium | [View](./1428-jump-game-iii/) |
 | 1380 | Number of Closed Islands | 🟡 Medium | [View](./1380-number-of-closed-islands/) |
+| 3823 | Count Islands With Total Value Divisible by K | 🟡 Medium | [View](./3823-count-islands-with-total-value-divisible-by-k/) |
 
 ---
 
@@ -163,13 +165,14 @@
 
 ---
 
-## Depth-First Search (3)
+## Depth-First Search (4)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2121 | Find if Path Exists in Graph | 🟢 Easy | [View](./2121-find-if-path-exists-in-graph/) |
 | 1428 | Jump Game III | 🟡 Medium | [View](./1428-jump-game-iii/) |
 | 1380 | Number of Closed Islands | 🟡 Medium | [View](./1380-number-of-closed-islands/) |
+| 3823 | Count Islands With Total Value Divisible by K | 🟡 Medium | [View](./3823-count-islands-with-total-value-divisible-by-k/) |
 
 ---
 
@@ -304,12 +307,13 @@
 
 ---
 
-## Matrix (2)
+## Matrix (3)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0054 | Spiral Matrix | 🟡 Medium | [View](./0054-spiral-matrix/) |
 | 1380 | Number of Closed Islands | 🟡 Medium | [View](./1380-number-of-closed-islands/) |
+| 3823 | Count Islands With Total Value Divisible by K | 🟡 Medium | [View](./3823-count-islands-with-total-value-divisible-by-k/) |
 
 ---
 
@@ -443,13 +447,14 @@
 
 ---
 
-## Union-Find (3)
+## Union-Find (4)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2121 | Find if Path Exists in Graph | 🟢 Easy | [View](./2121-find-if-path-exists-in-graph/) |
 | 1692 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | [View](./1692-number-of-ways-to-reorder-array-to-get-same-bst/) |
 | 1380 | Number of Closed Islands | 🟡 Medium | [View](./1380-number-of-closed-islands/) |
+| 3823 | Count Islands With Total Value Divisible by K | 🟡 Medium | [View](./3823-count-islands-with-total-value-divisible-by-k/) |
 
 ---
 
@@ -457,6 +462,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 27 Oct 2026 | Count Islands With Total Value Divisible by K | 🟡 Medium | C++ |
 | 26 Oct 2026 | Number of Closed Islands | 🟡 Medium | C++ |
 | 24 Oct 2026 | Count Days Spent Together | 🟢 Easy | C++ |
 | 23 Oct 2026 | Perfect Number | 🟢 Easy | Python3 |
@@ -466,7 +472,6 @@
 | 23 Oct 2026 | Minimum Operations to Sort a Permutation | 🟡 Medium | C++ |
 | 22 Oct 2026 | Minimum Operations to Sort a String | 🟡 Medium | C++ |
 | 19 Oct 2026 | Find Target Indices After Sorting Array | 🟢 Easy | C++ |
-| 18 Oct 2026 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | Python3 |
 
 ---
 
