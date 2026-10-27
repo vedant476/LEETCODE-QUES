@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-41-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-12-success)]()
+[![Problems](https://img.shields.io/badge/Problems-42-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-13-success)]()
 [![Medium](https://img.shields.io/badge/Medium-19-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-6-red)]()
 [![Languages](https://img.shields.io/badge/Languages-4-blueviolet)]()
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 41 |
-| Easy | 12 |
+| Problems Solved | 42 |
+| Easy | 13 |
 | Medium | 19 |
 | Hard | 6 |
 | Languages | C, C++, Java, Python3 |
-| Last Sync | 27 Oct 2026 |
+| Last Sync | 28 Oct 2026 |
 
 ---
 
@@ -436,7 +436,7 @@
 
 ---
 
-## Uncategorized (4)
+## Uncategorized (5)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -444,6 +444,7 @@
 | 4073 | Count Good Strings | ⚪ Unknown | [View](./4073-count-good-strings/) |
 | 101198 | Longest Resilient Subarray I | ⚪ Unknown | [View](./101198-longest-resilient-subarray-i/) |
 | 4086 | Minimum Interval Selection to Cover Target Intervals | ⚪ Unknown | [View](./4086-minimum-interval-selection-to-cover-target-intervals/) |
+| 4342 | Create Grid With Exactly One Path | 🟢 Easy | [View](./4342-create-grid-with-exactly-one-path/) |
 
 ---
 
@@ -462,6 +463,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 28 Oct 2026 | Create Grid With Exactly One Path | 🟢 Easy | C++ |
 | 27 Oct 2026 | Count Islands With Total Value Divisible by K | 🟡 Medium | C++ |
 | 26 Oct 2026 | Number of Closed Islands | 🟡 Medium | C++ |
 | 24 Oct 2026 | Count Days Spent Together | 🟢 Easy | C++ |
@@ -471,7 +473,6 @@
 | 23 Oct 2026 | Minimum Interval Selection to Cover Target Intervals | ⚪ Unknown | C++ |
 | 23 Oct 2026 | Minimum Operations to Sort a Permutation | 🟡 Medium | C++ |
 | 22 Oct 2026 | Minimum Operations to Sort a String | 🟡 Medium | C++ |
-| 19 Oct 2026 | Find Target Indices After Sorting Array | 🟢 Easy | C++ |
 
 ---
 

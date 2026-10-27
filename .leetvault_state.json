@@ -1,7 +1,7 @@
 {
   "stats": {
-    "total": 41,
-    "easy": 12,
+    "total": 42,
+    "easy": 13,
     "medium": 19,
     "hard": 6,
     "languages": [
@@ -10,7 +10,7 @@
       "Java",
       "Python3"
     ],
-    "lastSync": "27 Oct 2026"
+    "lastSync": "28 Oct 2026"
   },
   "problems": [
     {
@@ -2150,6 +2150,44 @@
         }
       ],
       "url": "https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/"
+    },
+    {
+      "title": "Create Grid With Exactly One Path",
+      "slug": "create-grid-with-exactly-one-path",
+      "qid": "4342",
+      "difficulty": "Easy",
+      "tags": [],
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    vector<string> createGrid(int m, int n) {\n        vector<string> res(m - 1, \".\" + string(n - 1, '#'));\n        \n        res.push_back(string(n, '.'));\n        \n        return res;\n    }\n};",
+          "runtime": "2 ms",
+          "memory": "12 MB",
+          "status": "Accepted",
+          "timestamp": 1793130618,
+          "id": 2183413153
+        }
+      ],
+      "questionId": "4342",
+      "paidOnly": false,
+      "likes": 30,
+      "dislikes": 4,
+      "acceptanceRate": "75.7%",
+      "content": "<p>You are given two integers <code>m</code> and <code>n</code>, representing the number of rows and columns of a grid.</p>\n\n<p>Construct <strong>any</strong> <code>m x n</code> grid consisting only of the characters <code>&#39;.&#39;</code> and <code>&#39;#&#39;</code>, where:</p>\n\n<ul>\n\t<li><code>&#39;.&#39;</code> represents a free cell.</li>\n\t<li><code>&#39;#&#39;</code> represents an obstacle cell.</li>\n</ul>\n\n<p>A <strong>valid path</strong> is a sequence of free cells that:</p>\n\n<ul>\n\t<li>Starts at the top-left cell <code>(0, 0)</code>.</li>\n\t<li>Ends at the bottom-right cell <code>(m - 1, n - 1)</code>.</li>\n\t<li>Moves only:\n\t<ul>\n\t\t<li>Right, from <code>(i, j)</code> to <code>(i, j + 1)</code>, or</li>\n\t\t<li>Down, from <code>(i, j)</code> to <code>(i + 1, j)</code>.</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p>Return any grid such that there is <strong>exactly one valid path</strong> from the top-left cell to the bottom-right cell.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">m = 2, n = 3</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">[&quot;..#&quot;,&quot;#..&quot;]</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p><img src=\"https://assets.leetcode.com/uploads/2026/05/26/screenshot-2026-05-26-at-61005pm.png\" style=\"width: 200px; height: 95px;\" /></p>\n\n<p>The only valid path is: <code>(0,0) &rarr; (0,1) &rarr; (1,1) &rarr; (1,2)</code></p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">m = 3, n = 3</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">[&quot;..#&quot;,&quot;#..&quot;,&quot;##.&quot;]</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p><img src=\"https://assets.leetcode.com/uploads/2026/05/26/screenshot-2026-05-26-at-61129pm.png\" style=\"width: 220px; height: 150px;\" /></p>\n\n<p>The only valid path is: <code>(0,0) &rarr; (0,1) &rarr; (1,1) &rarr; (1,2) &rarr; (2,2)</code></p>\n</div>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">m = 1, n = 4</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">[&quot;....&quot;]</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>The only valid path is: <code>(0,0) &rarr; (0,1) &rarr; (0,2) &rarr; (0,3)</code></p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= m, n &lt;= 25</code></li>\n</ul>\n",
+      "hints": [
+        "It is enough to leave one simple route made of free cells and block every other cell.",
+        "There are many routes to choose from. What is the simplest one you can think of?",
+        "One possible route: Go right while possible, then go down till you reach the destination."
+      ],
+      "similarQuestions": [
+        {
+          "difficulty": "Medium",
+          "title": "Create Grid With Exactly K Paths I",
+          "titleSlug": "create-grid-with-exactly-k-paths-i"
+        }
+      ],
+      "url": "https://leetcode.com/problems/create-grid-with-exactly-one-path/"
     }
   ]
 }
