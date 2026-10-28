@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-42-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-43-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-13-success)]()
-[![Medium](https://img.shields.io/badge/Medium-19-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-20-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-6-red)]()
 [![Languages](https://img.shields.io/badge/Languages-4-blueviolet)]()
 
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 42 |
+| Problems Solved | 43 |
 | Easy | 13 |
-| Medium | 19 |
+| Medium | 20 |
 | Hard | 6 |
 | Languages | C, C++, Java, Python3 |
-| Last Sync | 28 Oct 2026 |
+| Last Sync | 29 Oct 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (22)
+## Array (23)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -51,6 +51,7 @@
 | 3950 | Maximum K to Sort a Permutation | 🟡 Medium | [View](./3950-maximum-k-to-sort-a-permutation/) |
 | 1380 | Number of Closed Islands | 🟡 Medium | [View](./1380-number-of-closed-islands/) |
 | 3823 | Count Islands With Total Value Divisible by K | 🟡 Medium | [View](./3823-count-islands-with-total-value-divisible-by-k/) |
+| 4205 | Minimum XOR Path in a Grid | 🟡 Medium | [View](./4205-minimum-xor-path-in-a-grid/) |
 
 ---
 
@@ -95,13 +96,14 @@
 
 ---
 
-## Bit Manipulation (3)
+## Bit Manipulation (4)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 3153 | Apply Operations on Array to Maximize Sum of Squares | 🔴 Hard | [View](./3153-apply-operations-on-array-to-maximize-sum-of-squares/) |
 | 3193 | Maximum Strong Pair XOR I | 🟢 Easy | [View](./3193-maximum-strong-pair-xor-i/) |
 | 3950 | Maximum K to Sort a Permutation | 🟡 Medium | [View](./3950-maximum-k-to-sort-a-permutation/) |
+| 4205 | Minimum XOR Path in a Grid | 🟡 Medium | [View](./4205-minimum-xor-path-in-a-grid/) |
 
 ---
 
@@ -185,12 +187,13 @@
 
 ---
 
-## Dynamic Programming (2)
+## Dynamic Programming (3)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0678 | Valid Parenthesis String | 🟡 Medium | [View](./0678-valid-parenthesis-string/) |
 | 1692 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | [View](./1692-number-of-ways-to-reorder-array-to-get-same-bst/) |
+| 4205 | Minimum XOR Path in a Grid | 🟡 Medium | [View](./4205-minimum-xor-path-in-a-grid/) |
 
 ---
 
@@ -307,13 +310,14 @@
 
 ---
 
-## Matrix (3)
+## Matrix (4)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0054 | Spiral Matrix | 🟡 Medium | [View](./0054-spiral-matrix/) |
 | 1380 | Number of Closed Islands | 🟡 Medium | [View](./1380-number-of-closed-islands/) |
 | 3823 | Count Islands With Total Value Divisible by K | 🟡 Medium | [View](./3823-count-islands-with-total-value-divisible-by-k/) |
+| 4205 | Minimum XOR Path in a Grid | 🟡 Medium | [View](./4205-minimum-xor-path-in-a-grid/) |
 
 ---
 
@@ -463,6 +467,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 29 Oct 2026 | Minimum XOR Path in a Grid | 🟡 Medium | C++ |
 | 28 Oct 2026 | Create Grid With Exactly One Path | 🟢 Easy | C++ |
 | 27 Oct 2026 | Count Islands With Total Value Divisible by K | 🟡 Medium | C++ |
 | 26 Oct 2026 | Number of Closed Islands | 🟡 Medium | C++ |
@@ -472,7 +477,6 @@
 | 23 Oct 2026 | Maximum K to Sort a Permutation | 🟡 Medium | C++ |
 | 23 Oct 2026 | Minimum Interval Selection to Cover Target Intervals | ⚪ Unknown | C++ |
 | 23 Oct 2026 | Minimum Operations to Sort a Permutation | 🟡 Medium | C++ |
-| 22 Oct 2026 | Minimum Operations to Sort a String | 🟡 Medium | C++ |
 
 ---
 
