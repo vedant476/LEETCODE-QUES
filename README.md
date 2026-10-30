@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-43-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-44-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-13-success)]()
-[![Medium](https://img.shields.io/badge/Medium-20-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-21-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-6-red)]()
 [![Languages](https://img.shields.io/badge/Languages-4-blueviolet)]()
 
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 43 |
+| Problems Solved | 44 |
 | Easy | 13 |
-| Medium | 20 |
+| Medium | 21 |
 | Hard | 6 |
 | Languages | C, C++, Java, Python3 |
-| Last Sync | 29 Oct 2026 |
+| Last Sync | 30 Oct 2026 |
 
 ---
 
@@ -229,13 +229,14 @@
 
 ---
 
-## Graph Theory (3)
+## Graph Theory (4)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1039 | Find the Town Judge | 🟢 Easy | [View](./1039-find-the-town-judge/) |
 | 1916 | Find Center of Star Graph | 🟢 Easy | [View](./1916-find-center-of-star-graph/) |
 | 2121 | Find if Path Exists in Graph | 🟢 Easy | [View](./2121-find-if-path-exists-in-graph/) |
+| 4104 | Shortest Path With At Most K Consecutive Identical Characters | 🟡 Medium | [View](./4104-shortest-path-with-at-most-k-consecutive-identical-characters/) |
 
 ---
 
@@ -279,13 +280,14 @@
 
 ---
 
-## Heap (Priority Queue) (3)
+## Heap (Priority Queue) (4)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2418 | Minimum Sum of Squared Difference | 🟡 Medium | [View](./2418-minimum-sum-of-squared-difference/) |
 | 0451 | Sort Characters By Frequency | 🟡 Medium | [View](./0451-sort-characters-by-frequency/) |
 | 0692 | Top K Frequent Words | 🟡 Medium | [View](./0692-top-k-frequent-words/) |
+| 4104 | Shortest Path With At Most K Consecutive Identical Characters | 🟡 Medium | [View](./4104-shortest-path-with-at-most-k-consecutive-identical-characters/) |
 
 ---
 
@@ -346,6 +348,14 @@
 
 ---
 
+## Shortest Path (1)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 4104 | Shortest Path With At Most K Consecutive Identical Characters | 🟡 Medium | [View](./4104-shortest-path-with-at-most-k-consecutive-identical-characters/) |
+
+---
+
 ## Simulation (1)
 
 | # | Problem | Difficulty | Solution |
@@ -389,7 +399,7 @@
 
 ---
 
-## String (11)
+## String (12)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -404,6 +414,7 @@
 | 4220 | Minimum Operations to Sort a String | 🟡 Medium | [View](./4220-minimum-operations-to-sort-a-string/) |
 | 0006 | Zigzag Conversion | 🟡 Medium | [View](./0006-zigzag-conversion/) |
 | 2496 | Count Days Spent Together | 🟢 Easy | [View](./2496-count-days-spent-together/) |
+| 4104 | Shortest Path With At Most K Consecutive Identical Characters | 🟡 Medium | [View](./4104-shortest-path-with-at-most-k-consecutive-identical-characters/) |
 
 ---
 
@@ -467,6 +478,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 30 Oct 2026 | Shortest Path With At Most K Consecutive Identical Characters | 🟡 Medium | C++ |
 | 29 Oct 2026 | Minimum XOR Path in a Grid | 🟡 Medium | C++ |
 | 28 Oct 2026 | Create Grid With Exactly One Path | 🟢 Easy | C++ |
 | 27 Oct 2026 | Count Islands With Total Value Divisible by K | 🟡 Medium | C++ |
@@ -476,7 +488,6 @@
 | 23 Oct 2026 | Zigzag Conversion | 🟡 Medium | C++ |
 | 23 Oct 2026 | Maximum K to Sort a Permutation | 🟡 Medium | C++ |
 | 23 Oct 2026 | Minimum Interval Selection to Cover Target Intervals | ⚪ Unknown | C++ |
-| 23 Oct 2026 | Minimum Operations to Sort a Permutation | 🟡 Medium | C++ |
 
 ---
 
