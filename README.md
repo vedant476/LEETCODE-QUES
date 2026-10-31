@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-44-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-45-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-13-success)]()
-[![Medium](https://img.shields.io/badge/Medium-21-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-22-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-6-red)]()
 [![Languages](https://img.shields.io/badge/Languages-4-blueviolet)]()
 
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 44 |
+| Problems Solved | 45 |
 | Easy | 13 |
-| Medium | 21 |
+| Medium | 22 |
 | Hard | 6 |
 | Languages | C, C++, Java, Python3 |
-| Last Sync | 30 Oct 2026 |
+| Last Sync | 01 Nov 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (23)
+## Array (24)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -52,6 +52,7 @@
 | 1380 | Number of Closed Islands | 🟡 Medium | [View](./1380-number-of-closed-islands/) |
 | 3823 | Count Islands With Total Value Divisible by K | 🟡 Medium | [View](./3823-count-islands-with-total-value-divisible-by-k/) |
 | 4205 | Minimum XOR Path in a Grid | 🟡 Medium | [View](./4205-minimum-xor-path-in-a-grid/) |
+| 3938 | Twisted Mirror Path Count | 🟡 Medium | [View](./3938-twisted-mirror-path-count/) |
 
 ---
 
@@ -187,13 +188,14 @@
 
 ---
 
-## Dynamic Programming (3)
+## Dynamic Programming (4)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 0678 | Valid Parenthesis String | 🟡 Medium | [View](./0678-valid-parenthesis-string/) |
 | 1692 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | [View](./1692-number-of-ways-to-reorder-array-to-get-same-bst/) |
 | 4205 | Minimum XOR Path in a Grid | 🟡 Medium | [View](./4205-minimum-xor-path-in-a-grid/) |
+| 3938 | Twisted Mirror Path Count | 🟡 Medium | [View](./3938-twisted-mirror-path-count/) |
 
 ---
 
@@ -312,7 +314,7 @@
 
 ---
 
-## Matrix (4)
+## Matrix (5)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -320,6 +322,7 @@
 | 1380 | Number of Closed Islands | 🟡 Medium | [View](./1380-number-of-closed-islands/) |
 | 3823 | Count Islands With Total Value Divisible by K | 🟡 Medium | [View](./3823-count-islands-with-total-value-divisible-by-k/) |
 | 4205 | Minimum XOR Path in a Grid | 🟡 Medium | [View](./4205-minimum-xor-path-in-a-grid/) |
+| 3938 | Twisted Mirror Path Count | 🟡 Medium | [View](./3938-twisted-mirror-path-count/) |
 
 ---
 
@@ -478,6 +481,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 01 Nov 2026 | Twisted Mirror Path Count | 🟡 Medium | C++ |
 | 30 Oct 2026 | Shortest Path With At Most K Consecutive Identical Characters | 🟡 Medium | C++ |
 | 29 Oct 2026 | Minimum XOR Path in a Grid | 🟡 Medium | C++ |
 | 28 Oct 2026 | Create Grid With Exactly One Path | 🟢 Easy | C++ |
@@ -487,7 +491,6 @@
 | 23 Oct 2026 | Perfect Number | 🟢 Easy | Python3 |
 | 23 Oct 2026 | Zigzag Conversion | 🟡 Medium | C++ |
 | 23 Oct 2026 | Maximum K to Sort a Permutation | 🟡 Medium | C++ |
-| 23 Oct 2026 | Minimum Interval Selection to Cover Target Intervals | ⚪ Unknown | C++ |
 
 ---
 
