@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 45,
+    "total": 46,
     "easy": 13,
-    "medium": 22,
+    "medium": 23,
     "hard": 6,
     "languages": [
       "C",
@@ -10,7 +10,7 @@
       "Java",
       "Python3"
     ],
-    "lastSync": "01 Nov 2026"
+    "lastSync": "03 Nov 2026"
   },
   "problems": [
     {
@@ -2332,6 +2332,93 @@
       ],
       "similarQuestions": [],
       "url": "https://leetcode.com/problems/twisted-mirror-path-count/"
+    },
+    {
+      "title": "Minimum Moves to Equal Array Elements II",
+      "slug": "minimum-moves-to-equal-array-elements-ii",
+      "qid": "462",
+      "difficulty": "Medium",
+      "tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Math",
+          "slug": "math"
+        },
+        {
+          "name": "Sorting",
+          "slug": "sorting"
+        }
+      ],
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int minMoves2(vector<int>& nums) {\n        const int n = nums.size();\n        nth_element(nums.begin(),nums.begin() + n / 2,nums.end());\n        int med;\n        med = nums[n / 2];\n        \n        int res = 0;\n        for(int i = 0;i < n;i++){\n            res += abs(med - nums[i]);\n        }\n        return res;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "15.9 MB",
+          "status": "Accepted",
+          "timestamp": 1793648515,
+          "id": 2188072525
+        }
+      ],
+      "questionId": "462",
+      "paidOnly": false,
+      "likes": 3552,
+      "dislikes": 132,
+      "acceptanceRate": "62.4%",
+      "content": "<p>Given an integer array <code>nums</code> of size <code>n</code>, return <em>the minimum number of moves required to make all array elements equal</em>.</p>\n\n<p>In one move, you can increment or decrement an element of the array by <code>1</code>.</p>\n\n<p>Test cases are designed so that the answer will fit in a <strong>32-bit</strong> integer.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,2,3]\n<strong>Output:</strong> 2\n<strong>Explanation:</strong>\nOnly two moves are needed (remember each move increments or decrements one element):\n[<u>1</u>,2,3]  =&gt;  [2,2,<u>3</u>]  =&gt;  [2,2,2]\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> nums = [1,10,2,9]\n<strong>Output:</strong> 16\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == nums.length</code></li>\n\t<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>\n</ul>\n",
+      "hints": [],
+      "similarQuestions": [
+        {
+          "title": "Best Meeting Point",
+          "titleSlug": "best-meeting-point",
+          "difficulty": "Hard"
+        },
+        {
+          "title": "Minimum Moves to Equal Array Elements",
+          "titleSlug": "minimum-moves-to-equal-array-elements",
+          "difficulty": "Medium"
+        },
+        {
+          "title": "Minimum Operations to Make a Uni-Value Grid",
+          "titleSlug": "minimum-operations-to-make-a-uni-value-grid",
+          "difficulty": "Medium"
+        },
+        {
+          "title": "Removing Minimum Number of Magic Beans",
+          "titleSlug": "removing-minimum-number-of-magic-beans",
+          "difficulty": "Medium"
+        },
+        {
+          "title": "Minimum Cost to Make Array Equal",
+          "titleSlug": "minimum-cost-to-make-array-equal",
+          "difficulty": "Hard"
+        },
+        {
+          "title": "Minimum Operations to Make All Array Elements Equal",
+          "titleSlug": "minimum-operations-to-make-all-array-elements-equal",
+          "difficulty": "Medium"
+        },
+        {
+          "title": "Minimum Cost to Make Array Equalindromic",
+          "titleSlug": "minimum-cost-to-make-array-equalindromic",
+          "difficulty": "Medium"
+        },
+        {
+          "title": "Minimum Operations to Make Subarray Elements Equal",
+          "titleSlug": "minimum-operations-to-make-subarray-elements-equal",
+          "difficulty": "Medium"
+        },
+        {
+          "title": "Minimum Operations to Make Elements Within K Subarrays Equal",
+          "titleSlug": "minimum-operations-to-make-elements-within-k-subarrays-equal",
+          "difficulty": "Hard"
+        }
+      ],
+      "url": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/"
     }
   ]
 }

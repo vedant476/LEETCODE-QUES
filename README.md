@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-45-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-46-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-13-success)]()
-[![Medium](https://img.shields.io/badge/Medium-22-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-23-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-6-red)]()
 [![Languages](https://img.shields.io/badge/Languages-4-blueviolet)]()
 
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 45 |
+| Problems Solved | 46 |
 | Easy | 13 |
-| Medium | 22 |
+| Medium | 23 |
 | Hard | 6 |
 | Languages | C, C++, Java, Python3 |
-| Last Sync | 01 Nov 2026 |
+| Last Sync | 03 Nov 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (24)
+## Array (25)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -53,6 +53,7 @@
 | 3823 | Count Islands With Total Value Divisible by K | 🟡 Medium | [View](./3823-count-islands-with-total-value-divisible-by-k/) |
 | 4205 | Minimum XOR Path in a Grid | 🟡 Medium | [View](./4205-minimum-xor-path-in-a-grid/) |
 | 3938 | Twisted Mirror Path Count | 🟡 Medium | [View](./3938-twisted-mirror-path-count/) |
+| 0462 | Minimum Moves to Equal Array Elements II | 🟡 Medium | [View](./0462-minimum-moves-to-equal-array-elements-ii/) |
 
 ---
 
@@ -301,7 +302,7 @@
 
 ---
 
-## Math (6)
+## Math (7)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -311,6 +312,7 @@
 | 1692 | Number of Ways to Reorder Array to Get Same BST | 🔴 Hard | [View](./1692-number-of-ways-to-reorder-array-to-get-same-bst/) |
 | 0507 | Perfect Number | 🟢 Easy | [View](./0507-perfect-number/) |
 | 2496 | Count Days Spent Together | 🟢 Easy | [View](./2496-count-days-spent-together/) |
+| 0462 | Minimum Moves to Equal Array Elements II | 🟡 Medium | [View](./0462-minimum-moves-to-equal-array-elements-ii/) |
 
 ---
 
@@ -375,7 +377,7 @@
 
 ---
 
-## Sorting (8)
+## Sorting (9)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -387,6 +389,7 @@
 | 4078 | Maximum Alternating Sum of Squares | 🟡 Medium | [View](./4078-maximum-alternating-sum-of-squares/) |
 | 3847 | Minimum Swaps to Sort by Digit Sum | 🟡 Medium | [View](./3847-minimum-swaps-to-sort-by-digit-sum/) |
 | 2210 | Find Target Indices After Sorting Array | 🟢 Easy | [View](./2210-find-target-indices-after-sorting-array/) |
+| 0462 | Minimum Moves to Equal Array Elements II | 🟡 Medium | [View](./0462-minimum-moves-to-equal-array-elements-ii/) |
 
 ---
 
@@ -481,6 +484,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 03 Nov 2026 | Minimum Moves to Equal Array Elements II | 🟡 Medium | C++ |
 | 01 Nov 2026 | Twisted Mirror Path Count | 🟡 Medium | C++ |
 | 30 Oct 2026 | Shortest Path With At Most K Consecutive Identical Characters | 🟡 Medium | C++ |
 | 29 Oct 2026 | Minimum XOR Path in a Grid | 🟡 Medium | C++ |
@@ -490,7 +494,6 @@
 | 24 Oct 2026 | Count Days Spent Together | 🟢 Easy | C++ |
 | 23 Oct 2026 | Perfect Number | 🟢 Easy | Python3 |
 | 23 Oct 2026 | Zigzag Conversion | 🟡 Medium | C++ |
-| 23 Oct 2026 | Maximum K to Sort a Permutation | 🟡 Medium | C++ |
 
 ---
 
