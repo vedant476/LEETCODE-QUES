@@ -7,9 +7,9 @@
 | Language | C++ |
 | Status | ✅ Accepted |
 | Runtime | 1 ms |
-| Memory | 32.1 MB |
-| Submission ID | 2062628954 |
-| Solved On | 10 Jul 2026 |
+| Memory | 31.9 MB |
+| Submission ID | 2187170494 |
+| Solved On | 01 Nov 2026 |
 
 ---
 
@@ -87,7 +87,7 @@ No notes provided.
 
 | Language | Runtime | Memory | File |
 |----------|---------|--------|------|
-| C++ | 1 ms | 32.1 MB | [solution.cpp](./solution.cpp) |
+| C++ | 1 ms | 31.9 MB | [solution.cpp](./solution.cpp) |
 
 ---
 Generated using [LeetVault](https://github.com/vedant476/LeetVault).

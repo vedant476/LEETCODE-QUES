@@ -1,16 +1,26 @@
 class Solution {
 public:
-    void backtrack(string curr,int open,int close,int n,vector<string>& res){
-        if(curr.length()==2*n){
-            res.push_back(curr);
+    void solve(int open, int close, string curr, vector<string>& ans) {
+
+        if (open == 0 && close == 0) {
+            ans.push_back(curr);
             return;
         }
-        if(open<n) backtrack(curr+'(',open+1,close,n,res);
-        if(close<open) backtrack(curr+')',open,close+1,n,res);
+
+        if (open > 0) {
+            solve(open - 1, close, curr + "(", ans);
+        }
+
+        if (close > open) {
+            solve(open, close - 1, curr + ")", ans);
+        }
     }
+
     vector<string> generateParenthesis(int n) {
-        vector<string> res;
-        backtrack("",0,0,n,res);
-        return res;
+        vector<string> ans;
+
+        solve(n, n, "", ans);
+
+        return ans;
     }
 };

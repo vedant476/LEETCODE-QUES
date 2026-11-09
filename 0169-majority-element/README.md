@@ -87,6 +87,7 @@ No notes provided.
 | Language | Runtime | Memory | File |
 |----------|---------|--------|------|
 | C | 0 ms | 11.7 MB | [solution.c](./solution.c) |
+| C++ | 0 ms | 28 MB | [solution.cpp](./solution.cpp) |
 
 ---
 Generated using [LeetVault](https://github.com/vedant476/LeetVault).
