@@ -2,10 +2,10 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-46-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-47-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-13-success)]()
 [![Medium](https://img.shields.io/badge/Medium-23-orange)]()
-[![Hard](https://img.shields.io/badge/Hard-6-red)]()
+[![Hard](https://img.shields.io/badge/Hard-7-red)]()
 [![Languages](https://img.shields.io/badge/Languages-4-blueviolet)]()
 
 ---
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 46 |
+| Problems Solved | 47 |
 | Easy | 13 |
 | Medium | 23 |
-| Hard | 6 |
+| Hard | 7 |
 | Languages | C, C++, Java, Python3 |
-| Last Sync | 03 Nov 2026 |
+| Last Sync | 09 Nov 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (25)
+## Array (26)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -54,6 +54,7 @@
 | 4205 | Minimum XOR Path in a Grid | 🟡 Medium | [View](./4205-minimum-xor-path-in-a-grid/) |
 | 3938 | Twisted Mirror Path Count | 🟡 Medium | [View](./3938-twisted-mirror-path-count/) |
 | 0462 | Minimum Moves to Equal Array Elements II | 🟡 Medium | [View](./0462-minimum-moves-to-equal-array-elements-ii/) |
+| 1447 | Jump Game IV | 🔴 Hard | [View](./1447-jump-game-iv/) |
 
 ---
 
@@ -129,7 +130,7 @@
 
 ---
 
-## Breadth-First Search (5)
+## Breadth-First Search (6)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -138,6 +139,7 @@
 | 1428 | Jump Game III | 🟡 Medium | [View](./1428-jump-game-iii/) |
 | 1380 | Number of Closed Islands | 🟡 Medium | [View](./1380-number-of-closed-islands/) |
 | 3823 | Count Islands With Total Value Divisible by K | 🟡 Medium | [View](./3823-count-islands-with-total-value-divisible-by-k/) |
+| 1447 | Jump Game IV | 🔴 Hard | [View](./1447-jump-game-iv/) |
 
 ---
 
@@ -265,7 +267,7 @@
 
 ---
 
-## Hash Table (11)
+## Hash Table (12)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -280,6 +282,7 @@
 | 3193 | Maximum Strong Pair XOR I | 🟢 Easy | [View](./3193-maximum-strong-pair-xor-i/) |
 | 3139 | Subarrays Distinct Element Sum of Squares II | 🔴 Hard | [View](./3139-subarrays-distinct-element-sum-of-squares-ii/) |
 | 3847 | Minimum Swaps to Sort by Digit Sum | 🟡 Medium | [View](./3847-minimum-swaps-to-sort-by-digit-sum/) |
+| 1447 | Jump Game IV | 🔴 Hard | [View](./1447-jump-game-iv/) |
 
 ---
 
@@ -484,6 +487,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 09 Nov 2026 | Jump Game IV | 🔴 Hard | C++ |
 | 03 Nov 2026 | Minimum Moves to Equal Array Elements II | 🟡 Medium | C++ |
 | 01 Nov 2026 | Twisted Mirror Path Count | 🟡 Medium | C++ |
 | 30 Oct 2026 | Shortest Path With At Most K Consecutive Identical Characters | 🟡 Medium | C++ |
@@ -493,7 +497,6 @@
 | 26 Oct 2026 | Number of Closed Islands | 🟡 Medium | C++ |
 | 24 Oct 2026 | Count Days Spent Together | 🟢 Easy | C++ |
 | 23 Oct 2026 | Perfect Number | 🟢 Easy | Python3 |
-| 23 Oct 2026 | Zigzag Conversion | 🟡 Medium | C++ |
 
 ---
 

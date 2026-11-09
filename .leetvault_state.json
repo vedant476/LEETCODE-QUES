@@ -1,16 +1,16 @@
 {
   "stats": {
-    "total": 46,
+    "total": 47,
     "easy": 13,
     "medium": 23,
-    "hard": 6,
+    "hard": 7,
     "languages": [
       "C",
       "C++",
       "Java",
       "Python3"
     ],
-    "lastSync": "03 Nov 2026"
+    "lastSync": "09 Nov 2026"
   },
   "problems": [
     {
@@ -2419,6 +2419,66 @@
         }
       ],
       "url": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/"
+    },
+    {
+      "title": "Jump Game IV",
+      "slug": "jump-game-iv",
+      "qid": "1447",
+      "difficulty": "Hard",
+      "tags": [
+        {
+          "name": "Array",
+          "slug": "array"
+        },
+        {
+          "name": "Hash Table",
+          "slug": "hash-table"
+        },
+        {
+          "name": "Breadth-First Search",
+          "slug": "breadth-first-search"
+        }
+      ],
+      "files": [
+        {
+          "filename": "solution.cpp",
+          "language": "cpp",
+          "code": "class Solution {\npublic:\n    int minJumps(vector<int>& arr) {\n        int n = arr.size();\n        if (n == 1) {\n            return 0;\n        }\n        \n        unordered_map<int, vector<int>> valueToIndex;\n        for (int i = 0; i < n; i++) {\n            valueToIndex[arr[i]].push_back(i);\n        }\n        \n        vector<bool> visited(n, false);\n        visited[0] = true;\n        queue<int> q;\n        q.push(0);\n        int steps = 0;\n        \n        while (!q.empty()) {\n            int size = q.size();\n            for (int i = 0; i < size; i++) {\n                int curr = q.front();\n                q.pop();\n                if (curr == n - 1) {\n                    return steps;\n                }\n                \n                if (curr - 1 >= 0 && !visited[curr - 1]) {\n                    visited[curr - 1] = true;\n                    q.push(curr - 1);\n                }\n                \n                if (curr + 1 < n && !visited[curr + 1]) {\n                    visited[curr + 1] = true;\n                    q.push(curr + 1);\n                }\n                \n                for (int index : valueToIndex[arr[curr]]) {\n                    if (!visited[index]) {\n                        visited[index] = true;\n                        q.push(index);\n                    }\n                }\n                \n                valueToIndex.erase(arr[curr]);\n            }\n            steps++;\n        }\n        \n        return -1;\n    }\n};",
+          "runtime": "222 ms",
+          "memory": "139.1 MB",
+          "status": "Accepted",
+          "timestamp": 1794217727,
+          "id": 2192393512
+        }
+      ],
+      "questionId": "1447",
+      "paidOnly": false,
+      "likes": 4166,
+      "dislikes": 138,
+      "acceptanceRate": "51.1%",
+      "content": "<p>Given an array of&nbsp;integers <code>arr</code>, you are initially positioned at the first index of the array.</p>\n\n<p>In one step you can jump from index <code>i</code> to index:</p>\n\n<ul>\n\t<li><code>i + 1</code> where:&nbsp;<code>i + 1 &lt; arr.length</code>.</li>\n\t<li><code>i - 1</code> where:&nbsp;<code>i - 1 &gt;= 0</code>.</li>\n\t<li><code>j</code> where: <code>arr[i] == arr[j]</code> and <code>i != j</code>.</li>\n</ul>\n\n<p>Return <em>the minimum number of steps</em> to reach the <strong>last index</strong> of the array.</p>\n\n<p>Notice that you can not jump outside of the array at any time.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [100,-23,-23,404,100,23,23,23,3,404]\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> You need three jumps from index 0 --&gt; 4 --&gt; 3 --&gt; 9. Note that index 9 is the last index of the array.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [7]\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> Start index is the last index. You do not need to jump.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> arr = [7,6,9,6,9,6,9,7]\n<strong>Output:</strong> 1\n<strong>Explanation:</strong> You can jump directly from index 0 to index 7 which is last index of the array.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= arr.length &lt;= 5 * 10<sup>4</sup></code></li>\n\t<li><code>-10<sup>8</sup> &lt;= arr[i] &lt;= 10<sup>8</sup></code></li>\n</ul>\n",
+      "hints": [
+        "Build a graph of n nodes where nodes are the indices of the array and edges for node i are nodes i+1, i-1, j where arr[i] == arr[j].",
+        "Start bfs from node 0 and keep distance. The answer is the distance when you reach node n-1."
+      ],
+      "similarQuestions": [
+        {
+          "difficulty": "Medium",
+          "title": "Jump Game VII",
+          "titleSlug": "jump-game-vii"
+        },
+        {
+          "difficulty": "Medium",
+          "title": "Jump Game VIII",
+          "titleSlug": "jump-game-viii"
+        },
+        {
+          "difficulty": "Medium",
+          "title": "Maximum Number of Jumps to Reach the Last Index",
+          "titleSlug": "maximum-number-of-jumps-to-reach-the-last-index"
+        }
+      ],
+      "url": "https://leetcode.com/problems/jump-game-iv/"
     }
   ]
 }
