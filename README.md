@@ -2,10 +2,10 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-451-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-452-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-212-success)]()
 [![Medium](https://img.shields.io/badge/Medium-167-orange)]()
-[![Hard](https://img.shields.io/badge/Hard-55-red)]()
+[![Hard](https://img.shields.io/badge/Hard-56-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
 ---
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 451 |
+| Problems Solved | 452 |
 | Easy | 212 |
 | Medium | 167 |
-| Hard | 55 |
+| Hard | 56 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 09 Nov 2026 |
+| Last Sync | 10 Nov 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (236)
+## Array (237)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -265,6 +265,7 @@
 | 1626 | Can Make Arithmetic Progression From Sequence | 🟢 Easy | [View](./1626-can-make-arithmetic-progression-from-sequence/) |
 | 0004 | Median of Two Sorted Arrays | 🔴 Hard | [View](./0004-median-of-two-sorted-arrays/) |
 | 0001 | Two Sum | 🟢 Easy | [View](./0001-two-sum/) |
+| 1710 | Find Servers That Handled Most Number of Requests | 🔴 Hard | [View](./1710-find-servers-that-handled-most-number-of-requests/) |
 
 ---
 
@@ -963,7 +964,7 @@
 
 ---
 
-## Heap (Priority Queue) (17)
+## Heap (Priority Queue) (18)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -984,6 +985,7 @@
 | 0347 | Top K Frequent Elements | 🟡 Medium | [View](./0347-top-k-frequent-elements/) |
 | 0239 | Sliding Window Maximum | 🔴 Hard | [View](./0239-sliding-window-maximum/) |
 | 2422 | Query Kth Smallest Trimmed Number | 🟡 Medium | [View](./2422-query-kth-smallest-trimmed-number/) |
+| 1710 | Find Servers That Handled Most Number of Requests | 🔴 Hard | [View](./1710-find-servers-that-handled-most-number-of-requests/) |
 
 ---
 
@@ -1316,12 +1318,13 @@
 
 ---
 
-## Ordered Set (2)
+## Ordered Set (3)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2319 | Longest Substring of One Repeating Character | 🔴 Hard | [View](./2319-longest-substring-of-one-repeating-character/) |
 | 3435 | Block Placement Queries | 🔴 Hard | [View](./3435-block-placement-queries/) |
+| 1710 | Find Servers That Handled Most Number of Requests | 🔴 Hard | [View](./1710-find-servers-that-handled-most-number-of-requests/) |
 
 ---
 
@@ -1543,7 +1546,7 @@
 
 ---
 
-## Simulation (20)
+## Simulation (21)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1567,6 +1570,7 @@
 | 1627 | Last Moment Before All Ants Fall Out of a Plank | 🟡 Medium | [View](./1627-last-moment-before-all-ants-fall-out-of-a-plank/) |
 | 0258 | Add Digits | 🟢 Easy | [View](./0258-add-digits/) |
 | 0067 | Add Binary | 🟢 Easy | [View](./0067-add-binary/) |
+| 1710 | Find Servers That Handled Most Number of Requests | 🔴 Hard | [View](./1710-find-servers-that-handled-most-number-of-requests/) |
 
 ---
 
@@ -1991,6 +1995,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 10 Nov 2026 | Find Servers That Handled Most Number of Requests | 🔴 Hard | C++ |
 | 09 Nov 2026 | Jump Game IV | 🔴 Hard | C++ |
 | 09 Nov 2026 | Count Servers that Communicate | 🟡 Medium | C++ |
 | 08 Nov 2026 | Process Tasks Using Servers | 🟡 Medium | C++ |
@@ -2000,7 +2005,6 @@
 | 04 Nov 2026 | Minimum Moves to Equal Array Elements III | 🟢 Easy | C++ |
 | 03 Nov 2026 | Minimum Moves to Equal Array Elements II | 🟡 Medium | C++ |
 | 01 Nov 2026 | Count Frequency Staircase Subarrays II | ⚪ Unknown | C++ |
-| 01 Nov 2026 | Minimum Moves to Equal Array Elements | 🟡 Medium | C++ |
 
 ---
 
