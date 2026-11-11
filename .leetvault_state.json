@@ -1,8 +1,8 @@
 {
   "stats": {
-    "total": 452,
+    "total": 453,
     "easy": 212,
-    "medium": 167,
+    "medium": 168,
     "hard": 56,
     "languages": [
       "Bash",
@@ -28,7 +28,7 @@
       "TypeScript",
       "pythondata"
     ],
-    "lastSync": "10 Nov 2026"
+    "lastSync": "12 Nov 2026"
   },
   "problems": [
     {
@@ -24968,10 +24968,38 @@
       "url": "https://leetcode.com/problems/reverse-string/"
     },
     {
-      "title": "Find Servers That Handled Most Number of Requests",
-      "slug": "find-servers-that-handled-most-number-of-requests",
-      "qid": "1710",
+      "acceptanceRate": "45.7%",
+      "content": "<p>You have <code>k</code> servers numbered from <code>0</code> to <code>k-1</code> that are being used to handle multiple requests simultaneously. Each server has infinite computational capacity but <strong>cannot handle more than one request at a time</strong>. The requests are assigned to servers according to a specific algorithm:</p>\n\n<ul>\n\t<li>The <code>i<sup>th</sup></code> (0-indexed) request arrives.</li>\n\t<li>If all servers are busy, the request is dropped (not handled at all).</li>\n\t<li>If the <code>(i % k)<sup>th</sup></code> server is available, assign the request to that server.</li>\n\t<li>Otherwise, assign the request to the next available server (wrapping around the list of servers and starting from 0 if necessary). For example, if the <code>i<sup>th</sup></code> server is busy, try to assign the request to the <code>(i+1)<sup>th</sup></code> server, then the <code>(i+2)<sup>th</sup></code> server, and so on.</li>\n</ul>\n\n<p>You are given a <strong>strictly increasing</strong> array <code>arrival</code> of positive integers, where <code>arrival[i]</code> represents the arrival time of the <code>i<sup>th</sup></code> request, and another array <code>load</code>, where <code>load[i]</code> represents the load of the <code>i<sup>th</sup></code> request (the time it takes to complete). Your goal is to find the <strong>busiest server(s)</strong>. A server is considered <strong>busiest</strong> if it handled the most number of requests successfully among all the servers.</p>\n\n<p>Return <em>a list containing the IDs (0-indexed) of the <strong>busiest server(s)</strong></em>. You may return the IDs in any order.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2020/09/08/load-1.png\" style=\"width: 389px; height: 221px;\" />\n<pre>\n<strong>Input:</strong> k = 3, arrival = [1,2,3,4,5], load = [5,2,3,3,3] \n<strong>Output:</strong> [1] \n<strong>Explanation:</strong> \nAll of the servers start out available.\nThe first 3 requests are handled by the first 3 servers in order.\nRequest 3 comes in. Server 0 is busy, so it&#39;s assigned to the next available server, which is 1.\nRequest 4 comes in. It cannot be handled since all servers are busy, so it is dropped.\nServers 0 and 2 handled one request each, while server 1 handled two requests. Hence server 1 is the busiest server.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> k = 3, arrival = [1,2,3,4], load = [1,2,1,2]\n<strong>Output:</strong> [0]\n<strong>Explanation:</strong> \nThe first 3 requests are handled by first 3 servers.\nRequest 3 comes in. It is handled by server 0 since the server is available.\nServer 0 handled two requests, while servers 1 and 2 handled one request each. Hence server 0 is the busiest server.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> k = 3, arrival = [1,2,3], load = [10,12,11]\n<strong>Output:</strong> [0,1,2]\n<strong>Explanation:</strong> Each server handles a single request, so they are all considered the busiest.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= k &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= arrival.length, load.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>arrival.length == load.length</code></li>\n\t<li><code>1 &lt;= arrival[i], load[i] &lt;= 10<sup>9</sup></code></li>\n\t<li><code>arrival</code> is <strong>strictly increasing</strong>.</li>\n</ul>\n",
       "difficulty": "Hard",
+      "dislikes": 30,
+      "files": [
+        {
+          "code": "class Solution {\npublic:\n    vector<int> busiestServers(int k, vector<int>& arrival, vector<int>& load) {\n        priority_queue<\n            pair<long long, int>,\n            vector<pair<long long, int>>,\n            greater<pair<long long, int>>\n        > heap;\n\n        vector<int> server(k, 0);\n        set<int> free;\n\n        for (int i = 0; i < k; i++) {\n            free.insert(i);\n        }\n\n        for (int i = 0; i < arrival.size(); i++) {\n            long long arr = arrival[i];\n            int l = load[i];\n\n            while (!heap.empty() && heap.top().first <= arr) {\n                int s_idx = heap.top().second;\n                heap.pop();\n                free.insert(s_idx);\n            }\n\n            if (free.empty()) {\n                continue;\n            }\n\n            auto it = free.lower_bound(i % k);\n            if (it == free.end()) {\n                it = free.begin();\n            }\n\n            int s = *it;\n            free.erase(it);\n\n            heap.push({arr + l, s});\n            server[s]++;\n        }\n\n        int max_ = *max_element(server.begin(), server.end());\n\n        vector<int> res;\n        for (int i = 0; i < k; i++) {\n            if (server[i] == max_) {\n                res.push_back(i);\n            }\n        }\n        return res;\n    }\n};",
+          "filename": "solution.cpp",
+          "id": 2192719434,
+          "language": "cpp",
+          "memory": "125.7 MB",
+          "runtime": "156 ms",
+          "status": "Accepted",
+          "timestamp": 1794251329
+        }
+      ],
+      "hints": [
+        "To speed up the next available server search, keep track of the available servers in a sorted structure such as an ordered set.",
+        "To determine if a server is available, keep track of the end times for each task in a heap and add the server to the available set once the soonest task ending time is less than or equal to the next task to add."
+      ],
+      "likes": 686,
+      "paidOnly": false,
+      "qid": "1710",
+      "questionId": "1710",
+      "similarQuestions": [
+        {
+          "difficulty": "Hard",
+          "title": "Meeting Rooms III",
+          "titleSlug": "meeting-rooms-iii"
+        }
+      ],
+      "slug": "find-servers-that-handled-most-number-of-requests",
       "tags": [
         {
           "name": "Array",
@@ -24990,36 +25018,49 @@
           "slug": "ordered-set"
         }
       ],
+      "title": "Find Servers That Handled Most Number of Requests",
+      "url": "https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/"
+    },
+    {
+      "title": "Minimum Cost to Acquire Required Items",
+      "slug": "minimum-cost-to-acquire-required-items",
+      "qid": "4147",
+      "difficulty": "Medium",
+      "tags": [
+        {
+          "name": "Math",
+          "slug": "math"
+        },
+        {
+          "name": "Greedy",
+          "slug": "greedy"
+        }
+      ],
       "files": [
         {
           "filename": "solution.cpp",
           "language": "cpp",
-          "code": "class Solution {\npublic:\n    vector<int> busiestServers(int k, vector<int>& arrival, vector<int>& load) {\n        priority_queue<\n            pair<long long, int>,\n            vector<pair<long long, int>>,\n            greater<pair<long long, int>>\n        > heap;\n\n        vector<int> server(k, 0);\n        set<int> free;\n\n        for (int i = 0; i < k; i++) {\n            free.insert(i);\n        }\n\n        for (int i = 0; i < arrival.size(); i++) {\n            long long arr = arrival[i];\n            int l = load[i];\n\n            while (!heap.empty() && heap.top().first <= arr) {\n                int s_idx = heap.top().second;\n                heap.pop();\n                free.insert(s_idx);\n            }\n\n            if (free.empty()) {\n                continue;\n            }\n\n            auto it = free.lower_bound(i % k);\n            if (it == free.end()) {\n                it = free.begin();\n            }\n\n            int s = *it;\n            free.erase(it);\n\n            heap.push({arr + l, s});\n            server[s]++;\n        }\n\n        int max_ = *max_element(server.begin(), server.end());\n\n        vector<int> res;\n        for (int i = 0; i < k; i++) {\n            if (server[i] == max_) {\n                res.push_back(i);\n            }\n        }\n        return res;\n    }\n};",
-          "runtime": "156 ms",
-          "memory": "125.7 MB",
+          "code": "class Solution {\npublic:\n    long long minimumCost(int cost1, int cost2, int costBoth, int need1, int need2) {\n        long long c1 = cost1, c2 = cost2, cb = costBoth;\n        long long n1 = need1, n2 = need2;\n        long long pairs = min(n1, n2);\n        long long costPairs = pairs * min(cb, c1 + c2);\n        long long rem1 = n1 - pairs;\n        long long rem2 = n2 - pairs;\n        long long costRem = rem1 * min(c1, cb) + rem2 * min(c2, cb);\n        return costPairs + costRem;\n    }\n};",
+          "runtime": "0 ms",
+          "memory": "9 MB",
           "status": "Accepted",
-          "timestamp": 1794251329,
-          "id": 2192719434
+          "timestamp": 1794427592,
+          "id": 2194158090
         }
       ],
-      "questionId": "1710",
+      "questionId": "4147",
       "paidOnly": false,
-      "likes": 686,
-      "dislikes": 30,
-      "acceptanceRate": "45.7%",
-      "content": "<p>You have <code>k</code> servers numbered from <code>0</code> to <code>k-1</code> that are being used to handle multiple requests simultaneously. Each server has infinite computational capacity but <strong>cannot handle more than one request at a time</strong>. The requests are assigned to servers according to a specific algorithm:</p>\n\n<ul>\n\t<li>The <code>i<sup>th</sup></code> (0-indexed) request arrives.</li>\n\t<li>If all servers are busy, the request is dropped (not handled at all).</li>\n\t<li>If the <code>(i % k)<sup>th</sup></code> server is available, assign the request to that server.</li>\n\t<li>Otherwise, assign the request to the next available server (wrapping around the list of servers and starting from 0 if necessary). For example, if the <code>i<sup>th</sup></code> server is busy, try to assign the request to the <code>(i+1)<sup>th</sup></code> server, then the <code>(i+2)<sup>th</sup></code> server, and so on.</li>\n</ul>\n\n<p>You are given a <strong>strictly increasing</strong> array <code>arrival</code> of positive integers, where <code>arrival[i]</code> represents the arrival time of the <code>i<sup>th</sup></code> request, and another array <code>load</code>, where <code>load[i]</code> represents the load of the <code>i<sup>th</sup></code> request (the time it takes to complete). Your goal is to find the <strong>busiest server(s)</strong>. A server is considered <strong>busiest</strong> if it handled the most number of requests successfully among all the servers.</p>\n\n<p>Return <em>a list containing the IDs (0-indexed) of the <strong>busiest server(s)</strong></em>. You may return the IDs in any order.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2020/09/08/load-1.png\" style=\"width: 389px; height: 221px;\" />\n<pre>\n<strong>Input:</strong> k = 3, arrival = [1,2,3,4,5], load = [5,2,3,3,3] \n<strong>Output:</strong> [1] \n<strong>Explanation:</strong> \nAll of the servers start out available.\nThe first 3 requests are handled by the first 3 servers in order.\nRequest 3 comes in. Server 0 is busy, so it&#39;s assigned to the next available server, which is 1.\nRequest 4 comes in. It cannot be handled since all servers are busy, so it is dropped.\nServers 0 and 2 handled one request each, while server 1 handled two requests. Hence server 1 is the busiest server.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> k = 3, arrival = [1,2,3,4], load = [1,2,1,2]\n<strong>Output:</strong> [0]\n<strong>Explanation:</strong> \nThe first 3 requests are handled by first 3 servers.\nRequest 3 comes in. It is handled by server 0 since the server is available.\nServer 0 handled two requests, while servers 1 and 2 handled one request each. Hence server 0 is the busiest server.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre>\n<strong>Input:</strong> k = 3, arrival = [1,2,3], load = [10,12,11]\n<strong>Output:</strong> [0,1,2]\n<strong>Explanation:</strong> Each server handles a single request, so they are all considered the busiest.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= k &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= arrival.length, load.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>arrival.length == load.length</code></li>\n\t<li><code>1 &lt;= arrival[i], load[i] &lt;= 10<sup>9</sup></code></li>\n\t<li><code>arrival</code> is <strong>strictly increasing</strong>.</li>\n</ul>\n",
+      "likes": 68,
+      "dislikes": 5,
+      "acceptanceRate": "35.3%",
+      "content": "<p>You are given five integers <code>cost1</code>, <code>cost2</code>, <code>costBoth</code>, <code>need1</code>, and <code>need2</code>.</p>\n\n<p>There are three types of items available:</p>\n\n<ul>\n\t<li>An item of <strong>type 1</strong> costs <code>cost1</code> and contributes 1 unit to the type 1 requirement only.</li>\n\t<li>An item of <strong>type 2</strong> costs <code>cost2</code> and contributes 1 unit to the type 2 requirement only.</li>\n\t<li>An item of <strong>type 3</strong> costs <code>costBoth</code> and contributes 1 unit to <strong>both</strong> type 1 and type 2 requirements.</li>\n</ul>\n\n<p>You must collect enough items so that the total contribution toward type 1 is <strong>at least</strong> <code>need1</code> and the total contribution toward type 2 is <strong>at least</strong> <code>need2</code>.</p>\n\n<p>Return an integer representing the <strong>minimum</strong> possible total cost to achieve these requirements.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">cost1 = 3, cost2 = 2, costBoth = 1, need1 = 3, need2 = 2</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">3</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>After buying three type 3 items, which cost <code>3 * 1 = 3</code>, the total contribution to type 1 is 3 (<code>&gt;= need1 = 3</code>) and to type 2 is 3 (<code>&gt;= need2 = 2</code>).<br data-end=\"229\" data-start=\"226\" />\nAny other valid combination would cost more, so the minimum total cost is 3.</p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">cost1 = 5, cost2 = 4, costBoth = 15, need1 = 2, need2 = 3</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">22</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>We buy <code>need1 = 2</code> items of type 1 and <code>need2 = 3</code> items of type 2: <code>2 * 5 + 3 * 4 = 10 + 12 = 22</code>.<br />\nAny other valid combination would cost more, so the minimum total cost is 22.</p>\n</div>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">cost1 = 5, cost2 = 4, costBoth = 15, need1 = 0, need2 = 0</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">0</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>Since no items are required (<code>need1 = need2 = 0</code>), we buy nothing and pay 0.</p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= cost1, cost2, costBoth &lt;= 10<sup>6</sup></code></li>\n\t<li><code>0 &lt;= need1, need2 &lt;= 10<sup>9</sup></code></li>\n</ul>\n",
       "hints": [
-        "To speed up the next available server search, keep track of the available servers in a sorted structure such as an ordered set.",
-        "To determine if a server is available, keep track of the end times for each task in a heap and add the server to the available set once the soonest task ending time is less than or equal to the next task to add."
+        "First, use <code>min(costBoth, cost1 + cost2)</code> for <code>min(need1, need2)</code>.",
+        "For the remaining type 1 requirement <code>rem1</code>, use cost <code>min(costBoth, cost1)</code> for the rest.",
+        "Do the same for type 2, using cost <code>min(costBoth, cost2)</code>."
       ],
-      "similarQuestions": [
-        {
-          "difficulty": "Hard",
-          "title": "Meeting Rooms III",
-          "titleSlug": "meeting-rooms-iii"
-        }
-      ],
-      "url": "https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/"
+      "similarQuestions": [],
+      "url": "https://leetcode.com/problems/minimum-cost-to-acquire-required-items/"
     }
   ]
 }

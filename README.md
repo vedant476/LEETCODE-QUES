@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-452-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-453-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-212-success)]()
-[![Medium](https://img.shields.io/badge/Medium-167-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-168-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-56-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 452 |
+| Problems Solved | 453 |
 | Easy | 212 |
-| Medium | 167 |
+| Medium | 168 |
 | Hard | 56 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 10 Nov 2026 |
+| Last Sync | 12 Nov 2026 |
 
 ---
 
@@ -818,7 +818,7 @@
 
 ---
 
-## Greedy (39)
+## Greedy (40)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -861,6 +861,7 @@
 | 0011 | Container With Most Water | 🟡 Medium | [View](./0011-container-with-most-water/) |
 | 0561 | Array Partition | 🟢 Easy | [View](./0561-array-partition/) |
 | 0605 | Can Place Flowers | 🟢 Easy | [View](./0605-can-place-flowers/) |
+| 4147 | Minimum Cost to Acquire Required Items | 🟡 Medium | [View](./4147-minimum-cost-to-acquire-required-items/) |
 
 ---
 
@@ -1038,7 +1039,7 @@
 
 ---
 
-## Math (151)
+## Math (152)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1193,6 +1194,7 @@
 | 0066 | Plus One | 🟢 Easy | [View](./0066-plus-one/) |
 | 0029 | Divide Two Integers | 🟡 Medium | [View](./0029-divide-two-integers/) |
 | 0013 | Roman to Integer | 🟢 Easy | [View](./0013-roman-to-integer/) |
+| 4147 | Minimum Cost to Acquire Required Items | 🟡 Medium | [View](./4147-minimum-cost-to-acquire-required-items/) |
 
 ---
 
@@ -1995,6 +1997,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 12 Nov 2026 | Minimum Cost to Acquire Required Items | 🟡 Medium | C++ |
 | 10 Nov 2026 | Find Servers That Handled Most Number of Requests | 🔴 Hard | C++ |
 | 09 Nov 2026 | Jump Game IV | 🔴 Hard | C++ |
 | 09 Nov 2026 | Count Servers that Communicate | 🟡 Medium | C++ |
@@ -2004,7 +2007,6 @@
 | 05 Nov 2026 | Minimum Operations to Make Elements Within K Subarrays Equal | 🔴 Hard | C++ |
 | 04 Nov 2026 | Minimum Moves to Equal Array Elements III | 🟢 Easy | C++ |
 | 03 Nov 2026 | Minimum Moves to Equal Array Elements II | 🟡 Medium | C++ |
-| 01 Nov 2026 | Count Frequency Staircase Subarrays II | ⚪ Unknown | C++ |
 
 ---
 
