@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-453-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-454-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-212-success)]()
-[![Medium](https://img.shields.io/badge/Medium-168-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-169-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-56-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
@@ -14,12 +14,12 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 453 |
+| Problems Solved | 454 |
 | Easy | 212 |
-| Medium | 168 |
+| Medium | 169 |
 | Hard | 56 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 12 Nov 2026 |
+| Last Sync | 18 Nov 2026 |
 
 ---
 
@@ -1714,7 +1714,7 @@
 
 ---
 
-## String (98)
+## String (99)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1816,6 +1816,7 @@
 | 0058 | Length of Last Word | 🟢 Easy | [View](./0058-length-of-last-word/) |
 | 0013 | Roman to Integer | 🟢 Easy | [View](./0013-roman-to-integer/) |
 | 0344 | Reverse String | 🟢 Easy | [View](./0344-reverse-string/) |
+| 3174 | Minimum Number of Changes to Make Binary String Beautiful | 🟡 Medium | [View](./3174-minimum-number-of-changes-to-make-binary-string-beautiful/) |
 
 ---
 
@@ -1997,6 +1998,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 18 Nov 2026 | Minimum Number of Changes to Make Binary String Beautiful | 🟡 Medium | C++ |
 | 12 Nov 2026 | Minimum Cost to Acquire Required Items | 🟡 Medium | C++ |
 | 10 Nov 2026 | Find Servers That Handled Most Number of Requests | 🔴 Hard | C++ |
 | 09 Nov 2026 | Jump Game IV | 🔴 Hard | C++ |
@@ -2006,7 +2008,6 @@
 | 06 Nov 2026 | Find the Distance Value Between Two Arrays | 🟢 Easy | C++ |
 | 05 Nov 2026 | Minimum Operations to Make Elements Within K Subarrays Equal | 🔴 Hard | C++ |
 | 04 Nov 2026 | Minimum Moves to Equal Array Elements III | 🟢 Easy | C++ |
-| 03 Nov 2026 | Minimum Moves to Equal Array Elements II | 🟡 Medium | C++ |
 
 ---
 
