@@ -2,9 +2,9 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-454-blue)]()
+[![Problems](https://img.shields.io/badge/Problems-455-blue)]()
 [![Easy](https://img.shields.io/badge/Easy-212-success)]()
-[![Medium](https://img.shields.io/badge/Medium-169-orange)]()
+[![Medium](https://img.shields.io/badge/Medium-170-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-56-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
 
@@ -14,18 +14,18 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 454 |
+| Problems Solved | 455 |
 | Easy | 212 |
-| Medium | 169 |
+| Medium | 170 |
 | Hard | 56 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
-| Last Sync | 18 Nov 2026 |
+| Last Sync | 19 Nov 2026 |
 
 ---
 
 # 📂 Browse by Topic
 
-## Array (237)
+## Array (238)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -266,6 +266,7 @@
 | 0004 | Median of Two Sorted Arrays | 🔴 Hard | [View](./0004-median-of-two-sorted-arrays/) |
 | 0001 | Two Sum | 🟢 Easy | [View](./0001-two-sum/) |
 | 1710 | Find Servers That Handled Most Number of Requests | 🔴 Hard | [View](./1710-find-servers-that-handled-most-number-of-requests/) |
+| 2706 | Minimum Score by Changing Two Elements | 🟡 Medium | [View](./2706-minimum-score-by-changing-two-elements/) |
 
 ---
 
@@ -818,7 +819,7 @@
 
 ---
 
-## Greedy (40)
+## Greedy (41)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -862,6 +863,7 @@
 | 0561 | Array Partition | 🟢 Easy | [View](./0561-array-partition/) |
 | 0605 | Can Place Flowers | 🟢 Easy | [View](./0605-can-place-flowers/) |
 | 4147 | Minimum Cost to Acquire Required Items | 🟡 Medium | [View](./4147-minimum-cost-to-acquire-required-items/) |
+| 2706 | Minimum Score by Changing Two Elements | 🟡 Medium | [View](./2706-minimum-score-by-changing-two-elements/) |
 
 ---
 
@@ -1597,7 +1599,7 @@
 
 ---
 
-## Sorting (75)
+## Sorting (76)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1676,6 +1678,7 @@
 | 0075 | Sort Colors | 🟡 Medium | [View](./0075-sort-colors/) |
 | 0268 | Missing Number | 🟢 Easy | [View](./0268-missing-number/) |
 | 1626 | Can Make Arithmetic Progression From Sequence | 🟢 Easy | [View](./1626-can-make-arithmetic-progression-from-sequence/) |
+| 2706 | Minimum Score by Changing Two Elements | 🟡 Medium | [View](./2706-minimum-score-by-changing-two-elements/) |
 
 ---
 
@@ -1998,6 +2001,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 19 Nov 2026 | Minimum Score by Changing Two Elements | 🟡 Medium | C++ |
 | 18 Nov 2026 | Minimum Number of Changes to Make Binary String Beautiful | 🟡 Medium | C++ |
 | 12 Nov 2026 | Minimum Cost to Acquire Required Items | 🟡 Medium | C++ |
 | 10 Nov 2026 | Find Servers That Handled Most Number of Requests | 🔴 Hard | C++ |
@@ -2007,7 +2011,6 @@
 | 07 Nov 2026 | Count Zero Request Servers | 🟡 Medium | C++ |
 | 06 Nov 2026 | Find the Distance Value Between Two Arrays | 🟢 Easy | C++ |
 | 05 Nov 2026 | Minimum Operations to Make Elements Within K Subarrays Equal | 🔴 Hard | C++ |
-| 04 Nov 2026 | Minimum Moves to Equal Array Elements III | 🟢 Easy | C++ |
 
 ---
 
