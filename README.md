@@ -2,8 +2,8 @@
 
 > Automatically synchronized using **LeetVault**
 
-[![Problems](https://img.shields.io/badge/Problems-455-blue)]()
-[![Easy](https://img.shields.io/badge/Easy-212-success)]()
+[![Problems](https://img.shields.io/badge/Problems-456-blue)]()
+[![Easy](https://img.shields.io/badge/Easy-213-success)]()
 [![Medium](https://img.shields.io/badge/Medium-170-orange)]()
 [![Hard](https://img.shields.io/badge/Hard-56-red)]()
 [![Languages](https://img.shields.io/badge/Languages-22-blueviolet)]()
@@ -14,8 +14,8 @@
 
 | Metric | Count |
 |---------|------:|
-| Problems Solved | 455 |
-| Easy | 212 |
+| Problems Solved | 456 |
+| Easy | 213 |
 | Medium | 170 |
 | Hard | 56 |
 | Languages | Bash, C, C#, C++, Dart, Elixir, Erlang, Go, Java, JavaScript, Kotlin, MySQL, PHP, Python, Python3, Racket, Ruby, Rust, Scala, Swift, TypeScript, pythondata |
@@ -25,7 +25,7 @@
 
 # 📂 Browse by Topic
 
-## Array (238)
+## Array (239)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -267,6 +267,7 @@
 | 0001 | Two Sum | 🟢 Easy | [View](./0001-two-sum/) |
 | 1710 | Find Servers That Handled Most Number of Requests | 🔴 Hard | [View](./1710-find-servers-that-handled-most-number-of-requests/) |
 | 2706 | Minimum Score by Changing Two Elements | 🟡 Medium | [View](./2706-minimum-score-by-changing-two-elements/) |
+| 2892 | Check if Array is Good | 🟢 Easy | [View](./2892-check-if-array-is-good/) |
 
 ---
 
@@ -867,7 +868,7 @@
 
 ---
 
-## Hash Table (93)
+## Hash Table (94)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -964,6 +965,7 @@
 | 0268 | Missing Number | 🟢 Easy | [View](./0268-missing-number/) |
 | 0013 | Roman to Integer | 🟢 Easy | [View](./0013-roman-to-integer/) |
 | 0001 | Two Sum | 🟢 Easy | [View](./0001-two-sum/) |
+| 2892 | Check if Array is Good | 🟢 Easy | [View](./2892-check-if-array-is-good/) |
 
 ---
 
@@ -1599,7 +1601,7 @@
 
 ---
 
-## Sorting (76)
+## Sorting (77)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -1679,6 +1681,7 @@
 | 0268 | Missing Number | 🟢 Easy | [View](./0268-missing-number/) |
 | 1626 | Can Make Arithmetic Progression From Sequence | 🟢 Easy | [View](./1626-can-make-arithmetic-progression-from-sequence/) |
 | 2706 | Minimum Score by Changing Two Elements | 🟡 Medium | [View](./2706-minimum-score-by-changing-two-elements/) |
+| 2892 | Check if Array is Good | 🟢 Easy | [View](./2892-check-if-array-is-good/) |
 
 ---
 
@@ -2001,6 +2004,7 @@
 
 | Date | Problem | Difficulty | Language |
 |------|----------|------------|----------|
+| 19 Nov 2026 | Check if Array is Good | 🟢 Easy | C++ |
 | 19 Nov 2026 | Minimum Score by Changing Two Elements | 🟡 Medium | C++ |
 | 18 Nov 2026 | Minimum Number of Changes to Make Binary String Beautiful | 🟡 Medium | C++ |
 | 12 Nov 2026 | Minimum Cost to Acquire Required Items | 🟡 Medium | C++ |
@@ -2010,7 +2014,6 @@
 | 08 Nov 2026 | Process Tasks Using Servers | 🟡 Medium | C++ |
 | 07 Nov 2026 | Count Zero Request Servers | 🟡 Medium | C++ |
 | 06 Nov 2026 | Find the Distance Value Between Two Arrays | 🟢 Easy | C++ |
-| 05 Nov 2026 | Minimum Operations to Make Elements Within K Subarrays Equal | 🔴 Hard | C++ |
 
 ---
 
